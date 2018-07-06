@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);h1 {
+  font-size: 56px;
+  line-height: 80px;
+  margin-top: 80px;
+  color: #000000;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 32px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.nav {
+  /*padding: 20px 30px 24px 20px;*/
+  font-family: "Adelle";
+  font-size: 18px;
+  height: 60px;
+}
+
+.btn-ticket_kaufen {
+  padding: 15px 25px 15px 25px;
+}
+
+.btn-ticket_kaufen > img {
+  margin-right: 5px;
+}
+
+.btn-menu {
+  padding: 25px;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.lead {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.svg-music {
+  margin: 5px 15px 5px 5px;
+  width: 25;
+  height: 25;
+}
+
+.filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box__filter {
+  background-color: lightgrey;
+  padding: 5px 8px;
+  border-radius: 10px;
+  margin: 13px;
+  color: white;
+}
+
+.number {
+  vertical-align: super;
+  font-weight: bolder;
+  font-size: 70%;
+}
+
+.box_genres {
+  font-weight: bold;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.mehrgenres {
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
+
+.filter__reset {
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 8px 25px;
+  margin: 8px;
+}
+
+.filter__show {
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  padding: 8px 25px;
+  border: 2px solid black;
+  margin: 8px;
+}
+
+.img__bigteaser {
+  width: 100%;
+}
+
+.bigteaser {
+  margin-top: 60px;
+}
+
+.maagazin__articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
