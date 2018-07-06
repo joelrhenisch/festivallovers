@@ -2,21 +2,122 @@
 @import "variables";
 @import "colors";
 
+// Bootstrap Spaltenabstand überschreiben
+$grid-gutter-width: 16px;
+
 // Bootstrap
-//@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap';
+
+// Fonts importieren
+@font-face {
+  font-family: "Adelle Regular";
+  src: url('/fonts/Adelle_Reg.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Adelle Bold";
+  src: url('/fonts/Adelle_Bold.otf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova Light";
+  src: url('/fonts/ProximaNova-Light.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova Regular";
+  src: url('/fonts/ProximaNova-Reg.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ProximaNova Bold";
+  src: url('/fonts/ProximaNova-Bold.ttf');
+  font-weight: normal;
+}
+
+// HG-Farbe von Body ändern
+.vsc-initialized {
+  background-color: white;
+}
+
+html {
+  font-family: "Adelle";
+}
 
 h1{
   font-size: 56px;
   line-height: 80px;
   margin-top: 80px;
-  color: #000000;
-}
+  color: $black;
+  font-family: "Adelle Bold";
+} // mobile: 32/40px
+
+h2{
+  font-size: 32px;
+  line-height: 40px;
+  color: $black;
+  font-family: "Adelle Bold";
+} // mobile: 24/32px
 
 h3{
   font-size: 20px;
   line-height: 32px;
-  margin-top: 20px;
-  color: #000000;
+  color: $black;
+  font-family: "Adelle Bold";
+} // mobile: 20/32px
+
+.font-festival {
+  font-size: 144px;
+  line-height: 144px;
+  color: $black;
+  font-family: "Adelle Bold";
+} // mobile: 48/40px
+
+.font-lead {
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+  font-family: "Adelle Regular";
+}
+
+.font-copy {
+  font-size: 20px;
+  line-height: 32px;
+  color: $black;
+  font-family: "Adelle Regular";
+}
+
+.font-footer, font-labels {
+  font-size: 17px;
+  line-height: 28px;
+  color: $black;
+  font-family: "ProximaNova Regular";
+}
+
+.font-button, font-tab, font-header {
+  font-size: 17px;
+  line-height: 28px;
+  color: $black;
+  font-family: "ProximaNova Bold";
+}
+
+.font-breadcrumb, font-zusatzinfo {
+  font-size: 17px;
+  line-height: 28px;
+  color: $black;
+  font-family: "ProximaNova Regular";
+}
+
+p {
+  font-size: 30px;
+  line-height: 80px;
+  margin-top: 80px;
+  color: $black;
+  font-family: "Adelle Bold";
 }
 
 .nav{
@@ -114,7 +215,24 @@ h3{
   margin-top: 60px;
 }
 
-.maagazin__articles {
+.magazin-container {
+  margin-right: 0;
+  margin-left: 0;
   display: flex;
+  justify-content: center;
+}
+
+.magazin-colums {
+  column-count: 3;
+  column-gap: 50px;
+
+
+}
+
+.magazin-article {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid pink;
   justify-content: space-between;
+  display: block;
 }

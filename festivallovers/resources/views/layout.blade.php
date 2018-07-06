@@ -90,25 +90,25 @@
 <div id="magazin">
     <h1 class="text-center">Magazin</h1>
 
-    <div class="container">
-        <div class="row">
+    <div class="magazin-container">
+        <div class="magazin-colums col-lg-10">
 
-        <article class="col">
-            <h3> Einfach bloss nichts vergessen </h3>
-            <p> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
-        </article>
+            <article class="magazin-article">
+                <h3> Einfach bloss nichts vergessen </h3>
+                <p> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
+            </article>
 
-        <article class="col">
-            <h3> Einfach bloss nichts vergessen </h3>
-            <p> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
-        </article>
+            <article class="magazin-article">
+                <h3> Einfach bloss nichts vergessen </h3>
+                <p> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
+            </article>
 
-        <article class="col">
-            <h3> Einfach bloss nichts vergessen </h3>
-            <p> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
-        </article>
+            <article class="magazin-article">
+                <h3> Einfach bloss nichts vergessen </h3>
+                <p> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
+            </article>
 
-        </div>
+            </div>
     </div>
 </div>
 
