@@ -1,57 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
-@import "variables";
+@import '~bootstrap/scss/bootstrap';
 @import "colors";
+@import "fonts";
 
 // Bootstrap Spaltenabstand überschreiben
 $grid-gutter-width: 16px;
-
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-// Fonts importieren
-@font-face {
-  font-family: "Adelle Regular";
-  src: url('/fonts/Adelle_Reg.otf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Adelle Bold";
-  src: url('/fonts/Adelle_Bold.otf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "ProximaNova Light";
-  src: url('/fonts/ProximaNova-Light.ttf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "ProximaNova Regular";
-  src: url('/fonts/ProximaNova-Reg.ttf');
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "ProximaNova Bold";
-  src: url('/fonts/ProximaNova-Bold.ttf');
-  font-weight: normal;
-}
 
 // HG-Farbe von Body ändern
 .vsc-initialized {
   background-color: white;
 }
 
-html {
-  font-family: "Adelle";
-}
-
+// Fonts definieren
 h1{
   font-size: 56px;
   line-height: 80px;
-  margin-top: 80px;
   color: $black;
   font-family: "Adelle Bold";
 } // mobile: 32/40px
@@ -88,7 +50,7 @@ h3{
   font-size: 20px;
   line-height: 32px;
   color: $black;
-  font-family: "Adelle Regular";
+  font-family: "ProximaNova Regular";
 }
 
 .font-footer, font-labels {
@@ -115,58 +77,60 @@ h3{
 p {
   font-size: 30px;
   line-height: 80px;
-  margin-top: 80px;
   color: $black;
   font-family: "Adelle Bold";
 }
 
+// Elemente definieren
+html {
+  font-family: "Adelle";
+}
 .nav{
-  /*padding: 20px 30px 24px 20px;*/
   font-family: "Adelle";
   font-size: 18px;
   height: 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid $greylight;
 }
 
-.btn-ticket_kaufen{
+.nav__btnticketkaufen {
   padding: 15px 25px 15px 25px;
+  border-left: 1px solid $greylight;
+    & img {
+      margin-right: 5px;
+    }
 }
 
-.btn-ticket_kaufen>img{
-  margin-right: 5px;
-}
-
-.btn-menu{
+.nav__btnmenu {
   padding: 25px;
 }
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0  , 0.04);
-}
-
-.title{
+.heading__titel {
   margin-top: 100px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.lead {
+.heading__lead {
   margin-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
-.svg-music {
-  margin: 5px 15px 5px 5px;
-  width: 25;
-  height: 25;
-}
-
-.filter{
+.filter {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.box__filter {
+.filter__svgmusic {
+  margin: 5px 15px 5px 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.filter__box {
   background-color: lightgrey;
   padding: 5px 8px;
   border-radius: 10px;
@@ -174,19 +138,19 @@ p {
   color: white;
 }
 
-.number {
+.filter__number {
   vertical-align: super;
   font-weight: bolder;
   font-size: 70%;
 }
 
-.box_genres {
+.filter__genres {
   font-weight: bold;
     text-align: center;
-  padding-left: 30px;
+  padding-left: 7px;
 }
 
-.mehrgenres{
+.filter__mehrgenres {
   border-bottom: 1px solid black;
   padding-bottom: 3px;
 }
@@ -207,32 +171,89 @@ p {
   margin: 8px;
 }
 
-.img__bigteaser {
-  width: 100%
-}
-
 .bigteaser {
   margin-top: 60px;
 }
 
-.magazin-container {
+.bigteaser__img {
+  width: 100%
+}
+
+.magazin-title {
+  margin: 80px 0;
+}
+
+.magazin__container {
   margin-right: 0;
   margin-left: 0;
   display: flex;
   justify-content: center;
 }
 
-.magazin-colums {
+.magazin__colums {
   column-count: 3;
-  column-gap: 50px;
-
-
+  column-gap: 90px;
 }
 
-.magazin-article {
+.magazin__article {
   width: 100%;
-  margin-bottom: 20px;
-  border: 1px solid pink;
+  margin-bottom: 70px;
   justify-content: space-between;
   display: block;
 }
+
+.footer {
+  height: 64px;
+  padding: 0px 120px;
+  border-top: 1px solid $greydark;
+  border-bottom: 1px solid $greydark;
+  margin-top: 30px;
+  font-family: "ProximaNova Regular";
+  font-size: 17px;
+  color: $greydarker;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer__boxleft {
+  text-align: left;
+  display: flex;
+}
+
+.footer__itemleft {
+  padding-left: 40px;
+  font-family: "ProximaNova Regular";
+  font-size: 17px;
+  color: $greydarker;
+}
+
+.footer__boxcenter {
+  text-align: center;
+  display: flex;
+}
+
+.footer__icons {
+  margin: 0 7px;
+}
+
+.footer__boxright {
+  text-align: right;
+  display: flex;
+}
+
+.footer__itemright {
+  margin-right: 15px;
+  margin-left: 135px;
+  font-family: "ProximaNova Regular";
+  font-size: 17px;
+  color: $greydarker;
+}
+

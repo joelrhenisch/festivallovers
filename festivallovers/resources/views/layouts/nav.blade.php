@@ -1,8 +1,6 @@
+<div class="nav">
 
-
-<div class="nav border  justify-content-between  align-items-center">
-
-    <div class="btn-menu">
+    <div class="nav__btnmenu">
         MENU
     </div>
 
@@ -10,7 +8,7 @@
         <img src={{asset('images/FestivalLovers_Logo.jpg')}} height="35px" alt="FestivalLovers Logo">
     </div>
 
-    <div class="btn-ticket_kaufen border-left">
+    <div class="nav__btnticketkaufen">
         <img src={{asset('icons/navigation_ticketkauf.svg')}} alt="Ticket">
         Tickets kaufen
     </div>
