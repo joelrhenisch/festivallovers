@@ -95,6 +95,9 @@ html {
 }
 
 .nav__btnticketkaufen {
+  font-family: "ProximaNova Bold";
+  font-size: 17px;
+  color: $greydark;
   padding: 15px 25px 15px 25px;
   border-left: 1px solid $greylight;
     & img {
@@ -103,8 +106,18 @@ html {
 }
 
 .nav__btnmenu {
+  font-family: "ProximaNova Bold";
+  font-size: 17px;
+  color: $black;
   padding: 25px;
+  & img {
+    margin-right: 5px;
+  }
+  &:hover {
+    color: $greydarker;
+  }
 }
+
 
 .heading__titel {
   margin-top: 100px;
@@ -155,14 +168,14 @@ html {
   padding-bottom: 3px;
 }
 
-.filter__reset {
+.action__boxwhite {
   font-weight: bold;
   border: 2px solid black;
   padding: 8px 25px;
   margin: 8px;
 }
 
-.filter__show {
+.action__boxblack {
   font-weight: bold;
   background-color: black;
   color: white;
@@ -255,5 +268,32 @@ html {
   font-family: "ProximaNova Regular";
   font-size: 17px;
   color: $greydarker;
+}
+
+.events__container {
+  background-color: $greylighter;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+
+}
+
+.events__bar {
+  font-family: "ProximaNova Regular";
+  font-size: 18px;
+  height: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.events__boxleft {
+  margin-right: 10px;
+}
+
+.events__displayoption {
+  display: flex;
+  align-items: center;
 }
 

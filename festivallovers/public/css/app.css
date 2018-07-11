@@ -10533,12 +10533,15 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .nav__btnticketkaufen {
+  font-family: "ProximaNova Bold";
+  font-size: 17px;
+  color: #c2c2c2;
   padding: 15px 25px 15px 25px;
-  border-left: 1px solid #f0f0f0;
+  border-left: 1px solid #e5e5e5;
 }
 
 .nav__btnticketkaufen img {
@@ -10546,7 +10549,18 @@ html {
 }
 
 .nav__btnmenu {
+  font-family: "ProximaNova Bold";
+  font-size: 17px;
+  color: #000000;
   padding: 25px;
+}
+
+.nav__btnmenu img {
+  margin-right: 5px;
+}
+
+.nav__btnmenu:hover {
+  color: #767676;
 }
 
 .heading__titel {
@@ -10604,14 +10618,14 @@ html {
   padding-bottom: 3px;
 }
 
-.filter__reset {
+.action__boxwhite {
   font-weight: bold;
   border: 2px solid black;
   padding: 8px 25px;
   margin: 8px;
 }
 
-.filter__show {
+.action__boxblack {
   font-weight: bold;
   background-color: black;
   color: white;
@@ -10726,5 +10740,45 @@ html {
   font-family: "ProximaNova Regular";
   font-size: 17px;
   color: #767676;
+}
+
+.events__container {
+  background-color: #f0f0f0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 100px;
+}
+
+.events__bar {
+  font-family: "ProximaNova Regular";
+  font-size: 18px;
+  height: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.events__boxleft {
+  margin-right: 10px;
+}
+
+.events__displayoption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
