@@ -1,4 +1,4 @@
-<div class="nav">
+<div class="nav sticky">
 
     <div class="nav__btnmenu">
         <img src={{asset('icons/navigation_menu.svg')}} alt="Menu">
