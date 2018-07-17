@@ -10637,6 +10637,7 @@ html {
   padding: 8px 25px;
   margin: 30px;
   background-color: #000000;
+  color: #FFFFFF;
 }
 
 .action__boxwhite {
@@ -10645,6 +10646,7 @@ html {
   padding: 8px 25px;
   margin: 30px;
   background-color: #FFFFFF;
+  color: #000000;
 }
 
 .action__boxtransparent {
@@ -10653,6 +10655,7 @@ html {
   padding: 8px 25px;
   margin: 30px;
   background-color: transparent;
+  color: #000000;
 }
 
 .bigteaser {
@@ -10911,17 +10914,13 @@ html {
 }
 
 .eventslist__notice {
-  height: 104px;
-  width: 153px;
-  border-right: 1px solid #f0f0f0;
-  background-color: #FFFFFF;
+  height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 20px;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
   font-family: "ProximaNova Bold";
   font-size: 15px;
   color: #000000;
@@ -10995,9 +10994,7 @@ html {
 }
 
 .singleevent__description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  margin-top: 100px;
 }
 
 .singleevent__descriptionLocation {
@@ -11006,5 +11003,30 @@ html {
 
 .singleevent__descriptioncontainer {
   margin-left: 300px;
+}
+
+.singleevent__descriptionLocCalContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.singleevent__descriptionMid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.singleevent__descriptionBreadcrumb {
+  margin-top: 45px;
 }
 
