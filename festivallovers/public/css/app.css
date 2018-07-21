@@ -10560,7 +10560,7 @@ html {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: #000000;
-  padding: 25px;
+  padding: 25px 89px 25px 25px;
 }
 
 .nav__btnmenu img {
@@ -10919,9 +10919,6 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: top;
-      -ms-flex-align: top;
-          align-items: top;
   font-family: "ProximaNova Bold";
   font-size: 15px;
   color: #000000;
@@ -10947,6 +10944,13 @@ html {
   height: 50%;
 }
 
+.singleevent__headingicon {
+  position: absolute;
+  margin-top: 120px;
+  width: 100%;
+  text-align: center;
+}
+
 .singleevent__headingtext {
   position: absolute;
   margin-top: 1190px;
@@ -10964,6 +10968,7 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -10972,8 +10977,8 @@ html {
 }
 
 .singleevent__eventnewstitle {
-  font-size: 55px;
-  line-height: 67px;
+  font-size: 60px;
+  line-height: 93px;
   font-family: "ProximaNova Bold";
 }
 
@@ -10996,6 +11001,11 @@ html {
 
 .singleevent__description {
   margin-top: 100px;
+}
+
+.singleevent__description .positionimage {
+  margin-left: -81px;
+  margin-top: 62px;
 }
 
 .singleevent__descriptionLocation {
@@ -11025,9 +11035,75 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 140px;
 }
 
 .singleevent__descriptionBreadcrumb {
   margin-top: 45px;
+}
+
+/*  carousel custom styles */
+
+.carouselExampleIndicators {
+  margin-bottom: 250px;
+}
+
+.carousel-indicators li {
+  background-color: #e5e5e5;
+  width: 24px;
+  height: 4px;
+  margin: 0 8px;
+}
+
+.carousel-indicators {
+  bottom: -52px;
+}
+
+.carousel-indicators .active {
+  background-color: #000000;
+}
+
+.singleevent__descriptionBottom > p {
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+.tabs__btn {
+  font-family: "ProximaNova Bold";
+  font-size: 20px;
+  padding: 15px 32px;
+  background-color: #FFFFFF;
+  border: 2px solid #000000;
+  color: #000000;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.tabs__btn:hover,
+.tabs__btn--active {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+          clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+  background-color: #000000;
+  color: #FFFFFF;
+  filter: drop-shadow(0px 2px 0 black) drop-shadow(0px 2px 0 black) drop-shadow(2px 0px 0 black) drop-shadow(2px 0px 0 black);
+  -webkit-filter: drop-shadow(0px 2px 0 black) drop-shadow(0px 2px 0 black) drop-shadow(2px 0px 0 black) drop-shadow(2px 0px 0 black);
+}
+
+.tabs__imagebox {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  height: auto;
+  -webkit-transform: translateX(-110px);
+          transform: translateX(-110px);
 }
 

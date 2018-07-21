@@ -118,7 +118,7 @@ html {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: $black;
-  padding: 25px;
+  padding: 25px 89px 25px 25px;
   & img {
     margin-right: 5px;
   }
@@ -403,7 +403,6 @@ html {
 .eventslist__notice {
   height: 40px;
     display: flex;
-    align-items: top;
     font-family: "ProximaNova Bold";
     font-size: 15px;
     color: $black;
@@ -428,6 +427,13 @@ html {
   height: 50%;
 }
 
+.singleevent__headingicon {
+  position: absolute;
+  margin-top: 120px;
+  width: 100%;
+  text-align: center;
+}
+
 .singleevent__headingtext {
   position: absolute;
   margin-top: 1190px;
@@ -441,19 +447,15 @@ html {
   display: flex;
   text-align: center;
   align-items: center;
-
+  padding-top: 20px;
   justify-content: space-between;
   background-color: $mintlight;
   color: $white;
 }
 
-.singleevent__eventnews {
-
-}
-
 .singleevent__eventnewstitle {
-  font-size: 55px;
-  line-height: 67px;
+  font-size: 60px;
+  line-height: 93px;
   font-family: "ProximaNova Bold";
 }
 
@@ -474,9 +476,13 @@ html {
 
 .singleevent__description {
   margin-top: 100px;
+  .positionimage {
+    margin-left: -81px;
+    margin-top: 62px;
+  }
 }
 
-  .singleevent__descriptionLocation {
+.singleevent__descriptionLocation {
   margin-right: 40px;
 }
 
@@ -499,9 +505,74 @@ html {
 
 .singleevent__descriptionMid {
   display: flex;
+  margin-bottom: 140px;
 }
 
 .singleevent__descriptionBreadcrumb {
   margin-top: 45px;
 }
 
+/*  carousel custom styles */
+.carouselExampleIndicators {
+  margin-bottom: 250px;
+}
+
+.carousel-indicators li {
+  background-color: $greylight;
+  width: 24px;
+  height: 4px;
+  margin: 0 8px;
+}
+
+.carousel-indicators {
+  bottom: -52px;
+}
+
+.carousel-indicators .active {
+  background-color: $black;
+}
+.singleevent__descriptionBottom {
+  >p  {
+    margin-top:40px;
+    margin-bottom: 75px;
+  }
+}
+
+.tabs__btn {
+  font-family: "ProximaNova Bold";
+  font-size: 20px;
+  padding: 15px 32px;
+  //clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+  background-color: $white;
+  border: 2px solid $black;
+  color: $black;
+  width: fit-content;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.tabs__btn:hover, .tabs__btn--active{
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+  background-color: $black;
+  color: $white;
+  filter:
+          drop-shadow( 0px  2px 0 black)
+          drop-shadow( 0px  2px 0 black)
+          drop-shadow( 2px  0px 0 black)
+          drop-shadow( 2px  0px 0 black);
+  -webkit-filter:
+          drop-shadow( 0px  2px 0 black)
+          drop-shadow( 0px  2px 0 black)
+          drop-shadow( 2px  0px 0 black)
+          drop-shadow( 2px  0px 0 black);
+}
+
+.tabs__imagebox {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  height: auto;
+  transform:translateX(-110px);
+}

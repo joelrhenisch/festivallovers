@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="/css/app.css" rel="stylesheet">
+    <script src="/js/app.js" type="javascript"></script>
     <title>Festival Lovers</title>
 </head>
 
