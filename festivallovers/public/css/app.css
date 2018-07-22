@@ -11107,3 +11107,158 @@ html {
           transform: translateX(-110px);
 }
 
+.singleevent__video {
+  background-image: url("/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 392px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.singleevent_videoimage {
+  background-image: url("/icons/detail_video_play.svg");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.singleevent__akkordeon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  border-bottom: 5px solid black;
+  margin-bottom: 65px;
+}
+
+.singleevent__akkordeon .title {
+  font-family: "Adelle Bold";
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.singleevent__akkordeon .status {
+  font-family: "ProximaNova Bold";
+  font-size: 17px;
+  color: #000000;
+}
+
+.map {
+  width: 572px;
+  height: 400px;
+  background-color: pink;
+  margin-bottom: 100px;
+}
+
+.promote__banner {
+  height: 376px;
+  background-color: #00d79f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promote__container {
+  text-align: center;
+}
+
+.promote__container .promote_img {
+  background-image: url("/icons/music_indie.svg");
+  background-repeat: no-repeat;
+  background-size: 300px 250px;
+  position: absolute;
+  opacity: 0.5;
+  width: 300px;
+  height: 250px;
+  -webkit-transform: translate(182px, -145px);
+          transform: translate(182px, -145px);
+}
+
+.promote__container .title {
+  font-family: "Adelle Bold";
+  font-size: 55px;
+  color: #FFFFFF;
+}
+
+.promote__container .promote__buttonBuy {
+  font-family: "ProximaNova Bold";
+  font-size: 16px;
+  padding: 11px 20px;
+  border: 2px solid #FFFFFF;
+  opacity: 1;
+  width: 200px;
+  margin: auto;
+  color: #FFFFFF;
+  margin-top: 30px;
+}
+
+.promote__bottom .content {
+  background-color: #1de9b6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.promote__bottom .promote__button {
+  width: 313px;
+  height: 129px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promote__bottom .promote__buttonright {
+  width: 313px;
+  height: 129px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.promote__bottom .arrowleft {
+  margin-right: 75px;
+}
+
+.promote__bottom .arrowright {
+  margin-left: 75px;
+}
+
+.promote__bottom .text {
+  font-family: "ProximaNova Bold";
+  font-size: 16px;
+  color: #FFFFFF;
+}
+

@@ -576,3 +576,124 @@ html {
   height: auto;
   transform:translateX(-110px);
 }
+
+.singleevent__video {
+  background-image: url('/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 392px; //448px wäre besser für die desktopbrowserbreite von 1440px, aber 392px steht im styleguide
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.singleevent_videoimage {
+  background-image: url('/icons/detail_video_play.svg');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
+
+.singleevent__akkordeon {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 5px solid black;
+  margin-bottom: 65px;
+
+  .title {
+    font-family: "Adelle Bold";
+    font-size: 32px;
+    color: $black;
+    margin-bottom: 8px;
+  }
+
+  .status {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: $black;
+  }
+}
+
+.map {
+  width: 572px;
+  height: 400px;
+  background-color: pink;
+  margin-bottom: 100px;
+}
+
+// promotion Ticket -> Section Header
+.promote__banner {
+  height: 376px;
+  background-color: $mint;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.promote__container{
+  text-align: center;
+
+  .promote_img {
+    background-image: url('/icons/music_indie.svg');
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+    position: absolute;
+    opacity: 0.5;
+    width: 300px;
+    height: 250px;
+    transform: translate(182px, -145px);
+  }
+
+  .title {
+    font-family: "Adelle Bold";
+    font-size: 55px;
+    color: $white;
+  }
+
+  .promote__buttonBuy {
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
+    padding: 11px 20px;
+    border: 2px solid $white;
+    opacity: 1;
+    width: 200px;
+    margin: auto;
+    color: $white;
+    margin-top: 30px;
+  }
+}
+
+// promotion Ticket -> Section Bottom
+.promote__bottom {
+  .content {
+    background-color: $mintlight;
+    display: flex;
+    justify-content: center;
+  }
+  .promote__button {
+    width: 313px;
+    height:129px;
+    display: flex;
+    align-items: center;
+    &right {
+      width: 313px;
+      height:129px;
+      display: flex;
+      align-items: center;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .arrowleft {
+    margin-right: 75px;
+  }
+  .arrowright {
+    margin-left: 75px;
+  }
+  .text {
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
+    color: $white;
+  }
+}
