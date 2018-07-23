@@ -135,8 +135,8 @@ html {
 }
 
 .heading__lead {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 0 auto 0 auto;
+  width: 45%;
   text-align: center;
 }
 
@@ -190,6 +190,7 @@ html {
   margin: 30px;
   background-color: $black;
   color: $white;
+  display: inline-table;
 }
 
 .action__boxwhite {
@@ -334,6 +335,15 @@ html {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  &Title{
+    justify-content: flex-start;
+    margin-left: 203px;
+    margin-bottom: 50px;
+  }
+  lead {
+    width: 45%;
+    margin: 0 auto;
+  }
 }
 
 .eventslist__row {
@@ -401,15 +411,26 @@ html {
 }
 
 .eventslist__notice {
-  height: 40px;
-    display: flex;
-    font-family: "ProximaNova Bold";
-    font-size: 15px;
-    color: $black;
+  background-color: white;
+  width: 150px;
+  height: 104px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "ProximaNova Bold";
+  font-size: 15px;
+  color: $black;
+  indie {
+    border-right: 4px solid $mint;
+  }
+  hiphop {
+    border-right: 4px solid $pink;
+  }
     &img {
       margin-right: 5px;
     }
 }
+
 
 .singleevent__areagreen {
   width: 100%;
@@ -696,4 +717,77 @@ html {
     font-size: 16px;
     color: $white;
   }
+}
+
+.eventslist__buySpacing {
+  height: 120px;
+  margin-top: 90px;
+}
+
+.events__rowscontainerTitle {
+  margin-left: 112px;
+}
+
+.eventslist__tickets {
+  width: 315px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 25px;
+  background-color: $white;
+  border-right: 1px solid $greylighter;
+  .container {
+    color: $mint;
+    display: block;
+    padding-left: 15px;
+  }
+  .text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 6px;
+  }
+  .textRegGreen {
+    font-family: "ProximaNova Regular";
+    width: auto;
+    margin-right: 5px;
+  }
+  .textBoldGreen {
+    font-family: "ProximaNova Bold";
+    width: auto;
+    margin-right: 5px;
+  }
+  .textRegGrey {
+    font-family: "ProximaNova Regular";
+    width: auto;
+    color: $greydark;
+  }
+  .eventslist__ticketsSymbol {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .QuadratF {
+    width: 14px;
+    height: 14px;
+    background-color: $mint;
+  }
+
+  .QuadratQ {
+    width: 14px;
+    height: 14px;
+    background-color: $greydark;
+  }
+}
+
+.eventslist__buy {
+  width: 229px;
+  background-color: $white;
+  display: flex;
+  justify-content: center;
+}
+
+.greenBorderRight5px {
+  border-right: 5px solid $mint;
 }

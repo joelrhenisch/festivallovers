@@ -10578,8 +10578,8 @@ html {
 }
 
 .heading__lead {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 0 auto 0 auto;
+  width: 45%;
   text-align: center;
 }
 
@@ -10639,6 +10639,7 @@ html {
   margin: 30px;
   background-color: #000000;
   color: #FFFFFF;
+  display: inline-table;
 }
 
 .action__boxwhite {
@@ -10830,6 +10831,19 @@ html {
   margin-bottom: 30px;
 }
 
+.events__rowscontainerTitle {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 203px;
+  margin-bottom: 50px;
+}
+
+.events__rowscontainer lead {
+  width: 45%;
+  margin: 0 auto;
+}
+
 .eventslist__row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10915,13 +10929,29 @@ html {
 }
 
 .eventslist__notice {
-  height: 40px;
+  background-color: white;
+  width: 150px;
+  height: 104px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: "ProximaNova Bold";
   font-size: 15px;
   color: #000000;
+}
+
+.eventslist__notice indie {
+  border-right: 4px solid #00d79f;
+}
+
+.eventslist__notice hiphop {
+  border-right: 4px solid #d81b60;
 }
 
 .eventslist__noticeimg {
@@ -11260,5 +11290,102 @@ html {
   font-family: "ProximaNova Bold";
   font-size: 16px;
   color: #FFFFFF;
+}
+
+.eventslist__buySpacing {
+  height: 120px;
+  margin-top: 90px;
+}
+
+.events__rowscontainerTitle {
+  margin-left: 112px;
+}
+
+.eventslist__tickets {
+  width: 315px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 25px;
+  background-color: #FFFFFF;
+  border-right: 1px solid #f0f0f0;
+}
+
+.eventslist__tickets .container {
+  color: #00d79f;
+  display: block;
+  padding-left: 15px;
+}
+
+.eventslist__tickets .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.eventslist__tickets .textRegGreen {
+  font-family: "ProximaNova Regular";
+  width: auto;
+  margin-right: 5px;
+}
+
+.eventslist__tickets .textBoldGreen {
+  font-family: "ProximaNova Bold";
+  width: auto;
+  margin-right: 5px;
+}
+
+.eventslist__tickets .textRegGrey {
+  font-family: "ProximaNova Regular";
+  width: auto;
+  color: #c2c2c2;
+}
+
+.eventslist__tickets .eventslist__ticketsSymbol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.eventslist__tickets .QuadratF {
+  width: 14px;
+  height: 14px;
+  background-color: #00d79f;
+}
+
+.eventslist__tickets .QuadratQ {
+  width: 14px;
+  height: 14px;
+  background-color: #c2c2c2;
+}
+
+.eventslist__buy {
+  width: 229px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.greenBorderRight5px {
+  border-right: 5px solid #00d79f;
 }
 

@@ -11,3 +11,7 @@ Route::get('/events', function() {
 Route::get('/eventdetail', function() {
     return view ('eventdetail');
 });
+
+Route::get('/ticketavaible', function() {
+    return view ('ticketavaible');
+});

@@ -54,12 +54,12 @@
             <div class="eventslist__date">
                 13. Aug – 15. Aug 2016
             </div>
-            <div class="eventslist__notice">
+            <div class="eventslist__notice indie">
                 <div class="eventslist__noticeimg">
                     <img src={{asset('icons/detail_merken.svg')}}  height="20px" alt="notice">
                 </div>
                 <div class="eventslist_noticedescription">
-                    Merken
+                    MERKEN
                 </div>
             </div>
         </div>
@@ -84,12 +84,12 @@
             <div class="eventslist__date">
                 08. Jul — 09 Jul 2016
             </div>
-            <div class="eventslist__notice">
+            <div class="eventslist__notice hiphop">
                 <div class="eventslist__noticeimg">
                     <img src={{asset('icons/detail_merken_filled.svg')}}  height="20px" alt="notice filled">
                 </div>
                 <div class="eventslist_noticedescription">
-                    Merken
+                    GEMERKT
                 </div>
             </div>
         </div>
