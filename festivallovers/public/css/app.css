@@ -11058,11 +11058,11 @@ html {
 }
 
 .nomargin {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .nopadding {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .singleevent__descriptionMid {
@@ -11305,8 +11305,9 @@ html {
   margin-left: 112px;
 }
 
-.eventslist__tickets {
+.ticketsArea .tickets {
   width: 315px;
+  height: 104px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11321,13 +11322,78 @@ html {
   border-right: 1px solid #f0f0f0;
 }
 
-.eventslist__tickets .container {
+.ticketsArea .ticketsSmaller {
+  width: 22%;
+  height: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 5px;
+  background-color: #FFFFFF;
+}
+
+.ticketsArea .ticketsCounter {
+  width: 22%;
+  height: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+}
+
+.ticketsArea .ticketsCounter .box {
+  border: 3px solid #000000;
+  width: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ticketsArea .ticketsCounter .fontticket {
+  font-family: "ProximaNova Regular";
+  font-size: 16px;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.ticketsArea .ticketsCounter .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ticketsArea .container {
   color: #00d79f;
   display: block;
   padding-left: 15px;
 }
 
-.eventslist__tickets .text {
+.ticketsArea .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11338,25 +11404,25 @@ html {
   margin-bottom: 6px;
 }
 
-.eventslist__tickets .textRegGreen {
+.ticketsArea .textRegGreen {
   font-family: "ProximaNova Regular";
   width: auto;
   margin-right: 5px;
 }
 
-.eventslist__tickets .textBoldGreen {
+.ticketsArea .textBoldGreen {
   font-family: "ProximaNova Bold";
   width: auto;
   margin-right: 5px;
 }
 
-.eventslist__tickets .textRegGrey {
+.ticketsArea .textRegGrey {
   font-family: "ProximaNova Regular";
   width: auto;
   color: #c2c2c2;
 }
 
-.eventslist__tickets .eventslist__ticketsSymbol {
+.ticketsArea .ticketsSymbol {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11366,13 +11432,13 @@ html {
           justify-content: space-between;
 }
 
-.eventslist__tickets .QuadratF {
+.ticketsArea .QuadratF {
   width: 14px;
   height: 14px;
   background-color: #00d79f;
 }
 
-.eventslist__tickets .QuadratQ {
+.ticketsArea .QuadratQ {
   width: 14px;
   height: 14px;
   background-color: #c2c2c2;
@@ -11428,26 +11494,60 @@ html {
 }
 
 .ticketbuy__festivalTicketContainer {
-  margin: 0 100px;
+  margin: 100px 100px 0 100px;
+  padding-bottom: 100px;
+}
+
+.ticketbuy__festivalTicketContainer .ticketContainer {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .ticketbuy__festivalTicketContainer .ticketGreen {
   background-color: #00d79f;
-  padding: 20px;
-  width: 15%;
-  width: 20%;
-  height: 200px;
+  padding: 35px 0;
+  width: 22%;
+  height: 225px;
+  text-align: center;
 }
 
 .ticketbuy__festivalTicketContainer .title {
   font-family: "Adelle Bold";
-  font-size: 20px;
+  font-size: 32px;
   color: #FFFFFF;
+  line-height: 20px;
+  margin-top: 30px;
 }
 
 .ticketbuy__festivalTicketContainer .price {
   font-family: "Adelle Regular";
-  font-size: 10px;
+  font-size: 20px;
   color: #FFFFFF;
+  line-height: 32px;
+}
+
+.ticketbuy__festivalTicketContainer .ticketCounter {
+  background-color: #FFFFFF;
+  padding: 10px;
+  width: 22%;
+  height: 88px;
+  text-align: center;
+}
+
+.ticketBuy__submitContainer {
+  margin: 0 100px 0 100px;
+  border-top: 2px solid #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
 }
 

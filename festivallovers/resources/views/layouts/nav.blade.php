@@ -9,7 +9,7 @@
         <img src={{asset('images/FestivalLovers_Logo.jpg')}} height="35px" alt="FestivalLovers Logo">
     </div>
 
-
+    <div class="nav_login_ticket"
     <div class="nav__btnticketkaufen">
         <img src={{asset('icons/navigation_ticketkauf.svg')}} alt="Ticket">
         Tickets kaufen

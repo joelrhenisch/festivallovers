@@ -17,31 +17,35 @@
             <div class="eventslist__name">
                 Sur Le Lac
             </div>
-            <div class="eventslist__tickets">
-                <div class="container">
-                    <div class="text">
-                        <span class="textRegGreen">Verfügbare Tickets</span>
-                        <div class="d-flex">
-                            <span class="textBoldGreen">960</span>
-                            <span class="textRegGrey"> / 1200</span>
+            <div class="ticketsArea">
+                <div class="tickets">
+                    <div class="container">
+                        <div class="text">
+                            <span class="textRegGreen">Verfügbare Tickets</span>
+                            <div class="d-flex">
+                                <span class="textBoldGreen">960</span>
+                                <span class="textRegGrey"> / 1200</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="eventslist__ticketsSymbol">
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratF"></div>
-                        <div class="QuadratQ"></div>
-                        <div class="QuadratQ"></div>
-                    </div>
+                        <div class="ticketsSymbol">
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratF"></div>
+                            <div class="QuadratQ"></div>
+                            <div class="QuadratQ"></div>
+                        </div>
 
+                    </div>
                 </div>
             </div>
+
+
             <div class="eventslist__buy greenBorderRight5px">
                 <div class="action__boxblack">
                     KAUFEN

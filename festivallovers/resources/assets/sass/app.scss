@@ -520,11 +520,11 @@ html {
 }
 
 .nomargin {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .nopadding {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .singleevent__descriptionMid {
@@ -731,15 +731,57 @@ html {
   margin-left: 112px;
 }
 
-.eventslist__tickets {
-  width: 315px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 25px;
-  background-color: $white;
-  border-right: 1px solid $greylighter;
-  .container {
+.ticketsArea{
+  .tickets {
+    width: 315px;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 25px;
+    background-color: $white;
+    border-right: 1px solid $greylighter;
+  }
+  .ticketsSmaller {
+    width: 22%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+    background-color: $white;
+  }
+  .ticketsCounter {
+    width: 22%;
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    .container {
+
+    }
+    .box {
+      border: 3px solid $black;
+      width: 55px;
+      height: 55px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .fontticket {
+      font-family: "ProximaNova Regular";
+      font-size: 16px;
+      padding: 0 10px;
+      margin: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+    .container {
     color: $mint;
     display: block;
     padding-left: 15px;
@@ -765,18 +807,16 @@ html {
     width: auto;
     color: $greydark;
   }
-  .eventslist__ticketsSymbol {
+  .ticketsSymbol {
     display: flex;
     width: 100%;
     justify-content: space-between;
   }
-
   .QuadratF {
     width: 14px;
     height: 14px;
     background-color: $mint;
   }
-
   .QuadratQ {
     width: 14px;
     height: 14px;
@@ -821,28 +861,48 @@ html {
 }
 
 .ticketbuy__festivalTicketContainer {
-  margin: 0 100px;
+  margin: 100px 100px 0 100px;
+  padding-bottom: 100px;
 
   .ticketContainer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 
   }
   .ticketGreen {
     background-color: $mint;
-    padding: 20px;
-    width: 15%;
-    width: 20%;
-    height: 200px;
+    padding: 35px 0;
+    width: 22%;
+    height: 225px;
+    text-align: center;
   }
   .title {
     font-family: "Adelle Bold";
-    font-size: 20px;
+    font-size: 32px;
     color: $white;
+    line-height: 20px;
+    margin-top: 30px;
 
   }
   .price {
     font-family: "Adelle Regular";
-    font-size: 10px;
+    font-size: 20px;
     color: $white;
-
+    line-height: 32px;
   }
+  .ticketCounter {
+    background-color: $white;
+    padding: 10px;
+    width: 22%;
+    height: 88px;
+    text-align: center;
+  }
+}
+.ticketBuy__submitContainer {
+  margin: 0 100px 0 100px;
+  border-top: 2px solid $black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }
