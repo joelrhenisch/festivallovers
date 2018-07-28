@@ -103,39 +103,62 @@ html {
 
 }
 
-.nav__btnticketkaufen {
+.nav__btnticketkaufen, .nav__btnLogin {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: $greydark;
   padding: 15px 25px 15px 25px;
   border-left: 1px solid $greylight;
+  display: flex;
+  align-items: center;
     & img {
-      margin-right: 5px;
+      margin-right: 11px;
     }
 }
 
-.nav__btnmenu {
-  font-family: "ProximaNova Bold";
-  font-size: 17px;
-  color: $black;
-  padding: 25px 89px 25px 25px;
-  & img {
-    margin-right: 5px;
-  }
-  &:hover {
-    color: $greydarker;
-  }
+.nav__loginTicket {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0;
 }
+
+.logo-festivallovers {
+  text-align: center;
+}
+
+.nav__btnmenu {
+   font-family: "ProximaNova Bold";
+   font-size: 17px;
+   color: $black;
+   padding: 25px 89px 25px 25px;
+   & img {
+     margin-right: 5px;
+   }
+  & #navigation-menu-gray{
+    display: none;
+  }
+   &:hover {
+     & #navigation-menu-gray{
+       display: inline-block;
+       height: 19px;
+       width: 24px;
+     }
+     & #navigation-menu-black{
+       display: none;
+     }
+     color: $greydarker;
+   }
+ }
 
 
 .heading__titel {
   margin-top: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
 .heading__lead {
-  margin: 0 auto 0 auto;
+  margin: 0 auto 35PX auto;
   width: 45%;
   text-align: center;
   h3 {
@@ -151,6 +174,8 @@ html {
 
 .filter__eventslistfixmargin {
   padding-bottom: 60px;
+  background-color: $greylighter;
+  padding: 50px 0;
 }
 
 .filter__svgmusic {
@@ -190,7 +215,7 @@ html {
   font-weight: bold;
   border: 2px solid black;
   padding: 8px 25px;
-  margin: 30px;
+  margin: 30px 10px;
   background-color: $black;
   color: $white;
   display: inline-table;
@@ -200,7 +225,7 @@ html {
   font-weight: bold;
   border: 2px solid black;
   padding: 8px 25px;
-  margin: 30px;
+  margin: 30px 10px;
   background-color: $white;
   color: $black;
 }
@@ -215,7 +240,7 @@ html {
 }
 
 .bigteaser {
-  margin-top: 60px;
+  margin-top: 35px;
 }
 
 .bigteaser__img {
@@ -236,6 +261,7 @@ html {
 .magazin__colums {
   column-count: 3;
   column-gap: 90px;
+  height: 700px;
 }
 
 .magazin__article {
@@ -434,6 +460,94 @@ html {
     }
 }
 
+// EVENTS KACHELN
+.events__rowscontainerKacheln {
+  background-color: $greylighter;
+  display: flex;
+  width: 1194px;
+  margin: 0 auto;
+}
+
+.eventslist__EventKacheln {
+  height: auto;
+  .img__container {
+    height: 210px;
+    overflow: hidden;
+    .logo__overImage {
+      transform: translateY(-139px);
+      height: 45px;
+      width: 45px;
+      background-color: $mint;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+    }
+  }
+  img {
+    width: 340px;
+  }
+}
+#surlelac-scaled {
+  transform: scale(1.6);
+  position: relative;
+  left: 100px;
+  bottom: 40px;
+}
+
+.eventslist__ContentKacheln {
+  background-color: $white;
+  width: 340px;
+  padding: 20px;
+  .locationDate {
+    font-family: "ProximaNova Regular";
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .title {
+    font-family: "Adelle Bold";
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .description {
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .notice {
+    border-bottom: 2px solid $mint;
+    display: flex;
+  }
+}
+
+.eventslist__ContentNotice {
+  padding: 0 0 0 20px;
+  display: flex;
+  background-color: $white;
+  border-bottom: 3px solid $mint;
+
+  .statusText {
+    font-family: "ProximaNova Bold";
+    font-size: 15px;
+    line-height: 24px;
+  }
+  img {
+    height: 20px;
+    width: 20px;
+    margin-right: 11px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .singleevent__areagreen {
   width: 100%;
@@ -579,19 +693,20 @@ html {
 }
 
 .tabs__btn:hover, .tabs__btn--active{
+  //filter:
+  //        drop-shadow( 0px  2px 0 black)
+  //        drop-shadow( 0px  2px 0 black)
+  //        drop-shadow( 2px  0px 0 black)
+  //        drop-shadow( 2px  0px 0 black);
+  //-webkit-filter:
+  //        drop-shadow( 0px  2px 0 black)
+  //        drop-shadow( 0px  2px 0 black)
+  //        drop-shadow( 2px  0px 0 black)
+  //        drop-shadow( 2px  0px 0 black);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
   background-color: $black;
   color: $white;
-  filter:
-          drop-shadow( 0px  2px 0 black)
-          drop-shadow( 0px  2px 0 black)
-          drop-shadow( 2px  0px 0 black)
-          drop-shadow( 2px  0px 0 black);
-  -webkit-filter:
-          drop-shadow( 0px  2px 0 black)
-          drop-shadow( 0px  2px 0 black)
-          drop-shadow( 2px  0px 0 black)
-          drop-shadow( 2px  0px 0 black);
+  height: 53px;
 }
 
 .tabs__imagebox {
@@ -905,4 +1020,37 @@ html {
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
+}
+
+// LOGIN-PANEL
+.login__box {
+  width: 310px;
+  height: 425px;
+  background-color: $black;
+  padding: 20px;
+  p {
+    color: $white;
+    font-family: "ProximaNova Regular";
+      boldUnderline {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+  }
+}
+
+.form-control {
+  font-family: "ProximaNova Regular";
+  display: block;
+  width: 100%;
+  padding: 9px 13px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $greylight;
+  border-radius: 0;
+  background-color: $greylighter;
+  background-clip: padding-box;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }

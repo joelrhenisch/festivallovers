@@ -1,19 +1,6 @@
+@extends('master')
 
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="/css/app.css" rel="stylesheet">
-    <script src="/js/app.js" type="javascript"></script>
-    <title>Festival Lovers</title>
-</head>
-
-<body>
-
-@include ('layouts.nav')
+@section('content')
 
 <section class="heading__titel">
     <h1>Auf welche Musik stehst du?</h1>
@@ -30,9 +17,9 @@
 @include ('layouts.filter')
 
 <div id="filter" class="filter">
-    <div class="action__boxblack">
+    <div class="action__boxwhite">
         FILTER ZURÜCKSETZEN</div>
-    <div class="action__boxwhite">ERGEBNIS ANZEIGEN</div>
+    <div class="action__boxblack">ERGEBNIS ANZEIGEN</div>
 </div>
 
 <section class="bigteaser">
@@ -45,7 +32,7 @@
     </div>
 
     <div class="magazin__container">
-        <div class="magazin__colums col-lg-9">
+        <div class="magazin__colums col-lg-10">
 
             <article class="magazin__article">
                 <h2> Einfach bloss nichts vergessen </h2>
@@ -80,7 +67,7 @@
         </div>
     </div>
 
-    <div class="d-flex justify-content-center mt-5">
+    <div class="d-flex justify-content-center mt-4 mb-5">
         <div class="action__boxwhite">
             MEHR ANZEIGEN
         </div>
@@ -88,7 +75,4 @@
 
 </div>
 
-@include ('layouts.footer')
-
-</body>
-</html>
+@endsection

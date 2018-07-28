@@ -1,17 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="/css/app.css" rel="stylesheet">
-    <title>Festival Lovers</title>
-</head>
+@extends('master')
 
-<body>
-
-@include ('layouts.nav')
+@section('content')
 
 {{--HEADING SINGLE FESTIVAL--}}
 <div class="singleevent__headingicon">
@@ -404,7 +393,7 @@
     </div>
 </div>
 
-@include ('layouts.footer')
+
 <script src={{ asset("js/app.js") }} type="text/javascript"></script>
 
 <script type="text/javascript">
@@ -441,5 +430,4 @@
     }
 </script>
 
-</body>
-</html>
+@endsection

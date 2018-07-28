@@ -1,18 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="/css/app.css" rel="stylesheet">
-    <script src="/js/app.js" type="javascript"></script>
-    <title>Festival Lovers</title>
-</head>
+@extends('master')
 
-<body>
-
-@include ('layouts.nav')
+@section('content')
 
 <section class="heading__titel">
     <h1>Alles für deinen Musikgeschmack</h1>
@@ -20,9 +8,7 @@
 
 <section class="heading__lead">
     <h3>
-        Unsere FestivalLovers verdienen nur das Beste. Wir bringen euch<br>
-        alle Festivals, Stars & Bands sowie Infos für einen genialen und<br>
-        unvergessenlichen Musiksommer.
+        Unsere FestivalLovers verdienen nur das Beste. Wir bringen euch alle Festivals, Stars & Bands sowie Infos für einen genialen und unvergessenlichen Musiksommer.
     </h3>
 </section>
 
@@ -32,9 +18,8 @@
     <div class="action__boxwhite">FILTER ZURÜCKSETZEN</div>
 </div>
 
-@include ('layouts.eventslist')
 
-@include ('layouts.footer')
+{{--@include ('layouts.eventslist_liste')--}}
+@include ('layouts.eventslist_kacheln')
 
-</body>
-</html>
+@endsection

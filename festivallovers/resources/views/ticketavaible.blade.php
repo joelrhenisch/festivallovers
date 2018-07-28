@@ -1,18 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="/css/app.css" rel="stylesheet">
-    <script src="/js/app.js" type="javascript"></script>
-    <title>Festival Lovers</title>
-</head>
+@extends('master')
 
-<body>
-
-@include ('layouts.nav')
+@section('content')
 
 <section class="heading__titel">
     <h1>Tickets</h1>
@@ -27,7 +15,4 @@
 
 @include ('layouts.eventslist_buy')
 
-@include ('layouts.footer')
-
-</body>
-</html>
+@endsection
