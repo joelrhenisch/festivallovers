@@ -6,6 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="/css/app.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <title>Festival Lovers</title>
 </head>
 

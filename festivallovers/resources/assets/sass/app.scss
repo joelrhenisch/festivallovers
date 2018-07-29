@@ -108,7 +108,7 @@ html {
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 999;
+  z-index: 1;
 
 }
 
@@ -120,6 +120,10 @@ html {
   border-left: 1px solid $greylight;
   display: flex;
   align-items: center;
+
+  p:hover {
+    color: $black;
+  }
 
   // Wechsle Iconfarbe bei Hover
   // --> bei login-logo
@@ -161,6 +165,14 @@ html {
   display: flex;
   justify-content: flex-end;
   padding-right: 0;
+  p {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #c2c2c2;
+    line-height: 17px;
+    margin: 0;
+
+  }
 }
 
 .logo-festivallovers {
@@ -1065,6 +1077,11 @@ html {
   width: 310px;
   height: 425px;
   background-color: $black;
+  margin-left: 840px;
+  position: fixed;
+  z-index: 2;
+  transform: translateY(38px);
+
   p {
     color: $white;
     font-family: "ProximaNova Regular";
@@ -1110,4 +1127,10 @@ html {
   width: 310px;
   display: flex;
   align-items: center;
+}
+
+
+#login {
+  width: auto;
+
 }
