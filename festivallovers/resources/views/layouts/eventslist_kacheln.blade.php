@@ -134,15 +134,25 @@
 
 
 <div class="login__box">
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="E-Mail Adresse" aria-describedby="basic-addon2">
+
+    <div class="login__boxTop">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="E-Mail Adresse" aria-describedby="basic-addon2">
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort" aria-describedby="basic-addon2">
+        </div>
+        <div class="action__boxwhite w-50 mx-auto mt-4 mb-3">
+            ANMELDEN
+        </div>
+        <p><span class="boldUnderline">Passwort</span> <span>vergessen?</span></p>
     </div>
-    <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort" aria-describedby="basic-addon2">
+
+    <div class="login__boxBottom">
+        <div class="login__registerBox">
+            <p class="mx-auto mb-0">Neu bei FestivalLovers?<br>Jetzt <span class="boldUnderline">registrieren</span>.</p>
+        </div>
     </div>
-    <div class="action__boxwhite">
-        ANMELDEN
-    </div>
-    <p><span class="boldUnderline">Passwort</span> <span>vergessen?</span></p>
+
 </div>
 

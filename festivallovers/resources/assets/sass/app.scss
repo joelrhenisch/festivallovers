@@ -11,33 +11,41 @@ $grid-gutter-width: 16px;
 }
 
 // Fonts definieren
-h1{
+h1 {
   font-size: 56px;
   line-height: 80px;
   color: $black;
   font-family: "Adelle Bold";
-} // mobile: 32/40px
+}
 
-h2{
+// mobile: 32/40px
+
+h2 {
   font-size: 32px;
   line-height: 40px;
   color: $black;
   font-family: "Adelle Bold";
-} // mobile: 24/32px
+}
 
-h3{
+// mobile: 24/32px
+
+h3 {
   font-size: 20px;
   line-height: 32px;
   color: $black;
   font-family: "Adelle Bold";
-} // mobile: 20/32px
+}
+
+// mobile: 20/32px
 
 .font-festival {
   font-size: 144px;
   line-height: 144px;
   color: $black;
   font-family: "Adelle Bold";
-} // mobile: 48/40px
+}
+
+// mobile: 48/40px
 
 .font-lead {
   font-size: 20px;
@@ -85,6 +93,7 @@ p {
 html {
   font-family: "Adelle";
 }
+
 .nav {
   background-color: white;
   font-family: "Adelle";
@@ -111,9 +120,41 @@ html {
   border-left: 1px solid $greylight;
   display: flex;
   align-items: center;
-    & img {
-      margin-right: 11px;
+
+  // Wechsle Iconfarbe bei Hover
+  // --> bei login-logo
+  & #navigation-login-black {
+    display: none;
+  }
+  &:hover {
+    & #navigation-login-gray{
+      display: none;
     }
+    & #navigation-login-black{
+      display: inline-block;
+    }
+  }
+    // --> bei ticketkaufen-logo
+  & #navigation-ticket-black {
+    display: none;
+  }
+  &:hover {
+    & #navigation-ticket-gray{
+      display: none;
+    }
+    & #navigation-ticket-black{
+      display: inline-block;
+    }
+  }
+
+
+  & img {
+    margin-right: 11px;
+  }
+  &:hover {
+    background-color: $greylight;
+    color: $black;
+  }
 }
 
 .nav__loginTicket {
@@ -127,29 +168,34 @@ html {
 }
 
 .nav__btnmenu {
-   font-family: "ProximaNova Bold";
-   font-size: 17px;
-   color: $black;
-   padding: 25px 89px 25px 25px;
-   & img {
-     margin-right: 5px;
-   }
-  & #navigation-menu-gray{
-    display: none;
+  height: 63px;
+  padding: 0 0 0 25px;
+  display: flex;
+  align-items: center;
+  .nav__btnmenuContainer {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: $black;
+    & img {
+      margin-right: 5px;
+    }
+    & #navigation-menu-gray {
+      display: none;
+    }
+    &:hover {
+      & #navigation-menu-gray {
+        display: inline-block;
+        height: 19px;
+        width: 24px;
+      }
+      & #navigation-menu-black {
+        display: none;
+      }
+      color: $greydarker;
+    }
   }
-   &:hover {
-     & #navigation-menu-gray{
-       display: inline-block;
-       height: 19px;
-       width: 24px;
-     }
-     & #navigation-menu-black{
-       display: none;
-     }
-     color: $greydarker;
-   }
- }
 
+}
 
 .heading__titel {
   margin-top: 100px;
@@ -200,7 +246,7 @@ html {
 
 .filter__genres {
   font-weight: bold;
-    text-align: center;
+  text-align: center;
   padding-left: 7px;
 }
 
@@ -364,7 +410,7 @@ html {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
-  &Title{
+  &Title {
     justify-content: flex-start;
     margin-left: 203px;
     margin-bottom: 50px;
@@ -394,11 +440,11 @@ html {
 }
 
 .bgmint {
-      background-color: $mint;
+  background-color: $mint;
 }
 
 .bgpink {
-      background-color: $pink;
+  background-color: $pink;
 }
 
 .eventslist__name {
@@ -455,9 +501,9 @@ html {
   hiphop {
     border-right: 4px solid $pink;
   }
-    &img {
-      margin-right: 5px;
-    }
+  &img {
+    margin-right: 5px;
+  }
 }
 
 // EVENTS KACHELN
@@ -487,6 +533,7 @@ html {
     width: 340px;
   }
 }
+
 #surlelac-scaled {
   transform: scale(1.6);
   position: relative;
@@ -536,18 +583,6 @@ html {
     margin-right: 11px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .singleevent__areagreen {
   width: 100%;
@@ -669,9 +704,10 @@ html {
 .carousel-indicators .active {
   background-color: $black;
 }
+
 .singleevent__descriptionBottom {
-  >p  {
-    margin-top:40px;
+  > p {
+    margin-top: 40px;
     margin-bottom: 75px;
   }
 }
@@ -692,7 +728,7 @@ html {
   margin-bottom: 20px;
 }
 
-.tabs__btn:hover, .tabs__btn--active{
+.tabs__btn:hover, .tabs__btn--active {
   //filter:
   //        drop-shadow( 0px  2px 0 black)
   //        drop-shadow( 0px  2px 0 black)
@@ -713,7 +749,7 @@ html {
   margin-top: 60px;
   margin-bottom: 100px;
   height: auto;
-  transform:translateX(-110px);
+  transform: translateX(-110px);
 }
 
 .singleevent__video {
@@ -770,7 +806,7 @@ html {
   align-items: center;
 }
 
-.promote__container{
+.promote__container {
   text-align: center;
 
   .promote_img {
@@ -812,12 +848,12 @@ html {
   }
   .promote__button {
     width: 313px;
-    height:129px;
+    height: 129px;
     display: flex;
     align-items: center;
     &right {
       width: 313px;
-      height:129px;
+      height: 129px;
       display: flex;
       align-items: center;
       display: flex;
@@ -846,7 +882,7 @@ html {
   margin-left: 112px;
 }
 
-.ticketsArea{
+.ticketsArea {
   .tickets {
     width: 315px;
     height: 104px;
@@ -896,7 +932,7 @@ html {
       align-items: center;
     }
   }
-    .container {
+  .container {
     color: $mint;
     display: block;
     padding-left: 15px;
@@ -979,7 +1015,7 @@ html {
   margin: 100px 100px 0 100px;
   padding-bottom: 100px;
 
-  .ticketContainer{
+  .ticketContainer {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
@@ -1014,6 +1050,7 @@ html {
     text-align: center;
   }
 }
+
 .ticketBuy__submitContainer {
   margin: 0 100px 0 100px;
   border-top: 2px solid $black;
@@ -1024,17 +1061,30 @@ html {
 
 // LOGIN-PANEL
 .login__box {
+  clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
   width: 310px;
   height: 425px;
   background-color: $black;
-  padding: 20px;
   p {
     color: $white;
     font-family: "ProximaNova Regular";
-      boldUnderline {
-        font-weight: bold;
-        text-decoration: underline;
-      }
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .boldUnderline {
+    font-weight: bold;
+    border-bottom: 0.5px solid $white;
+  }
+
+  &Top {
+    width: 100%;
+    padding: 40px 20px 20px 20px ;
+  }
+
+  &Bottom {
+    width: 100%;
+    border-top: 1px solid white;
   }
 }
 
@@ -1042,7 +1092,7 @@ html {
   font-family: "ProximaNova Regular";
   display: block;
   width: 100%;
-  padding: 9px 13px;
+  padding: 10px 15px;
   font-size: 16px;
   line-height: 1.5;
   color: $greylight;
@@ -1053,4 +1103,11 @@ html {
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.login__registerBox {
+  height: 128px;
+  width: 310px;
+  display: flex;
+  align-items: center;
 }

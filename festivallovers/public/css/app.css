@@ -10559,9 +10559,45 @@ html {
           align-items: center;
 }
 
+.nav__btnticketkaufen #navigation-login-black,
+.nav__btnLogin #navigation-login-black {
+  display: none;
+}
+
+.nav__btnticketkaufen:hover #navigation-login-gray,
+.nav__btnLogin:hover #navigation-login-gray {
+  display: none;
+}
+
+.nav__btnticketkaufen:hover #navigation-login-black,
+.nav__btnLogin:hover #navigation-login-black {
+  display: inline-block;
+}
+
+.nav__btnticketkaufen #navigation-ticket-black,
+.nav__btnLogin #navigation-ticket-black {
+  display: none;
+}
+
+.nav__btnticketkaufen:hover #navigation-ticket-gray,
+.nav__btnLogin:hover #navigation-ticket-gray {
+  display: none;
+}
+
+.nav__btnticketkaufen:hover #navigation-ticket-black,
+.nav__btnLogin:hover #navigation-ticket-black {
+  display: inline-block;
+}
+
 .nav__btnticketkaufen img,
 .nav__btnLogin img {
   margin-right: 11px;
+}
+
+.nav__btnticketkaufen:hover,
+.nav__btnLogin:hover {
+  background-color: #e5e5e5;
+  color: #000000;
 }
 
 .nav__loginTicket {
@@ -10579,31 +10615,41 @@ html {
 }
 
 .nav__btnmenu {
+  height: 63px;
+  padding: 0 0 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__btnmenu .nav__btnmenuContainer {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: #000000;
-  padding: 25px 89px 25px 25px;
 }
 
-.nav__btnmenu img {
+.nav__btnmenu .nav__btnmenuContainer img {
   margin-right: 5px;
 }
 
-.nav__btnmenu #navigation-menu-gray {
+.nav__btnmenu .nav__btnmenuContainer #navigation-menu-gray {
   display: none;
 }
 
-.nav__btnmenu:hover {
+.nav__btnmenu .nav__btnmenuContainer:hover {
   color: #767676;
 }
 
-.nav__btnmenu:hover #navigation-menu-gray {
+.nav__btnmenu .nav__btnmenuContainer:hover #navigation-menu-gray {
   display: inline-block;
   height: 19px;
   width: 24px;
 }
 
-.nav__btnmenu:hover #navigation-menu-black {
+.nav__btnmenu .nav__btnmenuContainer:hover #navigation-menu-black {
   display: none;
 }
 
@@ -11687,27 +11733,41 @@ html {
 }
 
 .login__box {
+  -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
+          clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
   width: 310px;
   height: 425px;
   background-color: #000000;
-  padding: 20px;
 }
 
 .login__box p {
   color: #FFFFFF;
   font-family: "ProximaNova Regular";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
-.login__box p boldUnderline {
+.login__box .boldUnderline {
   font-weight: bold;
-  text-decoration: underline;
+  border-bottom: 0.5px solid #FFFFFF;
+}
+
+.login__boxTop {
+  width: 100%;
+  padding: 40px 20px 20px 20px;
+}
+
+.login__boxBottom {
+  width: 100%;
+  border-top: 1px solid white;
 }
 
 .form-control {
   font-family: "ProximaNova Regular";
   display: block;
   width: 100%;
-  padding: 9px 13px;
+  padding: 10px 15px;
   font-size: 16px;
   line-height: 1.5;
   color: #e5e5e5;
@@ -11718,5 +11778,16 @@ html {
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.login__registerBox {
+  height: 128px;
+  width: 310px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
