@@ -10411,6 +10411,38 @@ a.text-dark:focus {
   }
 }
 
+.text-greydarker {
+  color: #767676 !important;
+}
+
+.text-greydark {
+  color: #c2c2c2 !important;
+}
+
+.text-greylight {
+  color: #e5e5e5 !important;
+}
+
+.text-greylighter {
+  color: #f0f0f0 !important;
+}
+
+.bg-greydarker {
+  background-color: #767676 !important;
+}
+
+.bg-greydark {
+  background-color: #c2c2c2 !important;
+}
+
+.bg-greylight {
+  background-color: #e5e5e5 !important;
+}
+
+.bg-greylighter {
+  background-color: #f0f0f0 !important;
+}
+
 @font-face {
   font-family: "Adelle Regular";
   src: url("/fonts/Adelle_Reg.otf");
@@ -10441,6 +10473,66 @@ a.text-dark:focus {
   font-weight: normal;
 }
 
+.w-10 {
+  width: 10% !important;
+}
+
+.w-15 {
+  width: 15% !important;
+}
+
+.w-20 {
+  width: 20% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.w-35 {
+  width: 35% !important;
+}
+
+.w-40 {
+  width: 40% !important;
+}
+
+.w-45 {
+  width: 45% !important;
+}
+
+.w-55 {
+  width: 55% !important;
+}
+
+.w-60 {
+  width: 60% !important;
+}
+
+.w-65 {
+  width: 65% !important;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-80 {
+  width: 80% !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
+.w-95 {
+  width: 95% !important;
+}
+
 .vsc-initialized {
   background-color: white;
 }
@@ -10460,10 +10552,17 @@ h2 {
 }
 
 h3 {
+  font-size: 20px !important;
+  line-height: 32px !important;
+  color: #000000 !important;
+  font-family: "Adelle Bold" !important;
+}
+
+.like-h3-Regular {
   font-size: 20px;
   line-height: 32px;
   color: #000000;
-  font-family: "Adelle Bold";
+  font-family: "Adelle Regular";
 }
 
 .font-festival {
@@ -11812,6 +11911,14 @@ html {
           align-items: center;
 }
 
+.login__registerBox p {
+  color: #000000;
+  font-family: "ProximaNova Regular";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
 #eventslist_liste {
   display: none;
 }
@@ -11821,14 +11928,6 @@ html {
   width: 100%;
   height: 790px;
   padding-top: 130px;
-}
-
-.bg__green p {
-  color: #000000;
-  font-family: "ProximaNova Regular";
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
 }
 
 .bg__green .boldUnderline {
@@ -11867,5 +11966,27 @@ html {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.provider__select {
+  height: 46px !important;
+}
+
+.box__greenwhite {
+  font-weight: bold;
+  border: 2px solid #FFFFFF;
+  padding: 8px 25px;
+  background-color: #00d79f;
+  color: #FFFFFF;
+  margin: 5px;
+}
+
+.box__whiteblack {
+  font-weight: bold;
+  border: 2px solid #FFFFFF;
+  padding: 8px 25px;
+  background-color: #FFFFFF;
+  color: #000000;
+  margin: 5px;
 }
 

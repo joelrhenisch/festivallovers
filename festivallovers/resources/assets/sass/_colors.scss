@@ -8,6 +8,16 @@ $greydark: rgb(194,194,194);  // Grau C2
 $greylight: rgb(229,229,229); // Grau E5
 $greylighter: rgb(240,240,240); /// Grau F0
 
+.text-greydarker {color: $greydarker !important;}
+.text-greydark {color: $greydark !important;}
+.text-greylight {color: $greylight !important;}
+.text-greylighter {color: $greylighter !important;}
+
+.bg-greydarker {background-color: $greydarker !important;}
+.bg-greydark {background-color: $greydark !important;}
+.bg-greylight {background-color: $greylight !important;}
+.bg-greylighter {background-color: $greylighter !important;}
+
 $pink: rgb(216,27,96);
 $yellow: rgb(253,216,53);
 $mint: rgb(0,215,159);
