@@ -19,3 +19,7 @@ Route::get('/ticketavaible', function() {
 Route::get('/ticketbuy', function() {
     return view ('ticketbuy');
 });
+
+Route::get('/login', function() {
+    return view ('login');
+});
