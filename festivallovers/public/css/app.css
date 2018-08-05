@@ -10626,7 +10626,7 @@ html {
   background-color: white;
   font-family: "Adelle";
   font-size: 18px;
-  height: 60px;
+  height: 64px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -10643,8 +10643,8 @@ html {
   z-index: 1;
 }
 
-.nav__btnticketkaufen,
-.nav__btnLogin {
+.nav__btn-ticket-kaufen,
+.nav__btn-login {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: #c2c2c2;
@@ -10658,53 +10658,53 @@ html {
           align-items: center;
 }
 
-.nav__btnticketkaufen p:hover,
-.nav__btnLogin p:hover {
+.nav__btn-ticket-kaufen:hover > p,
+.nav__btn-login:hover > p {
   color: #000000;
 }
 
-.nav__btnticketkaufen #navigation-login-black,
-.nav__btnLogin #navigation-login-black {
+.nav__btn-ticket-kaufen #navigation-login-black,
+.nav__btn-login #navigation-login-black {
   display: none;
 }
 
-.nav__btnticketkaufen:hover #navigation-login-gray,
-.nav__btnLogin:hover #navigation-login-gray {
+.nav__btn-ticket-kaufen:hover #navigation-login-gray,
+.nav__btn-login:hover #navigation-login-gray {
   display: none;
 }
 
-.nav__btnticketkaufen:hover #navigation-login-black,
-.nav__btnLogin:hover #navigation-login-black {
+.nav__btn-ticket-kaufen:hover #navigation-login-black,
+.nav__btn-login:hover #navigation-login-black {
   display: inline-block;
 }
 
-.nav__btnticketkaufen #navigation-ticket-black,
-.nav__btnLogin #navigation-ticket-black {
+.nav__btn-ticket-kaufen #navigation-ticket-black,
+.nav__btn-login #navigation-ticket-black {
   display: none;
 }
 
-.nav__btnticketkaufen:hover #navigation-ticket-gray,
-.nav__btnLogin:hover #navigation-ticket-gray {
+.nav__btn-ticket-kaufen:hover #navigation-ticket-gray,
+.nav__btn-login:hover #navigation-ticket-gray {
   display: none;
 }
 
-.nav__btnticketkaufen:hover #navigation-ticket-black,
-.nav__btnLogin:hover #navigation-ticket-black {
+.nav__btn-ticket-kaufen:hover #navigation-ticket-black,
+.nav__btn-login:hover #navigation-ticket-black {
   display: inline-block;
 }
 
-.nav__btnticketkaufen img,
-.nav__btnLogin img {
+.nav__btn-ticket-kaufen img,
+.nav__btn-login img {
   margin-right: 11px;
 }
 
-.nav__btnticketkaufen:hover,
-.nav__btnLogin:hover {
+.nav__btn-ticket-kaufen:hover,
+.nav__btn-login:hover {
   background-color: #e5e5e5;
   color: #000000;
 }
 
-.nav__loginTicket {
+.nav__login-ticket {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -10714,7 +10714,7 @@ html {
   padding-right: 0;
 }
 
-.nav__loginTicket p {
+.nav__login-ticket p {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: #c2c2c2;
@@ -10722,11 +10722,11 @@ html {
   margin: 0;
 }
 
-.logo-festivallovers {
+.nav__logo-festivallovers {
   text-align: center;
 }
 
-.nav__btnmenu {
+.nav__btn-menu {
   height: 63px;
   padding: 0 0 0 25px;
   display: -webkit-box;
@@ -10737,31 +10737,31 @@ html {
           align-items: center;
 }
 
-.nav__btnmenu .nav__btnmenuContainer {
+.nav__btn-menu .nav__btn-menu-container {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: #000000;
 }
 
-.nav__btnmenu .nav__btnmenuContainer img {
+.nav__btn-menu .nav__btn-menu-container img {
   margin-right: 5px;
 }
 
-.nav__btnmenu .nav__btnmenuContainer #navigation-menu-gray {
+.nav__btn-menu .nav__btn-menu-container #navigation-menu-gray {
   display: none;
 }
 
-.nav__btnmenu .nav__btnmenuContainer:hover {
+.nav__btn-menu .nav__btn-menu-container:hover {
   color: #767676;
 }
 
-.nav__btnmenu .nav__btnmenuContainer:hover #navigation-menu-gray {
+.nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-gray {
   display: inline-block;
   height: 19px;
   width: 24px;
 }
 
-.nav__btnmenu .nav__btnmenuContainer:hover #navigation-menu-black {
+.nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
   display: none;
 }
 
@@ -10841,7 +10841,7 @@ html {
   color: #FFFFFF;
 }
 
-.action__boxwhite {
+.action__box-white {
   font-weight: bold;
   border: 2px solid black;
   padding: 8px 25px;
@@ -11868,17 +11868,17 @@ html {
   text-align: center;
 }
 
-.login__box .boldUnderline {
+.login__box .bold-underline {
   font-weight: bold;
   border-bottom: 0.5px solid #FFFFFF;
 }
 
-.login__boxTop {
+.login__box-top {
   width: 100%;
   padding: 40px 20px 20px 20px;
 }
 
-.login__boxBottom {
+.login__box-bottom {
   width: 100%;
   border-top: 1px solid white;
 }
@@ -11900,7 +11900,7 @@ html {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-.login__registerBox {
+.login__register-box {
   height: 128px;
   width: 310px;
   display: -webkit-box;
@@ -11911,7 +11911,7 @@ html {
           align-items: center;
 }
 
-.login__registerBox p {
+.login__register-box p {
   color: #000000;
   font-family: "ProximaNova Regular";
   font-size: 16px;

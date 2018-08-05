@@ -2,7 +2,7 @@
 @import "colors";
 @import "fonts";
 
-// zusätzlich zum Bootstrap
+// zusätzliche Abstufungen zu Bootstrap
 .w-10 {width: 10% !important;}
 .w-15 {width: 15% !important;}
 .w-20 {width: 20% !important;}
@@ -122,7 +122,7 @@ html {
   background-color: white;
   font-family: "Adelle";
   font-size: 18px;
-  height: 60px;
+  height: 64px;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid $greylight;
@@ -133,10 +133,9 @@ html {
   position: fixed;
   top: 0;
   z-index: 1;
-
 }
 
-.nav__btnticketkaufen, .nav__btnLogin {
+.nav__btn-ticket-kaufen, .nav__btn-login {
   font-family: "ProximaNova Bold";
   font-size: 17px;
   color: $greydark;
@@ -145,8 +144,10 @@ html {
   display: flex;
   align-items: center;
 
-  p:hover {
-    color: $black;
+  &:hover {
+   >p {
+     color: $black;
+   }
   }
 
   // Wechsle Iconfarbe bei Hover
@@ -175,7 +176,6 @@ html {
     }
   }
 
-
   & img {
     margin-right: 11px;
   }
@@ -185,7 +185,7 @@ html {
   }
 }
 
-.nav__loginTicket {
+.nav__login-ticket {
   display: flex;
   justify-content: flex-end;
   padding-right: 0;
@@ -199,16 +199,16 @@ html {
   }
 }
 
-.logo-festivallovers {
+.nav__logo-festivallovers {
   text-align: center;
 }
 
-.nav__btnmenu {
+.nav__btn-menu {
   height: 63px;
   padding: 0 0 0 25px;
   display: flex;
   align-items: center;
-  .nav__btnmenuContainer {
+  .nav__btn-menu-container {
     font-family: "ProximaNova Bold";
     font-size: 17px;
     color: $black;
@@ -303,7 +303,7 @@ html {
   //display: inline-table;   war vorher mal gesetzt
 }
 
-.action__boxwhite {
+.action__box-white {
   font-weight: bold;
   border: 2px solid black;
   padding: 8px 25px;
@@ -1117,17 +1117,17 @@ html {
     line-height: 24px;
     text-align: center;
   }
-  .boldUnderline {
+  .bold-underline {
     font-weight: bold;
     border-bottom: 0.5px solid $white;
   }
 
-  &Top {
+  &-top {
     width: 100%;
     padding: 40px 20px 20px 20px ;
   }
 
-  &Bottom {
+  &-bottom {
     width: 100%;
     border-top: 1px solid white;
   }
@@ -1150,7 +1150,7 @@ html {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 
-.login__registerBox {
+.login__register-box {
   height: 128px;
   width: 310px;
   display: flex;
