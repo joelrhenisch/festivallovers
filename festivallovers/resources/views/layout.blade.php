@@ -2,29 +2,32 @@
 
 @section('content')
 
-<section class="heading__titel">
+<div class="heading__titel">
     <h1>Auf welche Musik stehst du?</h1>
-</section>
-
-<section class="heading__lead">
-    <h3>
-        Unsere FestivalLovers verdienen nur das Beste. Wir bringen euch<br>
-        alle Festivals, Stars & Bands sowie Infos für einen genialen und<br>
-        unvergessenlichen Musiksommer.
-    </h3>
-</section>
-
-@include ('layouts.filter')
-
-<div id="filter" class="filter">
-    <div class="action__boxwhite">
-        FILTER ZURÜCKSETZEN</div>
-    <div class="action__boxblack">ERGEBNIS ANZEIGEN</div>
 </div>
 
-<section class="bigteaser">
+<div class="heading__lead">
+    <p class="font-lead">
+        Egal auf was du stehtst wir haben alles für deinen Musikgeschmack und garanteiren dir eine erlebnisreiche Festivalzeit.
+    </p>
+</div>
+
+<div id="include-filter">
+    @include ('layouts.filter')
+</div>
+
+<div id="filter-lg" class="filter">
+    <div class="action__box--white">FILTER ZURÜCKSETZEN</div>
+    <div class="action__box--black">ERGEBNIS ANZEIGEN</div>
+</div>
+
+<div id="filter-sm" class="filter">
+    <div class="action__box--black">ERGEBNIS ANZEIGEN</div>
+</div>
+
+<div class="bigteaser">
     <img class="bigteaser__img" src={{asset('images/BigTeaser.png')}} />
-</section>
+</div>
 
 <div id="magazin">
     <div class="text-center magazin-title">
@@ -36,43 +39,85 @@
 
             <article class="magazin__article">
                 <h2> Einfach bloss nichts vergessen </h2>
-                <p class="font-breadcrumb"> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
+                <p id="article-1-show" class="font-breadcrumb underline">LESEN</p>
+                <p id="article-1" class="font-breadcrumb"> Zelt, Schlafsack, Isomatte vergessen: 3 Tage wach! Regenjacke, Mütze, Handtuch: 3 Tage nass! Zahnbürste, Deo, Socken: 3 Tage baah! Es geht auch anders. Der Festivalguide Check gegen Alzheimer und Co </p>
+                <hr id="hor-line-1">
             </article>
 
             <article class="magazin__article">
                 <h2> Erste Hilfe und die Reiseapotheke </h2>
-                <p class="font-breadcrumb"> Was der Arzt rät: Sonnenstich, Kater, Fuss ungeknickt ... Festivals stecken voller versteckten Gefahren. Wir haben unseren Hausarzt angerufen und gefragt was man unbedingt bedenken und beachten sollte damit man wieder gesund und munter vom Festival nach Hause kommt. </p>
+                <p id="article-2-show" class="font-breadcrumb underline">LESEN</p>
+                <p id="article-2" class="font-breadcrumb"> Was der Arzt rät: Sonnenstich, Kater, Fuss ungeknickt ... Festivals stecken voller versteckten Gefahren. Wir haben unseren Hausarzt angerufen und gefragt was man unbedingt bedenken und beachten sollte damit man wieder gesund und munter vom Festival nach Hause kommt. </p>
+                <hr id="hor-line-2">
             </article>
 
             <article class="magazin__article">
                 <h2> Wie soll ich mich bei Gewitter verhalten? </h2>
-                <p class="font-breadcrumb"> Die Sturm- und Gewitterwarnungen auf Festivals nehmen zu. Blitzeinschläge führen immer wieder zu zahlreichen Verletzten. Da wir nicht davon ausgehen können, dass sich diese Entwicklung wieder umkehrt, müssen wir damit reechnen, dass Festivals immer wieder davon betroffen sein werden. Was sollte man also beachten? </p>
+                <p id="article-3-show" class="font-breadcrumb underline">LESEN</p>
+                <p id="article-3" class="font-breadcrumb"> Die Sturm- und Gewitterwarnungen auf Festivals nehmen zu. Blitzeinschläge führen immer wieder zu zahlreichen Verletzten. Da wir nicht davon ausgehen können, dass sich diese Entwicklung wieder umkehrt, müssen wir damit reechnen, dass Festivals immer wieder davon betroffen sein werden. Was sollte man also beachten? </p>
+                <hr id="hor-line-3">
             </article>
 
             <article class="magazin__article">
                 <h2> Tipps zum Bier kaltstellen </h2>
-                <p class="font-breadcrumb"> Mit diesen Ratschlägen habt ihr auch auf dem Festival immer kühles Bier. Was will man noch mehr. </p>
+                <p id="article-4-show" class="font-breadcrumb underline">LESEN</p>
+                <p id="article-4" class="font-breadcrumb"> Mit diesen Ratschlägen habt ihr auch auf dem Festival immer kühles Bier. Was will man noch mehr. </p>
+                <hr id="hor-line-4">
             </article>
 
             <article class="magazin__article">
                 <h2> 7 Life Hacks für den Festivalbesuch </h2>
-                <p class="font-breadcrumb"> Mit diesen Tricks macht ihr euch das Campen auf dem Festival noch leichter. Es gibt viele kreative Lösungen mit Einmalseife, Klopapierspender, Grillanzünder, Kaffeebeutel und Strohhalmen. </p>
+                <p id="article-5-show" class="font-breadcrumb underline">LESEN</p>
+                <p id="article-5" class="font-breadcrumb"> Mit diesen Tricks macht ihr euch das Campen auf dem Festival noch leichter. Es gibt viele kreative Lösungen mit Einmalseife, Klopapierspender, Grillanzünder, Kaffeebeutel und Strohhalmen. </p>
+                <hr id="hor-line-5">
             </article>
 
             <article class="magazin__article">
                 <h2> Wo stelle ich mein Zelt auf? </h2>
-                <p class="font-breadcrumb"> Der perfekte Platz auf dem Campingplatz muss zuerst gefunden werden. Ältere Festivalbesucher können bestätigen: Die Auswahl des Zeltplatzes ist ein Lernen durch Schmerzen. Wir möchten euch daher gut vorbereiten um euch ein paar Qualen ersparen zu können. </p>
+                <p id="article-6-show" class="font-breadcrumb underline">LESEN</p>
+                <p id="article-6" class="font-breadcrumb"> Der perfekte Platz auf dem Campingplatz muss zuerst gefunden werden. Ältere Festivalbesucher können bestätigen: Die Auswahl des Zeltplatzes ist ein Lernen durch Schmerzen. Wir möchten euch daher gut vorbereiten um euch ein paar Qualen ersparen zu können. </p>
+                <hr id="hor-line-6">
             </article>
 
         </div>
     </div>
 
     <div class="d-flex justify-content-center mt-4 mb-5">
-        <div class="action__boxwhite">
+        <div class="action__box--white">
             MEHR ANZEIGEN
         </div>
     </div>
 
 </div>
+
+<script>
+    $("#article-1-show").click(function () {
+        $("#article-1").toggle();
+    });
+
+    $("#article-2-show").click(function () {
+        $("#article-2").toggle();
+    });
+
+    $("#article-3-show").click(function () {
+        $("#article-3").toggle();
+    });
+
+    $("#article-4-show").click(function () {
+        $("#article-4").toggle();
+    });
+
+    $("#article-5-show").click(function () {
+        $("#article-5").toggle();
+    });
+
+    $("#article-6-show").click(function () {
+        $("#article-6").toggle();
+    });
+
+
+
+
+</script>
 
 @endsection

@@ -46,7 +46,8 @@
     <script>
         $(function () {
             // Footer wird beim Laden der Seite automatisch ausgeblendet
-            $('#footer').addClass('hidden');
+            $('#footer-lg').addClass('hidden');
+            $('#footer-sm').addClass('hidden');
             // weiter Schritt im Zahlungsvorgang wird beim Laden der Seite automatisch ausgeblendet
             $('#payment-step-3').addClass('hidden');
         });

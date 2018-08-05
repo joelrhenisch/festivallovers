@@ -10537,1456 +10537,1962 @@ a.text-dark:focus {
   background-color: white;
 }
 
-h1 {
-  font-size: 56px;
-  line-height: 80px;
-  color: #000000;
-  font-family: "Adelle Bold";
-}
-
-h2 {
-  font-size: 32px;
-  line-height: 40px;
-  color: #000000;
-  font-family: "Adelle Bold";
-}
-
-h3 {
-  font-size: 20px !important;
-  line-height: 32px !important;
-  color: #000000 !important;
-  font-family: "Adelle Bold" !important;
-}
-
-.like-h3-Regular {
-  font-size: 20px;
-  line-height: 32px;
-  color: #000000;
-  font-family: "Adelle Regular";
-}
-
-.font-festival {
-  font-size: 144px;
-  line-height: 144px;
-  color: #000000;
-  font-family: "Adelle Bold";
-}
-
-.font-lead {
-  font-size: 20px;
-  line-height: 32px;
-  color: #000000;
-  font-family: "Adelle Regular";
-}
-
-.font-copy {
-  font-size: 20px;
-  line-height: 32px;
-  color: #000000;
-  font-family: "ProximaNova Regular";
-}
-
-.font-footer,
-font-labels {
-  font-size: 17px;
-  line-height: 28px;
-  color: #000000;
-  font-family: "ProximaNova Regular";
-}
-
-.font-button,
-font-tab,
-font-header {
-  font-size: 17px;
-  line-height: 28px;
-  color: #000000;
-  font-family: "ProximaNova Bold";
-}
-
-.font-breadcrumb,
-font-zusatzinfo {
-  font-size: 17px;
-  line-height: 28px;
-  color: #000000;
-  font-family: "ProximaNova Regular";
-}
-
-p {
-  font-size: 30px;
-  line-height: 80px;
-  color: #000000;
-  font-family: "Adelle Bold";
-}
-
-html {
-  font-family: "Adelle";
-}
-
-.nav {
-  background-color: white;
-  font-family: "Adelle";
-  font-size: 18px;
-  height: 64px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.sticky {
-  width: 100%;
-  position: fixed;
-  top: 0;
-  z-index: 1;
-}
-
-.nav__btn-ticket-kaufen,
-.nav__btn-login {
-  font-family: "ProximaNova Bold";
-  font-size: 17px;
-  color: #c2c2c2;
-  padding: 15px 25px 15px 25px;
-  border-left: 1px solid #e5e5e5;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav__btn-ticket-kaufen:hover > p,
-.nav__btn-login:hover > p {
-  color: #000000;
-}
-
-.nav__btn-ticket-kaufen #navigation-login-black,
-.nav__btn-login #navigation-login-black {
-  display: none;
-}
-
-.nav__btn-ticket-kaufen:hover #navigation-login-gray,
-.nav__btn-login:hover #navigation-login-gray {
-  display: none;
-}
-
-.nav__btn-ticket-kaufen:hover #navigation-login-black,
-.nav__btn-login:hover #navigation-login-black {
-  display: inline-block;
-}
-
-.nav__btn-ticket-kaufen #navigation-ticket-black,
-.nav__btn-login #navigation-ticket-black {
-  display: none;
-}
-
-.nav__btn-ticket-kaufen:hover #navigation-ticket-gray,
-.nav__btn-login:hover #navigation-ticket-gray {
-  display: none;
-}
-
-.nav__btn-ticket-kaufen:hover #navigation-ticket-black,
-.nav__btn-login:hover #navigation-ticket-black {
-  display: inline-block;
-}
-
-.nav__btn-ticket-kaufen img,
-.nav__btn-login img {
-  margin-right: 11px;
-}
-
-.nav__btn-ticket-kaufen:hover,
-.nav__btn-login:hover {
-  background-color: #e5e5e5;
-  color: #000000;
-}
-
-.nav__login-ticket {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  padding-right: 0;
-}
-
-.nav__login-ticket p {
-  font-family: "ProximaNova Bold";
-  font-size: 17px;
-  color: #c2c2c2;
-  line-height: 17px;
-  margin: 0;
-}
-
-.nav__logo-festivallovers {
-  text-align: center;
-}
-
-.nav__btn-menu {
-  height: 63px;
-  padding: 0 0 0 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav__btn-menu .nav__btn-menu-container {
-  font-family: "ProximaNova Bold";
-  font-size: 17px;
-  color: #000000;
-}
-
-.nav__btn-menu .nav__btn-menu-container img {
-  margin-right: 5px;
-}
-
-.nav__btn-menu .nav__btn-menu-container #navigation-menu-gray {
-  display: none;
-}
-
-.nav__btn-menu .nav__btn-menu-container:hover {
-  color: #767676;
-}
-
-.nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-gray {
-  display: inline-block;
-  height: 19px;
-  width: 24px;
-}
-
-.nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
-  display: none;
-}
-
-.heading__titel {
-  margin-top: 100px;
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.heading__lead {
-  margin: 0 auto 35PX auto;
-  width: 45%;
-  text-align: center;
-}
-
-.heading__lead h3 {
-  font-family: "Adelle Regular";
-}
-
-.filter {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.filter__eventslistfixmargin {
-  padding-bottom: 60px;
-  background-color: #f0f0f0;
-  padding: 50px 0;
-}
-
-.filter__svgmusic {
-  margin: 5px 15px 5px 5px;
-  width: 25px;
-  height: 25px;
-}
-
-.filter__box {
-  background-color: lightgrey;
-  padding: 5px 8px;
-  border-radius: 10px;
-  margin: 0 13px;
-  color: white;
-}
-
-.filter__number {
-  vertical-align: super;
-  font-weight: bolder;
-  font-size: 70%;
-}
-
-.filter__genres {
-  font-weight: bold;
-  text-align: center;
-  padding-left: 7px;
-}
-
-.filter__mehrgenres {
-  font-family: "ProximaNova Bold";
-  border-bottom: 1px solid black;
-  padding: 5px 0;
-  margin: 0 35px;
-}
-
-.action__boxblack {
-  font-weight: bold;
-  border: 2px solid black;
-  padding: 8px 25px;
-  margin: 30px 10px;
-  background-color: #000000;
-  color: #FFFFFF;
-}
-
-.action__box-white {
-  font-weight: bold;
-  border: 2px solid black;
-  padding: 8px 25px;
-  margin: 30px 10px;
-  background-color: #FFFFFF;
-  color: #000000;
-}
-
-.action__boxtransparent {
-  font-weight: bold;
-  border: 2px solid black;
-  padding: 8px 25px;
-  margin: 30px;
-  background-color: transparent;
-  color: #000000;
-}
-
-.bigteaser {
-  margin-top: 35px;
-}
-
-.bigteaser__img {
-  width: 100%;
-}
-
-.magazin-title {
-  margin: 80px 0;
-}
-
-.magazin__container {
-  margin-right: 0;
-  margin-left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.magazin__colums {
-  -webkit-column-count: 3;
-          column-count: 3;
-  -webkit-column-gap: 90px;
-          column-gap: 90px;
-  height: 700px;
-}
-
-.magazin__article {
-  width: 100%;
-  margin-bottom: 70px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  display: block;
-}
-
-.footer {
-  height: 64px;
-  padding: 0px 120px;
-  border-top: 1px solid #c2c2c2;
-  border-bottom: 1px solid #c2c2c2;
-  font-family: "ProximaNova Regular";
-  font-size: 17px;
-  color: #767676;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.hidden {
-  display: none;
-}
-
-.footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 100%;
-}
-
-.footer__boxleft {
-  text-align: left;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer__itemleft {
-  padding-left: 40px;
-  font-family: "ProximaNova Regular";
-  font-size: 17px;
-  color: #767676;
-}
-
-.footer__boxcenter {
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer__icons {
-  margin: 0 7px;
-}
-
-.footer__boxright {
-  text-align: right;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.footer__itemright {
-  margin-right: 15px;
-  margin-left: 135px;
-  font-family: "ProximaNova Regular";
-  font-size: 17px;
-  color: #767676;
-}
-
-.events__container {
-  background-color: #f0f0f0;
-}
-
-.events__barcontainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px;
-}
-
-.events__bar {
-  font-family: "ProximaNova Regular";
-  background-color: #f0f0f0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1194px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #767676;
-  padding: 50px 0;
-}
-
-.events__boxside {
-  margin-right: 10px;
-}
-
-.events__displayoption {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.events__rowscontainer {
-  font-family: "ProximaNova Regular";
-  background-color: #f0f0f0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 30px;
-}
-
-.events__rowscontainerTitle {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  margin-left: 203px;
-  margin-bottom: 50px;
-}
-
-.events__rowscontainer lead {
-  width: 45%;
-  margin: 0 auto;
-}
-
-.eventslist__row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 104px;
-  width: 1194px;
-}
-
-.eventslist__img {
-  height: 104px;
-}
-
-.eventslist__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 104px;
-  width: 104px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.bgmint {
-  background-color: #00d79f;
-}
-
-.bgpink {
-  background-color: #d81b60;
-}
-
-.eventslist__name {
-  height: 104px;
-  width: 374px;
-  border-right: 1px solid #f0f0f0;
-  background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 20px;
-  font-family: "Adelle Bold";
-  font-size: 25px;
-}
-
-.eventslist__location {
-  height: 104px;
-  width: 184px;
-  border-right: 1px solid #f0f0f0;
-  background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 20px;
-  font-family: "ProximaNova Regular";
-  font-size: 15px;
-  color: #767676;
-}
-
-.eventslist__date {
-  height: 104px;
-  width: 210px;
-  border-right: 1px solid #f0f0f0;
-  background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 20px;
-  font-family: "ProximaNova Regular";
-  font-size: 15px;
-  color: #767676;
-}
-
-.eventslist__notice {
-  background-color: white;
-  width: 150px;
-  height: 104px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: "ProximaNova Bold";
-  font-size: 15px;
-  color: #000000;
-}
-
-.eventslist__notice indie {
-  border-right: 4px solid #00d79f;
-}
-
-.eventslist__notice hiphop {
-  border-right: 4px solid #d81b60;
-}
-
-.eventslist__noticeimg {
-  margin-right: 5px;
-}
-
-.events__rowscontainerKacheln {
-  background-color: #f0f0f0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1194px;
-  margin: 0 auto;
-}
-
-.eventslist__EventKacheln {
-  height: auto;
-}
-
-.eventslist__EventKacheln .img__container {
-  height: 210px;
-  overflow: hidden;
-}
-
-.eventslist__EventKacheln .img__container .logo__overImage {
-  -webkit-transform: translateY(-139px);
-          transform: translateY(-139px);
-  height: 45px;
-  width: 45px;
-  background-color: #00d79f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-}
-
-.eventslist__EventKacheln img {
-  width: 340px;
-}
-
-#surlelac-scaled {
-  -webkit-transform: scale(1.6);
-          transform: scale(1.6);
-  position: relative;
-  left: 100px;
-  bottom: 40px;
-}
-
-.eventslist__ContentKacheln {
-  background-color: #FFFFFF;
-  width: 340px;
-  padding: 20px;
-}
-
-.eventslist__ContentKacheln .locationDate {
-  font-family: "ProximaNova Regular";
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.eventslist__ContentKacheln .title {
-  font-family: "Adelle Bold";
-  font-size: 30px;
-  line-height: 30px;
-}
-
-.eventslist__ContentKacheln .description {
-  font-family: "ProximaNova Regular";
-  font-size: 15px;
-  line-height: 24px;
-}
-
-.eventslist__ContentKacheln .notice {
-  border-bottom: 2px solid #00d79f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.eventslist__ContentNotice {
-  padding: 0 0 0 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #FFFFFF;
-  border-bottom: 3px solid #00d79f;
-}
-
-.eventslist__ContentNotice .statusText {
-  font-family: "ProximaNova Bold";
-  font-size: 15px;
-  line-height: 24px;
-}
-
-.eventslist__ContentNotice img {
-  height: 20px;
-  width: 20px;
-  margin-right: 11px;
-}
-
-.singleevent__areagreen {
-  width: 100%;
-  height: 420px;
-  background-color: #00d79f;
-  margin: 0 auto;
-}
-
-.singleevent__headingcontainer {
-  width: 100%;
-}
-
-.singleevent__imagefullscreen {
-  width: 100%;
-  height: 50%;
-}
-
-.singleevent__headingicon {
-  position: absolute;
-  margin-top: 120px;
-  width: 100%;
-  text-align: center;
-}
-
-.singleevent__headingtext {
-  position: absolute;
-  margin-top: 1190px;
-  margin-left: 130px;
-  font-family: "Adelle Bold";
-  color: #FFFFFF;
-}
-
-.singleevent__eventnewscontainer {
-  height: 264px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  background-color: #1de9b6;
-  color: #FFFFFF;
-}
-
-.singleevent__eventnewstitle {
-  font-size: 60px;
-  line-height: 93px;
-  font-family: "ProximaNova Bold";
-}
-
-.singleevent__eventnewslead {
-  font-size: 32px;
-  line-heigth: 43px;
-  font-family: "ProximaNova Bold";
-}
-
-.singleevent__descriptionContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.singleevent__descriptionText {
-  padding-left: 0;
-  margin: 40px 0 50px 0;
-}
-
-.singleevent__description {
-  margin-top: 100px;
-}
-
-.singleevent__description .positionimage {
-  margin-left: -81px;
-  margin-top: 62px;
-}
-
-.singleevent__descriptionLocation {
-  margin-right: 40px;
-}
-
-.singleevent__descriptioncontainer {
-  margin-left: 300px;
-}
-
-.singleevent__descriptionLocCalContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 20px;
-}
-
-.nomargin {
-  margin: 0 !important;
-}
-
-.nopadding {
-  padding: 0 !important;
-}
-
-.singleevent__descriptionMid {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 140px;
-}
-
-.singleevent__descriptionBreadcrumb {
-  margin-top: 45px;
-}
-
-/*  carousel custom styles */
-
-.carouselExampleIndicators {
-  margin-bottom: 250px;
-}
-
-.carousel-indicators li {
-  background-color: #e5e5e5;
-  width: 24px;
-  height: 4px;
-  margin: 0 8px;
-}
-
-.carousel-indicators {
-  bottom: -52px;
-}
-
-.carousel-indicators .active {
-  background-color: #000000;
-}
-
-.singleevent__descriptionBottom > p {
-  margin-top: 40px;
-  margin-bottom: 75px;
-}
-
-.tabs__btn {
-  font-family: "ProximaNova Bold";
-  font-size: 20px;
-  padding: 15px 32px;
-  background-color: #FFFFFF;
-  border: 2px solid #000000;
-  color: #000000;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  height: 48px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.tabs__btn:hover,
-.tabs__btn--active {
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
-          clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
-  background-color: #000000;
-  color: #FFFFFF;
-  height: 53px;
-}
-
-.tabs__imagebox {
-  margin-top: 60px;
-  margin-bottom: 100px;
-  height: auto;
-  -webkit-transform: translateX(-110px);
-          transform: translateX(-110px);
-}
-
-.singleevent__video {
-  background-image: url("/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 392px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.singleevent_videoimage {
-  background-image: url("/icons/detail_video_play.svg");
-  background-repeat: no-repeat;
-  width: 100px;
-  height: 100px;
-}
-
-.singleevent__akkordeon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  border-bottom: 5px solid black;
-  margin-bottom: 65px;
-}
-
-.singleevent__akkordeon .title {
-  font-family: "Adelle Bold";
-  font-size: 32px;
-  color: #000000;
-  margin-bottom: 8px;
-}
-
-.singleevent__akkordeon .status {
-  font-family: "ProximaNova Bold";
-  font-size: 17px;
-  color: #000000;
-}
-
-.map {
-  width: 572px;
-  height: 400px;
-  background-color: pink;
-  margin-bottom: 100px;
-}
-
-.promote__banner {
-  height: 376px;
-  background-color: #00d79f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.promote__container {
-  text-align: center;
-}
-
-.promote__container .promote_img {
-  background-image: url("/icons/music_indie.svg");
-  background-repeat: no-repeat;
-  background-size: 300px 250px;
-  position: absolute;
-  opacity: 0.5;
-  width: 300px;
-  height: 250px;
-  -webkit-transform: translate(182px, -145px);
-          transform: translate(182px, -145px);
-}
-
-.promote__container .title {
-  font-family: "Adelle Bold";
-  font-size: 55px;
-  color: #FFFFFF;
-}
-
-.promote__container .promote__buttonBuy {
-  font-family: "ProximaNova Bold";
-  font-size: 16px;
-  padding: 11px 20px;
-  border: 2px solid #FFFFFF;
-  opacity: 1;
-  width: 200px;
-  margin: auto;
-  color: #FFFFFF;
-  margin-top: 30px;
-}
-
-.promote__bottom .content {
-  background-color: #1de9b6;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.promote__bottom .promote__button {
-  width: 313px;
-  height: 129px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.promote__bottom .promote__buttonright {
-  width: 313px;
-  height: 129px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.promote__bottom .arrowleft {
-  margin-right: 75px;
-}
-
-.promote__bottom .arrowright {
-  margin-left: 75px;
-}
-
-.promote__bottom .text {
-  font-family: "ProximaNova Bold";
-  font-size: 16px;
-  color: #FFFFFF;
-}
-
-.eventslist__buySpacing {
-  height: 120px;
-  margin-top: 90px;
-}
-
-.events__rowscontainerTitle {
-  margin-left: 112px;
-}
-
-.ticketsArea .tickets {
-  width: 315px;
-  height: 104px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 25px;
-  background-color: #FFFFFF;
-  border-right: 1px solid #f0f0f0;
-}
-
-.ticketsArea .ticketsSmaller {
-  width: 22%;
-  height: 104px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 5px;
-  background-color: #FFFFFF;
-}
-
-.ticketsArea .ticketsCounter {
-  width: 22%;
-  height: 104px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 5px;
-}
-
-.ticketsArea .ticketsCounter .box {
-  border: 3px solid #000000;
-  width: 55px;
-  height: 55px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.ticketsArea .ticketsCounter .fontticket {
-  font-family: "ProximaNova Regular";
-  font-size: 16px;
-  padding: 0 10px;
-  margin: 0;
-}
-
-.ticketsArea .ticketsCounter .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.ticketsArea .container {
-  color: #00d79f;
-  display: block;
-  padding-left: 15px;
-}
-
-.ticketsArea .text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 6px;
-}
-
-.ticketsArea .textRegGreen {
-  font-family: "ProximaNova Regular";
-  width: auto;
-  margin-right: 5px;
-}
-
-.ticketsArea .textBoldGreen {
-  font-family: "ProximaNova Bold";
-  width: auto;
-  margin-right: 5px;
-}
-
-.ticketsArea .textRegGrey {
-  font-family: "ProximaNova Regular";
-  width: auto;
-  color: #c2c2c2;
-}
-
-.ticketsArea .ticketsSymbol {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.ticketsArea .QuadratF {
-  width: 14px;
-  height: 14px;
-  background-color: #00d79f;
-}
-
-.ticketsArea .QuadratQ {
-  width: 14px;
-  height: 14px;
-  background-color: #c2c2c2;
-}
-
-.eventslist__buy {
-  width: 229px;
-  background-color: #FFFFFF;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.greenBorderRight5px {
-  border-right: 5px solid #00d79f;
-}
-
-.buy__heading {
-  width: 100%;
-  height: 110px;
-  margin-top: 36px;
-  background-color: #00d79f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.ticketBuy__container {
-  background-color: #f0f0f0;
-  width: 100%;
-  margin-top: 30px;
-}
-
-.ticketbuy__LocDate {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 80px;
-  display: flex;
-  padding: 50px 0 70px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.ticketbuy__festivalTicketContainer {
-  margin: 100px 100px 0 100px;
-  padding-bottom: 100px;
-}
-
-.ticketbuy__festivalTicketContainer .ticketContainer {
-  margin-top: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.ticketbuy__festivalTicketContainer .ticketGreen {
-  background-color: #00d79f;
-  padding: 35px 0;
-  width: 22%;
-  height: 225px;
-  text-align: center;
-}
-
-.ticketbuy__festivalTicketContainer .title {
-  font-family: "Adelle Bold";
-  font-size: 32px;
-  color: #FFFFFF;
-  line-height: 20px;
-  margin-top: 30px;
-}
-
-.ticketbuy__festivalTicketContainer .price {
-  font-family: "Adelle Regular";
-  font-size: 20px;
-  color: #FFFFFF;
-  line-height: 32px;
-}
-
-.ticketbuy__festivalTicketContainer .ticketCounter {
-  background-color: #FFFFFF;
-  padding: 10px;
-  width: 22%;
-  height: 88px;
-  text-align: center;
-}
-
-.ticketBuy__submitContainer {
-  margin: 0 100px 0 100px;
-  border-top: 2px solid #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 50px;
-}
-
-.login__box {
-  -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
-          clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
-  width: 310px;
-  height: 425px;
-  background-color: #000000;
-  margin-left: 973px;
-  position: fixed;
-  z-index: 2;
-  -webkit-transform: translateY(38px);
-          transform: translateY(38px);
-}
-
-.login__box p {
-  color: #FFFFFF;
-  font-family: "ProximaNova Regular";
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-
-.login__box .bold-underline {
-  font-weight: bold;
-  border-bottom: 0.5px solid #FFFFFF;
-}
-
-.login__box-top {
-  width: 100%;
-  padding: 40px 20px 20px 20px;
-}
-
-.login__box-bottom {
-  width: 100%;
-  border-top: 1px solid white;
-}
-
-.form-control {
-  font-family: "ProximaNova Regular";
-  display: block;
-  width: 100%;
-  padding: 10px 15px;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #e5e5e5;
-  border-radius: 0;
-  background-color: #f0f0f0;
-  background-clip: padding-box;
-  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-}
-
-.login__register-box {
-  height: 128px;
-  width: 310px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.login__register-box p {
-  color: #000000;
-  font-family: "ProximaNova Regular";
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-}
-
-#eventslist_liste {
-  display: none;
-}
-
-.bg__green {
-  background-color: #00d79f;
-  width: 100%;
-  height: 790px;
-  padding-top: 130px;
-}
-
-.bg__green .boldUnderline {
-  font-weight: bold;
-  border-bottom: 0.5px solid #000000;
-}
-
-.bg__green .loginSite__boxTop {
-  width: 100%;
-  padding: 40px 20px 55px 20px;
-  color: pink;
-}
-
-.bg__green .login__boxBottom {
-  width: 100%;
-  border-top: 1px solid #f0f0f0;
-}
-
-.loginSite__box {
-  width: 310px;
-  height: 425px;
-  background-color: #FFFFFF;
-  margin: 0 auto;
-}
-
-.logo__StreifenBottom {
-  width: 100%;
-  height: 110px;
-  background-color: #00d79f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.provider__select {
-  height: 46px !important;
-}
-
-.box__greenwhite {
-  font-weight: bold;
-  border: 2px solid #FFFFFF;
-  padding: 8px 25px;
-  background-color: #00d79f;
-  color: #FFFFFF;
-  margin: 5px;
-}
-
-.box__whiteblack {
-  font-weight: bold;
-  border: 2px solid #FFFFFF;
-  padding: 8px 25px;
-  background-color: #FFFFFF;
-  color: #000000;
-  margin: 5px;
+@media only screen and (min-width: 376px) {
+  h1 {
+    font-size: 56px;
+    line-height: 80px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  h2 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  h3 {
+    font-size: 20px !important;
+    line-height: 32px !important;
+    color: #000000 !important;
+    font-family: "Adelle Bold" !important;
+  }
+
+  .like-h3-Regular {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Adelle Regular";
+  }
+
+  .font-festival {
+    font-size: 144px;
+    line-height: 144px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  .font-lead {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Adelle Regular";
+  }
+
+  .font-copy {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "ProximaNova Regular";
+  }
+
+  .font-footer,
+  font-labels {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "ProximaNova Regular";
+  }
+
+  .font-button,
+  font-tab,
+  font-header {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "ProximaNova Bold";
+  }
+
+  .font-breadcrumb,
+  font-zusatzinfo {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "ProximaNova Regular";
+  }
+
+  p {
+    font-size: 30px;
+    line-height: 80px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  html {
+    font-family: "Adelle";
+  }
+
+  .nav {
+    background-color: white;
+    font-family: "Adelle";
+    font-size: 18px;
+    height: 64px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .sticky {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .nav__btn-ticket-kaufen,
+  .nav__btn-login {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #c2c2c2;
+    padding: 15px 25px 15px 25px;
+    border-left: 1px solid #e5e5e5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav__btn-ticket-kaufen:hover > p,
+  .nav__btn-login:hover > p {
+    color: #000000;
+  }
+
+  .nav__btn-ticket-kaufen #navigation-login-black,
+  .nav__btn-login #navigation-login-black {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-login-gray,
+  .nav__btn-login:hover #navigation-login-gray {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-login-black,
+  .nav__btn-login:hover #navigation-login-black {
+    display: inline-block;
+  }
+
+  .nav__btn-ticket-kaufen #navigation-ticket-black,
+  .nav__btn-login #navigation-ticket-black {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-ticket-gray,
+  .nav__btn-login:hover #navigation-ticket-gray {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-ticket-black,
+  .nav__btn-login:hover #navigation-ticket-black {
+    display: inline-block;
+  }
+
+  .nav__btn-ticket-kaufen img,
+  .nav__btn-login img {
+    margin-right: 11px;
+  }
+
+  .nav__btn-ticket-kaufen:hover,
+  .nav__btn-login:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+  }
+
+  .nav__login-ticket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 0;
+  }
+
+  .nav__login-ticket p {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #c2c2c2;
+    line-height: 17px;
+    margin: 0;
+  }
+
+  .nav__logo-festivallovers {
+    text-align: center;
+  }
+
+  .nav__logo-festivallovers #logo {
+    display: inline-block;
+  }
+
+  .nav__logo-festivallovers #logo-sm {
+    display: none;
+  }
+
+  .nav__btn-menu {
+    height: 63px;
+    padding: 0 0 0 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #000000;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container img {
+    margin-right: 5px;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container #navigation-menu-gray {
+    display: none;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container:hover {
+    color: #767676;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-gray {
+    display: inline-block;
+    height: 19px;
+    width: 24px;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
+    display: none;
+  }
+
+  .heading__titel {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .heading__lead {
+    margin: 0 auto 35PX auto;
+    width: 45%;
+    text-align: center;
+  }
+
+  .heading__lead h3 {
+    font-family: "Adelle Regular";
+  }
+
+  .filter {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  #filter-sm {
+    display: none;
+  }
+
+  .filter__eventslistfixmargin {
+    padding-bottom: 60px;
+    background-color: #f0f0f0;
+    padding: 50px 0;
+  }
+
+  .filter__svgmusic {
+    margin: 5px 15px 5px 5px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .filter__box {
+    background-color: lightgrey;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin: 0 13px;
+    color: white;
+  }
+
+  .filter__number {
+    vertical-align: super;
+    font-weight: bolder;
+    font-size: 70%;
+  }
+
+  .filter__genres {
+    font-weight: bold;
+    text-align: center;
+    padding-left: 7px;
+  }
+
+  .filter__mehrgenres {
+    font-family: "ProximaNova Bold";
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+    margin: 0 35px;
+  }
+
+  .action__box--black {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+
+  .action__box--white {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  .action__boxtransparent {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px;
+    background-color: transparent;
+    color: #000000;
+  }
+
+  .bigteaser {
+    margin-top: 35px;
+  }
+
+  .bigteaser__img {
+    width: 100%;
+  }
+
+  .magazin-title {
+    margin: 80px 0;
+  }
+
+  .magazin__container {
+    margin-right: 0;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .magazin__colums {
+    -webkit-column-count: 3;
+            column-count: 3;
+    -webkit-column-gap: 90px;
+            column-gap: 90px;
+    height: 690px;
+  }
+
+  .magazin__article {
+    width: 100%;
+    margin-bottom: 70px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: block;
+  }
+
+  #hor-line-1,
+  #hor-line-2,
+  #hor-line-3,
+  #hor-line-4,
+  #hor-line-5,
+  #hor-line-6,
+  #article-1-show,
+  #article-2-show,
+  #article-3-show,
+  #article-4-show,
+  #article-5-show,
+  #article-6-show {
+    display: none;
+  }
+
+  .footer {
+    height: 64px;
+    padding: 0px 120px;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    color: #767676;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  #footer-sm {
+    display: none;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer__boxleft {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer__itemleft {
+    padding-left: 40px;
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    color: #767676;
+  }
+
+  .footer__boxcenter {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer__icons {
+    margin: 0 7px;
+  }
+
+  .footer__boxright {
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer__itemright {
+    margin-right: 15px;
+    margin-left: 135px;
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    color: #767676;
+  }
+
+  .events__container {
+    background-color: #f0f0f0;
+  }
+
+  .events__barcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+  }
+
+  .events__bar {
+    font-family: "ProximaNova Regular";
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1194px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #767676;
+    padding: 50px 0;
+  }
+
+  .events__boxside {
+    margin-right: 10px;
+  }
+
+  .events__displayoption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .events__rowscontainer {
+    font-family: "ProximaNova Regular";
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .events__rowscontainerTitle {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 203px;
+    margin-bottom: 50px;
+  }
+
+  .events__rowscontainer lead {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .eventslist__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 104px;
+    width: 1194px;
+  }
+
+  .eventslist__img {
+    height: 104px;
+  }
+
+  .eventslist__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 104px;
+    width: 104px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .bgmint {
+    background-color: #00d79f;
+  }
+
+  .bgpink {
+    background-color: #d81b60;
+  }
+
+  .eventslist__name {
+    height: 104px;
+    width: 374px;
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20px;
+    font-family: "Adelle Bold";
+    font-size: 25px;
+  }
+
+  .eventslist__location {
+    height: 104px;
+    width: 184px;
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20px;
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: #767676;
+  }
+
+  .eventslist__date {
+    height: 104px;
+    width: 210px;
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20px;
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: #767676;
+  }
+
+  .eventslist__notice {
+    background-color: white;
+    width: 150px;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "ProximaNova Bold";
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .eventslist__notice indie {
+    border-right: 4px solid #00d79f;
+  }
+
+  .eventslist__notice hiphop {
+    border-right: 4px solid #d81b60;
+  }
+
+  .eventslist__noticeimg {
+    margin-right: 5px;
+  }
+
+  .events__rowscontainerKacheln {
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 1194px;
+    margin: 0 auto;
+  }
+
+  .eventslist__EventKacheln {
+    height: auto;
+  }
+
+  .eventslist__EventKacheln .img__container {
+    height: 210px;
+    overflow: hidden;
+  }
+
+  .eventslist__EventKacheln .img__container .logo__overImage {
+    -webkit-transform: translateY(-139px);
+            transform: translateY(-139px);
+    height: 45px;
+    width: 45px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+  }
+
+  .eventslist__EventKacheln img {
+    width: 340px;
+  }
+
+  #surlelac-scaled {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+  }
+
+  .eventslist__ContentKacheln {
+    background-color: #FFFFFF;
+    width: 340px;
+    padding: 20px;
+  }
+
+  .eventslist__ContentKacheln .locationDate {
+    font-family: "ProximaNova Regular";
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .eventslist__ContentKacheln .title {
+    font-family: "Adelle Bold";
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .eventslist__ContentKacheln .description {
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .eventslist__ContentKacheln .notice {
+    border-bottom: 2px solid #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .eventslist__ContentNotice {
+    padding: 0 0 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #00d79f;
+  }
+
+  .eventslist__ContentNotice .statusText {
+    font-family: "ProximaNova Bold";
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .eventslist__ContentNotice img {
+    height: 20px;
+    width: 20px;
+    margin-right: 11px;
+  }
+
+  .singleevent__areagreen {
+    width: 100%;
+    height: 420px;
+    background-color: #00d79f;
+    margin: 0 auto;
+  }
+
+  .singleevent__headingcontainer {
+    width: 100%;
+  }
+
+  .singleevent__imagefullscreen {
+    width: 100%;
+    height: 50%;
+  }
+
+  .singleevent__headingicon {
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .singleevent__headingtext {
+    position: absolute;
+    margin-top: 1190px;
+    margin-left: 130px;
+    font-family: "Adelle Bold";
+    color: #FFFFFF;
+  }
+
+  .singleevent__eventnewscontainer {
+    height: 264px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #1de9b6;
+    color: #FFFFFF;
+  }
+
+  .singleevent__eventnewstitle {
+    font-size: 60px;
+    line-height: 93px;
+    font-family: "ProximaNova Bold";
+  }
+
+  .singleevent__eventnewslead {
+    font-size: 32px;
+    line-heigth: 43px;
+    font-family: "ProximaNova Bold";
+  }
+
+  .singleevent__descriptionContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .singleevent__descriptionText {
+    padding-left: 0;
+    margin: 40px 0 50px 0;
+  }
+
+  .singleevent__description {
+    margin-top: 100px;
+  }
+
+  .singleevent__description .positionimage {
+    margin-left: -81px;
+    margin-top: 62px;
+  }
+
+  .singleevent__descriptionLocation {
+    margin-right: 40px;
+  }
+
+  .singleevent__descriptioncontainer {
+    margin-left: 300px;
+  }
+
+  .singleevent__descriptionLocCalContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .nomargin {
+    margin: 0 !important;
+  }
+
+  .nopadding {
+    padding: 0 !important;
+  }
+
+  .singleevent__descriptionMid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 140px;
+  }
+
+  .singleevent__descriptionBreadcrumb {
+    margin-top: 45px;
+  }
+
+  /*  carousel custom styles */
+
+  .carouselExampleIndicators {
+    margin-bottom: 250px;
+  }
+
+  .carousel-indicators li {
+    background-color: #e5e5e5;
+    width: 24px;
+    height: 4px;
+    margin: 0 8px;
+  }
+
+  .carousel-indicators {
+    bottom: -52px;
+  }
+
+  .carousel-indicators .active {
+    background-color: #000000;
+  }
+
+  .singleevent__descriptionBottom > p {
+    margin-top: 40px;
+    margin-bottom: 75px;
+  }
+
+  .tabs__btn {
+    font-family: "ProximaNova Bold";
+    font-size: 20px;
+    padding: 15px 32px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tabs__btn:hover,
+  .tabs__btn--active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 53px;
+  }
+
+  .tabs__imagebox {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    height: auto;
+    -webkit-transform: translateX(-110px);
+            transform: translateX(-110px);
+  }
+
+  .singleevent__video {
+    background-image: url("/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 392px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .singleevent_videoimage {
+    background-image: url("/icons/detail_video_play.svg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+  }
+
+  .singleevent__akkordeon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    border-bottom: 5px solid black;
+    margin-bottom: 65px;
+  }
+
+  .singleevent__akkordeon .title {
+    font-family: "Adelle Bold";
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+  .singleevent__akkordeon .status {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #000000;
+  }
+
+  .map {
+    width: 572px;
+    height: 400px;
+    background-color: pink;
+    margin-bottom: 100px;
+  }
+
+  .promote__banner {
+    height: 376px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .promote__container {
+    text-align: center;
+  }
+
+  .promote__container .promote_img {
+    background-image: url("/icons/music_indie.svg");
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+    position: absolute;
+    opacity: 0.5;
+    width: 300px;
+    height: 250px;
+    -webkit-transform: translate(182px, -145px);
+            transform: translate(182px, -145px);
+  }
+
+  .promote__container .title {
+    font-family: "Adelle Bold";
+    font-size: 55px;
+    color: #FFFFFF;
+  }
+
+  .promote__container .promote__buttonBuy {
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
+    padding: 11px 20px;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    width: 200px;
+    margin: auto;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+
+  .promote__bottom .content {
+    background-color: #1de9b6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .promote__bottom .promote__button {
+    width: 313px;
+    height: 129px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .promote__bottom .promote__buttonright {
+    width: 313px;
+    height: 129px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  .promote__bottom .arrowleft {
+    margin-right: 75px;
+  }
+
+  .promote__bottom .arrowright {
+    margin-left: 75px;
+  }
+
+  .promote__bottom .text {
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  .eventslist__buySpacing {
+    height: 120px;
+    margin-top: 90px;
+  }
+
+  .events__rowscontainerTitle {
+    margin-left: 112px;
+  }
+
+  .ticketsArea .tickets {
+    width: 315px;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #f0f0f0;
+  }
+
+  .ticketsArea .ticketsSmaller {
+    width: 22%;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 5px;
+    background-color: #FFFFFF;
+  }
+
+  .ticketsArea .ticketsCounter {
+    width: 22%;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5px;
+  }
+
+  .ticketsArea .ticketsCounter .box {
+    border: 3px solid #000000;
+    width: 55px;
+    height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .ticketsArea .ticketsCounter .fontticket {
+    font-family: "ProximaNova Regular";
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  .ticketsArea .ticketsCounter .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .ticketsArea .container {
+    color: #00d79f;
+    display: block;
+    padding-left: 15px;
+  }
+
+  .ticketsArea .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .ticketsArea .textRegGreen {
+    font-family: "ProximaNova Regular";
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .ticketsArea .textBoldGreen {
+    font-family: "ProximaNova Bold";
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .ticketsArea .textRegGrey {
+    font-family: "ProximaNova Regular";
+    width: auto;
+    color: #c2c2c2;
+  }
+
+  .ticketsArea .ticketsSymbol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ticketsArea .QuadratF {
+    width: 14px;
+    height: 14px;
+    background-color: #00d79f;
+  }
+
+  .ticketsArea .QuadratQ {
+    width: 14px;
+    height: 14px;
+    background-color: #c2c2c2;
+  }
+
+  .eventslist__buy {
+    width: 229px;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .greenBorderRight5px {
+    border-right: 5px solid #00d79f;
+  }
+
+  .buy__heading {
+    width: 100%;
+    height: 110px;
+    margin-top: 36px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .ticketBuy__container {
+    background-color: #f0f0f0;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .ticketbuy__LocDate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 80px;
+    display: flex;
+    padding: 50px 0 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .ticketbuy__festivalTicketContainer {
+    margin: 100px 100px 0 100px;
+    padding-bottom: 100px;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketContainer {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketGreen {
+    background-color: #00d79f;
+    padding: 35px 0;
+    width: 22%;
+    height: 225px;
+    text-align: center;
+  }
+
+  .ticketbuy__festivalTicketContainer .title {
+    font-family: "Adelle Bold";
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+
+  .ticketbuy__festivalTicketContainer .price {
+    font-family: "Adelle Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 32px;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketCounter {
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 22%;
+    height: 88px;
+    text-align: center;
+  }
+
+  .ticketBuy__submitContainer {
+    margin: 0 100px 0 100px;
+    border-top: 2px solid #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .login__box {
+    -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
+            clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
+    width: 310px;
+    height: 425px;
+    background-color: #000000;
+    margin-left: 973px;
+    position: fixed;
+    z-index: 2;
+    -webkit-transform: translateY(38px);
+            transform: translateY(38px);
+  }
+
+  .login__box p {
+    color: #FFFFFF;
+    font-family: "ProximaNova Regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .login__box .bold-underline {
+    font-weight: bold;
+    border-bottom: 0.5px solid #FFFFFF;
+  }
+
+  .login__box-top {
+    width: 100%;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .login__box-bottom {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+
+  .form-control {
+    font-family: "ProximaNova Regular";
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e5e5e5;
+    border-radius: 0;
+    background-color: #f0f0f0;
+    background-clip: padding-box;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+
+  .login__register-box {
+    height: 128px;
+    width: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .login__register-box p {
+    color: #000000;
+    font-family: "ProximaNova Regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  #eventslist_liste {
+    display: none;
+  }
+
+  .bg__green {
+    background-color: #00d79f;
+    width: 100%;
+    height: 790px;
+    padding-top: 130px;
+  }
+
+  .bg__green .boldUnderline {
+    font-weight: bold;
+    border-bottom: 0.5px solid #000000;
+  }
+
+  .bg__green .loginSite__boxTop {
+    width: 100%;
+    padding: 40px 20px 55px 20px;
+    color: pink;
+  }
+
+  .bg__green .login__boxBottom {
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .loginSite__box {
+    width: 310px;
+    height: 425px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+  }
+
+  .logo__StreifenBottom {
+    width: 100%;
+    height: 110px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .provider__select {
+    height: 46px !important;
+  }
+
+  .box__greenwhite {
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    padding: 8px 25px;
+    background-color: #00d79f;
+    color: #FFFFFF;
+    margin: 5px;
+  }
+
+  .box__whiteblack {
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    padding: 8px 25px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 5px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .nomargin {
+    margin: 0 !important;
+  }
+
+  .nopadding {
+    padding: 0 !important;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  h3 {
+    font-size: 20px !important;
+    line-height: 32px !important;
+    color: #000000 !important;
+    font-family: "Adelle Bold" !important;
+  }
+
+  .like-h3-Regular {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Adelle Regular";
+  }
+
+  .font-festival {
+    font-size: 48px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  .font-lead {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Adelle Regular";
+  }
+
+  .font-copy {
+    font-size: 20px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "ProximaNova Regular";
+  }
+
+  .font-footer,
+  font-labels {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "ProximaNova Regular";
+  }
+
+  .font-button,
+  font-tab,
+  font-header {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "ProximaNova Bold";
+  }
+
+  .font-breadcrumb,
+  font-zusatzinfo {
+    font-size: 17px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "ProximaNova Regular";
+  }
+
+  p {
+    font-size: 30px;
+    line-height: 80px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
+  .nav {
+    background-color: white;
+    font-family: "Adelle";
+    font-size: 18px;
+    height: 64px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 200px;
+  }
+
+  .sticky {
+    width: 375px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .nav__logo-festivallovers {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav__logo-festivallovers #logo {
+    display: none;
+  }
+
+  .nav__logo-festivallovers #logo-sm {
+    display: block;
+  }
+
+  #text-login {
+    display: none;
+  }
+
+  #text-ticketkaufen {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen,
+  .nav__btn-login {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #c2c2c2;
+    padding: 0;
+    width: 64px;
+    height: 64px;
+    border-left: 1px solid #e5e5e5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .nav__btn-ticket-kaufen:hover > p,
+  .nav__btn-login:hover > p {
+    color: #000000;
+  }
+
+  .nav__btn-ticket-kaufen #navigation-login-black,
+  .nav__btn-login #navigation-login-black {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-login-gray,
+  .nav__btn-login:hover #navigation-login-gray {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-login-black,
+  .nav__btn-login:hover #navigation-login-black {
+    display: inline-block;
+  }
+
+  .nav__btn-ticket-kaufen #navigation-ticket-black,
+  .nav__btn-login #navigation-ticket-black {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-ticket-gray,
+  .nav__btn-login:hover #navigation-ticket-gray {
+    display: none;
+  }
+
+  .nav__btn-ticket-kaufen:hover #navigation-ticket-black,
+  .nav__btn-login:hover #navigation-ticket-black {
+    display: inline-block;
+  }
+
+  .nav__btn-ticket-kaufen img,
+  .nav__btn-login img {
+    margin-right: 0;
+  }
+
+  .nav__btn-ticket-kaufen:hover,
+  .nav__btn-login:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+  }
+
+  .nav__login-ticket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0;
+    width: 128px;
+  }
+
+  .nav__login-ticket p {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #c2c2c2;
+    line-height: 17px;
+    margin: 0;
+  }
+
+  .nav__btn-menu {
+    height: 63px;
+    padding: 0 0 0 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #000000;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container img {
+    margin-right: 5px;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container #navigation-menu-gray {
+    display: none;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container:hover {
+    color: #767676;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-gray {
+    display: inline-block;
+    height: 19px;
+    width: 24px;
+  }
+
+  .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
+    display: none;
+  }
+
+  .heading__titel {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  #include-filter {
+    display: none;
+  }
+
+  .action__box--black {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  .action__box--white {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+  }
+
+  #filter-lg {
+    display: none;
+  }
+
+  .heading__lead {
+    margin: 0 auto 35px auto;
+    text-align: center;
+    padding: 0 10px;
+    font-family: "Adelle Regular" !important;
+    width: 90%;
+  }
+
+  .bigteaser {
+    margin-top: 35px;
+    margin-bottom: 60px;
+  }
+
+  .bigteaser__img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .magazin-title {
+    margin: 65px 0 25px 0;
+  }
+
+  .magazin__container {
+    margin-right: 0;
+    margin-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .magazin__colums {
+    min-height: 925px;
+  }
+
+  .magazin__article {
+    width: 100%;
+    margin-bottom: 40px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: block;
+  }
+
+  .underline {
+    border-bottom: 0.5px solid #000000;
+    display: inline-block;
+  }
+
+  #article-1,
+  #article-2,
+  #article-3,
+  #article-4,
+  #article-5,
+  #article-6 {
+    display: none;
+  }
+
+  .footer-sm {
+    height: 64px;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    color: #767676;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+
+  .footer__boxleft {
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer__itemleft {
+    padding-left: 40px;
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    color: #767676;
+  }
+
+  .footer__boxcenter {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer__boxright {
+    text-align: right;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .footer__itemright {
+    margin-right: 15px;
+    margin-left: 135px;
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    color: #767676;
+  }
+
+  #footer-lg {
+    display: none;
+  }
+
+  #footer-sm {
+    margin-bottom: 100px;
+    height: 112px;
+  }
+
+  .footer__container {
+    display: block;
+    width: 375px;
+    padding: 0;
+  }
+
+  .footer__box-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 16px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 15px;
+  }
+
+  .footer__box-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 180px;
+    margin: 0 auto;
+  }
 }
 
