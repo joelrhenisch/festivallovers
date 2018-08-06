@@ -1,4 +1,4 @@
-<div id="login">
+
     <div class="nav sticky">
         <div class="nav__btn-menu col-4">
             <div id="nav__btn-menu" class="nav__btn-menu-container">
@@ -7,7 +7,7 @@
                 MENU
             </div>
             <!-- Zurück-Button ist nur für Mobile, bei Filterauswahl -->
-            <div class="nav__btn-back" id="nav__btn-back">
+            <div class="nav__btn-back d-none" id="nav__btn-back">
                 <img class="mr-2" src={{asset('icons/navigation_zurueck.svg')}} height="20px" alt="back">
                 ZURÜCK
             </div>
@@ -22,7 +22,7 @@
         </div>
 
         <div class="nav__login-ticket col-4">
-            <div @click="show = !show" class="nav__btn-login">
+            <div id="ticket" class="nav__btn-login">
                 <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
                 <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
                 <p id="text-login">LOGIN</p>
@@ -37,7 +37,7 @@
 
 
     <!-- Login Box -->
-    <div v-if="show" class="login__box">
+    <div id="login" class="login__box">
         <div class="login__box-top">
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="E-Mail Adresse"
@@ -64,15 +64,12 @@
 
 <script>
     // Login-Panel
-    new Vue({
-        el: '#login',
-        data: {
-            show: false
-        }
-    })
 
-    // Zurück-Button links standardmässig ausblenden
-    $( document ).ready(function() {
-        $("#nav__btn-back").hide();
+
+
+    // testing loginapenl
+    $("#ticket").click(function () {
+        $("#login").toggle();
     });
+
 </script>

@@ -1,3 +1,4 @@
+
 <div id="filter" class="filter">
 
     <div id="jazz" class="filter__box">
@@ -29,9 +30,10 @@
         <span id="mehr-genres" class="filter__mehrgenres">Mehr Genres</span>
     </div>
 
-    <div id="filter__btn-result-container">
+    <div id="filter__btn-result-container" class="d-none">
         <div class="action__box--black mb-3 mt-4">ERGEBNIS ANZEIGEN</div>
         <div class="action__box--white mt-3">FILTER ZURÜCKSETZEN</div>
     </div>
 
 </div>
+

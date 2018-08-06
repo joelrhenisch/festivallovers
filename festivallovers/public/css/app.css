@@ -11891,6 +11891,7 @@ a.text-dark:focus {
     z-index: 2;
     -webkit-transform: translateY(-36px);
             transform: translateY(-36px);
+    display: none;
   }
 
   .login__box p {
@@ -12508,8 +12509,9 @@ a.text-dark:focus {
     margin-left: 0px;
     position: fixed;
     z-index: 2;
-    -webkit-transform: translate(30px, -67px);
-            transform: translate(30px, -67px);
+    -webkit-transform: translate(30px, -23px);
+            transform: translate(30px, -23px);
+    display: none;
   }
 
   .login__box p {
@@ -12625,6 +12627,7 @@ a.text-dark:focus {
   }
 
   #filter__btn-result-container {
+    display: block;
     width: 100%;
     height: 100px;
     border-top: 1px solid #e5e5e5;
