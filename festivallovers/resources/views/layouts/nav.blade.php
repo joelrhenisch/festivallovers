@@ -1,12 +1,20 @@
 <div id="login">
     <div class="nav sticky">
         <div class="nav__btn-menu col-4">
-            <div class="nav__btn-menu-container">
+            <div id="nav__btn-menu" class="nav__btn-menu-container">
                 <img id="navigation-menu-black" src={{asset('icons/navigation_menu.svg')}} alt="Menu">
                 <img id="navigation-menu-gray" src={{asset('icons/navigation_menu_gray.svg')}} alt="Menu">
                 MENU
             </div>
+            <!-- Zurück-Button ist nur für Mobile, bei Filterauswahl -->
+            <div class="nav__btn-back" id="nav__btn-back">
+                <img class="mr-2" src={{asset('icons/navigation_zurueck.svg')}} height="20px" alt="back">
+                ZURÜCK
+            </div>
+
+
         </div>
+
 
         <div class="nav__logo-festivallovers col-4">
             <img id="logo" src={{asset('images/FestivalLovers_Logo.jpg')}} height="33px" alt="FestivalLovers Logo">
@@ -39,7 +47,7 @@
                 <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort"
                        aria-describedby="basic-addon2">
             </div>
-            <div class="action__box-white w-50 mx-auto mt-4 mb-3">
+            <div class="action__box--white w-50 mx-auto mt-4 mb-3">
                 ANMELDEN
             </div>
             <p><span class="bold-underline">Passwort</span> <span>vergessen?</span></p>
@@ -55,10 +63,16 @@
 </div>
 
 <script>
+    // Login-Panel
     new Vue({
         el: '#login',
         data: {
             show: false
         }
     })
+
+    // Zurück-Button links standardmässig ausblenden
+    $( document ).ready(function() {
+        $("#nav__btn-back").hide();
+    });
 </script>

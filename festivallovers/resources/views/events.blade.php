@@ -1,4 +1,3 @@
-
 @extends('master')
 
 @section('content')
@@ -8,23 +7,18 @@
     </section>
 
     <section class="heading__lead">
-        <h3>
-            Unsere FestivalLovers verdienen nur das Beste. Wir bringen euch alle Festivals, Stars & Bands sowie Infos
-            für einen genialen und unvergessenlichen Musiksommer.
-        </h3>
+        <h3>Unsere FestivalLovers verdienen nur das Beste. Wir bringen euch alle Festivals, Stars & Bands sowie Infos für einen genialen und unvergessenlichen Musiksommer.</h3>
     </section>
-
 
     @include ('layouts.filter')
 
     <div class="filter">
-        <div class="action__boxwhite">FILTER ZURÜCKSETZEN</div>
+        <div class="action__box--white">FILTER ZURÜCKSETZEN</div>
     </div>
-
 
     <div class="events__container">
         {{--START CONTROLBAR--}}
-        <div class="events__barcontainer">
+        <div class="events__bar-container">
             <div class="events__bar">
 
                 <div class="events__date d-flex">
@@ -34,7 +28,7 @@
                     <img src={{asset('icons/steuerung_sortierung.svg')}} height="20px" alt="date">
                 </div>
 
-                <div class="events__choosecountry d-flex align-items-center">
+                <div class="events__choose-country d-flex align-items-center">
                     <div class="events__boxside">
                         Kanton auswählen
                     </div>
@@ -42,13 +36,13 @@
                 </div>
 
                 <div class="events__displayoption">
-                    <div id="btn__eventsListe" class="mr-3 d-flex align-items-center">
+                    <div id="btn__events-liste" class="mr-3 d-flex align-items-center">
                         <div class="events__boxside d-flex">
                             <img src={{asset('icons/steuerung_kacheln.svg')}} height="15px" alt="display option">
                         </div>
                         Kacheln
                     </div>
-                    <div id="btn__eventsKacheln" class="d-flex align-items-center">
+                    <div id="btn__events-kacheln" class="d-flex align-items-center">
                         <div  class="events__boxside d-flex">
                             <img src={{asset('icons/steuerung_liste.svg')}} height="15px" alt="events">
                         </div>
@@ -73,26 +67,20 @@
                 <span class="filter__number">9</span>
             </div>
         </div>
-
     </div>
-
 
 <script>
     // events: Zwischen Kacheln und Liste switchen
-    $("#btn__eventsListe").click(function () {
+    $("#btn__events-kacheln").click(function () {
         $("#eventslist_kacheln").hide();
         $("#eventslist_liste").show();
     });
 
-    $("#btn__eventsKacheln").click(function () {
+    $("#btn__events-liste").click(function () {
         $("#eventslist_liste").hide();
         $("#eventslist_kacheln").show();
     });
 </script>
-
-
-
-
 
 
 @endsection

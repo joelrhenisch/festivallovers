@@ -26,7 +26,12 @@
     </div>
 
     <div>
-        <span class="filter__mehrgenres">Mehr Genres</span>
+        <span id="mehr-genres" class="filter__mehrgenres">Mehr Genres</span>
+    </div>
+
+    <div id="filter__btn-result-container">
+        <div class="action__box--black mb-3 mt-4">ERGEBNIS ANZEIGEN</div>
+        <div class="action__box--white mt-3">FILTER ZURÜCKSETZEN</div>
     </div>
 
 </div>

@@ -1,13 +1,13 @@
 <!-- Footer Desktop -->
 <footer id="footer-lg" class="footer">
     <div class="footer__container">
-        <div class="footer__boxleft">
-            <div class="footer__itemleft pl-0">FESTIVALS</div>
-            <div class="footer__itemleft">MAGAZIN</div>
-            <div class="footer__itemleft">NEWS</div>
+        <div class="footer__box-left">
+            <div class="footer__item-left pl-0">FESTIVALS</div>
+            <div class="footer__item-left">MAGAZIN</div>
+            <div class="footer__item-left">NEWS</div>
         </div>
 
-        <div class="footer__boxcenter">
+        <div class="footer__box-center">
             <div class="footer__icons">
                 <img src={{asset('icons/socialmedia_facebook.svg')}} height="20px" alt="facebook">
             </div>
@@ -25,12 +25,10 @@
             </div>
         </div>
 
-        <div class="footer__boxright">
-            <div class="footer__itemright">
+            <div class="footer__item-right">
                 BACK TO TOP
             </div>
             <img src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
-        </div>
     </div>
 </footer>
 
@@ -38,10 +36,10 @@
 <footer id="footer-sm" class="footer-sm">
     <div class="footer__container">
         <div class="footer__box-top">
-            <div class="nopadding">FESTIVALS</div>
-            <div class="nopadding">MAGAZIN</div>
-            <div class="nopadding">NEWS</div>
-            <div class="nopadding">
+            <div class="p-0">FESTIVALS</div>
+            <div class="p-0">MAGAZIN</div>
+            <div class="p-0">NEWS</div>
+            <div class="p-0">
                 <img src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
             </div>
         </div>

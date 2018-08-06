@@ -58,6 +58,7 @@
                 <hr id="hor-line-3">
             </article>
 
+        <div id="article__container">
             <article class="magazin__article">
                 <h2> Tipps zum Bier kaltstellen </h2>
                 <p id="article-4-show" class="font-breadcrumb underline">LESEN</p>
@@ -72,18 +73,19 @@
                 <hr id="hor-line-5">
             </article>
 
-            <article class="magazin__article">
+            <article class="magazin__article nomargin">
                 <h2> Wo stelle ich mein Zelt auf? </h2>
                 <p id="article-6-show" class="font-breadcrumb underline">LESEN</p>
                 <p id="article-6" class="font-breadcrumb"> Der perfekte Platz auf dem Campingplatz muss zuerst gefunden werden. Ältere Festivalbesucher können bestätigen: Die Auswahl des Zeltplatzes ist ein Lernen durch Schmerzen. Wir möchten euch daher gut vorbereiten um euch ein paar Qualen ersparen zu können. </p>
                 <hr id="hor-line-6">
             </article>
+        </div>
 
         </div>
     </div>
 
-    <div class="d-flex justify-content-center mt-4 mb-5">
-        <div class="action__box--white">
+    <div class="d-flex justify-content-center mb-5">
+        <div id="article__btn-show-more" class="action__box--white">
             MEHR ANZEIGEN
         </div>
     </div>
@@ -91,33 +93,31 @@
 </div>
 
 <script>
+    // einzelne Artikel aufklappen
     $("#article-1-show").click(function () {
         $("#article-1").toggle();
     });
-
     $("#article-2-show").click(function () {
         $("#article-2").toggle();
     });
-
     $("#article-3-show").click(function () {
         $("#article-3").toggle();
     });
-
     $("#article-4-show").click(function () {
         $("#article-4").toggle();
     });
-
     $("#article-5-show").click(function () {
         $("#article-5").toggle();
     });
-
     $("#article-6-show").click(function () {
         $("#article-6").toggle();
     });
 
-
-
-
+    // weiter Artikel aufklappen via Button, unterhalb von letztem Artikel
+    $("#article__btn-show-more").click(function () {
+        $("#article__container").show();
+        $("#article__btn-show-more").hide();
+    });
 </script>
 
 @endsection
