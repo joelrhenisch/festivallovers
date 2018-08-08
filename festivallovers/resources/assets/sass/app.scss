@@ -2039,9 +2039,10 @@ $grid-gutter-width: 16px;
 
   .singleevent__areagreen {
     width: 100%;
-    height: 420px;
+    height: 270px;
     background-color: $mint;
     margin: 0 auto;
+    margin-top: 62px;
   }
 
   .singleevent__headingcontainer {
@@ -2055,38 +2056,53 @@ $grid-gutter-width: 16px;
 
   .singleevent__headingicon {
     position: absolute;
-    margin-top: 120px;
+    margin-top: 94px;
     width: 100%;
     text-align: center;
+    >img {
+      height: 45px;
+    }
+  }
+
+  #surlelac-festivalsite-scaled-sm {
+    transform: scale(1.0);
+    position: relative;
+    left: 0px;
+    bottom: -63px;
+    z-index: -1;
   }
 
   .singleevent__headingtext {
     position: absolute;
-    margin-top: 1190px;
-    margin-left: 130px;
+    margin-top: 380px;
+    margin-left: 22px;
+    line-height: 59px;
     font-family: "Adelle Bold";
     color: $white;
   }
 
   .singleevent__eventnewscontainer {
-    height: 264px;
-    display: flex;
+    height: auto;
     text-align: center;
     align-items: center;
     padding-top: 20px;
     justify-content: space-between;
     background-color: $mintlight;
     color: $white;
+    .container-pd-sm {
+      padding: 20px 0;
+      border-bottom: 1px solid $mint;
+    }
   }
 
   .singleevent__eventnewstitle {
-    font-size: 60px;
-    line-height: 93px;
+    font-size: 34px;
+    line-height: 50px;
     font-family: "ProximaNova Bold";
   }
 
   .singleevent__eventnewslead {
-    font-size: 32px;
+    font-size: 25px;
     line-heigth: 43px;
     font-family: "ProximaNova Bold";
   }
@@ -2110,15 +2126,18 @@ $grid-gutter-width: 16px;
 
   .singleevent__descriptionLocation {
     margin-right: 40px;
-  }
-
-  .singleevent__descriptioncontainer {
-    margin-left: 300px;
+    padding: 20px 0;
+    > img {
+      height: 36px;
+      margin-right: 7px;
+    }
   }
 
   .singleevent__descriptionLocCalContainer {
-    display: flex;
-    margin-top: 20px;
+    > img {
+      height: 36px;
+      margin-right: 7px;
+    }
   }
 
   .nomargin {
@@ -2130,12 +2149,34 @@ $grid-gutter-width: 16px;
   }
 
   .singleevent__descriptionMid {
-    display: flex;
     margin-bottom: 140px;
   }
 
   .singleevent__descriptionBreadcrumb {
     margin-top: 45px;
+  }
+
+  /* Reihenfolge im Mobile ändern */
+  #singleevent-sequence-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -webkit-box;
+
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+  }
+
+  #singleevent-sequence-block1 {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    box-ordinal-group: 2;
+  }
+
+  #singleevent-sequence-block2 {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    box-ordinal-group: 3;
   }
 
   /*  carousel custom styles */
@@ -2655,6 +2696,5 @@ $grid-gutter-width: 16px;
   }
 
 
-
-
 }
+

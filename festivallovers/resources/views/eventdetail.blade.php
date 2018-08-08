@@ -12,25 +12,25 @@
 </div>
 
 <div class="singleevent__headingcontainer">
-    <img class="singleevent__imagefullscreen" src={{asset('images/BigFestival.png')}} />
+    <img id="surlelac-festivalsite-scaled-sm" class="singleevent__imagefullscreen" src={{asset('images/BigFestival.png')}} />
     <div class="singleevent__areagreen">
     </div>
 </div>
 
 <div class="singleevent__eventnewscontainer">
-    <div class="col-3">
+    <div class="col-sm-12 col-lg-3 container-pd-sm">
         <section class="singleevent__eventnewslead">COUNTDOWN</section>
         <section class="singleevent__eventnewstitle">7 TAGE</section>
     </div>
-    <div class="col-3">
+    <div class="col-sm-12 col-lg-3 container-pd-sm">
         <section class="singleevent__eventnewslead">ÜBRIGE TICKETS</section>
         <section class="singleevent__eventnewstitle">43</section>
     </div>
-    <div class="col-3">
+    <div class="col-sm-12 col-lg-3 container-pd-sm">
         <section class="singleevent__eventnewslead">BESUCHER</section>
         <section class="singleevent__eventnewstitle">12'000</section>
     </div>
-    <div class="col-3">
+    <div class="col-sm-12 col-lg-3 container-pd-sm">
         <section class="singleevent__eventnewslead">WETTER</section>
         <section class="singleevent__eventnewstitle">28°</section>
     </div>
@@ -40,8 +40,8 @@
 
     <div class="singleevent__description">
 
-        <div class="col-7">
-            <h1>Spannende, innovative<br>und progressive Musik</h1>
+        <div class="col-lg-7 col-sm-12">
+            <h1>Spannende, innovative und progressive Musik</h1>
 
             <div class="singleevent__descriptionLocCalContainer">
                 <div class="singleevent__descriptionLocation">
@@ -56,7 +56,7 @@
             </div>
         </div>
 
-        <div class="singleevent__descriptionMid col-10">
+        <div class="singleevent__descriptionMid col-lg-10 col-sm-12">
             <div class="singleevent__descriptionText">
                 <p class="font-lead">Das eintätige Festival präsentiert Künstler, welche sich im Spannungsfeld zwischen
                     verschiedensten musikalischen Strömungen und Einflüssen bewegen. Wir bieten Musikern, die sich für
@@ -75,7 +75,10 @@
                     Festgelände gratis erhältlichen Oropax.</p>
 
                 {{--START CAROUSEL--}}
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="singleevent-sequence-container"> {{--Reihenfolge Container--}}
+            <div id="singleevent-sequence-block2"> {{--Reihenfolge Block 2--}}
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -97,10 +100,11 @@
                 {{--STOP CAROUSEL--}}
             </div>
 
-            <div class="col-1"></div>
-            // Nur fürs Layout
 
-            <div class="singleevent__descriptionBreadcrumb col-3">
+            <div id="singleevent-sequence-block1"> {{--Reihenfolge Block 1--}}
+            <div class="col-1"></div> <!-- Nur fürs Layout -->
+
+            <div class="singleevent__descriptionBreadcrumb col-lg-3">
                 <div class="eventslist__notice">
                     <div class="eventslist__noticeimg">
                         <img src={{asset('icons/detail_merken.svg')}}  height="20px" alt="notice">
@@ -122,6 +126,9 @@
                     <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%" alt="Unterstützt_von_Ceros">
                 </div>
             </div>
+            </div>
+        </div>
+        </div>
         </div>
     </div>
 
