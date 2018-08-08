@@ -10533,6 +10533,10 @@ a.text-dark:focus {
   width: 95% !important;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .vsc-initialized {
   background-color: white;
 }
@@ -10577,14 +10581,14 @@ a.text-dark:focus {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
-    font-family: "Adelle Regular";
+    font-family: "Adelle Regular" !important;
   }
 
   .font-copy {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
-    font-family: "ProximaNova Regular";
+    font-family: "ProximaNova Regular" !important;
   }
 
   .font-footer,
@@ -10804,6 +10808,10 @@ a.text-dark:focus {
   }
 
   #filter-sm {
+    display: none;
+  }
+
+  #events-sm {
     display: none;
   }
 
@@ -11085,7 +11093,7 @@ a.text-dark:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 104px;
+    height: 340px;
     width: 1194px;
   }
 
@@ -11116,7 +11124,7 @@ a.text-dark:focus {
   }
 
   .eventslist__name {
-    height: 104px;
+    height: 34px;
     width: 374px;
     border-right: 1px solid #f0f0f0;
     background-color: #FFFFFF;
@@ -11146,6 +11154,7 @@ a.text-dark:focus {
     font-family: "ProximaNova Regular";
     font-size: 15px;
     color: #767676;
+    margin: 0 10px;
   }
 
   .eventslist__date {
@@ -11290,6 +11299,10 @@ a.text-dark:focus {
     height: 20px;
     width: 20px;
     margin-right: 11px;
+  }
+
+  #events-sm {
+    display: none;
   }
 
   .singleevent__areagreen {
@@ -12073,14 +12086,14 @@ a.text-dark:focus {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
-    font-family: "Adelle Regular";
+    font-family: "Adelle Regular" !important;
   }
 
   .font-copy {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
-    font-family: "ProximaNova Regular";
+    font-family: "ProximaNova Regular" !important;
   }
 
   .font-footer,
@@ -12319,6 +12332,16 @@ a.text-dark:focus {
     padding: 8px 25px;
     margin: 30px 10px;
     background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+  }
+
+  .action__boxtransparent {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 10px;
+    background-color: transparent;
     color: #000000;
     text-align: center;
   }
@@ -12631,6 +12654,1039 @@ a.text-dark:focus {
     width: 100%;
     height: 100px;
     border-top: 1px solid #e5e5e5;
+  }
+
+  #events-lg {
+    display: none;
+  }
+
+  .events__container {
+    background-color: #f0f0f0;
+  }
+
+  .events__bar-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+  }
+
+  .events__bar {
+    font-family: "ProximaNova Regular";
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 375px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #767676;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .events__boxside {
+    margin-right: 10px;
+  }
+
+  .events__displayoption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .events__rowscontainer {
+    font-family: "ProximaNova Regular";
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .events__rowscontainerTitle {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 203px;
+    margin-bottom: 50px;
+  }
+
+  .events__rowscontainer lead {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  .eventslist__row {
+    height: 330px;
+    width: 375px;
+    padding: 0 10px;
+  }
+
+  .eventslist__img {
+    height: 210px;
+  }
+
+  .eventslist__icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transform: translateY(46px);
+            transform: translateY(46px);
+  }
+
+  .filter__eventslistfixmargin {
+    background-color: #f0f0f0;
+    padding: 0px 0 50px 0;
+  }
+
+  .bgmint {
+    background-color: #00d79f;
+  }
+
+  .bgpink {
+    background-color: #d81b60;
+  }
+
+  .eventslist__name {
+    height: 15px;
+    width: 374px;
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20px;
+    font-family: "Adelle Bold";
+    font-size: 25px;
+  }
+
+  .eventslist__location {
+    height: 68px;
+    width: 100%;
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20px;
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: #767676;
+  }
+
+  .eventslist__date {
+    height: 104px;
+    width: 210px;
+    border-right: 1px solid #f0f0f0;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 20px;
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: #767676;
+  }
+
+  .eventslist__notice {
+    background-color: white;
+    width: 150px;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "ProximaNova Bold";
+    font-size: 15px;
+    color: #000000;
+  }
+
+  .eventslist__notice indie {
+    border-right: 4px solid #00d79f;
+  }
+
+  .eventslist__notice hiphop {
+    border-right: 4px solid #d81b60;
+  }
+
+  .eventslist__noticeimg {
+    margin-right: 5px;
+  }
+
+  .events__rowscontainerKacheln {
+    background-color: #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .eventslist__EventKacheln {
+    height: auto;
+  }
+
+  .eventslist__EventKacheln .logo__overImage {
+    height: 45px;
+    width: 355px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto;
+    background-color: #00d79f;
+  }
+
+  .eventslist__EventKacheln img {
+    width: 340px;
+  }
+
+  #surlelac-scaled-sm {
+    -webkit-transform: scale(2.09);
+            transform: scale(2.09);
+    position: relative;
+    left: 92px;
+    bottom: -49px;
+  }
+
+  .eventslist__ContentKacheln {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-bottom: 5px solid #00d79f;
+    margin-bottom: 18px;
+  }
+
+  .eventslist__ContentKacheln .locationDate {
+    font-family: "ProximaNova Regular";
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .eventslist__ContentKacheln .title {
+    font-family: "Adelle Bold";
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .eventslist__ContentKacheln .description {
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .eventslist__ContentNotice {
+    padding: 0 0 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #FFFFFF;
+    border-bottom: 3px solid #00d79f;
+  }
+
+  .eventslist__ContentNotice .statusText {
+    font-family: "ProximaNova Bold";
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .eventslist__ContentNotice img {
+    height: 20px;
+    width: 20px;
+    margin-right: 11px;
+  }
+
+  #events-lg {
+    display: none;
+  }
+
+  .singleevent__areagreen {
+    width: 100%;
+    height: 420px;
+    background-color: #00d79f;
+    margin: 0 auto;
+  }
+
+  .singleevent__headingcontainer {
+    width: 100%;
+  }
+
+  .singleevent__imagefullscreen {
+    width: 100%;
+    height: 50%;
+  }
+
+  .singleevent__headingicon {
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .singleevent__headingtext {
+    position: absolute;
+    margin-top: 1190px;
+    margin-left: 130px;
+    font-family: "Adelle Bold";
+    color: #FFFFFF;
+  }
+
+  .singleevent__eventnewscontainer {
+    height: 264px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: #1de9b6;
+    color: #FFFFFF;
+  }
+
+  .singleevent__eventnewstitle {
+    font-size: 60px;
+    line-height: 93px;
+    font-family: "ProximaNova Bold";
+  }
+
+  .singleevent__eventnewslead {
+    font-size: 32px;
+    line-heigth: 43px;
+    font-family: "ProximaNova Bold";
+  }
+
+  .singleevent__descriptionContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .singleevent__descriptionText {
+    padding-left: 0;
+    margin: 40px 0 50px 0;
+  }
+
+  .singleevent__description {
+    margin-top: 100px;
+  }
+
+  .singleevent__description .positionimage {
+    margin-left: -81px;
+    margin-top: 62px;
+  }
+
+  .singleevent__descriptionLocation {
+    margin-right: 40px;
+  }
+
+  .singleevent__descriptioncontainer {
+    margin-left: 300px;
+  }
+
+  .singleevent__descriptionLocCalContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .nomargin {
+    margin: 0 !important;
+  }
+
+  .nopadding {
+    padding: 0 !important;
+  }
+
+  .singleevent__descriptionMid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 140px;
+  }
+
+  .singleevent__descriptionBreadcrumb {
+    margin-top: 45px;
+  }
+
+  /*  carousel custom styles */
+
+  .carouselExampleIndicators {
+    margin-bottom: 250px;
+  }
+
+  .carousel-indicators li {
+    background-color: #e5e5e5;
+    width: 24px;
+    height: 4px;
+    margin: 0 8px;
+  }
+
+  .carousel-indicators {
+    bottom: -52px;
+  }
+
+  .carousel-indicators .active {
+    background-color: #000000;
+  }
+
+  .singleevent__descriptionBottom > p {
+    margin-top: 40px;
+    margin-bottom: 75px;
+  }
+
+  .tabs__btn {
+    font-family: "ProximaNova Bold";
+    font-size: 20px;
+    padding: 15px 32px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 48px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tabs__btn:hover,
+  .tabs__btn--active {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 53px;
+  }
+
+  .tabs__imagebox {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    height: auto;
+    -webkit-transform: translateX(-110px);
+            transform: translateX(-110px);
+  }
+
+  .singleevent__video {
+    background-image: url("/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 392px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .singleevent_videoimage {
+    background-image: url("/icons/detail_video_play.svg");
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+  }
+
+  .singleevent__akkordeon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    border-bottom: 5px solid black;
+    margin-bottom: 65px;
+  }
+
+  .singleevent__akkordeon .title {
+    font-family: "Adelle Bold";
+    font-size: 32px;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+
+  .singleevent__akkordeon .status {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #000000;
+  }
+
+  .map {
+    width: 572px;
+    height: 400px;
+    background-color: pink;
+    margin-bottom: 100px;
+  }
+
+  .promote__banner {
+    height: 376px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .promote__container {
+    text-align: center;
+  }
+
+  .promote__container .promote_img {
+    background-image: url("/icons/music_indie.svg");
+    background-repeat: no-repeat;
+    background-size: 300px 250px;
+    position: absolute;
+    opacity: 0.5;
+    width: 300px;
+    height: 250px;
+    -webkit-transform: translate(182px, -145px);
+            transform: translate(182px, -145px);
+  }
+
+  .promote__container .title {
+    font-family: "Adelle Bold";
+    font-size: 55px;
+    color: #FFFFFF;
+  }
+
+  .promote__container .promote__buttonBuy {
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
+    padding: 11px 20px;
+    border: 2px solid #FFFFFF;
+    opacity: 1;
+    width: 200px;
+    margin: auto;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+
+  .promote__bottom .content {
+    background-color: #1de9b6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .promote__bottom .promote__button {
+    width: 313px;
+    height: 129px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .promote__bottom .promote__buttonright {
+    width: 313px;
+    height: 129px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+
+  .promote__bottom .arrowleft {
+    margin-right: 75px;
+  }
+
+  .promote__bottom .arrowright {
+    margin-left: 75px;
+  }
+
+  .promote__bottom .text {
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+
+  .eventslist__buySpacing {
+    height: 120px;
+    margin-top: 90px;
+  }
+
+  .events__rowscontainerTitle {
+    margin-left: 112px;
+  }
+
+  .ticketsArea .tickets {
+    width: 315px;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #f0f0f0;
+  }
+
+  .ticketsArea .ticketsSmaller {
+    width: 22%;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding: 5px;
+    background-color: #FFFFFF;
+  }
+
+  .ticketsArea .ticketsCounter {
+    width: 22%;
+    height: 104px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 5px;
+  }
+
+  .ticketsArea .ticketsCounter .box {
+    border: 3px solid #000000;
+    width: 55px;
+    height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .ticketsArea .ticketsCounter .fontticket {
+    font-family: "ProximaNova Regular";
+    font-size: 16px;
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  .ticketsArea .ticketsCounter .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .ticketsArea .container {
+    color: #00d79f;
+    display: block;
+    padding-left: 15px;
+  }
+
+  .ticketsArea .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 6px;
+  }
+
+  .ticketsArea .textRegGreen {
+    font-family: "ProximaNova Regular";
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .ticketsArea .textBoldGreen {
+    font-family: "ProximaNova Bold";
+    width: auto;
+    margin-right: 5px;
+  }
+
+  .ticketsArea .textRegGrey {
+    font-family: "ProximaNova Regular";
+    width: auto;
+    color: #c2c2c2;
+  }
+
+  .ticketsArea .ticketsSymbol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ticketsArea .QuadratF {
+    width: 14px;
+    height: 14px;
+    background-color: #00d79f;
+  }
+
+  .ticketsArea .QuadratQ {
+    width: 14px;
+    height: 14px;
+    background-color: #c2c2c2;
+  }
+
+  .eventslist__buy {
+    width: 229px;
+    background-color: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .greenBorderRight5px {
+    border-right: 5px solid #00d79f;
+  }
+
+  .buy__heading {
+    width: 100%;
+    height: 110px;
+    margin-top: 36px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .ticketBuy__container {
+    background-color: #f0f0f0;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .ticketbuy__LocDate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 80px;
+    display: flex;
+    padding: 50px 0 70px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .ticketbuy__festivalTicketContainer {
+    margin: 100px 100px 0 100px;
+    padding-bottom: 100px;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketContainer {
+    margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketGreen {
+    background-color: #00d79f;
+    padding: 35px 0;
+    width: 22%;
+    height: 225px;
+    text-align: center;
+  }
+
+  .ticketbuy__festivalTicketContainer .title {
+    font-family: "Adelle Bold";
+    font-size: 32px;
+    color: #FFFFFF;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+
+  .ticketbuy__festivalTicketContainer .price {
+    font-family: "Adelle Regular";
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 32px;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketCounter {
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 22%;
+    height: 88px;
+    text-align: center;
+  }
+
+  .ticketBuy__submitContainer {
+    margin: 0 100px 0 100px;
+    border-top: 2px solid #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .login__box {
+    -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
+            clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
+    width: 310px;
+    height: 425px;
+    background-color: #000000;
+    margin-left: 973px;
+    position: fixed;
+    z-index: 2;
+    -webkit-transform: translateY(-36px);
+            transform: translateY(-36px);
+    display: none;
+  }
+
+  .login__box p {
+    color: #FFFFFF;
+    font-family: "ProximaNova Regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  .login__box .bold-underline {
+    font-weight: bold;
+    border-bottom: 0.5px solid #FFFFFF;
+  }
+
+  .login__box-top {
+    width: 100%;
+    padding: 40px 20px 20px 20px;
+  }
+
+  .login__box-bottom {
+    width: 100%;
+    border-top: 1px solid white;
+  }
+
+  .form-control {
+    font-family: "ProximaNova Regular";
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e5e5e5;
+    border-radius: 0;
+    background-color: #f0f0f0;
+    background-clip: padding-box;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+
+  .login__register-box {
+    height: 128px;
+    width: 310px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .login__register-box p {
+    color: #FFFFFF;
+    font-family: "ProximaNova Regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+
+  #eventslist_liste {
+    display: none;
+  }
+
+  #eventslist_liste-sm {
+    display: none;
+  }
+
+  .bg__green {
+    background-color: #00d79f;
+    width: 100%;
+    height: 790px;
+    padding-top: 130px;
+  }
+
+  .bg__green .boldUnderline {
+    font-weight: bold;
+    border-bottom: 0.5px solid #000000;
+  }
+
+  .bg__green .loginSite__boxTop {
+    width: 100%;
+    padding: 40px 20px 55px 20px;
+    color: pink;
+  }
+
+  .bg__green .login__boxBottom {
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+  }
+
+  .loginSite__box {
+    width: 310px;
+    height: 425px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+  }
+
+  .logo__StreifenBottom {
+    width: 100%;
+    height: 110px;
+    background-color: #00d79f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .provider__select {
+    height: 46px !important;
+  }
+
+  .box__greenwhite {
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    padding: 8px 25px;
+    background-color: #00d79f;
+    color: #FFFFFF;
+    margin: 5px;
+  }
+
+  .box__whiteblack {
+    font-weight: bold;
+    border: 2px solid #FFFFFF;
+    padding: 8px 25px;
+    background-color: #FFFFFF;
+    color: #000000;
+    margin: 5px;
+  }
+
+  .eventslist__text-container {
+    height: 124px;
+    border-bottom: 4px solid #00d79f;
+    background-color: #FFFFFF;
   }
 }
 

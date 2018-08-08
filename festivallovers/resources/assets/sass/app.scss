@@ -19,6 +19,11 @@
 .w-90 {width: 90% !important;}
 .w-95 {width: 95% !important;}
 
+// Scrollbar in Chrome ausblenden
+::-webkit-scrollbar {
+  display: none;
+}
+
 // Bootstrap Spaltenabstand überschreiben
 $grid-gutter-width: 16px;
 
@@ -77,14 +82,14 @@ $grid-gutter-width: 16px;
     font-size: 20px;
     line-height: 32px;
     color: $black;
-    font-family: "Adelle Regular";
+    font-family: "Adelle Regular" !important;
   }
 
   .font-copy {
     font-size: 20px;
     line-height: 32px;
     color: $black;
-    font-family: "ProximaNova Regular";
+    font-family: "ProximaNova Regular" !important;
   }
 
   .font-footer, font-labels {
@@ -264,6 +269,10 @@ $grid-gutter-width: 16px;
   }
 
   #filter-sm {
+    display: none;
+  }
+
+  #events-sm {
     display: none;
   }
 
@@ -485,7 +494,7 @@ $grid-gutter-width: 16px;
 
   .eventslist__row {
     display: flex;
-    height: 104px;
+    height: 340px;
     width: 1194px;
   }
 
@@ -510,7 +519,7 @@ $grid-gutter-width: 16px;
   }
 
   .eventslist__name {
-    height: 104px;
+    height: 34px;
     width: 374px;
     border-right: 1px solid $greylighter;
     background-color: $white;
@@ -532,6 +541,7 @@ $grid-gutter-width: 16px;
     font-family: "ProximaNova Regular";
     font-size: 15px;
     color: $greydarker;
+    margin: 0 10px;
   }
 
   .eventslist__date {
@@ -644,6 +654,11 @@ $grid-gutter-width: 16px;
       width: 20px;
       margin-right: 11px;
     }
+  }
+
+// Events vom Mobile ausblenden
+  #events-sm {
+    display: none;
   }
 
   .singleevent__areagreen {
@@ -1310,14 +1325,14 @@ $grid-gutter-width: 16px;
     font-size: 20px;
     line-height: 32px;
     color: $black;
-    font-family: "Adelle Regular";
+    font-family: "Adelle Regular" !important;
   }
 
   .font-copy {
     font-size: 20px;
     line-height: 32px;
     color: $black;
-    font-family: "ProximaNova Regular";
+    font-family: "ProximaNova Regular" !important;
   }
 
   .font-footer, font-labels {
@@ -1520,6 +1535,16 @@ $grid-gutter-width: 16px;
     text-align: center;
   }
 
+  .action__boxtransparent {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 10px;
+    background-color: transparent;
+    color: $black;
+    text-align: center;
+  }
+
   #filter-lg {
     display: none;
   }
@@ -1573,7 +1598,7 @@ $grid-gutter-width: 16px;
     display: inline-block;
   }
 
-  #article-1, #article-2, #article-3, #article-4, #article-5, #article-6,
+  #article-1, #article-2, #article-3, #article-4, #article-5, #article-6
   {
     display: none;
   }
@@ -1786,6 +1811,850 @@ $grid-gutter-width: 16px;
     height: 100px;
     border-top: 1px solid $greylight;
   }
+
+  //events von Desktop ausblenden
+  #events-lg {
+    display: none;
+  }
+
+
+  .events__container {
+    background-color: $greylighter;
+  }
+
+  .events__bar-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .events__bar {
+    font-family: "ProximaNova Regular";
+    background-color: $greylighter;
+    display: flex;
+    width: 375px;
+    justify-content: space-between;
+    align-items: center;
+    color: $greydarker;
+    padding: 20px 10px 20px 10px;
+  }
+
+  .events__boxside {
+    margin-right: 10px;
+  }
+
+  .events__displayoption {
+    display: flex;
+    align-items: center;
+  }
+
+  .events__rowscontainer {
+    font-family: "ProximaNova Regular";
+    background-color: $greylighter;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    &Title {
+      justify-content: flex-start;
+      margin-left: 203px;
+      margin-bottom: 50px;
+    }
+    lead {
+      width: 45%;
+      margin: 0 auto;
+    }
+  }
+
+  .eventslist__row {
+    height: 330px;
+    width: 375px;
+    padding: 0 10px;
+  }
+
+  .eventslist__img {
+    height: 210px;
+  }
+
+  .eventslist__icon {
+    display: flex;
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(46px);
+  }
+
+  .filter__eventslistfixmargin {
+    background-color: $greylighter;
+    padding: 0px 0 50px 0;
+  }
+
+  .bgmint {
+    background-color: $mint;
+  }
+
+  .bgpink {
+    background-color: $pink;
+  }
+
+  .eventslist__name {
+    height: 15px;
+    width: 374px;
+    border-right: 1px solid $greylighter;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "Adelle Bold";
+    font-size: 25px;
+  }
+
+  .eventslist__location {
+    height: 68px;
+    width: 100%;
+    border-right: 1px solid $greylighter;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: $greydarker;
+  }
+
+  .eventslist__date {
+    height: 104px;
+    width: 210px;
+    border-right: 1px solid $greylighter;
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-family: "ProximaNova Regular";
+    font-size: 15px;
+    color: $greydarker;
+  }
+
+  .eventslist__notice {
+    background-color: white;
+    width: 150px;
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "ProximaNova Bold";
+    font-size: 15px;
+    color: $black;
+    indie {
+      border-right: 4px solid $mint;
+    }
+    hiphop {
+      border-right: 4px solid $pink;
+    }
+    &img {
+      margin-right: 5px;
+    }
+  }
+
+  // EVENTS KACHELN
+  .events__rowscontainerKacheln {
+    background-color: $greylighter;
+    display: flex;
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .eventslist__EventKacheln {
+    height: auto;
+      .logo__overImage {
+        height: 45px;
+        width: 355px;
+        background-color: $mint;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        background-color: $mint;
+    }
+    img {
+      width: 340px;
+    }
+  }
+
+  #surlelac-scaled-sm {
+    transform: scale(2.09);
+    position: relative;
+    left: 92px;
+    bottom: -49px;
+  }
+
+  .eventslist__ContentKacheln {
+    background-color: $white;
+    padding: 20px;
+    border-bottom: 5px solid $mint;
+    margin-bottom: 18px;
+    .locationDate {
+      font-family: "ProximaNova Regular";
+      font-size: 17px;
+      line-height: 22px;
+    }
+    .title {
+      font-family: "Adelle Bold";
+      font-size: 24px;
+      line-height: 24px;
+    }
+    .description {
+      font-family: "ProximaNova Regular";
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+  .eventslist__ContentNotice {
+    padding: 0 0 0 20px;
+    display: flex;
+    background-color: $white;
+    border-bottom: 3px solid $mint;
+
+    .statusText {
+      font-family: "ProximaNova Bold";
+      font-size: 15px;
+      line-height: 24px;
+    }
+    img {
+      height: 20px;
+      width: 20px;
+      margin-right: 11px;
+    }
+  }
+
+  #events-lg {
+    display: none;
+  }
+
+  .singleevent__areagreen {
+    width: 100%;
+    height: 420px;
+    background-color: $mint;
+    margin: 0 auto;
+  }
+
+  .singleevent__headingcontainer {
+    width: 100%;
+  }
+
+  .singleevent__imagefullscreen {
+    width: 100%;
+    height: 50%;
+  }
+
+  .singleevent__headingicon {
+    position: absolute;
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .singleevent__headingtext {
+    position: absolute;
+    margin-top: 1190px;
+    margin-left: 130px;
+    font-family: "Adelle Bold";
+    color: $white;
+  }
+
+  .singleevent__eventnewscontainer {
+    height: 264px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    background-color: $mintlight;
+    color: $white;
+  }
+
+  .singleevent__eventnewstitle {
+    font-size: 60px;
+    line-height: 93px;
+    font-family: "ProximaNova Bold";
+  }
+
+  .singleevent__eventnewslead {
+    font-size: 32px;
+    line-heigth: 43px;
+    font-family: "ProximaNova Bold";
+  }
+
+  .singleevent__descriptionContainer {
+    display: flex;
+  }
+
+  .singleevent__descriptionText {
+    padding-left: 0;
+    margin: 40px 0 50px 0;
+  }
+
+  .singleevent__description {
+    margin-top: 100px;
+    .positionimage {
+      margin-left: -81px;
+      margin-top: 62px;
+    }
+  }
+
+  .singleevent__descriptionLocation {
+    margin-right: 40px;
+  }
+
+  .singleevent__descriptioncontainer {
+    margin-left: 300px;
+  }
+
+  .singleevent__descriptionLocCalContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .nomargin {
+    margin: 0 !important;
+  }
+
+  .nopadding {
+    padding: 0 !important;
+  }
+
+  .singleevent__descriptionMid {
+    display: flex;
+    margin-bottom: 140px;
+  }
+
+  .singleevent__descriptionBreadcrumb {
+    margin-top: 45px;
+  }
+
+  /*  carousel custom styles */
+  .carouselExampleIndicators {
+    margin-bottom: 250px;
+  }
+
+  .carousel-indicators li {
+    background-color: $greylight;
+    width: 24px;
+    height: 4px;
+    margin: 0 8px;
+  }
+
+  .carousel-indicators {
+    bottom: -52px;
+  }
+
+  .carousel-indicators .active {
+    background-color: $black;
+  }
+
+  .singleevent__descriptionBottom {
+    > p {
+      margin-top: 40px;
+      margin-bottom: 75px;
+    }
+  }
+
+  .tabs__btn {
+    font-family: "ProximaNova Bold";
+    font-size: 20px;
+    padding: 15px 32px;
+    //clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
+    background-color: $white;
+    border: 2px solid $black;
+    color: $black;
+    width: fit-content;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .tabs__btn:hover, .tabs__btn--active {
+    //filter:
+    //        drop-shadow( 0px  2px 0 black)
+    //        drop-shadow( 0px  2px 0 black)
+    //        drop-shadow( 2px  0px 0 black)
+    //        drop-shadow( 2px  0px 0 black);
+    //-webkit-filter:
+    //        drop-shadow( 0px  2px 0 black)
+    //        drop-shadow( 0px  2px 0 black)
+    //        drop-shadow( 2px  0px 0 black)
+    //        drop-shadow( 2px  0px 0 black);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
+    background-color: $black;
+    color: $white;
+    height: 53px;
+  }
+
+  .tabs__imagebox {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    height: auto;
+    transform: translateX(-110px);
+  }
+
+  .singleevent__video {
+    background-image: url('/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 392px; //448px wäre besser für die desktopbrowserbreite von 1440px, aber 392px steht im styleguide
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .singleevent_videoimage {
+    background-image: url('/icons/detail_video_play.svg');
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+  }
+
+  .singleevent__akkordeon {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-bottom: 5px solid black;
+    margin-bottom: 65px;
+
+    .title {
+      font-family: "Adelle Bold";
+      font-size: 32px;
+      color: $black;
+      margin-bottom: 8px;
+    }
+
+    .status {
+      font-family: "ProximaNova Bold";
+      font-size: 17px;
+      color: $black;
+    }
+  }
+
+  .map {
+    width: 572px;
+    height: 400px;
+    background-color: pink;
+    margin-bottom: 100px;
+  }
+
+  // promotion Ticket -> Section Header
+  .promote__banner {
+    height: 376px;
+    background-color: $mint;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promote__container {
+    text-align: center;
+
+    .promote_img {
+      background-image: url('/icons/music_indie.svg');
+      background-repeat: no-repeat;
+      background-size: 300px 250px;
+      position: absolute;
+      opacity: 0.5;
+      width: 300px;
+      height: 250px;
+      transform: translate(182px, -145px);
+    }
+
+    .title {
+      font-family: "Adelle Bold";
+      font-size: 55px;
+      color: $white;
+    }
+
+    .promote__buttonBuy {
+      font-family: "ProximaNova Bold";
+      font-size: 16px;
+      padding: 11px 20px;
+      border: 2px solid $white;
+      opacity: 1;
+      width: 200px;
+      margin: auto;
+      color: $white;
+      margin-top: 30px;
+    }
+  }
+
+  // promotion Ticket -> Section Bottom
+  .promote__bottom {
+    .content {
+      background-color: $mintlight;
+      display: flex;
+      justify-content: center;
+    }
+    .promote__button {
+      width: 313px;
+      height: 129px;
+      display: flex;
+      align-items: center;
+      &right {
+        width: 313px;
+        height: 129px;
+        display: flex;
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    .arrowleft {
+      margin-right: 75px;
+    }
+    .arrowright {
+      margin-left: 75px;
+    }
+    .text {
+      font-family: "ProximaNova Bold";
+      font-size: 16px;
+      color: $white;
+    }
+  }
+
+  .eventslist__buySpacing {
+    height: 120px;
+    margin-top: 90px;
+  }
+
+  .events__rowscontainerTitle {
+    margin-left: 112px;
+  }
+
+  .ticketsArea {
+    .tickets {
+      width: 315px;
+      height: 104px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 25px;
+      background-color: $white;
+      border-right: 1px solid $greylighter;
+    }
+    .ticketsSmaller {
+      width: 22%;
+      height: 104px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 5px;
+      background-color: $white;
+    }
+    .ticketsCounter {
+      width: 22%;
+      height: 104px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      .container {
+
+      }
+      .box {
+        border: 3px solid $black;
+        width: 55px;
+        height: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .fontticket {
+        font-family: "ProximaNova Regular";
+        font-size: 16px;
+        padding: 0 10px;
+        margin: 0;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    }
+    .container {
+      color: $mint;
+      display: block;
+      padding-left: 15px;
+    }
+    .text {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .textRegGreen {
+      font-family: "ProximaNova Regular";
+      width: auto;
+      margin-right: 5px;
+    }
+    .textBoldGreen {
+      font-family: "ProximaNova Bold";
+      width: auto;
+      margin-right: 5px;
+    }
+    .textRegGrey {
+      font-family: "ProximaNova Regular";
+      width: auto;
+      color: $greydark;
+    }
+    .ticketsSymbol {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .QuadratF {
+      width: 14px;
+      height: 14px;
+      background-color: $mint;
+    }
+    .QuadratQ {
+      width: 14px;
+      height: 14px;
+      background-color: $greydark;
+    }
+  }
+
+  .eventslist__buy {
+    width: 229px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+  }
+
+  .greenBorderRight5px {
+    border-right: 5px solid $mint;
+  }
+
+  // Ticket Buy Site
+  .buy__heading {
+    width: 100%;
+    height: 110px;
+    margin-top: 36px;
+    background-color: $mint;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ticketBuy__container {
+    background-color: $greylighter;
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .ticketbuy__LocDate {
+    display: flex;
+    margin-top: 80px;
+    display: flex;
+    padding: 50px 0 70px;
+    justify-content: center;
+  }
+
+  .ticketbuy__festivalTicketContainer {
+    margin: 100px 100px 0 100px;
+    padding-bottom: 100px;
+
+    .ticketContainer {
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+
+    }
+    .ticketGreen {
+      background-color: $mint;
+      padding: 35px 0;
+      width: 22%;
+      height: 225px;
+      text-align: center;
+    }
+    .title {
+      font-family: "Adelle Bold";
+      font-size: 32px;
+      color: $white;
+      line-height: 20px;
+      margin-top: 30px;
+
+    }
+    .price {
+      font-family: "Adelle Regular";
+      font-size: 20px;
+      color: $white;
+      line-height: 32px;
+    }
+    .ticketCounter {
+      background-color: $white;
+      padding: 10px;
+      width: 22%;
+      height: 88px;
+      text-align: center;
+    }
+  }
+
+  .ticketBuy__submitContainer {
+    margin: 0 100px 0 100px;
+    border-top: 2px solid $black;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  // LOGIN-PANEL
+  .login__box {
+    clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
+    width: 310px;
+    height: 425px;
+    background-color: $black;
+    margin-left: 973px;
+    position: fixed;
+    z-index: 2;
+    transform: translateY(-36px);
+    display: none;
+
+    p {
+      color: $white;
+      font-family: "ProximaNova Regular";
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+    .bold-underline {
+      font-weight: bold;
+      border-bottom: 0.5px solid $white;
+    }
+
+    &-top {
+      width: 100%;
+      padding: 40px 20px 20px 20px;
+    }
+
+    &-bottom {
+      width: 100%;
+      border-top: 1px solid white;
+    }
+  }
+
+  .form-control {
+    font-family: "ProximaNova Regular";
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: $greylight;
+    border-radius: 0;
+    background-color: $greylighter;
+    background-clip: padding-box;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+
+  .login__register-box {
+    height: 128px;
+    width: 310px;
+    display: flex;
+    align-items: center;
+
+    p {
+      color: $white;
+      font-family: "ProximaNova Regular";
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+
+  #eventslist_liste {
+    display: none;
+  }
+  #eventslist_liste-sm {
+    display: none;
+  }
+
+  // Login-Panel vor dem Zahlen
+  .bg__green {
+    background-color: $mint;
+    width: 100%;
+    height: 790px;
+    padding-top: 130px;
+
+    .boldUnderline {
+      font-weight: bold;
+      border-bottom: 0.5px solid $black;
+    }
+
+    .loginSite__boxTop {
+      width: 100%;
+      padding: 40px 20px 55px 20px;
+      color: pink;
+    }
+
+    .login__boxBottom {
+      width: 100%;
+      border-top: 1px solid $greylighter;
+    }
+  }
+
+  .loginSite__box {
+    width: 310px;
+    height: 425px;
+    background-color: $white;
+    margin: 0 auto;
+  }
+
+  .logo__StreifenBottom {
+    width: 100%;
+    height: 110px;
+    background-color: $mint;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .provider__select {
+    height: 46px !important;
+  }
+
+  .box__greenwhite {
+    font-weight: bold;
+    border: 2px solid $white;
+    padding: 8px 25px;
+    background-color: $mint;
+    color: $white;
+    margin: 5px;
+  }
+
+  .box__whiteblack {
+    font-weight: bold;
+    border: 2px solid $white;
+    padding: 8px 25px;
+    background-color: $white;
+    color: $black;
+    margin: 5px;
+  }
+
+  .eventslist__text-container {
+    height: 124px;
+    border-bottom: 4px solid $mint;
+    background-color: $white;
+  }
+
+
 
 
 }
