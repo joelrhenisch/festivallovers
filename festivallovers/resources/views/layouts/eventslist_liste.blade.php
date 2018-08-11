@@ -17,7 +17,7 @@
             <div class="eventslist__date">
                 13. Aug – 15. Aug 2016
             </div>
-            <div class="eventslist__notice indie">
+            <div class="eventslist__notice indie border-right-4px-mint">
                 <div class="eventslist__noticeimg">
                     <img src={{asset('icons/detail_merken.svg')}}  height="20px" alt="notice">
                 </div>

@@ -11126,7 +11126,7 @@ a.text-dark:focus {
   }
 
   .eventslist__name {
-    height: 34px;
+    height: 104px;
     width: 374px;
     border-right: 1px solid #f0f0f0;
     background-color: #FFFFFF;
@@ -11156,7 +11156,7 @@ a.text-dark:focus {
     font-family: "ProximaNova Regular";
     font-size: 15px;
     color: #767676;
-    margin: 0 10px;
+    margin: 0;
   }
 
   .eventslist__date {
@@ -11204,6 +11204,10 @@ a.text-dark:focus {
 
   .eventslist__noticeimg {
     margin-right: 5px;
+  }
+
+  .border-right-4px-mint {
+    border-right: 4px solid #00d79f;
   }
 
   .events__rowscontainerKacheln {
@@ -11423,6 +11427,10 @@ a.text-dark:focus {
 
   /*  carousel custom styles */
 
+  #carousel-sm {
+    display: none;
+  }
+
   .carouselExampleIndicators {
     margin-bottom: 250px;
   }
@@ -11475,6 +11483,12 @@ a.text-dark:focus {
     background-color: #000000;
     color: #FFFFFF;
     height: 53px;
+  }
+
+  .tabs__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .tabs__imagebox {
@@ -12831,8 +12845,7 @@ a.text-dark:focus {
 
   .eventslist__notice {
     background-color: white;
-    width: 150px;
-    height: 104px;
+    height: 58px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13077,6 +13090,19 @@ a.text-dark:focus {
     margin-top: 45px;
   }
 
+  .singleevent__merken-unique-sm {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: bold;
+  }
+
+  .singleevent__descriptionAdd {
+    width: 60%;
+    height: 60%;
+    margin: 55px auto;
+  }
+
   /* Reihenfolge im Mobile ändern */
 
   #singleevent-sequence-container {
@@ -13098,6 +13124,10 @@ a.text-dark:focus {
   }
 
   /*  carousel custom styles */
+
+  #carousel-lg {
+    display: none;
+  }
 
   .carouselExampleIndicators {
     margin-bottom: 250px;

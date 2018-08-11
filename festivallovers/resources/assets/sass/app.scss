@@ -519,7 +519,7 @@ $grid-gutter-width: 16px;
   }
 
   .eventslist__name {
-    height: 34px;
+    height: 104px;
     width: 374px;
     border-right: 1px solid $greylighter;
     background-color: $white;
@@ -541,7 +541,7 @@ $grid-gutter-width: 16px;
     font-family: "ProximaNova Regular";
     font-size: 15px;
     color: $greydarker;
-    margin: 0 10px;
+    margin: 0;
   }
 
   .eventslist__date {
@@ -576,6 +576,10 @@ $grid-gutter-width: 16px;
     &img {
       margin-right: 5px;
     }
+  }
+
+  .border-right-4px-mint {
+    border-right: 4px solid $mint;
   }
 
   // EVENTS KACHELN
@@ -763,6 +767,10 @@ $grid-gutter-width: 16px;
   }
 
   /*  carousel custom styles */
+  #carousel-sm {
+    display: none;
+  }
+
   .carouselExampleIndicators {
     margin-bottom: 250px;
   }
@@ -821,7 +829,11 @@ $grid-gutter-width: 16px;
     color: $white;
     height: 53px;
   }
-
+  
+  .tabs__container{
+    display: flex;
+  }
+  
   .tabs__imagebox {
     margin-top: 60px;
     margin-bottom: 100px;
@@ -1942,8 +1954,7 @@ $grid-gutter-width: 16px;
 
   .eventslist__notice {
     background-color: white;
-    width: 150px;
-    height: 104px;
+    height: 58px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2156,6 +2167,17 @@ $grid-gutter-width: 16px;
     margin-top: 45px;
   }
 
+  .singleevent__merken-unique-sm {
+    justify-content: center;
+    font-weight: bold;
+  }
+
+  .singleevent__descriptionAdd {
+    width: 60%;
+    height: 60%;
+    margin: 55px auto;
+  }
+
   /* Reihenfolge im Mobile ändern */
   #singleevent-sequence-container {
     display: -webkit-box;
@@ -2180,6 +2202,11 @@ $grid-gutter-width: 16px;
   }
 
   /*  carousel custom styles */
+
+  #carousel-lg {
+    display: none;
+  }
+
   .carouselExampleIndicators {
     margin-bottom: 250px;
   }

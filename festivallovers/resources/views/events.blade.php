@@ -132,16 +132,20 @@
     // DESKTOP
 
     // events: Zwischen Kacheln und Liste switchen
-    $("#btn__events-kacheln").click(function () {
-        $("#eventslist_kacheln").hide();
-        $("#eventslist_liste").show();
-    });
+    $( document ).ready(function() {
+        console.log( "dom is ready " );
 
-    $("#btn__events-liste").click(function () {
-        $("#eventslist_liste").hide();
-        $("#eventslist_kacheln").show();
-    });
+        $("#btn__events-kacheln").click(function () {
+            $("#eventslist_kacheln").hide();
+            $("#eventslist_liste").show();
+        });
 
+        $("#btn__events-liste").click(function () {
+            $("#eventslist_liste").hide();
+            $("#eventslist_kacheln").show();
+        });
+
+    });
 
 
     // MOBILE
