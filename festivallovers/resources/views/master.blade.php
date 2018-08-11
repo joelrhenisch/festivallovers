@@ -14,12 +14,16 @@
 </head>
 
 <body>
+<!-- schwarzes Menu welches eingeblendet werden kann -->
+@include ('layouts.nav-negative-sm')
 
 @include ('layouts.nav')
 
 @yield('content')
 
 @include ('layouts.footer')
+
+
 
 </body>
 </html>

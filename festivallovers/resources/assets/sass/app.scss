@@ -164,6 +164,7 @@ $grid-gutter-width: 16px;
       }
     }
 
+
     // Wechsle Iconfarbe bei Hover
     // --> bei login-logo
     & #navigation-login-black {
@@ -1540,6 +1541,22 @@ $grid-gutter-width: 16px;
 
   }
 
+
+  // Schwarzes Menu zur Übersicht
+  #navigation__menu-neg {
+    position: absolute;
+    z-index: 9999;
+  }
+  .navigation__menu-container {
+    width: 375px;
+    height: 640px;
+    background-color: $black;
+    opacity: 0.7;
+    color: $white;
+  }
+
+  
+
   .heading__titel {
     margin-top: 130px;
     margin-bottom: 40px;
@@ -1796,6 +1813,8 @@ $grid-gutter-width: 16px;
   #eventslist_liste {
     display: none;
   }
+
+
 
   // Filter anzeigen
   //zusätzliches "back"-Element in der Nav
