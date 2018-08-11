@@ -10565,6 +10565,13 @@ a.text-dark:focus {
     font-family: "Adelle Bold" !important;
   }
 
+  .like-h2 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
   .like-h3-Regular {
     font-size: 20px;
     line-height: 32px;
@@ -11396,7 +11403,7 @@ a.text-dark:focus {
   }
 
   .singleevent__descriptioncontainer {
-    margin-left: 300px;
+    padding-left: 300px;
   }
 
   .singleevent__descriptionLocCalContainer {
@@ -11418,7 +11425,7 @@ a.text-dark:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: 140px;
+    margin-bottom: 90px;
   }
 
   .singleevent__descriptionBreadcrumb {
@@ -11455,6 +11462,10 @@ a.text-dark:focus {
     margin-bottom: 75px;
   }
 
+  #lineup-sm {
+    display: none;
+  }
+
   .tabs__btn {
     font-family: "ProximaNova Bold";
     font-size: 20px;
@@ -11483,17 +11494,19 @@ a.text-dark:focus {
     background-color: #000000;
     color: #FFFFFF;
     height: 53px;
+    padding: 0 32px 5px 32px;
   }
 
   .tabs__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    height: 75px;
   }
 
   .tabs__imagebox {
-    margin-top: 60px;
-    margin-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 100px;
     height: auto;
     -webkit-transform: translateX(-110px);
             transform: translateX(-110px);
@@ -11552,7 +11565,6 @@ a.text-dark:focus {
   .map {
     width: 572px;
     height: 400px;
-    background-color: pink;
     margin-bottom: 100px;
   }
 
@@ -11614,6 +11626,10 @@ a.text-dark:focus {
             justify-content: center;
   }
 
+  .promote__bottom .content img {
+    height: 129px;
+  }
+
   .promote__bottom .promote__button {
     width: 313px;
     height: 129px;
@@ -11623,6 +11639,10 @@ a.text-dark:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+
+  .promote__bottom .promote__button img {
+    height: 129px;
   }
 
   .promote__bottom .promote__buttonright {
@@ -12082,6 +12102,13 @@ a.text-dark:focus {
     line-height: 32px !important;
     color: #000000 !important;
     font-family: "Adelle Bold" !important;
+  }
+
+  .like-h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    font-family: "Adelle Bold";
   }
 
   .like-h3-Regular {
@@ -13059,6 +13086,10 @@ a.text-dark:focus {
     margin-top: 62px;
   }
 
+  .singleevent__lineup {
+    padding-top: 100px;
+  }
+
   .singleevent__descriptionLocation {
     margin-right: 40px;
     padding: 20px 0;
@@ -13155,14 +13186,11 @@ a.text-dark:focus {
 
   .tabs__btn {
     font-family: "ProximaNova Bold";
-    font-size: 20px;
-    padding: 15px 32px;
-    background-color: #FFFFFF;
-    border: 2px solid #000000;
-    color: #000000;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    font-size: 17px;
+    padding: 10px 10px;
+    background-color: black;
+    color: white;
+    width: auto;
     height: 48px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13170,32 +13198,37 @@ a.text-dark:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-right: 20px;
+    margin-right: 0px;
     margin-bottom: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  #lineup-lg {
+    display: none;
   }
 
   .tabs__btn:hover,
   .tabs__btn--active {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
-            clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
-    background-color: #000000;
-    color: #FFFFFF;
-    height: 53px;
+    background-color: #c2c2c2;
   }
 
   .tabs__imagebox {
     margin-top: 60px;
     margin-bottom: 100px;
     height: auto;
-    -webkit-transform: translateX(-110px);
-            transform: translateX(-110px);
+  }
+
+  .img-183prozent {
+    width: 183%;
   }
 
   .singleevent__video {
     background-image: url("/images/Fuji-Rock-Festival-Promo-video-HD_thumbnail.png");
     background-repeat: no-repeat;
     width: 100%;
-    height: 392px;
+    height: 180px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13205,13 +13238,14 @@ a.text-dark:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    background-size: cover;
   }
 
   .singleevent_videoimage {
     background-image: url("/icons/detail_video_play.svg");
     background-repeat: no-repeat;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
   }
 
   .singleevent__akkordeon {
@@ -13225,7 +13259,7 @@ a.text-dark:focus {
         -ms-flex-align: baseline;
             align-items: baseline;
     border-bottom: 5px solid black;
-    margin-bottom: 65px;
+    margin-bottom: 40px;
   }
 
   .singleevent__akkordeon .title {
@@ -13242,10 +13276,9 @@ a.text-dark:focus {
   }
 
   .map {
-    width: 572px;
-    height: 400px;
-    background-color: pink;
-    margin-bottom: 100px;
+    width: 100%;
+    height: 260px;
+    margin-bottom: 80px;
   }
 
   .promote__banner {
@@ -13264,6 +13297,7 @@ a.text-dark:focus {
 
   .promote__container {
     text-align: center;
+    width: 70%;
   }
 
   .promote__container .promote_img {
@@ -13274,14 +13308,15 @@ a.text-dark:focus {
     opacity: 0.5;
     width: 300px;
     height: 250px;
-    -webkit-transform: translate(182px, -145px);
-            transform: translate(182px, -145px);
+    -webkit-transform: translate(-18px, -145px);
+            transform: translate(-18px, -145px);
   }
 
   .promote__container .title {
     font-family: "Adelle Bold";
-    font-size: 55px;
+    font-size: 30px;
     color: #FFFFFF;
+    line-height: 50px;
   }
 
   .promote__container .promote__buttonBuy {
@@ -13290,7 +13325,7 @@ a.text-dark:focus {
     padding: 11px 20px;
     border: 2px solid #FFFFFF;
     opacity: 1;
-    width: 200px;
+    width: 263px;
     margin: auto;
     color: #FFFFFF;
     margin-top: 30px;
@@ -13298,16 +13333,33 @@ a.text-dark:focus {
 
   .promote__bottom .content {
     background-color: #1de9b6;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+
+  .promote__bottom .content .border-bottom-white {
+    border-bottom: 1px solid #FFFFFF;
+  }
+
+  .promote__bottom .promote__button-img {
+    height: 129px;
+    width: 129px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .promote__bottom .img-men img {
+    position: absolute;
+    height: 129px;
+    right: -83px;
+  }
+
+  .promote__bottom .img-women img {
+    position: absolute;
+    height: 129px;
+    right: -87px;
   }
 
   .promote__bottom .promote__button {
-    width: 313px;
+    width: 220px;
     height: 129px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13318,7 +13370,7 @@ a.text-dark:focus {
   }
 
   .promote__bottom .promote__buttonright {
-    width: 313px;
+    width: 220px;
     height: 129px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13333,11 +13385,15 @@ a.text-dark:focus {
   }
 
   .promote__bottom .arrowleft {
-    margin-right: 75px;
+    margin-right: 35px;
+    margin-left: 15px;
+    position: relative;
   }
 
   .promote__bottom .arrowright {
-    margin-left: 75px;
+    margin-left: 35px;
+    margin-right: 15px;
+    position: relative;
   }
 
   .promote__bottom .text {

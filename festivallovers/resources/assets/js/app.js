@@ -5,12 +5,12 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 require('./jquery-3.3.1.min');
-require('./js');
 require('./bootstrap');
+require('./js');
 
 
 window.Vue = require('vue');
-console.log("app loaded");
+console.log("compiled app.js loaded");
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

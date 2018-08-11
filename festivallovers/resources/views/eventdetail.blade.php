@@ -113,14 +113,20 @@
 
             </div>
         </div>
+    </div>
 
+
+
+
+    <!-- Line Up DESKTOP -->
+    <div id="lineup-lg" class="singleevent__descriptioncontainer pt-5 bg-greylighter">
         <div class="singleevent__description">
-            <div class="singleevent__descriptionBottom col-lg-7 col-sm-12">
+            <div class="singleevent__descriptionBottom col-7">
                 <h1>Line Up</h1>
                 <p class="font-lead">Wir freuen uns auch dieses Jahr wieder ein spannendes und einzigartiges Line Up
                     präsentieren zu dürfen. Auf der Hauptbühne wird definitiv viel los sein.</p>
 
-                <div class="tabs__container">
+                <div class="tabs__container d-flex">
                     <div id="tabs__btnfreitag" class="tabs__btn" onclick="picture()">
                         FREITAG
                     </div>
@@ -131,8 +137,35 @@
                 <div id="zielbox" class="tabs__imagebox"></div>
             </div>
         </div>
-
     </div>
+
+
+    <!-- Line Up MOBILE -->
+    <div id="lineup-sm" class="singleevent__descriptioncontainer bg-greylighter">
+        <div class="singleevent__lineup">
+            <div class="singleevent__descriptionBottom col-lg-7 col-sm-12">
+                <h1>Line Up</h1>
+                <p class="font-lead">Wir freuen uns auch dieses Jahr wieder ein spannendes und einzigartiges Line Up
+                    präsentieren zu dürfen. Auf der Hauptbühne wird definitiv viel los sein.</p>
+
+                <div class="tabs__container">
+                    <div id="tabs__btnfreitag" class="tabs__btn" onclick="picturesm()">
+                        FREITAG
+                        <img src={{asset('icons/steuerung_dropdown_white.svg')}}  height="15px" alt="arrow-down">
+                    </div>
+                    <div id="zielbox-sm" class="mb-4"></div>
+                    <div class="tabs__btn">SAMSTAG
+                        <img src={{asset('icons/steuerung_dropdown_white.svg')}}  height="15px" alt="arrow-down">
+                    </div>
+                    <div class="tabs__btn">SONNTAG
+                        <img src={{asset('icons/steuerung_dropdown_white.svg')}}  height="15px" alt="arrow-down">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
 
 
     <div class="singleevent__video">
@@ -143,13 +176,14 @@
     <div class="singleevent__descriptioncontainer">
 
         <div class="singleevent__description">
-            <div class="singleevent__descriptionBottom col-7">
+            <div class="singleevent__descriptionBottom col-lg-7 col-sm-12">
                 <h1>Wissenswertes</h1>
                 <p class="font-lead">Damit euer Festivalerlebnis glatt verläuft und ihr es in vollen Zügen geniessen könnt,
                     gibt es hier nochmals eine Übersicht mit allem was ihr wissen und beachten müsst.</p>
-                <div class="singleevent__akkordeon">
-                    <span class="title">Anreise & Rückreise</span> <span class="status">Mehr</span>
+                <div id="anreise" class="singleevent__akkordeon">
+                    <span class="like-h2">Anreise & Rückreise</span> <span class="status">Mehr</span>
                 </div>
+
                 <div id="container__anreiserueckreise">
                     <div id="content__anreiserueckreise">
                         <p class="font-breadcrumb">Die Anreise ans Sur le Lac gestaltet sich wie folgt und ganz unkompliziert.
@@ -161,190 +195,25 @@
                             unweit des Festgeländes zur Verfügung.</p>
 
                         <div class="map" id="map"></div>
-
-                        <script>
-                            function initMap() {
-                                // styling Google Maps
-                                let map = new google.maps.Map(document.getElementById('map'), {
-                                    zoom: 16,
-                                    center: {
-                                        lat: 47.4431335,
-                                        lng: 9.4695168
-                                    },
-                                    styles: [
-                                        {
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#f5f5f5"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "elementType": "labels.icon",
-                                            "stylers": [
-                                                {
-                                                    "visibility": "off"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#616161"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "elementType": "labels.text.stroke",
-                                            "stylers": [
-                                                {
-                                                    "color": "#f5f5f5"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "administrative.land_parcel",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#bdbdbd"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#eeeeee"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#757575"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.park",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#e5e5e5"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "poi.park",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#9e9e9e"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "road",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#ffffff"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "road.arterial",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#757575"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "road.highway",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#dadada"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "road.highway",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#616161"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "road.local",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#9e9e9e"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transit.line",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#e5e5e5"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "transit.station",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#eeeeee"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "water",
-                                            "elementType": "geometry",
-                                            "stylers": [
-                                                {
-                                                    "color": "#c9c9c9"
-                                                }
-                                            ]
-                                        },
-                                        {
-                                            "featureType": "water",
-                                            "elementType": "labels.text.fill",
-                                            "stylers": [
-                                                {
-                                                    "color": "#9e9e9e"
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                });
-                                // Füge Marker der Map hinzu
-                                let marker = new google.maps.Marker({
-                                    position:{lat:47.444242,lng:9.469508},
-                                    map:map
-                                });
-                            }
-                        </script>
+                        <!-- Der Map-Inhalt wird via js, der unten aufgeführt ist, erstellt -->
 
                         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr12pJzLGPiz37H6bBrECHnQi65ez3Dwg&callback=initMap"
                                 async defer></script>
                     </div>
                 </div>
+
+
             </div>
+
+            <script>
+                // Line Up von Freitag ein- und ausblenden
+                $(document).ready(function(){
+                    $("#anreise").click(function(){
+                        $("#container__anreiserueckreise").toggle();
+
+                    });
+                });
+            </script>
 
 
         </div>
@@ -362,19 +231,24 @@
     </div>
     <div class="promote__bottom">
         <div class="content">
-            <div class="promote__button">
-                <span class="arrowleft"><img src="{{asset('icons/navigation_zurueck_white.svg')}}" width="25px"></span>
-                <span class="text">Musikfestwochen</span>
+            <div class="d-flex justify-content-between border-bottom-white">
+                <div class="promote__button">
+                    <span class="arrowleft"><img src="{{asset('icons/navigation_zurueck_white.svg')}}" width="25px"></span>
+                    <span class="text">Musikfestwochen</span>
+                </div>
+                <div class="promote__button-img img-women">
+                    <img src="{{asset('images/NexFestival.png')}}" >
+                </div>
             </div>
-            <div class="promote__button">
-                <img src="{{asset('images/NexFestival.png')}}" width="313px" height="129px">
-            </div>
-            <div class="promote__button">
-                <img src="{{asset('images/kruselkopf.png')}}" width="313px" height="129px">
-            </div>
-            <div class="promote__buttonright">
-                <span class="text">Openair Zürich</span>
-                <span class="arrowright"><img src="{{asset('icons/navigation_vorwaerts_white.svg')}}" width="25px"></span>
+
+            <div class="d-flex justify-content-between">
+                <div class="promote__button-img img-men">
+                    <img src="{{asset('images/kruselkopf.png')}}" >
+                </div>
+                <div class="promote__buttonright">
+                    <span class="text">Openair Zürich</span>
+                    <span class="arrowright"><img src="{{asset('icons/navigation_vorwaerts_white.svg')}}" width="25px"></span>
+                </div>
             </div>
         </div>
     </div>
@@ -384,12 +258,14 @@
 
     <script type="text/javascript">
         // Line Up von Freitag ein- und ausblenden
+            // DESKTOP
         function picture() {
             if ($('#zielbox').is(':empty')) {
                 let pic = document.createElement('img');
                 pic.setAttribute("src", "images/lineup_detailsite.png");
+                pic.classList.add('img-183prozent');
                 document.getElementById("zielbox").appendChild(pic);
-                document.getElementById('tabs__btnfreitag').classList.add('tabs__btn--active');
+                document.getElementById('tabs__btnfreitag').classList.add('tabs__btn--active', '.tabs__imagebox');
             }
             else {
                 let list = document.getElementById("zielbox");
@@ -398,19 +274,202 @@
                 document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
             }
         }
-        // Line Up von Freitag ein- und ausblenden
-        function anreiseRueckreise() {
-            if ($('#container__anreiserueckreise').is(':empty')) {
-                let container = document.getElementById(container__anreiserueckreise);
-                let content = document.getElementById(content__anreiserueckreise);
-                container__anreiserueckreise.appendChild(content);
+
+            // MOBILE
+        function picturesm() {
+            if ($('#zielbox-sm').is(':empty')) {
+                let pic = document.createElement('img');
+                pic.setAttribute("src", "images/lineup_detailsite.png");
+                pic.classList.add('img-183prozent');
+                document.getElementById("zielbox-sm").appendChild(pic);
+                document.getElementById('tabs__btnfreitag').classList.add('tabs__btn--active', '.tabs__imagebox');
             }
             else {
-                let container = document.getElementById(container__anreiserueckreise);
-                let content = document.getElementById(content__anreiserueckreise);
-                container.removeChild(list.childNodes[0]);
+                let list = document.getElementById("zielbox-sm");
+                list.removeChild(list.childNodes[0]);
+                document.getElementById('tabs__btnfreitag').classList.add('tabs__btn');
+                document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
             }
         }
+
+        // Google Maps API wird ausgeführt und eine Map erstellt
+        function initMap() {
+            // styling Google Maps
+            let map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: {
+                    lat: 47.4431335,
+                    lng: 9.4695168
+                },
+                styles: [
+                    {
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.icon",
+                        "stylers": [
+                            {
+                                "visibility": "off"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#616161"
+                            }
+                        ]
+                    },
+                    {
+                        "elementType": "labels.text.stroke",
+                        "stylers": [
+                            {
+                                "color": "#f5f5f5"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "administrative.land_parcel",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#bdbdbd"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#eeeeee"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#e5e5e5"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "poi.park",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#ffffff"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.arterial",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#757575"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#dadada"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.highway",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#616161"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "road.local",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit.line",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#e5e5e5"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "transit.station",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#eeeeee"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "geometry",
+                        "stylers": [
+                            {
+                                "color": "#c9c9c9"
+                            }
+                        ]
+                    },
+                    {
+                        "featureType": "water",
+                        "elementType": "labels.text.fill",
+                        "stylers": [
+                            {
+                                "color": "#9e9e9e"
+                            }
+                        ]
+                    }
+                ]
+            });
+            // Füge Marker der Map hinzu
+            let marker = new google.maps.Marker({
+                position:{lat:47.444242,lng:9.469508},
+                map:map
+            });
+        }
+
+
     </script>
 
 @endsection
