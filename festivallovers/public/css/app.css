@@ -11935,11 +11935,10 @@ a.text-dark:focus {
     width: 310px;
     height: 425px;
     background-color: #000000;
-    margin-left: 973px;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    -webkit-transform: translateY(-36px);
-            transform: translateY(-36px);
+    -webkit-transform: translate(-107px, 257px);
+            transform: translate(-107px, 257px);
     display: none;
   }
 
@@ -12240,6 +12239,7 @@ a.text-dark:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    position: relative;
   }
 
   .nav__btn-ticket-kaufen:hover > p,
@@ -12567,16 +12567,14 @@ a.text-dark:focus {
   }
 
   .login__box {
-    -webkit-clip-path: polygon(0 2%, 78% 2%, 81% 0, 84% 2%, 100% 2%, 100% 100%, 0 100%);
-            clip-path: polygon(0 2%, 78% 2%, 81% 0, 84% 2%, 100% 2%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 2%, 74% 2%, 77% 0, 80% 2%, 100% 2%, 100% 100%, 0 100%);
+            clip-path: polygon(0 2%, 74% 2%, 77% 0, 80% 2%, 100% 2%, 100% 100%, 0 100%);
     width: 310px;
     height: 425px;
     background-color: #000000;
-    margin-left: 0px;
-    position: fixed;
-    z-index: 2;
-    -webkit-transform: translate(30px, -23px);
-            transform: translate(30px, -23px);
+    position: absolute;
+    -webkit-transform: translate(-84px, 254px);
+            transform: translate(-84px, 254px);
     display: none;
   }
 
@@ -13655,43 +13653,6 @@ a.text-dark:focus {
         -ms-flex-pack: center;
             justify-content: center;
     padding-bottom: 50px;
-  }
-
-  .login__box {
-    -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
-            clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
-    width: 310px;
-    height: 425px;
-    background-color: #000000;
-    margin-left: 973px;
-    position: fixed;
-    z-index: 2;
-    -webkit-transform: translateY(-36px);
-            transform: translateY(-36px);
-    display: none;
-  }
-
-  .login__box p {
-    color: #FFFFFF;
-    font-family: "ProximaNova Regular";
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-  }
-
-  .login__box .bold-underline {
-    font-weight: bold;
-    border-bottom: 0.5px solid #FFFFFF;
-  }
-
-  .login__box-top {
-    width: 100%;
-    padding: 40px 20px 20px 20px;
-  }
-
-  .login__box-bottom {
-    width: 100%;
-    border-top: 1px solid white;
   }
 
   .form-control {

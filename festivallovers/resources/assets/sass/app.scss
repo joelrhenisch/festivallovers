@@ -1173,10 +1173,9 @@ $grid-gutter-width: 16px;
     width: 310px;
     height: 425px;
     background-color: $black;
-    margin-left: 973px;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    transform: translateY(-36px);
+    transform: translate(-107px, 257px);
     display: none;
 
     p {
@@ -1445,7 +1444,6 @@ $grid-gutter-width: 16px;
     font-family: "ProximaNova Bold";
     font-size: 17px;
     color: $greydark;
-    //padding: 15px 4.5px 15px 14.5px;
     padding: 0;
     width: 64px;
     height: 64px;
@@ -1453,6 +1451,7 @@ $grid-gutter-width: 16px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
     &:hover {
       > p {
@@ -1731,14 +1730,12 @@ $grid-gutter-width: 16px;
 
   // LOGIN-PANEL
   .login__box {
-    clip-path: polygon(0 2%, 78% 2%, 81% 0, 84% 2%, 100% 2%, 100% 100%, 0 100%);
+    clip-path: polygon(0 2%, 74% 2%, 77% 0, 80% 2%, 100% 2%, 100% 100%, 0 100%);
     width: 310px;
     height: 425px;
     background-color: $black;
-    margin-left: 0px;
-    position: fixed;
-    z-index: 2;
-    transform: translate(30px,-23px);
+    position: absolute;
+    transform: translate(-84px, 254px);
     display: none;
 
     p {
@@ -2630,41 +2627,6 @@ $grid-gutter-width: 16px;
     display: flex;
     justify-content: center;
     padding-bottom: 50px;
-  }
-
-  // LOGIN-PANEL
-  .login__box {
-    clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
-    width: 310px;
-    height: 425px;
-    background-color: $black;
-    margin-left: 973px;
-    position: fixed;
-    z-index: 2;
-    transform: translateY(-36px);
-    display: none;
-
-    p {
-      color: $white;
-      font-family: "ProximaNova Regular";
-      font-size: 16px;
-      line-height: 24px;
-      text-align: center;
-    }
-    .bold-underline {
-      font-weight: bold;
-      border-bottom: 0.5px solid $white;
-    }
-
-    &-top {
-      width: 100%;
-      padding: 40px 20px 20px 20px;
-    }
-
-    &-bottom {
-      width: 100%;
-      border-top: 1px solid white;
-    }
   }
 
   .form-control {

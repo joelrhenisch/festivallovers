@@ -26,6 +26,36 @@
                 <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
                 <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
                 <p id="text-login">LOGIN</p>
+
+
+
+                <!-- Login Box -->
+                <div id="login" class="login__box">
+                    <div class="login__box-top">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="E-Mail Adresse"
+                                   aria-describedby="basic-addon2">
+                        </div>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort"
+                                   aria-describedby="basic-addon2">
+                        </div>
+                        <div class="action__box--white w-50 mx-auto mt-4 mb-3">
+                            ANMELDEN
+                        </div>
+                        <p><span class="bold-underline">Passwort</span> <span>vergessen?</span></p>
+                    </div>
+                    <div class="login__box-bottom">
+                        <div class="login__register-box">
+                            <p class="mx-auto mb-0">Neu bei FestivalLovers?<br>Jetzt <span
+                                        class="bold-underline">registrieren</span>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
             <div class="nav__btn-ticket-kaufen">
                 <img id="navigation-ticket-gray" src={{asset('icons/navigation_ticketkauf_gray.svg')}} height="25px" alt="Ticket">
@@ -36,30 +66,8 @@
     </div>
 
 
-    <!-- Login Box -->
-    <div id="login" class="login__box">
-        <div class="login__box-top">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="E-Mail Adresse"
-                       aria-describedby="basic-addon2">
-            </div>
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort"
-                       aria-describedby="basic-addon2">
-            </div>
-            <div class="action__box--white w-50 mx-auto mt-4 mb-3">
-                ANMELDEN
-            </div>
-            <p><span class="bold-underline">Passwort</span> <span>vergessen?</span></p>
-        </div>
-        <div class="login__box-bottom">
-            <div class="login__register-box">
-                <p class="mx-auto mb-0">Neu bei FestivalLovers?<br>Jetzt <span
-                            class="bold-underline">registrieren</span>.
-                </p>
-            </div>
-        </div>
-    </div>
+
+
 </div>
 
 <script>
