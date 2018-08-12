@@ -13,14 +13,14 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6130462">
+    <splitter split-orientation="horizontal" split-proportion="0.6624446">
       <split-first>
         <leaf>
           <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="217">
-                  <caret line="848" column="16" selection-start-line="848" selection-start-column="16" selection-end-line="848" selection-end-column="16" />
+                  <caret line="898" column="16" selection-start-line="898" selection-start-column="16" selection-end-line="898" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -28,8 +28,8 @@
           <file leaf-file-name="nav-negative-sm.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
-                  <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="29" />
+                <state relative-caret-position="497">
+                  <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +37,8 @@
           <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="449">
-                  <caret line="60" selection-start-line="60" selection-end-line="60" />
+                <state relative-caret-position="161">
+                  <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-end-line="23" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +59,8 @@
           <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="586">
-                  <caret line="1557" column="2" selection-start-line="1557" selection-start-column="2" selection-end-line="1557" selection-end-column="2" />
+                <state relative-caret-position="451">
+                  <caret line="1591" selection-start-line="1591" selection-end-line="1591" />
                 </state>
               </provider>
             </entry>
@@ -71,36 +71,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>anreise</find>
-      <find>container__anreiserueckreise</find>
-      <find>map</find>
-      <find>promote__con</find>
-      <find>promote__buttonBuy</find>
-      <find>arrowlef</find>
-      <find>promote</find>
-      <find>promote__butt</find>
-      <find>promote__button</find>
-      <find>promote__but</find>
-      <find>height: 130px;</find>
-      <find>130px</find>
-      <find>.content</find>
-      <find>content</find>
-      <find>.cont</find>
-      <find>panel</find>
-      <find>nav__btn-ticket-kaufen</find>
-      <find>Login-panel</find>
-      <find>login</find>
-      <find>login__box</find>
-      <find>-83</find>
-      <find>-71</find>
       <find>MENU</find>
-      <find>tabs__container</find>
       <find>btn-back</find>
-      <find>navigation__menu-container</find>
       <find>nav</find>
       <find>menu-con</find>
-      <find>navigation__menu-neg</find>
       <find>heading__titel</find>
+      <find>nav {</find>
+      <find>nav__background-black</find>
+      <find>navigation-menu-black</find>
+      <find>btn-menu</find>
+      <find>#navigation-menu-black</find>
+      <find>nav__btn-menu-black</find>
+      <find>nav__btn-menu</find>
+      <find>nav__btn-menu-container</find>
+      <find>nav__list-container</find>
+      <find>navigation__menu-neg</find>
+      <find>nav__btn-</find>
+      <find>.navigation__menu-container</find>
+      <find>.nav__background-black</find>
+      <find>nav__login-ticket</find>
+      <find>navigation__menu-container</find>
+      <find>tabs__container</find>
+      <find>nav__btn-ticket-kaufen</find>
+      <find>nav__btn-login</find>
+      <find>Wechsle Iconfarbe</find>
+      <find>bei menu</find>
+      <find>Wechsle</find>
+      <find>nav__bt</find>
+      <find>nav__btn</find>
+      <find>black</find>
+      <find>nav__btn-ticket-kaufen-black</find>
     </findStrings>
     <replaceStrings>
       <replace>h2</replace>
@@ -159,10 +159,10 @@
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/js/js.js" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/eventdetail.blade.php" />
-        <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php" />
       </list>
     </option>
   </component>
@@ -299,16 +299,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prepress\Desktop\projektarbeit\festivallovers\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\prepress\Documents" />
       <recent name="C:\Users\prepress\Desktop" />
       <recent name="C:\Users\prepress\AppData\Local\Temp\scp03021\home\forge\pdfio.contoweb.ch\tbg" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\prepress\Desktop\projektarbeit\festivallovers\resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,12 +367,12 @@
       <workItem from="1533676548829" duration="4061000" />
       <workItem from="1533750664193" duration="14849000" />
       <workItem from="1533765552291" duration="526000" />
-      <workItem from="1533843291387" duration="36688000" />
+      <workItem from="1533843291387" duration="48702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="431206000" />
+    <option name="totallyTimeSpent" value="443220000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +396,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" visible="true" weight="0.053376906" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" visible="true" weight="0.22657952" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -576,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -666,24 +659,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="639">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php">
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="161">
+          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-end-line="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="1557" column="2" selection-start-line="1557" selection-start-column="2" selection-end-line="1557" selection-end-column="2" />
+        <state relative-caret-position="217">
+          <caret line="898" column="16" selection-start-line="898" selection-start-column="16" selection-end-line="898" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
         </state>
       </provider>
     </entry>

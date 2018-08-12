@@ -65,9 +65,22 @@
         $("#login").toggle();
     });
 
-    // schwarzes Menu einblenden
+
+
      $("#menu").click(function(){
-        $("#navigation__menu-neg").toggle();
+
+         // schwarzes Menu einblenden
+         $("#navigation__menu-neg").toggle();
          $("#navigation__menu-neg").removeClass('d-none');
+
+         // Scrolling deaktivieren
+         let html = document.documentElement;
+         html.classList.add('disable-scrolling');
     });
+
+
+
+
+
+
 </script>
