@@ -1,4 +1,5 @@
-<div class="nav sticky">
+<div id="nav-switch">
+<div id="nav-normal" class="nav sticky">
     <div id="menu" class="nav__btn-menu col-4">
         <div id="nav__btn-menu" class="nav__btn-menu-container">
             <img id="navigation-menu-black" src={{asset('icons/navigation_menu.svg')}} alt="Menu">
@@ -18,13 +19,13 @@
     </div>
 
     <div class="nav__login-ticket col-4">
-        <div id="ticket" class="nav__btn-login">
+        <div id="ticket-white" class="nav__btn-login">
             <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
             <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
             <p id="text-login">LOGIN</p>
 
             <!-- Start Login Box -->
-            <div id="login" class="login__box">
+            <div id="login-white" class="login__box">
                 <div class="login__box-top">
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="E-Mail Adresse" aria-label="E-Mail Adresse"
@@ -57,30 +58,34 @@
         </div>
     </div>
 </div>
+</div>
 
 
 <script>
+
     // Login-Panel ein- und ausblenden
-    $("#ticket").click(function () {
-        $("#login").toggle();
+    $("#ticket-white").click(function () {
+        $("#login-white").toggle();
     });
 
 
-
+    // wenn links oben auf menu geklickt wird
      $("#menu").click(function(){
-
-         // schwarzes Menu einblenden
-         $("#navigation__menu-neg").toggle();
-         $("#navigation__menu-neg").removeClass('d-none');
 
          // Scrolling deaktivieren
          let html = document.documentElement;
          html.classList.add('disable-scrolling');
+
+         // Schwarzes Menufenster einblenden
+         if( $("#navigation__menu-neg").hasClass("d-none")) {
+             $("#navigation__menu-neg").removeClass('d-none');
+             $("#navigation__menu-neg").addClass('d-show');
+             // normale Navi im Hintergrund ausblenden
+             $("#nav-normal").removeClass('d-show');
+             $("#nav-normal").addClass('d-none');
+         }
+
+
     });
-
-
-
-
-
 
 </script>

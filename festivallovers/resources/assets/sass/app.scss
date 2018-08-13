@@ -164,7 +164,6 @@ $grid-gutter-width: 16px;
       }
     }
 
-
     // Wechsle Iconfarbe bei Hover
     // --> bei login-logo
     & #navigation-login-black {
@@ -199,56 +198,6 @@ $grid-gutter-width: 16px;
       color: $black;
     }
   }
-
-  // für schwarze Menuübersicht
-  .nav__btn-ticket-kaufen-black {
-    font-family: "ProximaNova Bold";
-    font-size: 17px;
-    color: $greydark;
-    width: 64px;
-    height: 64px;
-    border-left: 1px solid $greylight;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    &:hover {
-      > p {
-        color: $black;
-      }
-    }
-
-
-    // Wechsle Iconfarbe bei Hover
-    // --> bei login-logo
-    & #navigation-login-black {
-      display: none;
-    }
-    &:hover {
-      & #navigation-login-gray {
-        display: none;
-      }
-      & #navigation-login-black {
-        display: inline-block;
-      }
-    }
-    // --> bei ticketkaufen-logo
-    & #navigation-ticket-black {
-      display: none;
-    }
-    &:hover {
-      & #navigation-ticket-gray {
-        display: none;
-      }
-      & #navigation-ticket-black {
-        display: inline-block;
-      }
-    }
-
-    &:hover {
-      color: $black;
-    }
-  }
-
 
   .nav__login-ticket {
     display: flex;
@@ -303,6 +252,142 @@ $grid-gutter-width: 16px;
     }
 
   }
+
+
+
+  // Schwarzes Menu zur Übersicht
+  #navigation__menu-neg {
+    position: absolute;
+    z-index: 9999;
+  }
+  .navigation__menu-container {
+    width: 1440px;
+    height: 100vh;
+    color: $white;
+  }
+
+  .nav__list-container {
+    height: 50%;
+    text-align: center;
+    font-size: 48px;
+    line-height: 108px;
+    font-family: "Adelle Bold";
+    margin-top: 131px;
+  }
+
+  .nav__list-element {
+    padding-top: 12px;
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+
+  .nav__background-black {
+    width: 1440px;
+    height: 100%;
+    background-color: $black;
+    opacity: 0.8;
+    position: absolute;
+    top: -130px;
+    z-index: -1;  }
+
+  .nav-black {
+    display: flex;
+    font-family: "Adelle";
+    font-size: 18px;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $greylight;
+    margin-bottom: 200px;
+  }
+
+  #nav__btn-menu-black {
+    height: 25px;
+    color: white;
+    display: flex;
+    color: white;
+    font-family: "ProximaNova Bold";
+    img {
+      margin-right: 15px;
+    }
+  }
+
+  .nav__search-container {
+    display: flex;
+    justify-content: center;
+    order: 1;
+    width: 392px;
+    align-items: flex-end;
+    .nav__search {
+      background-color: transparent;
+      border-bottom: 1px solid white;
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+      margin-right: -35px;
+      width: 91%;
+      font-family: "ProximaNova Regular";
+      font-size: 20px;
+      padding-left: 19px;
+      color: $white;
+      height: 45px;
+      &:focus {
+        border-bottom: 1px solid white;
+        opacity: 0.7;
+        outline: none;
+      }
+    }
+    .nav__search-image {
+      margin-bottom: 0.5rem !important;
+      left: -15px;
+      position: relative;
+      bottom: 5px;
+    }
+  }
+  
+  #search-icon-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav__btn-ticket-kaufen-black {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: $greydark;
+    padding-left: 25px;
+    height: 64px;
+    width: 228px;
+    border-left: 1px solid $greylight;
+    display: flex;
+    align-items: center;
+    margin-left: 238px;
+    img {
+      margin-right: 10px;
+    }
+    p {
+      color: $white;
+      font-family: "ProximaNova Bold";
+      font-size: 17px;
+      margin: 0;
+    }
+    &:hover {
+      > p {
+        color: $black;
+      }
+    }
+  }
+
+  #btn-login {
+    display: none;
+  }
+
+  // Scrolling deaktiveren bei Menuübersicht
+  .disable-scrolling {
+    overflow: hidden !important;
+  }
+
 
   .heading__titel {
     margin-top: 100px;

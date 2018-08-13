@@ -10718,56 +10718,6 @@ a.text-dark:focus {
     color: #000000;
   }
 
-  .nav__btn-ticket-kaufen-black {
-    font-family: "ProximaNova Bold";
-    font-size: 17px;
-    color: #c2c2c2;
-    width: 64px;
-    height: 64px;
-    border-left: 1px solid #e5e5e5;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-
-  .nav__btn-ticket-kaufen-black:hover > p {
-    color: #000000;
-  }
-
-  .nav__btn-ticket-kaufen-black #navigation-login-black {
-    display: none;
-  }
-
-  .nav__btn-ticket-kaufen-black:hover #navigation-login-gray {
-    display: none;
-  }
-
-  .nav__btn-ticket-kaufen-black:hover #navigation-login-black {
-    display: inline-block;
-  }
-
-  .nav__btn-ticket-kaufen-black #navigation-ticket-black {
-    display: none;
-  }
-
-  .nav__btn-ticket-kaufen-black:hover #navigation-ticket-gray {
-    display: none;
-  }
-
-  .nav__btn-ticket-kaufen-black:hover #navigation-ticket-black {
-    display: inline-block;
-  }
-
-  .nav__btn-ticket-kaufen-black:hover {
-    color: #000000;
-  }
-
   .nav__login-ticket {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10835,6 +10785,168 @@ a.text-dark:focus {
 
   .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
     display: none;
+  }
+
+  #navigation__menu-neg {
+    position: absolute;
+    z-index: 9999;
+  }
+
+  .navigation__menu-container {
+    width: 1440px;
+    height: 100vh;
+    color: #FFFFFF;
+  }
+
+  .nav__list-container {
+    height: 50%;
+    text-align: center;
+    font-size: 48px;
+    line-height: 108px;
+    font-family: "Adelle Bold";
+    margin-top: 131px;
+  }
+
+  .nav__list-element {
+    padding-top: 12px;
+  }
+
+  .nav__list-element:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+
+  .nav__background-black {
+    width: 1440px;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.8;
+    position: absolute;
+    top: -130px;
+    z-index: -1;
+  }
+
+  .nav-black {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Adelle";
+    font-size: 18px;
+    height: 64px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 200px;
+  }
+
+  #nav__btn-menu-black {
+    height: 25px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: white;
+    font-family: "ProximaNova Bold";
+  }
+
+  #nav__btn-menu-black img {
+    margin-right: 15px;
+  }
+
+  .nav__search-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 392px;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+
+  .nav__search-container .nav__search {
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    margin-right: -35px;
+    width: 91%;
+    font-family: "ProximaNova Regular";
+    font-size: 20px;
+    padding-left: 19px;
+    color: #FFFFFF;
+    height: 45px;
+  }
+
+  .nav__search-container .nav__search:focus {
+    border-bottom: 1px solid white;
+    opacity: 0.7;
+    outline: none;
+  }
+
+  .nav__search-container .nav__search-image {
+    margin-bottom: 0.5rem !important;
+    left: -15px;
+    position: relative;
+    bottom: 5px;
+  }
+
+  #search-icon-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+
+  .nav__btn-ticket-kaufen-black {
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    color: #c2c2c2;
+    padding-left: 25px;
+    height: 64px;
+    width: 228px;
+    border-left: 1px solid #e5e5e5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 238px;
+  }
+
+  .nav__btn-ticket-kaufen-black img {
+    margin-right: 10px;
+  }
+
+  .nav__btn-ticket-kaufen-black p {
+    color: #FFFFFF;
+    font-family: "ProximaNova Bold";
+    font-size: 17px;
+    margin: 0;
+  }
+
+  .nav__btn-ticket-kaufen-black:hover > p {
+    color: #000000;
+  }
+
+  #btn-login {
+    display: none;
+  }
+
+  .disable-scrolling {
+    overflow: hidden !important;
   }
 
   .heading__titel {
