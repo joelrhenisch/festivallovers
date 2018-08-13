@@ -6,7 +6,7 @@
         <h1>Alles für deinen Musikgeschmack</h1>
     </section>
 
-    <section class="heading__lead">
+    <section class="heading__lead mt-4">
         <h3 class="font-lead">Unsere FestivalLovers verdienen nur das Beste. Wir bringen euch alle Festivals, Stars & Bands sowie Infos für einen genialen und unvergessenlichen Musiksommer.</h3>
     </section>
 
@@ -75,7 +75,7 @@
 
 <!-- Mobile -->
 <div id="events-sm">
-<div class="action__box--black">FILTER ANZEIGEN</div>
+<div class="action__box--black mb-5">FILTER ANZEIGEN</div>
 
     <div class="events__container">
         {{--START CONTROLBAR--}}

@@ -102,7 +102,7 @@
                         FESTIVAL TEILEN
                     </div>
 
-                    <div class="singleevent__descriptionAdd">
+                    <div class="singleevent__descriptionAdd mb-3>
                         <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%" alt="Unterstützt_von_Ceros">
                     </div>
                 </div>
@@ -145,7 +145,7 @@
         <div class="singleevent__lineup">
             <div class="singleevent__descriptionBottom col-lg-7 col-sm-12">
                 <h1>Line Up</h1>
-                <p class="font-lead">Wir freuen uns auch dieses Jahr wieder ein spannendes und einzigartiges Line Up
+                <p class="font-lead mb-5">Wir freuen uns auch dieses Jahr wieder ein spannendes und einzigartiges Line Up
                     präsentieren zu dürfen. Auf der Hauptbühne wird definitiv viel los sein.</p>
 
                 <div class="tabs__container">

@@ -10576,7 +10576,7 @@ a.text-dark:focus {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
-    font-family: "Adelle Regular";
+    font-family: "Adelle Regular" !important;
   }
 
   .font-festival {
@@ -11268,7 +11268,7 @@ a.text-dark:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 340px;
+    height: 100px;
     width: 1194px;
   }
 
@@ -11431,7 +11431,7 @@ a.text-dark:focus {
   .eventslist__ContentKacheln {
     background-color: #FFFFFF;
     width: 340px;
-    padding: 20px;
+    padding: 20px 20px 90px 20px;
   }
 
   .eventslist__ContentKacheln .locationDate {
@@ -11552,7 +11552,7 @@ a.text-dark:focus {
 
   .singleevent__descriptionText {
     padding-left: 0;
-    margin: 40px 0 50px 0;
+    margin: 40px 0 -20px 0;
   }
 
   .singleevent__description {
@@ -11598,10 +11598,19 @@ a.text-dark:focus {
     margin-top: 45px;
   }
 
+  .eventslist_noticedescription {
+    font-weight: bold;
+  }
+
   /*  carousel custom styles */
 
   #carousel-sm {
     display: none;
+  }
+
+  #carousel-lg {
+    margin-top: 50px;
+    margin-bottom: 70px;
   }
 
   .carouselExampleIndicators {
@@ -11846,7 +11855,7 @@ a.text-dark:focus {
   }
 
   .events__rowscontainerTitle {
-    margin-left: 112px;
+    margin-left: 56px;
   }
 
   .ticketsArea .tickets {
@@ -11997,6 +12006,7 @@ a.text-dark:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    height: 104px;
   }
 
   .greenBorderRight5px {
@@ -12006,7 +12016,7 @@ a.text-dark:focus {
   .buy__heading {
     width: 100%;
     height: 110px;
-    margin-top: 36px;
+    margin-top: 63px;
     background-color: #00d79f;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12038,7 +12048,7 @@ a.text-dark:focus {
   }
 
   .ticketbuy__festivalTicketContainer {
-    margin: 100px 100px 0 100px;
+    margin: 20px 100px 0 100px;
     padding-bottom: 100px;
   }
 
@@ -12140,7 +12150,7 @@ a.text-dark:focus {
     line-height: 1.5;
     color: #e5e5e5;
     border-radius: 0;
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
     background-clip: padding-box;
     -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -12149,7 +12159,7 @@ a.text-dark:focus {
   }
 
   .login__register-box {
-    height: 128px;
+    height: 144px;
     width: 310px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12926,7 +12936,7 @@ a.text-dark:focus {
     line-height: 1.5;
     color: #e5e5e5;
     border-radius: 0;
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
     background-clip: padding-box;
     -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -12935,7 +12945,7 @@ a.text-dark:focus {
   }
 
   .login__register-box {
-    height: 128px;
+    height: 144px;
     width: 310px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13428,7 +13438,7 @@ a.text-dark:focus {
   }
 
   .singleevent__descriptionMid {
-    margin-bottom: 140px;
+    margin-bottom: 90px;
   }
 
   .singleevent__descriptionBreadcrumb {
@@ -13980,7 +13990,7 @@ a.text-dark:focus {
     line-height: 1.5;
     color: #e5e5e5;
     border-radius: 0;
-    background-color: #f0f0f0;
+    background-color: #FFFFFF;
     background-clip: padding-box;
     -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -13989,7 +13999,7 @@ a.text-dark:focus {
   }
 
   .login__register-box {
-    height: 128px;
+    height: 144px;
     width: 310px;
     display: -webkit-box;
     display: -ms-flexbox;

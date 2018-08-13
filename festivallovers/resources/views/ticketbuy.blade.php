@@ -14,9 +14,8 @@
 
 {{--Lead--}}
 <section class="heading__lead">
-    <h3>
-        Liebe FestivalLovers unsere Festivals sind begehrt, daher sind auch unsere Tickets immer schnell ausverkauft<br>
-        Sichert euch die besten Angebote – verpasst eure Chance nicht!
+    <h3 class="like-h3-Regular">
+        Liebe FestivalLovers unsere Festivals sind begehrt, daher sind auch unsere Tickets immer schnell ausverkauft. Sichert euch die besten Angebote – verpasst eure Chance nicht!
     </h3>
 </section>
 
@@ -333,7 +332,7 @@
     </div>
 
     <div class="ticketBuy__submitContainer">
-        <div class="action__boxblack">
+        <div class="action__box--black">
             4 TICKETS KAUFEN
         </div>
     </div>
