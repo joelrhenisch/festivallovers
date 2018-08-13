@@ -518,6 +518,11 @@ $grid-gutter-width: 16px;
     display: block;
   }
 
+  // weitere Artikel anzeigen (nur für Mobile, da bei Desktop nicht mehr vorgesehen wurden im Screendesign)
+  #article-show-more {
+    display: none;
+  }
+
   #hor-line-1, #hor-line-2, #hor-line-3, #hor-line-4, #hor-line-5, #hor-line-6,
   #article-1-show, #article-2-show, #article-3-show, #article-4-show, #article-5-show, #article-6-show {
     display: none;
@@ -1815,8 +1820,7 @@ $grid-gutter-width: 16px;
 
 
   .heading__titel {
-    margin-top: 130px;
-    margin-bottom: 40px;
+    margin-top: 100px;
     text-align: center;
   }
 
@@ -1869,13 +1873,13 @@ $grid-gutter-width: 16px;
   }
 
   .bigteaser {
-    margin-top: 35px;
+    margin-top: 60px;
     margin-bottom: 60px;
   }
 
   .bigteaser__img {
     width: 100%;
-    height: 150px;
+    height: 160px;
   }
 
   .magazin-title {
@@ -2086,7 +2090,7 @@ $grid-gutter-width: 16px;
 
   .filter {
     align-items: center;
-    margin-top: 87px;
+    margin-top: 20px;
   }
 
   .filter__svgmusic {

@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="heading__titel">
-    <h1>Auf welche Musik stehst du?</h1>
+    <h1 class="p-3">Auf welche Musik stehst du?</h1>
 </div>
 
 <div class="heading__lead">
@@ -84,7 +84,7 @@
         </div>
     </div>
 
-    <div class="d-flex justify-content-center mb-5">
+    <div id="article-show-more" class="d-flex justify-content-center mb-5">
         <div id="article__btn-show-more" class="action__box--white">
             MEHR ANZEIGEN
         </div>
