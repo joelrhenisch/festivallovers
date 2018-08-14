@@ -8,18 +8,18 @@
     </div>
     <div class="events__rowscontainer">
         <div class="eventslist__row">
-            <div class="eventslist__img">
+            <div id="eventslist-img" class="eventslist__img">
                 <img src={{asset('images/Teaser_Liste.png')}} height="104px" alt="sur le lac">
             </div>
             <div class="eventslist__icon bgmint">
-                <img src={{asset('icons/music_indie.svg')}} height="60px" width="60px" alt="icon indie">
+                <img src={{asset('icons/music_indie.svg')}}  alt="icon indie">
             </div>
             <div class="eventslist__name">
                 Sur Le Lac
             </div>
             <div class="ticketsArea">
                 <div class="tickets">
-                    <div class="container">
+                    <div class="container p-0">
                         <div class="text">
                             <span class="textRegGreen">Verfügbare Tickets</span>
                             <div class="d-flex">
@@ -46,8 +46,8 @@
             </div>
 
 
-            <div class="eventslist__buy greenBorderRight5px">
-                <div class="action__boxblack">
+            <div class="eventslist__buy greenBorderRight5px greenBorderBottom4px">
+                <div class="my-auto action__box--black">
                     KAUFEN
                 </div>
             </div>

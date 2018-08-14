@@ -11281,13 +11281,17 @@ a.text-dark:focus {
     display: -ms-flexbox;
     display: flex;
     height: 104px;
-    width: 104px;
+    width: 100px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .eventslist__icon img {
+    height: 40px;
   }
 
   .bgmint {
@@ -12290,7 +12294,7 @@ a.text-dark:focus {
     font-size: 20px;
     line-height: 32px;
     color: #000000;
-    font-family: "Adelle Regular";
+    font-family: "Adelle Regular" !important;
   }
 
   .font-festival {
@@ -13081,7 +13085,6 @@ a.text-dark:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -13092,11 +13095,7 @@ a.text-dark:focus {
   }
 
   .events__rowscontainerTitle {
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    margin-left: 203px;
-    margin-bottom: 50px;
+    text-align: center;
   }
 
   .events__rowscontainer lead {
@@ -13106,20 +13105,24 @@ a.text-dark:focus {
 
   .eventslist__row {
     height: 330px;
-    width: 375px;
-    padding: 0 10px;
+    width: 100%;
+    padding: 0 15px !important;
   }
 
   .eventslist__img {
     height: 210px;
   }
 
+  #eventslist-img {
+    display: none;
+  }
+
   .eventslist__icon {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 60px;
-    width: 60px;
+    height: 45px;
+    width: 100%;
     padding: 15px;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -13127,8 +13130,6 @@ a.text-dark:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-transform: translateY(46px);
-            transform: translateY(46px);
   }
 
   .filter__eventslistfixmargin {
@@ -13145,8 +13146,6 @@ a.text-dark:focus {
   }
 
   .eventslist__name {
-    height: 15px;
-    width: 374px;
     border-right: 1px solid #f0f0f0;
     background-color: #FFFFFF;
     display: -webkit-box;
@@ -13155,6 +13154,7 @@ a.text-dark:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-top: 15px;
     padding-left: 20px;
     font-family: "Adelle Bold";
     font-size: 25px;
@@ -13727,17 +13727,16 @@ a.text-dark:focus {
   }
 
   .eventslist__buySpacing {
-    height: 120px;
-    margin-top: 90px;
+    height: 60px;
+    margin-top: 70px;
   }
 
   .events__rowscontainerTitle {
-    margin-left: 112px;
+    margin-bottom: 25px;
   }
 
   .ticketsArea .tickets {
-    width: 315px;
-    height: 104px;
+    height: 55px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13747,7 +13746,7 @@ a.text-dark:focus {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 25px;
+    padding: 0 60px 0 20px;
     background-color: #FFFFFF;
     border-right: 1px solid #f0f0f0;
   }
@@ -13875,18 +13874,12 @@ a.text-dark:focus {
   }
 
   .eventslist__buy {
-    width: 229px;
     background-color: #FFFFFF;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding: 20px 10px;
   }
 
-  .greenBorderRight5px {
-    border-right: 5px solid #00d79f;
+  .greenBorderBottom4px {
+    border-bottom: 4px solid #00d79f;
   }
 
   .buy__heading {
