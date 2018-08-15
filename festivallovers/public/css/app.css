@@ -11880,7 +11880,7 @@ a.text-dark:focus {
   }
 
   .ticketsArea .ticketsSmaller {
-    width: 22%;
+    width: 100%;
     height: 104px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -11896,7 +11896,7 @@ a.text-dark:focus {
   }
 
   .ticketsArea .ticketsCounter {
-    width: 22%;
+    width: 100%;
     height: 104px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12039,6 +12039,22 @@ a.text-dark:focus {
     margin-top: 30px;
   }
 
+  .ticketbuy__main-container {
+    padding: 0 100px;
+  }
+
+  .ticketbuy__tickets {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .ticketbuy__festivalTicketContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .ticketbuy__LocDate {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12052,24 +12068,20 @@ a.text-dark:focus {
   }
 
   .ticketbuy__festivalTicketContainer {
-    margin: 20px 100px 0 100px;
+    margin-right: 20px;
     padding-bottom: 100px;
   }
 
   .ticketbuy__festivalTicketContainer .ticketContainer {
     margin-top: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    margin-right: 20px;
+    width: 295px;
   }
 
   .ticketbuy__festivalTicketContainer .ticketGreen {
     background-color: #00d79f;
     padding: 35px 0;
-    width: 22%;
+    width: 100%;
     height: 225px;
     text-align: center;
   }
@@ -12098,7 +12110,6 @@ a.text-dark:focus {
   }
 
   .ticketBuy__submitContainer {
-    margin: 0 100px 0 100px;
     border-top: 2px solid #000000;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12717,6 +12728,10 @@ a.text-dark:focus {
     background-color: transparent;
     color: #000000;
     text-align: center;
+  }
+
+  .box-sm-full-width {
+    padding: 8px 95px;
   }
 
   #filter-lg {
@@ -13415,7 +13430,7 @@ a.text-dark:focus {
   }
 
   .singleevent__descriptionLocation {
-    margin-right: 40px;
+    text-align: center;
     padding: 20px 0;
   }
 
@@ -13735,6 +13750,10 @@ a.text-dark:focus {
     margin-bottom: 25px;
   }
 
+  .ticketsArea {
+    width: 100%;
+  }
+
   .ticketsArea .tickets {
     height: 55px;
     display: -webkit-box;
@@ -13752,8 +13771,7 @@ a.text-dark:focus {
   }
 
   .ticketsArea .ticketsSmaller {
-    width: 22%;
-    height: 104px;
+    height: 85px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13763,12 +13781,12 @@ a.text-dark:focus {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 5px;
+    padding: 0 35px;
     background-color: #FFFFFF;
   }
 
   .ticketsArea .ticketsCounter {
-    width: 22%;
+    width: 100%;
     height: 104px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13779,7 +13797,7 @@ a.text-dark:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 5px;
+    padding: 0 15px;
   }
 
   .ticketsArea .ticketsCounter .box {
@@ -13885,7 +13903,7 @@ a.text-dark:focus {
   .buy__heading {
     width: 100%;
     height: 110px;
-    margin-top: 36px;
+    margin-top: 64px;
     background-color: #00d79f;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13904,38 +13922,32 @@ a.text-dark:focus {
     margin-top: 30px;
   }
 
+  .text-center-sm {
+    text-align: center;
+  }
+
   .ticketbuy__LocDate {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin-top: 80px;
     display: flex;
-    padding: 50px 0 70px;
+    padding: 30px 0 70px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 
-  .ticketbuy__festivalTicketContainer {
-    margin: 100px 100px 0 100px;
-    padding-bottom: 100px;
-  }
-
   .ticketbuy__festivalTicketContainer .ticketContainer {
-    margin-top: 40px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
   }
 
   .ticketbuy__festivalTicketContainer .ticketGreen {
     background-color: #00d79f;
-    padding: 35px 0;
-    width: 22%;
-    height: 225px;
+    padding-top: 42px;
+    width: 100%;
+    height: 240px;
     text-align: center;
   }
 
@@ -13963,7 +13975,6 @@ a.text-dark:focus {
   }
 
   .ticketBuy__submitContainer {
-    margin: 0 100px 0 100px;
     border-top: 2px solid #000000;
     display: -webkit-box;
     display: -ms-flexbox;
