@@ -14,13 +14,13 @@
                 <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort"
                        aria-describedby="basic-addon2">
             </div>
-            <div class="action__boxblack w-50 mx-auto mt-4 mb-3">
+            <div class="action__box--black mx-auto mt-4 mb-3">
                 ANMELDEN
             </div>
         </div>
         <div class="login__boxBottom">
             <div class="login__registerBox">
-                <p class="mx-auto mb-0">Neu bei FestivalLovers?<br>Jetzt <span class="boldUnderline">registrieren</span>.
+                <p class="mx-auto my-auto mb-0 font-breadcrumb">Neu bei FestivalLovers?<br>Jetzt <span class="boldUnderline">registrieren</span>.
                 </p>
             </div>
         </div>

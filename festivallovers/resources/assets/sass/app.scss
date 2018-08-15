@@ -465,6 +465,7 @@ $grid-gutter-width: 16px;
     margin: 30px 10px;
     background-color: $black;
     color: $white;
+    text-align: center;
   }
 
   .action__box--white {
@@ -474,6 +475,7 @@ $grid-gutter-width: 16px;
     margin: 30px 10px;
     background-color: $white;
     color: $black;
+    text-align: center;
   }
 
   .action__boxtransparent {
@@ -483,6 +485,7 @@ $grid-gutter-width: 16px;
     margin: 30px;
     background-color: transparent;
     color: $black;
+    text-align: center;
   }
 
   .bigteaser {
@@ -1404,8 +1407,9 @@ $grid-gutter-width: 16px;
   .bg__green {
     background-color: $mint;
     width: 100%;
-    height: 790px;
-    padding-top: 130px;
+    height: 100%;
+    padding-top: 170px;
+    padding-bottom: 50px;
 
     .boldUnderline {
       font-weight: bold;
@@ -1421,6 +1425,11 @@ $grid-gutter-width: 16px;
     .login__boxBottom {
       width: 100%;
       border-top: 1px solid $greylighter;
+      text-align: center;
+      padding: 40px 0;
+    }
+    .login__register-Box {
+      padding: auto;
     }
   }
 
