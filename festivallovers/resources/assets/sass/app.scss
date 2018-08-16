@@ -1420,6 +1420,7 @@ $grid-gutter-width: 16px;
       width: 100%;
       padding: 40px 20px 55px 20px;
       color: pink;
+      margin-top: 45px;
     }
 
     .login__boxBottom {
@@ -1447,6 +1448,7 @@ $grid-gutter-width: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
   }
 
   .provider__select {
@@ -2972,8 +2974,8 @@ $grid-gutter-width: 16px;
   .bg__green {
     background-color: $mint;
     width: 100%;
-    height: 790px;
-    padding-top: 130px;
+    height: 558px;
+    padding-top: 85px;
 
     .boldUnderline {
       font-weight: bold;
@@ -2987,8 +2989,12 @@ $grid-gutter-width: 16px;
     }
 
     .login__boxBottom {
-      width: 100%;
       border-top: 1px solid $greylighter;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 135px;
+      text-align: center;
     }
   }
 
@@ -3001,7 +3007,7 @@ $grid-gutter-width: 16px;
 
   .logo__StreifenBottom {
     width: 100%;
-    height: 110px;
+    height: 90px;
     background-color: $mint;
     display: flex;
     justify-content: center;

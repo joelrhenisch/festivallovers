@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="bg__green">
-    <h1 class="text-center text-white mb-5">Login</h1>
+    <h1 class="text-center text-white">Login</h1>
     <div class="loginSite__box">
         <div class="loginSite__boxTop">
             <div class="input-group mb-3">
@@ -33,8 +33,10 @@
 </div>
 
 <script>
+    // Footer Mobile & Desktop ausblenden
     $(function () {
-        $('#footer').addClass('hidden');
+        $('#footer-lg').addClass('hidden');
+        $('#footer-sm').addClass('hidden');
     });
 </script>
 

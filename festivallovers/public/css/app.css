@@ -12216,6 +12216,7 @@ a.text-dark:focus {
     width: 100%;
     padding: 40px 20px 55px 20px;
     color: pink;
+    margin-top: 45px;
   }
 
   .bg__green .login__boxBottom {
@@ -12249,6 +12250,7 @@ a.text-dark:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 20px;
   }
 
   .provider__select {
@@ -14042,8 +14044,8 @@ a.text-dark:focus {
   .bg__green {
     background-color: #00d79f;
     width: 100%;
-    height: 790px;
-    padding-top: 130px;
+    height: 558px;
+    padding-top: 85px;
   }
 
   .bg__green .boldUnderline {
@@ -14058,8 +14060,18 @@ a.text-dark:focus {
   }
 
   .bg__green .login__boxBottom {
-    width: 100%;
     border-top: 1px solid #f0f0f0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 135px;
+    text-align: center;
   }
 
   .loginSite__box {
@@ -14071,7 +14083,7 @@ a.text-dark:focus {
 
   .logo__StreifenBottom {
     width: 100%;
-    height: 110px;
+    height: 90px;
     background-color: #00d79f;
     display: -webkit-box;
     display: -ms-flexbox;
