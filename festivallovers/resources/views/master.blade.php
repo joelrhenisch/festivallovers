@@ -13,7 +13,9 @@
     <title>Festival Lovers</title>
 </head>
 
-<body>
+<!-- Farbe dem Body zuweisen. Wird pro Seite definiert -->
+<body class="@yield('bodyClass')">
+
 <!-- schwarzes Menu welches eingeblendet werden kann -->
 @include ('layouts.nav-negative-sm')
 
@@ -22,7 +24,6 @@
 @yield('content')
 
 @include ('layouts.footer')
-
 
 
 </body>
