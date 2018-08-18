@@ -7,6 +7,9 @@
         <img src={{asset('icons/music_indie.svg')}} height="40px"/>
     </div>
 
+    <div class=" fix-pos-left">
+        @include ('layouts.pfadleiste')
+    </div>
     {{--Titel--}}
     <section class="heading__titel">
         <h1>Tickets für Sur Le Lac</h1>

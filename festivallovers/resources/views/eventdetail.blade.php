@@ -38,6 +38,7 @@
 
 
     <div class="singleevent__descriptioncontainer">
+        @include ('layouts.pfadleiste')
 
         <div class="singleevent__description">
 

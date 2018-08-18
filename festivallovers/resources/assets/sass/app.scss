@@ -259,6 +259,25 @@ $grid-gutter-width: 16px;
 
   }
 
+  .pfadleiste {
+    padding-top: 25px;
+    margin-left: -180px !important;
+    img {
+      margin-right: 20px;
+    }
+    .fix-margin-right-lg {
+      margin-right: 25px !important;
+    }
+  }
+
+  // nur für Position bei ticketavaible (Desktop) nötig
+  .fix-pos-left {
+    margin-left: 285px !important;
+  }
+
+  .first-element__fix-margin {
+    margin-top: 60px;
+  }
 
 
   // Schwarzes Menu zur Übersicht
@@ -1628,7 +1647,6 @@ $grid-gutter-width: 16px;
     font-family: "Adelle Bold";
   }
 
-  // folgende Styles wurden nicht bei Mobile definiert -> wird also von Desktop übernommen
   .font-lead {
     font-size: 20px;
     line-height: 32px;
@@ -1763,6 +1781,17 @@ $grid-gutter-width: 16px;
       background-color: $greylight;
       color: $black;
     }
+  }
+
+  .pfadleiste {
+    padding-top: 25px;
+    img {
+      margin: 0 7px;
+    }
+}
+
+  .first-element__fix-margin {
+  margin-top: 60px;
   }
 
   // für schwarze Menuübersicht
@@ -1946,7 +1975,7 @@ $grid-gutter-width: 16px;
   }
 
   .heading__titel {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
   }
 
@@ -2573,7 +2602,7 @@ $grid-gutter-width: 16px;
   }
 
   .singleevent__description {
-    margin-top: 100px;
+    margin-top: 40px;
     .positionimage {
       margin-left: -81px;
       margin-top: 62px;
@@ -2585,7 +2614,6 @@ $grid-gutter-width: 16px;
   }
 
   .singleevent__descriptionLocation {
-    text-align: center;
     padding: 20px 0;
     > img {
       height: 36px;

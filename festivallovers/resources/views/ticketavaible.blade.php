@@ -2,6 +2,10 @@
 
 @section('content')
 
+<div class="first-element__fix-margin fix-pos-left">
+    @include ('layouts.pfadleiste')
+</div>
+
 <section class="heading__titel">
     <h1>Tickets</h1>
 </section>

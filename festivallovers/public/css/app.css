@@ -10791,6 +10791,27 @@ a.text-dark:focus {
     display: none;
   }
 
+  .pfadleiste {
+    padding-top: 25px;
+    margin-left: -180px !important;
+  }
+
+  .pfadleiste img {
+    margin-right: 20px;
+  }
+
+  .pfadleiste .fix-margin-right-lg {
+    margin-right: 25px !important;
+  }
+
+  .fix-pos-left {
+    margin-left: 285px !important;
+  }
+
+  .first-element__fix-margin {
+    margin-top: 60px;
+  }
+
   #navigation__menu-neg {
     position: absolute;
     z-index: 9999;
@@ -12611,6 +12632,18 @@ a.text-dark:focus {
     color: #000000;
   }
 
+  .pfadleiste {
+    padding-top: 25px;
+  }
+
+  .pfadleiste img {
+    margin: 0 7px;
+  }
+
+  .first-element__fix-margin {
+    margin-top: 60px;
+  }
+
   .nav__btn-ticket-kaufen-black {
     font-family: "ProximaNova Bold";
     font-size: 17px;
@@ -12824,7 +12857,7 @@ a.text-dark:focus {
   }
 
   .heading__titel {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
   }
 
@@ -13567,7 +13600,7 @@ a.text-dark:focus {
   }
 
   .singleevent__description {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
   .singleevent__description .positionimage {
@@ -13580,7 +13613,6 @@ a.text-dark:focus {
   }
 
   .singleevent__descriptionLocation {
-    text-align: center;
     padding: 20px 0;
   }
 
