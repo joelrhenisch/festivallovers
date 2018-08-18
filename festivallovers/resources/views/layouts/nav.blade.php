@@ -19,10 +19,11 @@
     </div>
 
     <div class="nav__login-ticket col-4">
-        <div id="ticket-white" class="nav__btn-login">
+        <div class="nav__btn-login">
             <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
             <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
             <p id="text-login">LOGIN</p>
+            <div id="ticket-white"></div>
 
             <!-- Start Login Box -->
             <div id="login-white" class="login__box">

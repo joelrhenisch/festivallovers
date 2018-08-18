@@ -25,11 +25,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="payment_complete.blade.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="payment_complete.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/payment_complete.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+                <state relative-caret-position="92">
+                  <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="208">
+                  <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +68,8 @@
           <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="452">
-                  <caret line="1561" column="17" selection-start-line="1561" selection-start-column="17" selection-end-line="1561" selection-end-column="17" />
+                <state relative-caret-position="46">
+                  <caret line="1352" column="25" selection-start-line="1352" selection-start-column="25" selection-end-line="1352" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -71,8 +80,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ticketbuy__main-container</find>
-      <find>ticketContainer</find>
       <find>ticketgr</find>
       <find>ticketsCounter</find>
       <find>ticketsSmaller</find>
@@ -101,6 +108,8 @@
       <find>mobi</find>
       <find>box__whiteblack</find>
       <find>logo__StreifenBottom</find>
+      <find>login-white</find>
+      <find>login</find>
     </findStrings>
     <replaceStrings>
       <replace>h2</replace>
@@ -150,7 +159,6 @@
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/eventslist_liste.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/js/js.js" />
-        <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/eventdetail.blade.php" />
@@ -162,6 +170,7 @@
         <option value="$PROJECT_DIR$/festivallovers/resources/views/master.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/payment.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/payment_complete.blade.php" />
+        <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" />
       </list>
     </option>
@@ -377,12 +386,12 @@
       <workItem from="1534433414409" duration="6148000" />
       <workItem from="1534446195915" duration="9255000" />
       <workItem from="1534584225395" duration="2942000" />
-      <workItem from="1534612904920" duration="850000" />
+      <workItem from="1534612904920" duration="2235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="501183000" />
+    <option name="totallyTimeSpent" value="502568000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -426,7 +435,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp29189/home/forge/pdfio.contoweb.ch/tbg/TBG_Parser.php" />
     <entry file="file://$USER_HOME$/Documents/Kaladent_Parser.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp06108/home/forge/pdfio.contoweb.ch/tbg/TBG_Parser.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp25393/data1/www/mt-registration.schmid-fehr.ch/js/mt-dependency.js" />
@@ -598,13 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/filtering-sm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -685,15 +686,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/payment_complete.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        <state relative-caret-position="92">
+          <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="347" column="16" selection-start-line="347" selection-start-column="16" selection-end-line="347" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="30" lean-forward="true" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="1561" column="17" selection-start-line="1561" selection-start-column="17" selection-end-line="1561" selection-end-column="17" />
+        <state relative-caret-position="46">
+          <caret line="1352" column="25" selection-start-line="1352" selection-start-column="25" selection-end-line="1352" selection-end-column="25" />
         </state>
       </provider>
     </entry>

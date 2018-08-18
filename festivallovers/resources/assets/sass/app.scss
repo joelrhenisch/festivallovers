@@ -1350,6 +1350,14 @@ $grid-gutter-width: 16px;
   }
 
   // LOGIN-PANEL
+  // Klickfläche zum Ein-/Ausblenden
+  #ticket-white {
+    height: 64px;
+    width: 145px;
+    position: absolute;
+    transform: translateX(-25px);
+  }
+
   .login__box {
     clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
     width: 310px;
@@ -2136,6 +2144,14 @@ $grid-gutter-width: 16px;
   }
 
   // LOGIN-PANEL
+  // Klickfläche zum Ein-/Ausblenden
+  #ticket-white {
+    height: 64px;
+    width: 145px;
+    position: absolute;
+    transform: translateX(-25px);
+  }
+
   .login__box {
     clip-path: polygon(0 2%, 74% 2%, 77% 0, 80% 2%, 100% 2%, 100% 100%, 0 100%);
     width: 310px;

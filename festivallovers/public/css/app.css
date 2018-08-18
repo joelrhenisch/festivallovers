@@ -12136,6 +12136,14 @@ a.text-dark:focus {
     padding-bottom: 50px;
   }
 
+  #ticket-white {
+    height: 64px;
+    width: 145px;
+    position: absolute;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
+  }
+
   .login__box {
     -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
             clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
@@ -13043,6 +13051,14 @@ a.text-dark:focus {
             justify-content: space-between;
     width: 180px;
     margin: 0 auto;
+  }
+
+  #ticket-white {
+    height: 64px;
+    width: 145px;
+    position: absolute;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
   }
 
   .login__box {
