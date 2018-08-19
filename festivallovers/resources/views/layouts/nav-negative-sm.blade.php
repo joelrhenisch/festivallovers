@@ -5,19 +5,19 @@
 
         <!-- Nav -->
         <div class="nav-black sticky">
-            <div id="close" class="nav__btn-menu col-4">
-                <div id="nav__btn-menu-black">
+            <div id="nav__btn-menu-black" class="nav__btn-menu col-5">
+                <div id="close">
                     <img id="navigation-menu-black" src={{asset('icons/navigation_schliessen_white.svg')}} height="25px" alt="close">
                     Schliessen
                 </div>
             </div>
 
-            <div class="nav__logo-festivallovers col-4">
+            <div class="nav__logo-festivallovers col-2">
                 <img id="logo" src={{asset('images/FestivalLovers_Logo_black.png')}} height="33px" alt="FestivalLovers Logo">
                 <img id="logo-sm" src={{asset('images/FestivalLovers_Logo-sm_black.png')}} height="33px" alt="FestivalLovers Logo">
             </div>
 
-            <div class="nav__login-ticket col-4">
+            <div class="nav__login-ticket col-5">
                 <div id="ticket-black" class="nav__btn-login">
                     <img id="navigation-login-gray" src={{asset('icons/navigation_login_white.svg')}} height="33px" alt="Login">
                     <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">

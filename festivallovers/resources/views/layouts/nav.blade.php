@@ -1,7 +1,7 @@
 <div id="nav-switch">
 <div id="nav-normal" class="nav sticky">
-    <div id="menu" class="nav__btn-menu col-4">
-        <div id="nav__btn-menu" class="nav__btn-menu-container">
+    <div id="nav__btn-menu" class="nav__btn-menu col-4">
+        <div id="menu" class="nav__btn-menu-container">
             <img id="navigation-menu-black" src={{asset('icons/navigation_menu.svg')}} alt="Menu">
             <img id="navigation-menu-gray" src={{asset('icons/navigation_menu_gray.svg')}} alt="Menu">
             MENU
