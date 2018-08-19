@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div class="first-element__fix-margin">
+<div class="first-element__fix-margin fix-pos-left">
     @include ('layouts.pfadleiste')
 </div>
 

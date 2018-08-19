@@ -12633,7 +12633,8 @@ a.text-dark:focus {
   }
 
   .pfadleiste {
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
   }
 
   .pfadleiste img {
@@ -12858,6 +12859,11 @@ a.text-dark:focus {
 
   .heading__titel {
     margin-top: 40px;
+    text-align: center;
+  }
+
+  .heading__titel-sm-bigger {
+    margin-top: 90px;
     text-align: center;
   }
 

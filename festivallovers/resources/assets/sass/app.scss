@@ -1784,7 +1784,8 @@ $grid-gutter-width: 16px;
   }
 
   .pfadleiste {
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-left: 10px;
     img {
       margin: 0 7px;
     }
@@ -1976,6 +1977,11 @@ $grid-gutter-width: 16px;
 
   .heading__titel {
     margin-top: 40px;
+    text-align: center;
+  }
+
+  .heading__titel-sm-bigger {
+    margin-top: 90px;
     text-align: center;
   }
 
