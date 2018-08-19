@@ -13,77 +13,32 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48046124">
+    <splitter split-orientation="horizontal" split-proportion="0.57078797">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="payment.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/payment.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="74" column="64" lean-forward="true" selection-start-line="74" selection-start-column="64" selection-end-line="75" selection-end-column="52" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="payment_complete.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/payment_complete.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="56" lean-forward="true" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="139">
-                  <caret line="56" column="76" selection-start-line="56" selection-start-column="76" selection-end-line="56" selection-end-column="76" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="master.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/master.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
+                <state relative-caret-position="189">
                   <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="events.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/events.blade.php">
+          <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="6" />
+                <state relative-caret-position="106">
+                  <caret line="98" column="32" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ticketavaible.blade.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketavaible.blade.php">
+          <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/festivallovers/routes/web.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ticketbuy.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="eventdetail.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/eventdetail.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="99">
-                  <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+                <state relative-caret-position="299">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
@@ -92,38 +47,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="payment.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/payment.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="644">
-                  <caret line="112" column="11" selection-start-line="112" selection-start-column="11" selection-end-line="112" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="484">
                   <caret line="272" column="55" selection-start-line="272" selection-start-column="55" selection-end-line="272" selection-end-column="55" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="pfadleiste.blade.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/pfadleiste.blade.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="115">
-                  <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/_colors.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="273">
-                  <caret line="13" column="17" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -162,7 +90,7 @@
       <find>heading__titel</find>
       <find>.singleevent__description</find>
       <find>singleevent__descriptionLocation</find>
-      <find />
+      <find>für schwarze</find>
       <find>nav__btn</find>
     </findStrings>
     <replaceStrings>
@@ -213,7 +141,6 @@
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/js/js.js" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav-negative-sm.blade.php" />
-        <option value="$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/eventslist_buy.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/login.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/master.blade.php" />
@@ -222,10 +149,11 @@
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/eventdetail.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/events.blade.php" />
-        <option value="$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/pfadleiste.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/ticketavaible.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" />
+        <option value="$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php" />
+        <option value="$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -254,9 +182,9 @@
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="337" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="118" />
+    <option name="y" value="-11" />
     <option name="width" value="1432" />
     <option name="height" value="1008" />
   </component>
@@ -440,12 +368,12 @@
       <workItem from="1534433414409" duration="6148000" />
       <workItem from="1534446195915" duration="9255000" />
       <workItem from="1534584225395" duration="2942000" />
-      <workItem from="1534612904920" duration="10375000" />
+      <workItem from="1534612904920" duration="13899000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="510708000" />
+    <option name="totallyTimeSpent" value="514232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,13 +472,6 @@
       </provider>
     </entry>
     <entry file="file:////webserver03/ppext/Druckereiportal4/Views/Printportal/Master.cshtml" />
-    <entry file="file://$PROJECT_DIR$/festivallovers/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp38254/data1/www/mt-registration.schmid-fehr.ch/js/mt-dependency.js" />
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/eventslist_kacheln-sm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -666,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
@@ -688,13 +602,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp33837/data1/www/aduno.schmid-fehr.ch/home.php" />
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/payment_complete.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -737,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/payment.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
@@ -761,7 +661,21 @@
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketavaible.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -769,6 +683,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="272" column="55" selection-start-line="272" selection-start-column="55" selection-end-line="272" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="32" />
         </state>
       </provider>
     </entry>

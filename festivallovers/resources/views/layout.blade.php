@@ -18,7 +18,8 @@
 
 <div id="filter-lg" class="filter">
     <div class="action__box--white">FILTER ZURÜCKSETZEN</div>
-    <div class="action__box--black">ERGEBNIS ANZEIGEN</div>
+    <div id="result-show" class="action__box--black"> <a href="/events"></a> ERGEBNIS ANZEIGEN </div>
+
 </div>
 
 <div id="filter-sm" class="filter">
@@ -93,6 +94,12 @@
 </div>
 
 <script>
+    // Button zu Events verlinken. (Sucht erstes a-Element und verwendet das href-Attribut davon)
+    $("#result-show").click(function(){
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
     // einzelne Artikel aufklappen
     $("#article-1-show").click(function () {
         $("#article-1").toggle();
