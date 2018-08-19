@@ -94,6 +94,7 @@
 </div>
 
 <script>
+
     // Button zu Events verlinken. (Sucht erstes a-Element und verwendet das href-Attribut davon)
     $("#result-show").click(function(){
         window.location = $(this).find("a:first").attr("href");

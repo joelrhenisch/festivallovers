@@ -10445,6 +10445,26 @@ a.text-dark:focus {
   background-color: #f0f0f0 !important;
 }
 
+.\--pink {
+  background-color: #d81b60 !important;
+}
+
+.\--yellow {
+  background-color: #fdd835 !important;
+}
+
+.\--mint {
+  background-color: #00d79f !important;
+}
+
+.\--blue {
+  background-color: #3949ab !important;
+}
+
+.\--violet {
+  background-color: #5e35b1 !important;
+}
+
 @font-face {
   font-family: "Adelle Regular";
   src: url("/fonts/Adelle_Reg.otf");
@@ -11029,6 +11049,28 @@ a.text-dark:focus {
     border-radius: 10px;
     margin: 0 13px;
     color: white;
+  }
+
+  /* Hoverzustand der Filterbuttons */
+
+  #jazz:hover {
+    background-color: #fdd835;
+  }
+
+  #hiphop:hover {
+    background-color: #d81b60;
+  }
+
+  #indie:hover {
+    background-color: #00d79f;
+  }
+
+  #poprock:hover {
+    background-color: #3949ab;
+  }
+
+  #electronic:hover {
+    background-color: #5e35b1;
   }
 
   .filter__number {
@@ -13210,6 +13252,28 @@ a.text-dark:focus {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  /* Hoverzustand der Filterbuttons */
+
+  #jazz:hover {
+    background-color: #fdd835;
+  }
+
+  #hiphop:hover {
+    background-color: #d81b60;
+  }
+
+  #indie:hover {
+    background-color: #00d79f;
+  }
+
+  #poprock:hover {
+    background-color: #3949ab;
+  }
+
+  #electronic:hover {
+    background-color: #5e35b1;
   }
 
   .filter__number {

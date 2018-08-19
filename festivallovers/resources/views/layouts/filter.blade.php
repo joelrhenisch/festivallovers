@@ -37,3 +37,23 @@
 
 </div>
 
+<script>
+    // Aktiver Zustand der Filterbuttons
+    $(function() {
+        $("#jazz").click(function() {
+            $(this).toggleClass("--yellow");
+        });
+        $("#hiphop").click(function() {
+            $(this).toggleClass("--pink");
+        });
+        $("#indie").click(function() {
+            $(this).toggleClass("--mint");
+        });
+        $("#poprock").click(function() {
+            $(this).toggleClass("--blue");
+        });
+        $("#electronic").click(function() {
+            $(this).toggleClass("--violet");
+        });
+    });
+</script>
