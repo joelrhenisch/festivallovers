@@ -167,9 +167,9 @@
 
 
                 <div class="ticketBuy__submitContainer">
-                    <div class="box-sm-full-width action__box--black">
+                    <button class="box-sm-full-width action__box--black w-100">
                         4 TICKETS KAUFEN
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>

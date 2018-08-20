@@ -77,9 +77,9 @@
                         Festgelände gratis erhältlichen Oropax.</p>
 
 
-                <div id="carousel-lg">
-                    @include ('layouts.carousel')
-                </div>
+                    <div id="carousel-lg">
+                        @include ('layouts.carousel')
+                    </div>
 
                 </div>
 
@@ -90,21 +90,21 @@
                         <div class="eventslist__noticeimg">
                             <img src={{asset('icons/detail_merken.svg')}}  height="20px" alt="notice">
                         </div>
-                        <div class="eventslist_noticedescription nopadding">
+                        <button class="eventslist_noticedescription nopadding">
                             MERKEN
-                        </div>
+                        </button>
                     </div>
 
-                    <div class="action__box--black mb-3 mt-0 mx-0">
+                    <button class="action__box--black mb-3 mt-0 mx-0 w-100">
                         TICKET KAUFEN
-                    </div>
+                    </button>
 
-                    <div class="action__box--white mb-3 mt-0 mx-0">
+                    <button class="action__box--white mb-3 mt-0 mx-0 w-100">
                         FESTIVAL TEILEN
-                    </div>
+                    </button>
 
-                    <div class="singleevent__descriptionAdd mb-3>
-                        <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%" alt="Unterstützt_von_Ceros">
+                    <div class="singleevent__descriptionAdd mb-3">
+                        <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%"  alt="Unterstützt_von_Ceros" >
                     </div>
                 </div>
 
@@ -118,7 +118,6 @@
 
 
 
-
     <!-- Line Up DESKTOP -->
     <div id="lineup-lg" class="singleevent__descriptioncontainer pt-5 bg-greylighter">
         <div class="singleevent__description">
@@ -128,11 +127,11 @@
                     präsentieren zu dürfen. Auf der Hauptbühne wird definitiv viel los sein.</p>
 
                 <div class="tabs__container d-flex">
-                    <div id="tabs__btnfreitag" class="tabs__btn" onclick="picture()">
+                    <button id="tabs__btnfreitag" class="tabs__btn" onclick="picture()">
                         FREITAG
-                    </div>
-                    <div class="tabs__btn">SAMSTAG</div>
-                    <div class="tabs__btn">SONNTAG</div>
+                    </button>
+                    <button class="tabs__btn">SAMSTAG</button>
+                    <button class="tabs__btn">SONNTAG</button>
                 </div>
 
                 <div id="zielbox" class="tabs__imagebox"></div>
@@ -150,17 +149,17 @@
                     präsentieren zu dürfen. Auf der Hauptbühne wird definitiv viel los sein.</p>
 
                 <div class="tabs__container">
-                    <div id="tabs__btnfreitag" class="tabs__btn" onclick="picturesm()">
+                    <button id="tabs__btnfreitag" class="tabs__btn" onclick="picturesm()">
                         FREITAG
                         <img src={{asset('icons/steuerung_dropdown_white.svg')}}  height="15px" alt="arrow-down">
-                    </div>
+                    </button>
                     <div id="zielbox-sm" class="mb-4"></div>
-                    <div class="tabs__btn">SAMSTAG
+                    <button class="tabs__btn">SAMSTAG
                         <img src={{asset('icons/steuerung_dropdown_white.svg')}}  height="15px" alt="arrow-down">
-                    </div>
-                    <div class="tabs__btn">SONNTAG
+                    </button>
+                    <button class="tabs__btn">SONNTAG
                         <img src={{asset('icons/steuerung_dropdown_white.svg')}}  height="15px" alt="arrow-down">
-                    </div>
+                    </button>
                 </div>
 
             </div>
@@ -175,15 +174,14 @@
     </div>
 
     <div class="singleevent__descriptioncontainer">
-
         <div class="singleevent__description">
             <div class="singleevent__descriptionBottom col-lg-7 col-sm-12">
                 <h1>Wissenswertes</h1>
                 <p class="font-lead">Damit euer Festivalerlebnis glatt verläuft und ihr es in vollen Zügen geniessen könnt,
                     gibt es hier nochmals eine Übersicht mit allem was ihr wissen und beachten müsst.</p>
-                <div id="anreise" class="singleevent__akkordeon">
+                <button id="anreise" class="singleevent__akkordeon">
                     <span class="like-h2">Anreise & Rückreise</span> <span class="status">Mehr</span>
-                </div>
+                </button>
 
                 <div id="container__anreiserueckreise">
                     <div id="content__anreiserueckreise">
@@ -202,8 +200,6 @@
                                 async defer></script>
                     </div>
                 </div>
-
-
             </div>
 
             <script>
@@ -215,8 +211,6 @@
                     });
                 });
             </script>
-
-
         </div>
     </div>
 
@@ -225,18 +219,18 @@
             <p class="title">Sei ein Teil von Sur Le Lac</p>
             <div class="promote_img">
             </div>
-            <div class="promote__buttonBuy">
+            <button class="promote__buttonBuy">
                 TICKETS KAUFEN
-            </div>
+            </button>
         </div>
     </div>
     <div class="promote__bottom">
         <div class="content">
             <div class="d-flex justify-content-between border-bottom-white">
-                <div class="promote__button">
+                <button class="promote__button">
                     <span class="arrowleft"><img src="{{asset('icons/navigation_zurueck_white.svg')}}" width="25px"></span>
                     <span class="text">Musikfestwochen</span>
-                </div>
+                </button>
                 <div class="promote__button-img img-women">
                     <img src="{{asset('images/NexFestival.png')}}" >
                 </div>
@@ -246,10 +240,10 @@
                 <div class="promote__button-img img-men">
                     <img src="{{asset('images/kruselkopf.png')}}" >
                 </div>
-                <div class="promote__buttonright">
+                <button class="promote__buttonright">
                     <span class="text">Openair Zürich</span>
                     <span class="arrowright"><img src="{{asset('icons/navigation_vorwaerts_white.svg')}}" width="25px"></span>
-                </div>
+                </button>
             </div>
         </div>
     </div>

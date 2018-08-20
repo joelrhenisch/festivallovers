@@ -13,17 +13,18 @@
         </div>
     </div>
 
-    <div class="nav__logo-festivallovers col-4">
+    <div id="home" class="nav__logo-festivallovers col-4">
+        <a href="/"></a>
         <img id="logo" src={{asset('images/FestivalLovers_Logo.jpg')}} height="33px" alt="FestivalLovers Logo">
         <img id="logo-sm" src={{asset('images/FestivalLovers_Logo-sm.jpg')}} height="33px" alt="FestivalLovers Logo">
     </div>
 
     <div class="nav__login-ticket col-4">
         <div class="nav__btn-login">
+            <div id="ticket-white"></div>
             <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
             <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
             <p id="text-login">LOGIN</p>
-            <div id="ticket-white"></div>
 
             <!-- Start Login Box -->
             <div id="login-white" class="login__box">
@@ -67,6 +68,12 @@
     // Login-Panel ein- und ausblenden
     $("#ticket-white").click(function () {
         $("#login-white").toggle();
+    });
+
+    // Auf Startseite gehen
+    $("#home").click(function(){
+        window.location = $(this).find("a:first").attr("href");
+        return false;
     });
 
 

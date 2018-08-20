@@ -20,7 +20,7 @@
         @include ('layouts.filter')
 
         <div class="filter">
-            <div class="action__box--white">FILTER ZURÜCKSETZEN</div>
+            <button id="events-result-reset" class="action__box--white">FILTER ZURÜCKSETZEN</button>
         </div>
 
         <div class="events__container">
@@ -28,21 +28,21 @@
             <div class="events__bar-container">
                 <div class="events__bar">
 
-                    <div class="events__date d-flex">
+                    <button class="events__date d-flex">
                         <div class="events__boxside">
                             Datum
                         </div>
                         <img src={{asset('icons/steuerung_sortierung.svg')}} height="20px" alt="date">
-                    </div>
+                    </button>
 
-                    <div class="events__choose-country d-flex align-items-center">
+                    <button class="events__choose-country d-flex align-items-center">
                         <div class="events__boxside">
                             Kanton auswählen
                         </div>
                         <img src={{asset('icons/steuerung_dropdown.svg')}} height="10px" alt="country">
-                    </div>
+                    </button>
 
-                    <div class="events__displayoption">
+                    <button class="events__displayoption">
                         <div id="btn__events-liste" class="mr-3 d-flex align-items-center">
                             <div class="events__boxside d-flex">
                                 <img src={{asset('icons/steuerung_kacheln.svg')}} height="15px" alt="display option">
@@ -55,7 +55,7 @@
                             </div>
                             Liste
                         </div>
-                    </div>
+                    </button>
                 </div>
             </div>
             {{--END CONTROLBAR--}}
@@ -70,9 +70,9 @@
 
             {{--MEHR ANZEIGEN-BUTTON--}}
             <div class="filter filter__eventslistfixmargin">
-                <div class="action__boxtransparent">MEHR ANZEIGEN
+                <button class="action__boxtransparent">MEHR ANZEIGEN
                     <span class="filter__number">9</span>
-                </div>
+                </button>
             </div>
         </div>
     </div>
@@ -80,7 +80,7 @@
 
     <!-- Mobile -->
     <div id="events-sm">
-        <div class="action__box--black mb-5">FILTER ANZEIGEN</div>
+        <div id="events-filter-show" class="action__box--black mb-5"> <a href="/filtering-sm"></a> FILTER ANZEIGEN</div>
 
         <div class="events__container">
             {{--START CONTROLBAR--}}
@@ -127,15 +127,25 @@
 
             {{--MEHR ANZEIGEN-BUTTON--}}
             <div class="filter__eventslistfixmargin">
-                <div class="action__boxtransparent">MEHR ANZEIGEN</div>
+                <button class="action__boxtransparent">MEHR ANZEIGEN</button>
             </div>
         </div>
     </div>
 
 
     <script>
-        // DESKTOP
 
+
+        // Filter zurücksetzen
+        $("#events-result-reset").click(function () {
+            $("#jazz").removeClass("--yellow");
+            $("#hiphop").removeClass("--pink");
+            $("#indie").removeClass("--mint");
+            $("#poprock").removeClass("--blue");
+            $("#electronic").removeClass("--violet");
+        });
+
+        // DESKTOP
         // events: Zwischen Kacheln und Liste switchen
         $(document).ready(function () {
             console.log("dom is ready ");
@@ -149,12 +159,9 @@
                 $("#eventslist_liste").hide();
                 $("#eventslist_kacheln").show();
             });
-
         });
 
-
         // MOBILE
-
         // events: Zwischen Kacheln und Liste switchen
         $("#btn__events-kacheln-sm").click(function () {
             $("#eventslist_kacheln-sm").hide();
@@ -164,6 +171,12 @@
         $("#btn__events-liste-sm").click(function () {
             $("#eventslist_liste-sm").hide();
             $("#eventslist_kacheln-sm").show();
+        });
+
+        // Zurück zu den Filtern
+        $("#events-filter-show").click(function(){
+            window.location = $(this).find("a:first").attr("href");
+            return false;
         });
 
 

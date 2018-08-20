@@ -12,7 +12,7 @@
                 <img src={{asset('images/Teaser_Liste.png')}} height="104px" alt="sur le lac">
             </div>
             <div class="eventslist__icon bgmint">
-                <img src={{asset('icons/music_indie.svg')}}  alt="icon indie">
+                <img src={{asset('icons/music_indie.svg')}}  alt="icon-indie">
             </div>
             <div class="eventslist__name">
                 Sur Le Lac
@@ -47,9 +47,9 @@
 
 
             <div class="eventslist__buy greenBorderRight5px greenBorderBottom4px">
-                <div class="my-auto action__box--black">
+                <button class="my-auto action__box--black width-fill-sm">
                     KAUFEN
-                </div>
+                </button>
             </div>
         </div>
     </div>
@@ -58,9 +58,9 @@
 
     {{--MEHR ANZEIGEN-BUTTON--}}
     <div class="filter filter__eventslistfixmargin">
-        <div class="action__boxtransparent">MEHR ANZEIGEN
+        <button class="action__boxtransparent">MEHR ANZEIGEN
             <span class="filter__number">9</span>
-        </div>
+        </button>
     </div>
 
 

@@ -8,6 +8,10 @@ Route::get('/events', function() {
     return view ('events');
 });
 
+Route::get('/filtering-sm', function() {
+    return view ('filtering-sm');
+});
+
 Route::get('/eventdetail', function() {
     return view ('eventdetail');
 });

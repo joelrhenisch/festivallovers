@@ -37,8 +37,19 @@ $grid-gutter-width: 16px;
    background-color: $mint;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background-color: unset;
+}
+
 // Media Queries Desktop
 @media only screen and (min-width: 376px) {
+
+  // Breite füllen, für Desktop
+  .width-fill-lg {
+    width: 100%;
+  }
 
   // Fonts definieren
   h1 {
@@ -136,6 +147,7 @@ $grid-gutter-width: 16px;
   // Elemente definieren
   html {
     font-family: "Adelle";
+    cursor: default !important;
   }
 
   .nav {
@@ -264,6 +276,9 @@ $grid-gutter-width: 16px;
     margin-left: -180px !important;
     img {
       margin-right: 20px;
+    }
+    :hover {
+      cursor: pointer;
     }
     .fix-margin-right-lg {
       margin-right: 25px !important;
@@ -803,6 +818,9 @@ $grid-gutter-width: 16px;
     img {
       width: 340px;
     }
+    :hover {
+      cursor: pointer;
+    }
   }
 
   #surlelac-scaled {
@@ -1009,7 +1027,7 @@ $grid-gutter-width: 16px;
   .tabs__btn {
     font-family: "ProximaNova Bold";
     font-size: 20px;
-    padding: 15px 32px;
+    padding: 7px 32px;
     //clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
     background-color: $white;
     border: 2px solid $black;
@@ -1075,6 +1093,7 @@ $grid-gutter-width: 16px;
     align-items: baseline;
     border-bottom: 5px solid black;
     margin-bottom: 65px;
+    width: 100%;
 
     .title {
       font-family: "Adelle Bold";
@@ -1107,6 +1126,7 @@ $grid-gutter-width: 16px;
 
   .promote__container {
     text-align: center;
+    z-index: 0;
 
     .promote_img {
       background-image: url('/icons/music_indie.svg');
@@ -1117,6 +1137,7 @@ $grid-gutter-width: 16px;
       width: 300px;
       height: 250px;
       transform: translate(182px, -145px);
+      z-index: -1;
     }
 
     .title {
@@ -1379,7 +1400,7 @@ $grid-gutter-width: 16px;
   // Klickfläche zum Ein-/Ausblenden
   #ticket-white {
     height: 64px;
-    width: 145px;
+    width: 70px;
     position: absolute;
     transform: translateX(-25px);
   }
@@ -1603,6 +1624,11 @@ $grid-gutter-width: 16px;
 // Media Queries Mobile
 @media only screen and (max-width: 376px) {
 
+  // Breite füllen, für Mobile
+  .width-fill-sm {
+    width: 100%;
+  }
+
   .nomargin {
     margin: 0 !important;
   }
@@ -1795,6 +1821,9 @@ $grid-gutter-width: 16px;
     padding-left: 10px;
     img {
       margin: 0 7px;
+    }
+    :hover {
+      cursor: pointer;
     }
 }
 
@@ -2189,7 +2218,7 @@ $grid-gutter-width: 16px;
   // Klickfläche zum Ein-/Ausblenden
   #ticket-white {
     height: 64px;
-    width: 145px;
+    width: 60px;
     position: absolute;
     transform: translateX(-25px);
   }
@@ -2278,6 +2307,10 @@ $grid-gutter-width: 16px;
     margin-top: 20px;
   }
 
+  .filter__extra-height {
+    margin-top: 80px;
+  }
+
   .filter__svgmusic {
     margin: 5px 15px 5px 5px;
     width: 25px;
@@ -2292,7 +2325,7 @@ $grid-gutter-width: 16px;
     color: white;
     width: fit-content;
   }
-  
+
   /* Hoverzustand der Filterbuttons */
   #jazz:hover {background-color: $yellow}
   #hiphop:hover {background-color: $pink}
@@ -2398,7 +2431,8 @@ $grid-gutter-width: 16px;
 
   .filter__eventslistfixmargin {
     background-color: $greylighter;
-    padding: 0px 0 50px 0;
+    padding: 0 0 50px 0;
+    text-align: center;
   }
 
   .bgmint {
@@ -2736,7 +2770,7 @@ $grid-gutter-width: 16px;
     padding: 10px 10px;
     background-color: black;
     color: white;
-    width: auto;
+    width: 100%;
     height: 48px;
     display: flex;
     align-items: center;
@@ -2788,6 +2822,7 @@ $grid-gutter-width: 16px;
     align-items: baseline;
     border-bottom: 5px solid black;
     margin-bottom: 40px;
+    width: 100%;
 
     .title {
       font-family: "Adelle Bold";
@@ -2821,6 +2856,7 @@ $grid-gutter-width: 16px;
   .promote__container {
     text-align: center;
     width: 70%;
+    z-index: 0;
 
     .promote_img {
       background-image: url('/icons/music_indie.svg');
@@ -2831,6 +2867,7 @@ $grid-gutter-width: 16px;
       width: 300px;
       height: 250px;
       transform: translate(-18px, -145px);
+      z-index: -1;
     }
 
     .title {
@@ -3016,7 +3053,7 @@ $grid-gutter-width: 16px;
 
   .eventslist__buy {
     background-color: $white;
-    padding: 20px 10px;
+    padding: 20px 30px 20px 10px
   }
 
   .greenBorderBottom4px {

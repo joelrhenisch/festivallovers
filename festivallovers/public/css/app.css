@@ -10567,7 +10567,17 @@ a.text-dark:focus {
   background-color: #00d79f;
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  background-color: unset;
+}
+
 @media only screen and (min-width: 376px) {
+  .width-fill-lg {
+    width: 100%;
+  }
+
   h1 {
     font-size: 56px;
     line-height: 80px;
@@ -10658,6 +10668,7 @@ a.text-dark:focus {
 
   html {
     font-family: "Adelle";
+    cursor: default !important;
   }
 
   .nav {
@@ -10818,6 +10829,10 @@ a.text-dark:focus {
 
   .pfadleiste img {
     margin-right: 20px;
+  }
+
+  .pfadleiste :hover {
+    cursor: pointer;
   }
 
   .pfadleiste .fix-margin-right-lg {
@@ -11503,6 +11518,10 @@ a.text-dark:focus {
     width: 340px;
   }
 
+  .eventslist__EventKacheln :hover {
+    cursor: pointer;
+  }
+
   #surlelac-scaled {
     -webkit-transform: scale(1.6);
             transform: scale(1.6);
@@ -11727,7 +11746,7 @@ a.text-dark:focus {
   .tabs__btn {
     font-family: "ProximaNova Bold";
     font-size: 20px;
-    padding: 15px 32px;
+    padding: 7px 32px;
     background-color: #FFFFFF;
     border: 2px solid #000000;
     color: #000000;
@@ -11805,6 +11824,7 @@ a.text-dark:focus {
             align-items: baseline;
     border-bottom: 5px solid black;
     margin-bottom: 65px;
+    width: 100%;
   }
 
   .singleevent__akkordeon .title {
@@ -11842,6 +11862,7 @@ a.text-dark:focus {
 
   .promote__container {
     text-align: center;
+    z-index: 0;
   }
 
   .promote__container .promote_img {
@@ -11854,6 +11875,7 @@ a.text-dark:focus {
     height: 250px;
     -webkit-transform: translate(182px, -145px);
             transform: translate(182px, -145px);
+    z-index: -1;
   }
 
   .promote__container .title {
@@ -12201,7 +12223,7 @@ a.text-dark:focus {
 
   #ticket-white {
     height: 64px;
-    width: 145px;
+    width: 70px;
     position: absolute;
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
@@ -12460,6 +12482,10 @@ a.text-dark:focus {
 }
 
 @media only screen and (max-width: 376px) {
+  .width-fill-sm {
+    width: 100%;
+  }
+
   .nomargin {
     margin: 0 !important;
   }
@@ -12681,6 +12707,10 @@ a.text-dark:focus {
 
   .pfadleiste img {
     margin: 0 7px;
+  }
+
+  .pfadleiste :hover {
+    cursor: pointer;
   }
 
   .first-element__fix-margin {
@@ -13136,7 +13166,7 @@ a.text-dark:focus {
 
   #ticket-white {
     height: 64px;
-    width: 145px;
+    width: 60px;
     position: absolute;
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
@@ -13235,6 +13265,10 @@ a.text-dark:focus {
         -ms-flex-align: center;
             align-items: center;
     margin-top: 20px;
+  }
+
+  .filter__extra-height {
+    margin-top: 80px;
   }
 
   .filter__svgmusic {
@@ -13402,7 +13436,8 @@ a.text-dark:focus {
 
   .filter__eventslistfixmargin {
     background-color: #f0f0f0;
-    padding: 0px 0 50px 0;
+    padding: 0 0 50px 0;
+    text-align: center;
   }
 
   .bgmint {
@@ -13781,7 +13816,7 @@ a.text-dark:focus {
     padding: 10px 10px;
     background-color: black;
     color: white;
-    width: auto;
+    width: 100%;
     height: 48px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13851,6 +13886,7 @@ a.text-dark:focus {
             align-items: baseline;
     border-bottom: 5px solid black;
     margin-bottom: 40px;
+    width: 100%;
   }
 
   .singleevent__akkordeon .title {
@@ -13889,6 +13925,7 @@ a.text-dark:focus {
   .promote__container {
     text-align: center;
     width: 70%;
+    z-index: 0;
   }
 
   .promote__container .promote_img {
@@ -13901,6 +13938,7 @@ a.text-dark:focus {
     height: 250px;
     -webkit-transform: translate(-18px, -145px);
             transform: translate(-18px, -145px);
+    z-index: -1;
   }
 
   .promote__container .title {
@@ -14145,7 +14183,7 @@ a.text-dark:focus {
 
   .eventslist__buy {
     background-color: #FFFFFF;
-    padding: 20px 10px;
+    padding: 20px 30px 20px 10px;
   }
 
   .greenBorderBottom4px {

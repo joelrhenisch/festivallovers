@@ -16,15 +16,17 @@
     @include ('layouts.filter')
 </div>
 
+<!-- Buttons für Desktop -->
 <div id="filter-lg" class="filter">
-    <div class="action__box--white">FILTER ZURÜCKSETZEN</div>
-    <div id="result-show" class="action__box--black"> <a href="/events"></a> ERGEBNIS ANZEIGEN </div>
-
+    <button id="result-reset-lg" class="action__box--white">FILTER ZURÜCKSETZEN</button>
+    <button id="result-show-lg" class="action__box--black"> <a href="/events"></a> ERGEBNIS ANZEIGEN </button>
 </div>
 
+<!-- Buttons für Mobile -->
 <div id="filter-sm" class="filter">
-    <div class="action__box--black">ERGEBNIS ANZEIGEN</div>
+    <button class="action__box--black"> <a href="/filtering-sm"></a> FILTER ANZEIGEN</button>
 </div>
+
 
 <div class="bigteaser">
     <img class="bigteaser__img" src={{asset('images/BigTeaser.png')}} />
@@ -86,19 +88,34 @@
     </div>
 
     <div id="article-show-more" class="d-flex justify-content-center mb-5">
-        <div id="article__btn-show-more" class="action__box--white">
+        <button id="article__btn-show-more" class="action__box--white">
             MEHR ANZEIGEN
-        </div>
+        </button>
     </div>
 
 </div>
 
 <script>
-
+    // Filter für Mobile einblenden
     // Button zu Events verlinken. (Sucht erstes a-Element und verwendet das href-Attribut davon)
-    $("#result-show").click(function(){
+    $("#filter-sm").click(function(){
         window.location = $(this).find("a:first").attr("href");
         return false;
+    });
+
+    // Button zu Events verlinken. (Sucht erstes a-Element und verwendet das href-Attribut davon)
+    $("#result-show-lg").click(function(){
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Filter zurücksetzen
+    $("#result-reset-lg").click(function() {
+        $("#jazz").removeClass("--yellow");
+        $("#hiphop").removeClass("--pink");
+        $("#indie").removeClass("--mint");
+        $("#poprock").removeClass("--blue");
+        $("#electronic").removeClass("--violet");
     });
 
     // einzelne Artikel aufklappen
