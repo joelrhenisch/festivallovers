@@ -13264,11 +13264,17 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .filter__extra-height {
-    margin-top: 80px;
+    margin-top: 76px;
   }
 
   .filter__svgmusic {
@@ -13281,7 +13287,7 @@ button {
     background-color: lightgrey;
     padding: 5px 8px;
     border-radius: 10px;
-    margin: 23px auto;
+    margin: 13px auto;
     color: white;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -13325,8 +13331,12 @@ button {
   #filter__btn-result-container {
     display: block;
     width: 100%;
-    height: 100px;
+    height: 140px;
     border-top: 1px solid #e5e5e5;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: #FFFFFF;
   }
 
   #events-lg {

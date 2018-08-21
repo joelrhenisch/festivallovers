@@ -2292,7 +2292,7 @@ button {
   }
 
   // Filter anzeigen
-  //zusätzliches "back"-Element in der Nav
+  //zusätzliches "back"-Element in der Nav (nur bei Mobile in Filterauswahl)
   #nav__btn-back {
     display: flex;
     align-items: center;
@@ -2304,11 +2304,12 @@ button {
 
   .filter {
     align-items: center;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .filter__extra-height {
-    margin-top: 80px;
+    margin-top: 76px;
   }
 
   .filter__svgmusic {
@@ -2321,7 +2322,7 @@ button {
     background-color: lightgrey;
     padding: 5px 8px;
     border-radius: 10px;
-    margin: 23px auto;
+    margin: 13px auto;
     color: white;
     width: fit-content;
   }
@@ -2348,8 +2349,12 @@ button {
   #filter__btn-result-container {
     display: block;
     width: 100%;
-    height: 100px;
+    height: 140px;
     border-top: 1px solid $greylight;
+    padding: 0 20px;
+    position: absolute;
+    bottom: 0;
+    background-color: $white;
   }
 
   //events von Desktop ausblenden

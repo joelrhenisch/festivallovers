@@ -1,4 +1,7 @@
-
+<div id="filter__btn-result-container" class="d-none">
+    <button id="result-show" class="action__box--black mt-3 mb-0 mx-0 width-fill-sm"> <a href="/"></a>  ERGEBNIS ANZEIGEN</button>
+    <button id="result-reset" class="action__box--white mt-3 mb-0 mx-0 width-fill-sm">FILTER ZURÜCKSETZEN</button>
+</div>
 <div id="filter" class="filter">
 
     <button id="jazz" class="filter__box">
@@ -30,10 +33,7 @@
         <span id="mehr-genres" class="filter__mehrgenres">Mehr Genres</span>
     </button>
 
-    <div id="filter__btn-result-container" class="d-none">
-        <button id="result-show" class="action__box--black mb-3 mt-4"> <a href="/"></a>  ERGEBNIS ANZEIGEN</button>
-        <button id="result-reset" class="action__box--white mt-3">FILTER ZURÜCKSETZEN</button>
-    </div>
+
 
 </div>
 

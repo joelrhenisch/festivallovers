@@ -1,26 +1,27 @@
 <div id="nav-switch">
 <div id="nav-normal" class="nav sticky">
     <div id="nav__btn-menu" class="nav__btn-menu col-4">
-        <div id="menu" class="nav__btn-menu-container">
+        <button id="menu" class="nav__btn-menu-container">
             <img id="navigation-menu-black" src={{asset('icons/navigation_menu.svg')}} alt="Menu">
             <img id="navigation-menu-gray" src={{asset('icons/navigation_menu_gray.svg')}} alt="Menu">
             MENU
-        </div>
+        </button>
         <!-- Zurück-Button ist nur für Mobile, bei Filterauswahl -->
-        <div class="nav__btn-back d-none" id="nav__btn-back">
+        <button class="nav__btn-back d-none" id="nav__btn-back">
             <img class="mr-2" src={{asset('icons/navigation_zurueck.svg')}} height="20px" alt="back">
             ZURÜCK
-        </div>
+            <a href="/events"></a>
+        </button>
     </div>
 
-    <div id="home" class="nav__logo-festivallovers col-4">
+    <button id="home" class="nav__logo-festivallovers col-4">
         <a href="/"></a>
         <img id="logo" src={{asset('images/FestivalLovers_Logo.jpg')}} height="33px" alt="FestivalLovers Logo">
         <img id="logo-sm" src={{asset('images/FestivalLovers_Logo-sm.jpg')}} height="33px" alt="FestivalLovers Logo">
-    </div>
+    </button>
 
     <div class="nav__login-ticket col-4">
-        <div class="nav__btn-login">
+        <button class="nav__btn-login">
             <div id="ticket-white"></div>
             <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
             <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
@@ -51,13 +52,15 @@
                 </div>
             </div>
             <!-- Ende Login Box -->
+        </button>
 
-        </div>
-        <div class="nav__btn-ticket-kaufen">
+        <!-- Ticketkaufen-Button -->
+        <button id="go-to-ticket" class="nav__btn-ticket-kaufen">
+            <a href="/ticketavaible"></a>
             <img id="navigation-ticket-gray" src={{asset('icons/navigation_ticketkauf_gray.svg')}} height="25px" alt="Ticket">
             <img id="navigation-ticket-black" src={{asset('icons/navigation_ticketkauf.svg')}} height="25px" alt="Ticket">
             <p id="text-ticketkaufen">TICKETS KAUFEN</p>
-        </div>
+        </button>
     </div>
 </div>
 </div>
@@ -72,6 +75,12 @@
 
     // Auf Startseite gehen
     $("#home").click(function(){
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Auf Ticketseite gehen
+    $("#go-to-ticket").click(function(){
         window.location = $(this).find("a:first").attr("href");
         return false;
     });
