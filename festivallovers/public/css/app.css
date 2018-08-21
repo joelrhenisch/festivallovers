@@ -10567,6 +10567,14 @@ a.text-dark:focus {
   background-color: #00d79f;
 }
 
+body {
+  cursor: default;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 button {
   cursor: pointer;
   border: none;

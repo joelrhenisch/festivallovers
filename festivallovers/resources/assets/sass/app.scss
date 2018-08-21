@@ -37,6 +37,15 @@ $grid-gutter-width: 16px;
    background-color: $mint;
 }
 
+body {
+  cursor: default;
+}
+
+// Hand über Element, für Ausnahmen
+.cursor-pointer {
+  cursor: pointer;
+}
+
 button {
   cursor: pointer;
   border: none;

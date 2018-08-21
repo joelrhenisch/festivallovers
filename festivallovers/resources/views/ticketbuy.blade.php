@@ -91,13 +91,13 @@
                                     <div class="ticketContainer nomargin">
                                         <div class="ticketsCounter">
                                             <div class="container">
-                                                <div class="box">
+                                                <button class="box">
                                                     <img src={{asset('icons/steuerung_minus.svg')}}  width="20px" alt="ticket minus">
-                                                </div>
+                                                </button>
                                                 <p class="fontticket">0 Tickets</p>
-                                                <div class="box">
+                                                <button class="box">
                                                     <img src={{asset('icons/steuerung_plus.svg')}}  width="20px" alt="ticket plus">
-                                                </div>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
@@ -147,13 +147,13 @@
                                     <div class="ticketContainer nomargin">
                                         <div class="ticketsCounter">
                                             <div class="container">
-                                                <div class="box">
+                                                <button class="box">
                                                     <img src={{asset('icons/steuerung_minus.svg')}}  width="20px" alt="ticket minus">
-                                                </div>
+                                                </button>
                                                 <p class="fontticket">0 Tickets</p>
-                                                <div class="box">
+                                                <button class="box">
                                                     <img src={{asset('icons/steuerung_plus.svg')}}  width="20px" alt="ticket plus">
-                                                </div>
+                                                </button>
                                             </div>
                                         </div>
                                     </div>
