@@ -61,6 +61,10 @@ button {
   }
 
   // Fonts definieren
+  .bold {
+    font-weight: bold;
+  }
+
   h1 {
     font-size: 56px;
     line-height: 80px;
@@ -1632,6 +1636,14 @@ button {
 
 // Media Queries Mobile
 @media only screen and (max-width: 376px) {
+
+  // Transparenz zu 50%
+  .opacity-50 {
+    opacity: 0.5;
+  }
+  .opacity-100 {
+    opacity: 1.0;
+  }
 
   // Breite füllen, für Mobile
   .width-fill-sm {

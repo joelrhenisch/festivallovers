@@ -43,17 +43,17 @@
                     </button>
 
                     <button class="events__displayoption">
-                        <div id="btn__events-liste" class="mr-3 d-flex align-items-center">
+                        <div id="btn__events-kacheln" class="mr-3 d-flex align-items-center">
                             <div class="events__boxside d-flex">
                                 <img src={{asset('icons/steuerung_kacheln.svg')}} height="15px" alt="display option">
                             </div>
-                            Kacheln
+                            <span id="text-kacheln" class="bold">Kacheln</span>
                         </div>
-                        <div id="btn__events-kacheln" class="d-flex align-items-center">
+                        <div id="btn__events-liste" class="d-flex align-items-center">
                             <div class="events__boxside d-flex">
                                 <img src={{asset('icons/steuerung_liste.svg')}} height="15px" alt="events">
                             </div>
-                            Liste
+                            <span id="text-liste">Liste</span>
                         </div>
                     </button>
                 </div>
@@ -102,13 +102,13 @@
                     </div>
 
                     <div class="events__displayoption">
-                        <div id="btn__events-liste-sm" class="mr-3 d-flex align-items-center">
-                            <div class="events__boxside d-flex">
+                        <div id="btn__events-kacheln-sm" class="mr-3 d-flex align-items-center">
+                            <div id="icon-kacheln" class="events__boxside d-flex">
                                 <img src={{asset('icons/steuerung_kacheln.svg')}} height="15px" alt="display option">
                             </div>
                         </div>
-                        <div id="btn__events-kacheln-sm" class="d-flex align-items-center">
-                            <div class="events__boxside d-flex">
+                        <div id="btn__events-liste-sm" class="d-flex align-items-center">
+                            <div id="icon-liste" class="events__boxside d-flex ">
                                 <img src={{asset('icons/steuerung_liste.svg')}} height="15px" alt="events">
                             </div>
                         </div>
@@ -146,39 +146,51 @@
         });
 
         // DESKTOP
-        // events: Zwischen Kacheln und Liste switchen
+        // events: Zwischen Kacheln und Liste switchen - Text der jeweiligen Ansicht bold setzen
         $(document).ready(function () {
-            console.log("dom is ready ");
 
             $("#btn__events-kacheln").click(function () {
-                $("#eventslist_kacheln").hide();
-                $("#eventslist_liste").show();
+                $("#eventslist_kacheln").show();
+                $("#eventslist_liste").hide();
+                $("#text-kacheln").addClass('bold');
+                $("#text-liste").removeClass('bold');
             });
 
             $("#btn__events-liste").click(function () {
-                $("#eventslist_liste").hide();
-                $("#eventslist_kacheln").show();
+                $("#eventslist_liste").show();
+                $("#eventslist_kacheln").hide();
+                $("#text-liste").addClass('bold');
+                $("#text-kacheln").removeClass('bold');
             });
-        });
 
         // MOBILE
         // events: Zwischen Kacheln und Liste switchen
-        $("#btn__events-kacheln-sm").click(function () {
-            $("#eventslist_kacheln-sm").hide();
-            $("#eventslist_liste-sm").show();
-        });
+            $("#btn__events-kacheln-sm").click(function () {
+                $("#eventslist_kacheln-sm").show();
+                $("#eventslist_liste-sm").hide();
+                $("#icon-liste").addClass('opacity-50');
+                $("#icon-liste").removeClass('opacity-100');
+                $("#icon-kacheln").addClass('opacity-100');
+                $("#icon-kacheln").removeClass('opacity-50');
+            });
 
-        $("#btn__events-liste-sm").click(function () {
-            $("#eventslist_liste-sm").hide();
-            $("#eventslist_kacheln-sm").show();
-        });
+            $("#btn__events-liste-sm").click(function () {
+                $("#eventslist_liste-sm").show();
+                $("#eventslist_kacheln-sm").hide();
+                $("#icon-liste").removeClass('opacity-50');
+                $("#icon-liste").addClass('opacity-100');
+                $("#icon-kacheln").addClass('opacity-50');
+                $("#icon-kacheln").removeClass('opacity-100');
 
-        // Zurück zu den Filtern
-        $("#events-filter-show").click(function(){
-            window.location = $(this).find("a:first").attr("href");
-            return false;
-        });
+            });
 
+            // Zurück zu den Filtern
+            $("#events-filter-show").click(function(){
+                window.location = $(this).find("a:first").attr("href");
+                return false;
+            });
+
+        });
 
     </script>
 
