@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('content')
-
+<div>
 <div class="heading__titel-sm-bigger heading__titel">
     <h1 class="p-3">Auf welche Musik stehst du?</h1>
 </div>
@@ -94,7 +94,7 @@
     </div>
 
 </div>
-
+</div>
 <script>
     // Filter für Mobile einblenden
     // Button zu Events verlinken. (Sucht erstes a-Element und verwendet das href-Attribut davon)

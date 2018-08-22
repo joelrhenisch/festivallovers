@@ -180,6 +180,9 @@ button {
     z-index: 1;
   }
 
+  #nav-switch {
+    height: 64px;
+  }
   .nav__btn-ticket-kaufen, .nav__btn-login {
     font-family: "ProximaNova Bold";
     font-size: 17px;
@@ -565,8 +568,12 @@ button {
     width: 100%
   }
 
+  #magazin {
+    padding-top: 80px;
+  }
+
   .magazin-title {
-    margin: 80px 0;
+    margin-bottom: 80px;
   }
 
   .magazin__container {
@@ -623,7 +630,7 @@ button {
 
   .footer__container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
   }
 

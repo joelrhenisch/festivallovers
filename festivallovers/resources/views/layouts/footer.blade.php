@@ -2,33 +2,41 @@
 <footer id="footer-lg" class="footer">
     <div class="footer__container">
         <div class="footer__box-left">
-            <div class="footer__item-left pl-0">FESTIVALS</div>
-            <div class="footer__item-left">MAGAZIN</div>
-            <div class="footer__item-left">NEWS</div>
+            <button id="go-to-events-lg" class="footer__item-left pl-0">
+                FESTIVALS
+                <a href="/events"></a>
+            </button>
+            <button id="go-to-magazin-lg" class="footer__item-left">
+                MAGAZIN
+                <a href="/#magazin"></a>
+            </button>
+            <button class="footer__item-left">
+                NEWS
+            </button>
         </div>
 
         <div class="footer__box-center">
-            <div class="footer__icons">
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_facebook.svg')}} height="20px" alt="facebook">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_instagram.svg')}} height="20px" alt="instagram">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_snapchat.svg')}} height="20px" alt="snapchat">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_youtube.svg')}} height="20px" alt="youtube">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_twitter.svg')}} height="20px" alt="twitter">
-            </div>
+            </button>
         </div>
 
-            <div class="footer__item-right">
+            <button id="go-to-top-lg" class="footer__item-right">
                 BACK TO TOP
-            </div>
-            <img src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
+                <img class="ml-2" src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
+            </button>
     </div>
 </footer>
 
@@ -36,31 +44,82 @@
 <footer id="footer-sm" class="footer-sm">
     <div class="footer__container">
         <div class="footer__box-top">
-            <div class="p-0">FESTIVALS</div>
-            <div class="p-0">MAGAZIN</div>
-            <div class="p-0">NEWS</div>
-            <div class="p-0">
+            <button id="go-to-events-sm" class="p-0">
+                <a href="/events"></a>
+                FESTIVALS
+            </button>
+            <button id="go-to-magazin-sm" class="p-0">
+                MAGAZIN
+                <a href="#article-show-more"></a>
+            </button>
+            <button class="p-0">NEWS</button>
+            <button id="go-to-top-sm" class="p-0">
                 <img src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
-            </div>
+            </button>
         </div>
 
         <div class="footer__box-bottom">
-            <div class="footer__icons">
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_facebook.svg')}} height="20px" alt="facebook">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_instagram.svg')}} height="20px" alt="instagram">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_snapchat.svg')}} height="20px" alt="snapchat">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_youtube.svg')}} height="20px" alt="youtube">
-            </div>
-            <div class="footer__icons">
+            </button>
+            <button class="footer__icons">
                 <img src={{asset('icons/socialmedia_twitter.svg')}} height="20px" alt="twitter">
-            </div>
+            </button>
         </div>
     </div>
 </footer>
+
+<script>
+
+    $(document).ready(function () {
+
+    // Desktop
+        // Zu Events
+        $("#go-to-events-lg").click(function(){
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
+        // Zu Magazin
+        $("#go-to-magazin-lg").click(function(){
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
+        // Zum Anfang der Seite wechseln
+        $("#go-to-top-lg").click(function(){
+            $(window).scrollTop(0);
+        });
+
+    // Mobile
+        // Zu Events
+        $("#go-to-events-sm").click(function(){
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
+        // Zu Magazin
+        $("#go-to-magazin-sm").click(function(){
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
+        // Zum Anfang der Seite wechseln
+        $("#go-to-top-sm").click(function(){
+            $(window).scrollTop(0);
+        });
+
+
+    });
+
+</script>
 

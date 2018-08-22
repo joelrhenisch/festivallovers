@@ -164,7 +164,7 @@
             });
 
         // MOBILE
-        // events: Zwischen Kacheln und Liste switchen
+        // events: Zwischen Kacheln und Liste switchen - Icon der passiven Ansicht auf Opacity 0.5 setzen
             $("#btn__events-kacheln-sm").click(function () {
                 $("#eventslist_kacheln-sm").show();
                 $("#eventslist_liste-sm").hide();
