@@ -183,6 +183,7 @@ button {
   #nav-switch {
     height: 64px;
   }
+
   .nav__btn-ticket-kaufen, .nav__btn-login {
     font-family: "ProximaNova Bold";
     font-size: 17px;
@@ -305,11 +306,6 @@ button {
   .fix-pos-left {
     margin-left: 285px !important;
   }
-
-  .first-element__fix-margin {
-    margin-top: 60px;
-  }
-
 
   // Schwarzes Menu zur Übersicht
   #navigation__menu-neg {
@@ -446,7 +442,7 @@ button {
 
 
   .heading__titel {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
     padding: 0 10px;
@@ -1337,7 +1333,6 @@ button {
   .buy__heading {
     width: 100%;
     height: 110px;
-    margin-top: 63px;
     background-color: $mint;
     display: flex;
     justify-content: center;
@@ -1499,7 +1494,7 @@ button {
     background-color: $mint;
     width: 100%;
     height: 100%;
-    padding-top: 170px;
+    padding-top: 90px;
     padding-bottom: 50px;
 
     .boldUnderline {
@@ -1533,7 +1528,7 @@ button {
 
   .logo__StreifenBottom {
     width: 100%;
-    height: 110px;
+    height: 70px;
     background-color: $mint;
     display: flex;
     justify-content: center;
@@ -1790,6 +1785,10 @@ button {
     display: none;
   }
 
+  #nav-switch {
+    height: 64px;
+  }
+
   .nav__btn-ticket-kaufen, .nav__btn-login {
     font-family: "ProximaNova Bold";
     font-size: 17px;
@@ -1855,9 +1854,6 @@ button {
     }
 }
 
-  .first-element__fix-margin {
-  margin-top: 60px;
-  }
 
   // für schwarze Menuübersicht
   .nav__btn-ticket-kaufen-black {
@@ -2044,10 +2040,6 @@ button {
     text-align: center;
   }
 
-  .heading__titel-sm-bigger {
-    margin-top: 90px;
-    text-align: center;
-  }
 
   #include-filter {
     display: none;
@@ -2334,10 +2326,7 @@ button {
     align-items: center;
     display: flex;
     flex-direction: column;
-  }
-
-  .filter__extra-height {
-    margin-top: 76px;
+    margin-top: 12px;
   }
 
   .filter__svgmusic {
@@ -2614,7 +2603,6 @@ button {
     height: 270px;
     background-color: $mint;
     margin: 0 auto;
-    margin-top: 62px;
   }
 
   .singleevent__headingcontainer {
@@ -2628,7 +2616,7 @@ button {
 
   .singleevent__headingicon {
     position: absolute;
-    margin-top: 94px;
+    margin-top: 30px;
     width: 100%;
     text-align: center;
     > img {
@@ -2639,14 +2627,13 @@ button {
   #surlelac-festivalsite-scaled-sm {
     transform: scale(1.0);
     position: relative;
-    left: 0px;
-    bottom: -63px;
+    left: 0;
     z-index: -1;
   }
 
   .singleevent__headingtext {
     position: absolute;
-    margin-top: 380px;
+    margin-top: 317px;
     margin-left: 22px;
     line-height: 59px;
     font-family: "Adelle Bold";
@@ -3097,7 +3084,6 @@ button {
   .buy__heading {
     width: 100%;
     height: 110px;
-    margin-top: 64px;
     background-color: $mint;
     display: flex;
     justify-content: center;
@@ -3207,8 +3193,8 @@ button {
   .bg__green {
     background-color: $mint;
     width: 100%;
-    height: 558px;
-    padding-top: 85px;
+    height: 500px;
+    padding-top: 20px;
 
     .boldUnderline {
       font-weight: bold;

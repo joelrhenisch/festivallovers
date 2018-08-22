@@ -32,6 +32,3 @@ Route::get('/payment', function() {
     return view ('payment');
 });
 
-Route::get('/filtering', function() {
-    return view ('filtering-sm');
-});

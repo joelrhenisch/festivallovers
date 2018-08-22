@@ -10859,10 +10859,6 @@ button {
     margin-left: 285px !important;
   }
 
-  .first-element__fix-margin {
-    margin-top: 60px;
-  }
-
   #navigation__menu-neg {
     position: absolute;
     z-index: 9999;
@@ -11026,7 +11022,7 @@ button {
   }
 
   .heading__titel {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 30px;
     text-align: center;
     padding: 0 10px;
@@ -12142,7 +12138,6 @@ button {
   .buy__heading {
     width: 100%;
     height: 110px;
-    margin-top: 63px;
     background-color: #00d79f;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12330,7 +12325,7 @@ button {
     background-color: #00d79f;
     width: 100%;
     height: 100%;
-    padding-top: 170px;
+    padding-top: 90px;
     padding-bottom: 50px;
   }
 
@@ -12365,7 +12360,7 @@ button {
 
   .logo__StreifenBottom {
     width: 100%;
-    height: 110px;
+    height: 70px;
     background-color: #00d79f;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12662,6 +12657,10 @@ button {
     display: none;
   }
 
+  #nav-switch {
+    height: 64px;
+  }
+
   .nav__btn-ticket-kaufen,
   .nav__btn-login {
     font-family: "ProximaNova Bold";
@@ -12740,10 +12739,6 @@ button {
 
   .pfadleiste :hover {
     cursor: pointer;
-  }
-
-  .first-element__fix-margin {
-    margin-top: 60px;
   }
 
   .nav__btn-ticket-kaufen-black {
@@ -12960,11 +12955,6 @@ button {
 
   .heading__titel {
     margin-top: 40px;
-    text-align: center;
-  }
-
-  .heading__titel-sm-bigger {
-    margin-top: 90px;
     text-align: center;
   }
 
@@ -13300,10 +13290,7 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-
-  .filter__extra-height {
-    margin-top: 76px;
+    margin-top: 12px;
   }
 
   .filter__svgmusic {
@@ -13660,7 +13647,6 @@ button {
     height: 270px;
     background-color: #00d79f;
     margin: 0 auto;
-    margin-top: 62px;
   }
 
   .singleevent__headingcontainer {
@@ -13674,7 +13660,7 @@ button {
 
   .singleevent__headingicon {
     position: absolute;
-    margin-top: 94px;
+    margin-top: 30px;
     width: 100%;
     text-align: center;
   }
@@ -13687,14 +13673,13 @@ button {
     -webkit-transform: scale(1);
             transform: scale(1);
     position: relative;
-    left: 0px;
-    bottom: -63px;
+    left: 0;
     z-index: -1;
   }
 
   .singleevent__headingtext {
     position: absolute;
-    margin-top: 380px;
+    margin-top: 317px;
     margin-left: 22px;
     line-height: 59px;
     font-family: "Adelle Bold";
@@ -14232,7 +14217,6 @@ button {
   .buy__heading {
     width: 100%;
     height: 110px;
-    margin-top: 64px;
     background-color: #00d79f;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -14361,8 +14345,8 @@ button {
   .bg__green {
     background-color: #00d79f;
     width: 100%;
-    height: 558px;
-    padding-top: 85px;
+    height: 500px;
+    padding-top: 20px;
   }
 
   .bg__green .boldUnderline {
