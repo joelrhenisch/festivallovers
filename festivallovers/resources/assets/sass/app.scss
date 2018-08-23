@@ -37,6 +37,10 @@ $grid-gutter-width: 16px;
    background-color: $mint;
 }
 
+:focus {
+  outline: 0;
+}
+
 body {
   cursor: default;
 }
@@ -594,7 +598,7 @@ button {
 
   // weitere Artikel anzeigen (nur für Mobile, da bei Desktop nicht mehr vorgesehen wurden im Screendesign)
   #article-show-more {
-    display: none;
+    display: none !important;
   }
 
   #hor-line-1, #hor-line-2, #hor-line-3, #hor-line-4, #hor-line-5, #hor-line-6,
@@ -1663,6 +1667,12 @@ button {
     opacity: 1.0;
   }
 
+  // Action Box: volle Breite für Mobile
+  .action-full-width {
+    width: 350px;
+  }
+
+
   // Breite füllen, für Mobile
   .width-fill-sm {
     width: 100%;
@@ -2110,7 +2120,7 @@ button {
   }
 
   .heading__lead {
-    margin: 0 auto 35px auto;
+    margin: 0 auto;
     text-align: center;
     padding: 0 10px;
     font-family: "Adelle Regular" !important;
@@ -2118,13 +2128,13 @@ button {
   }
 
   .bigteaser {
-    margin-top: 60px;
+    margin-top: 20px;
     margin-bottom: 60px;
   }
 
   .bigteaser__img {
-    width: 100%;
-    height: 160px;
+    width: 137%;
+    overflow: hidden;
   }
 
   .magazin-title {
@@ -2144,7 +2154,7 @@ button {
 
   .magazin__article {
     width: 100%;
-    margin-bottom: 40px;
+    padding-bottom: 20px;
     justify-content: space-between;
     display: block;
   }

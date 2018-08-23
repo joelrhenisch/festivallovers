@@ -24,7 +24,7 @@
 
 <!-- Buttons für Mobile -->
 <div id="filter-sm" class="filter">
-    <button class="action__box--black"> <a href="/filtering-sm"></a> FILTER ANZEIGEN</button>
+    <button class="action-full-width action__box--black"> <a href="/filtering-sm"></a> FILTER ANZEIGEN</button>
 </div>
 
 
@@ -88,7 +88,7 @@
     </div>
 
     <div id="article-show-more" class="d-flex justify-content-center mb-5">
-        <button id="article__btn-show-more" class="action__box--white">
+        <button id="article__btn-show-more" class="action-full-width action__box--white">
             MEHR ANZEIGEN
         </button>
     </div>
