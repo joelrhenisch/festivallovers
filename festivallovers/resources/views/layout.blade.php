@@ -2,7 +2,7 @@
 
 @section('content')
 <div>
-<div class="heading__titel-sm-bigger heading__titel">
+<div class="heading__titel">
     <h1 class="p-3">Auf welche Musik stehst du?</h1>
 </div>
 

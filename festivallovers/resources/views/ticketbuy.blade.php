@@ -147,11 +147,12 @@
                                     <div class="ticketContainer nomargin">
                                         <div class="ticketsCounter">
                                             <div class="container">
-                                                <button class="box">
+                                                <button id="counter-minus" class="box">
                                                     <img src={{asset('icons/steuerung_minus.svg')}}  width="20px" alt="ticket minus">
                                                 </button>
-                                                <p class="fontticket">0 Tickets</p>
-                                                <button class="box">
+                                                <span id="counter" class="fontticket"></span>
+                                                <span>Tickets</span>
+                                                <button id="counter-plus" class="box">
                                                     <img src={{asset('icons/steuerung_plus.svg')}}  width="20px" alt="ticket plus">
                                                 </button>
                                             </div>
@@ -175,5 +176,42 @@
         </div>
 
     </div>
+
+
+
+    <div id="example">
+        <p>This will disappear if JavaScript is working properly.</p>
+    </div>
+
+    <p>Return to documentation of <a href="../counters-example.html">Counters example</a>.</p>
+
+
+    <script>
+        // Tickets addieren und subtrahieren
+        $(document).ready(function () {
+            // Zähler auf 0 setzen
+            let counter = 0;
+
+            // Dem DOM-Element die Zahl zuweisen
+            $("#counter").text(counter);
+
+            // Addieren
+            $("#counter-plus").click(function () {
+                //Add 10 to counter
+                counter = counter + 1;
+                // Display total
+                $("#counter").text(counter);
+            });
+
+            // Subrahieren
+            $("#counter-minus").click(function () {
+                counter = counter - 1;
+                $("#counter").text(counter);
+            });
+
+        });
+
+
+    </script>
 
 @endsection

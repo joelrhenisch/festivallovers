@@ -33,9 +33,6 @@
 
             // dieses Element wird nur in Desktop verwendet
             $("#mehr-genres").hide();
-
-            // Spezielle Höhe zum für Filtering Mobile
-            $("#filter").addClass('filter__extra-height')
         });
 
     </script>

@@ -1009,6 +1009,22 @@ button {
       margin-bottom: 70px;
     }
 
+  .carousel-control-prev-icon {
+    background-image: url('/icons/steuerung_pfeil_links.svg') !important;
+  }
+
+  .carousel-control-prev {
+    left: -70px;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url('/icons/steuerung_pfeil_rechts.svg') !important;
+  }
+
+  .carousel-control-next {
+    right: -70px;
+  }
+
   .carouselExampleIndicators {
     margin-bottom: 250px;
   }
