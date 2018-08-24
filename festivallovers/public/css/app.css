@@ -10615,6 +10615,13 @@ button {
     font-family: "Adelle Bold" !important;
   }
 
+  .like-h1 {
+    font-size: 56px;
+    line-height: 80px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
   .like-h2 {
     font-size: 32px;
     line-height: 40px;
@@ -11133,6 +11140,18 @@ button {
     text-align: center;
   }
 
+  .action__box-margin--black {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    display: -webkit-inline-box;
+  }
+
   .action__box--white {
     font-weight: bold;
     border: 2px solid black;
@@ -11223,6 +11242,63 @@ button {
   #article-5-show,
   #article-6-show {
     display: none;
+  }
+
+  .ad-iphone__box {
+    height: 376px;
+    width: 1440px;
+    background-color: #000000;
+  }
+
+  .ad-iphone__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 127px;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+
+  .ad-iphone__container .text {
+    display: inline-block;
+    width: 690px;
+  }
+
+  .ad-iphone__container img {
+    height: 400px;
+    margin-bottom: 35px;
+  }
+
+  .ad-iphone__container .margin {
+    margin: 10px 0;
+  }
+
+  .ad-iphone__content-lg {
+    margin-left: 90px;
+    margin-top: 20px;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+
+  .ad-iphone__buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-inline-box;
+    margin-top: 10px;
+  }
+
+  .ad__logos {
+    margin-top: 4px;
+    margin-left: 45px;
+  }
+
+  .ad__logos img {
+    height: 50px;
+    -webkit-transform: unset;
+            transform: unset;
   }
 
   .footer {
@@ -12563,6 +12639,13 @@ button {
     font-family: "Adelle Bold" !important;
   }
 
+  .like-h1 {
+    font-size: 32px;
+    line-height: 40px;
+    color: #000000;
+    font-family: "Adelle Bold";
+  }
+
   .like-h2 {
     font-size: 24px;
     line-height: 32px;
@@ -12996,6 +13079,18 @@ button {
     text-align: center;
   }
 
+  .action__box-margin--black {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    display: -webkit-inline-box;
+  }
+
   .action__box--white {
     font-weight: bold;
     border: 2px solid black;
@@ -13096,6 +13191,44 @@ button {
   #article-5,
   #article-6 {
     display: none;
+  }
+
+  .ad-iphone__box {
+    height: 432px;
+    width: 375px;
+    background-color: #000000;
+  }
+
+  .ad-iphone__container {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+  }
+
+  .ad-iphone__container .text {
+    display: inline-block;
+    width: 90%;
+  }
+
+  .ad-iphone__container img {
+    height: 170px;
+    margin-bottom: 35px;
+  }
+
+  .ad-iphone__container .margin {
+    margin: 10px 0;
+  }
+
+  .ad__logos {
+    margin-top: 20px;
+  }
+
+  .ad__logos img {
+    height: 50px;
+    -webkit-transform: unset;
+            transform: unset;
   }
 
   .footer-sm {

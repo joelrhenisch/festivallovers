@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" line="3217" />
+    <bookmark url="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" line="3338" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88ff585f-d803-4f7e-b0c7-1acbbb2422c9" name="Default" comment="" />
@@ -40,8 +40,8 @@
           <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46782">
-                  <caret line="2060" column="32" selection-start-line="2060" selection-start-column="32" selection-end-line="2060" selection-end-column="32" />
+                <state relative-caret-position="47380">
+                  <caret line="2136" column="32" selection-start-line="2136" selection-start-column="32" selection-end-line="2136" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -49,8 +49,8 @@
           <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="90" column="69" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
+                <state relative-caret-position="336">
+                  <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -58,7 +58,7 @@
           <file leaf-file-name="nav.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="23">
+                <state relative-caret-position="207">
                   <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
                 </state>
               </provider>
@@ -76,7 +76,7 @@
           <file leaf-file-name="ticketbuy.blade.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="336">
+                <state relative-caret-position="4347">
                   <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
                 </state>
               </provider>
@@ -86,7 +86,7 @@
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/master.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="391">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
                 </state>
               </provider>
             </entry>
@@ -99,7 +99,7 @@
             <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="672">
-                  <caret line="2156" column="21" selection-start-line="2156" selection-start-column="21" selection-end-line="2156" selection-end-column="21" />
+                  <caret line="669" selection-start-line="669" selection-end-line="669" />
                 </state>
               </provider>
             </entry>
@@ -119,9 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fe</find>
-      <find>icon-liste</find>
-      <find>go-to-events</find>
       <find>go-to-magazin-lg</find>
       <find>queries mo</find>
       <find>heading__titel</find>
@@ -147,8 +144,11 @@
       <find>heading__ti</find>
       <find>heading__lead</find>
       <find>box</find>
-      <find>action</find>
       <find>med</find>
+      <find>font</find>
+      <find>h1</find>
+      <find>ac</find>
+      <find>action</find>
     </findStrings>
     <replaceStrings>
       <replace>h2</replace>
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layouts/carousel.blade.php" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/master.blade.php" />
-        <option value="$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" />
         <option value="$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -240,7 +240,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -350,13 +350,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prepress\Desktop\projektarbeit\festivallovers\resources\views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\prepress\Documents" />
       <recent name="C:\Users\prepress\Desktop" />
       <recent name="C:\Users\prepress\AppData\Local\Temp\scp03021\home\forge\pdfio.contoweb.ch\tbg" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\prepress\Desktop\projektarbeit\festivallovers\resources\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -430,11 +430,13 @@
       <workItem from="1534874096664" duration="11124000" />
       <workItem from="1534966060597" duration="5715000" />
       <workItem from="1535046667013" duration="12458000" />
+      <workItem from="1535126929714" duration="819000" />
+      <workItem from="1535128371594" duration="5834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="562282000" />
+    <option name="totallyTimeSpent" value="568935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -446,10 +448,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32833788" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.27668846" />
@@ -458,7 +460,7 @@
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49840087" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -714,7 +716,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layouts/nav.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
+        <state relative-caret-position="207">
           <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
@@ -735,7 +737,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/ticketbuy.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
+        <state relative-caret-position="4347">
           <caret line="189" column="26" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="26" />
         </state>
       </provider>
@@ -743,21 +745,21 @@
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/master.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46782">
-          <caret line="2060" column="32" selection-start-line="2060" selection-start-column="32" selection-end-line="2060" selection-end-column="32" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/festivallovers/resources/views/layout.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="90" column="69" selection-start-line="90" selection-start-column="69" selection-end-line="90" selection-end-column="69" />
+        <state relative-caret-position="336">
+          <caret line="110" column="28" selection-start-line="110" selection-start-column="28" selection-end-line="110" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/festivallovers/resources/assets/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="669" selection-start-line="669" selection-end-line="669" />
         </state>
       </provider>
     </entry>

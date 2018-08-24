@@ -94,6 +94,13 @@ button {
     font-family: "Adelle Bold" !important;
   }
 
+  .like-h1 {
+    font-size: 56px;
+    line-height: 80px;
+    color: $black;
+    font-family: "Adelle Bold";
+  }
+
   .like-h2 {
     font-size: 32px;
     line-height: 40px;
@@ -531,6 +538,18 @@ button {
     text-align: center;
   }
 
+  .action__box-margin--black {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    border: 2px solid $white;
+    display: -webkit-inline-box;
+  }
+
   .action__box--white {
     font-weight: bold;
     border: 2px solid black;
@@ -605,6 +624,58 @@ button {
   #article-1-show, #article-2-show, #article-3-show, #article-4-show, #article-5-show, #article-6-show {
     display: none;
   }
+
+
+  // Ad mit iPhone
+  .ad-iphone__box {
+    height: 376px;
+    width: 1440px;
+    background-color: $black;
+  }
+
+  .ad-iphone__container {
+    display: flex;
+    padding: 0 127px;
+    transform: translateY(-50px);
+    //text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    .text {
+      display: inline-block;
+      width: 690px;
+    }
+    img  {
+      height: 400px;
+      margin-bottom: 35px;
+    }
+    .margin {
+      margin: 10px 0;
+    }
+  }
+
+  .ad-iphone__content-lg {
+    margin-left: 90px;
+    margin-top: 20px;
+    transform: translateY(100px);
+
+  }
+  
+  .ad-iphone__buttons {
+    display: flex;
+    display: -webkit-inline-box;
+    margin-top: 10px;
+  }
+
+  .ad__logos {
+    margin-top: 4px;
+    margin-left: 45px;
+    img {
+      height: 50px;
+      transform: unset;
+    }
+  }
+
+
 
   .footer {
     height: 64px;
@@ -1708,6 +1779,13 @@ button {
     font-family: "Adelle Bold" !important;
   }
 
+  .like-h1 {
+      font-size: 32px;
+      line-height: 40px;
+      color: $black;
+      font-family: "Adelle Bold";
+  }
+
   .like-h2 {
     font-size: 24px;
     line-height: 32px;
@@ -2081,6 +2159,18 @@ button {
     text-align: center;
   }
 
+  .action__box-margin--black {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: $black;
+    color: $white;
+    text-align: center;
+    border: 2px solid $white;
+    display: -webkit-inline-box;
+  }
+
   .action__box--white {
     font-weight: bold;
     border: 2px solid black;
@@ -2170,6 +2260,39 @@ button {
 
   #article-1, #article-2, #article-3, #article-4, #article-5, #article-6 {
     display: none;
+  }
+
+  // Ad mit iPhone
+  .ad-iphone__box {
+    height: 432px;
+    width: 375px;
+    background-color: $black;
+  }
+
+    .ad-iphone__container {
+      transform: translateY(-50px);
+      text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+    .text {
+      display: inline-block;
+      width: 90%;
+    }
+    img  {
+      height: 170px;
+      margin-bottom: 35px;
+    }
+    .margin {
+      margin: 10px 0;
+    }
+  }
+
+  .ad__logos {
+    margin-top: 20px;
+    img {
+      height: 50px;
+      transform: unset;
+    }
   }
 
   // footer
