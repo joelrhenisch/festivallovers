@@ -107,17 +107,42 @@
             <div class="ad-iphone__container">
                 <img src={{asset('/images/iphone.png')}} />
                 <div class="ad-iphone__content-lg">
-                <span class="text like-h1 text-white">Mit der App unabhägig am Festival feiern.</span>
-                <div class="ad-iphone__buttons">
-                    <div class="margin action__box-margin--black">APP DOWNLOADEN</div>
-                    <div class="ad__logos">
-                        <img src={{asset('/icons/apple_store.svg')}} />
-                        <img src={{asset('/icons/google_play.svg')}} />
+                    <span class="text like-h1 text-white">Mit der App unabhägig am Festival feiern.</span>
+                    <div class="ad-iphone__buttons">
+                        <div class="margin action__box-margin--black">APP DOWNLOADEN</div>
+                        <div class="ad__logos">
+                            <img src={{asset('/icons/apple_store.svg')}} />
+                            <img src={{asset('/icons/google_play.svg')}} />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="heading__titel">
+            <h1 class="p-3">Entdeckungen</h1>
+        </div>
+
+        <div class="heading__lead">
+            <p class="font-lead">
+                Sei offen für neues und geniesse unerwartete Musikerlebnisse. Höre dir die Samples an und entdecke deine Leidenschaften.
+            </p>
+        </div>
+        <div class="music__container jazz">
+            <img src={{asset('/icons/detail_video_play_black.svg')}} />
+        </div>
+        <div class="music__container soul">
+            <img src={{asset('/icons/detail_video_play_black.svg')}} />
+        </div>
+        <div class="music__container indie">
+            <img src={{asset('/icons/detail_video_play_black.svg')}} />
+        </div>
+        <div class="music__container poprock">
+            <img src={{asset('/icons/detail_video_play_black.svg')}} />
+        </div>
+        <div class="music__container electronic">
+            <img src={{asset('/icons/detail_video_play_black.svg')}} />
+        </div>
+
     </div>
 
     <script>

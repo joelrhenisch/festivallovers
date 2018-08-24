@@ -676,6 +676,37 @@ button {
   }
 
 
+  .music__container {
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 0;
+    img {
+      height: 45px;
+    }
+  }
+
+  .soul {
+    background-image: url('/icons/music_soul_pink.svg');
+  }
+  .jazz {
+    background-image: url('/icons/music_jazz_cut.svg');
+  }
+  .indie {
+    background-image: url('/icons/music_indie-cut.svg');
+  }
+  .poprock {
+    background-image: url('/icons/music_poprock-cut.svg');
+  }
+  .electronic {
+    background-image: url('/icons/music_electronic-cut.svg');
+  }
+
+
+
 
   .footer {
     height: 64px;
@@ -2293,6 +2324,35 @@ button {
       height: 50px;
       transform: unset;
     }
+  }
+
+  .music__container {
+    background-repeat: repeat-x;
+    background-size: contain;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 55px 0;
+    img {
+      height: 45px;
+    }
+  }
+
+  .soul {
+    background-image: url('/icons/music_soul_pink.svg');
+  }
+  .jazz {
+    background-image: url('/icons/music_jazz_cut.svg');
+  }
+  .indie {
+    background-image: url('/icons/music_indie-cut.svg');
+  }
+  .poprock {
+    background-image: url('/icons/music_poprock-cut.svg');
+  }
+  .electronic {
+    background-image: url('/icons/music_electronic-cut.svg');
   }
 
   // footer
