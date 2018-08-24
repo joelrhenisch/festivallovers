@@ -143,6 +143,41 @@
             <img src={{asset('/icons/detail_video_play_black.svg')}} />
         </div>
 
+        <!-- News -->
+        <div class="news__box">
+            <div class="heading__titel">
+                <h1 class="p-3">News</h1>
+            </div>
+
+            <div class="news__container">
+                <div class="image">
+                    <img src={{asset('/images/SocialMedia.png')}} />
+                </div>
+                <div class="content-top">
+                    <span class="font-title-small d-block">3. Jun 2016</span>
+                    <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                    <hr>
+                </div>
+                <div class="content-bottom">
+                    <img src={{asset('/icons/detail_like_filled.svg')}} />
+                    <span class="font-title-small d-block">13</span>
+                </div>
+            </div>
+
+            <div class="news__container">
+                <div class="content-top">
+                    <span class="font-title-small d-block">3. Jun 2016</span>
+                    <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                    <hr>
+                </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like_filled.svg')}} />
+                        <span class="font-title-small d-block">13</span>
+                    </div>
+            </div>
+        </div>
+
+
     </div>
 
     <script>

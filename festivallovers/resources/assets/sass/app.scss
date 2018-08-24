@@ -1873,6 +1873,13 @@ button {
     font-family: "ProximaNova Regular";
   }
 
+  .font-title-small {
+    font-size: 13px;
+    line-height: 30px;
+    color: $black;
+    font-family: "ProximaNova Regular";
+  }
+
   p {
     font-size: 30px;
     line-height: 80px;
@@ -2353,6 +2360,47 @@ button {
   }
   .electronic {
     background-image: url('/icons/music_electronic-cut.svg');
+  }
+
+  // News
+  .news__box {
+    background-color: $greylighter;
+    padding: 10px 0 0 0;
+
+  }
+
+  .news__container {
+    padding: 0 16px;
+    margin: 18px 0;
+  img {
+    width: 100%;
+  }
+  }
+
+  .content-top {
+    padding: 8px 15px 1px 15px;
+    background-color: white;
+
+  }
+
+  .news__hor-line {
+    width: auto;
+    border-top: 1px solid $greydark;
+    margin: 0 14px;
+  }
+
+  .content-bottom {
+    display: flex;
+    align-items: center;
+    padding: 0 15px 15px 15px;
+    background-color: white;
+  img {
+    height: 16px;
+    width: 20px;
+    margin-right: 6px;
+
+
+  }
   }
 
   // footer
