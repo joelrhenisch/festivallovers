@@ -2463,16 +2463,26 @@ button {
     background-color: white;
   }
 
+  .news__hor-line {
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+    border: 0;
+    border-top: 1px solid $greylight;
+  }
+
   .content-bottom {
     display: flex;
     align-items: center;
-    padding: 0 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
     background-color: white;
     img {
       height: 16px;
       width: 20px;
       margin-right: 6px;
     }
+  }
+  .content-bottom:hover {
+    background-color: $greyhover;
   }
 
   // footer

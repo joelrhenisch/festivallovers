@@ -13429,6 +13429,13 @@ button {
     background-color: white;
   }
 
+  .news__hor-line {
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+    border: 0;
+    border-top: 1px solid #e5e5e5;
+  }
+
   .content-bottom {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13436,7 +13443,7 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 0 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
     background-color: white;
   }
 
@@ -13444,6 +13451,10 @@ button {
     height: 16px;
     width: 20px;
     margin-right: 6px;
+  }
+
+  .content-bottom:hover {
+    background-color: #f7f7f7;
   }
 
   .footer-sm {
