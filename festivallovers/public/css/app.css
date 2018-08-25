@@ -11341,6 +11341,48 @@ button {
     background-image: url("/icons/music_electronic-cut.svg");
   }
 
+  .news__box {
+    background-color: #f0f0f0;
+    padding: 10px 0 1px 0;
+  }
+
+  .news__container {
+    padding: 0 16px;
+    margin: 18px 0;
+  }
+
+  .news__container img {
+    width: 100%;
+  }
+
+  .content-top {
+    padding: 8px 15px 1px 15px;
+    background-color: white;
+  }
+
+  .news__hor-line {
+    width: auto;
+    border-top: 1px solid #c2c2c2;
+    margin: 0 14px;
+  }
+
+  .content-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 15px 15px 15px;
+    background-color: white;
+  }
+
+  .content-bottom img {
+    height: 16px;
+    width: 20px;
+    margin-right: 6px;
+  }
+
   .footer {
     height: 64px;
     padding: 0px 120px;
@@ -12643,7 +12685,7 @@ button {
   }
 
   .action-full-width {
-    width: 350px;
+    width: 345px;
   }
 
   .width-fill-sm {
@@ -13120,7 +13162,7 @@ button {
     font-weight: bold;
     border: 2px solid black;
     padding: 8px 25px;
-    margin: 30px 10px;
+    margin: 30px 15px;
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
@@ -13130,7 +13172,7 @@ button {
     font-weight: bold;
     border: 2px solid black;
     padding: 8px 25px;
-    margin: 30px 10px;
+    margin: 30px 15px;
     background-color: #000000;
     color: #FFFFFF;
     text-align: center;
@@ -13142,7 +13184,7 @@ button {
     font-weight: bold;
     border: 2px solid black;
     padding: 8px 25px;
-    margin: 30px 10px;
+    margin: 30px 15px;
     background-color: #FFFFFF;
     color: #000000;
     text-align: center;
@@ -13151,7 +13193,7 @@ button {
   .action__box--mint {
     font-weight: bold;
     padding: 8px 25px;
-    margin: 30px 10px;
+    margin: 30px 15px;
     background-color: #00d79f;
     color: #FFFFFF;
     text-align: center;
@@ -13162,7 +13204,7 @@ button {
     font-weight: bold;
     border: 2px solid black;
     padding: 8px 25px;
-    margin: 10px;
+    margin: 15px;
     background-color: transparent;
     color: #000000;
     text-align: center;
@@ -13318,9 +13360,13 @@ button {
     background-image: url("/icons/music_electronic-cut.svg");
   }
 
+  #mehr-samples-lg {
+    display: none;
+  }
+
   .news__box {
     background-color: #f0f0f0;
-    padding: 10px 0 0 0;
+    padding: 10px 0 1px 0;
   }
 
   .news__container {

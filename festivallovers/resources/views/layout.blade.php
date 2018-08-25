@@ -1,7 +1,6 @@
 @extends('master')
 
 @section('content')
-    <div>
 
         <div class="heading__titel">
             <h1 class="p-3">Auf welche Musik stehst du?</h1>
@@ -103,6 +102,8 @@
             </div>
 
         </div>
+
+        <!-- Ad iPhone -->
         <div class="ad-iphone__box">
             <div class="ad-iphone__container">
                 <img src={{asset('/images/iphone.png')}} />
@@ -118,6 +119,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- Musikstreifen -->
         <div class="heading__titel">
             <h1 class="p-3">Entdeckungen</h1>
         </div>
@@ -143,12 +146,15 @@
             <img src={{asset('/icons/detail_video_play_black.svg')}} />
         </div>
 
+        <div id="mehr-samples-lg" class="mb-5 mt-5 action__boxtransparent">MEHR SAMPLES</div>
+
         <!-- News -->
         <div class="news__box">
             <div class="heading__titel">
                 <h1 class="p-3">News</h1>
             </div>
 
+            <!-- Newsbox mit Bild -->
             <div class="news__container">
                 <div class="image">
                     <img src={{asset('/images/SocialMedia.png')}} />
@@ -164,21 +170,71 @@
                 </div>
             </div>
 
+            <!-- Newsbox ohne Bild -->
             <div class="news__container">
                 <div class="content-top">
                     <span class="font-title-small d-block">3. Jun 2016</span>
                     <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
                     <hr>
                 </div>
-                    <div class="content-bottom">
-                        <img src={{asset('/icons/detail_like_filled.svg')}} />
-                        <span class="font-title-small d-block">13</span>
-                    </div>
+                <div class="content-bottom">
+                    <img src={{asset('/icons/detail_like.svg')}} />
+                    <span class="font-title-small d-block">54</span>
+                </div>
+            </div>
+
+            <!-- Newsbox mit Bild -->
+            <div class="news__container">
+                <div class="image">
+                    <img src={{asset('/images/i_love_jazz.png')}} />
+                </div>
+                <div class="content-top">
+                    <span class="font-title-small d-block">1m</span>
+                    <span class="font-breadcrumb">#jazzfest #festival #homeland #weekend</span>
+                    <hr>
+                </div>
+                <div class="content-bottom">
+                    <img src={{asset('/icons/detail_like_filled.svg')}} />
+                    <span class="font-title-small d-block">5</span>
+                </div>
+            </div>
+
+            <!-- Newsbox ohne Bild -->
+            <div class="news__container">
+                <div class="content-top">
+                    <span class="font-title-small d-block">3. Jun 2016</span>
+                    <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                    <hr>
+                </div>
+                <div class="content-bottom">
+                    <img src={{asset('/icons/detail_like.svg')}} />
+                    <span class="font-title-small d-block">26</span>
+                </div>
+            </div>
+
+            <!-- Newsbox mit Bild -->
+            <div class="news__container">
+                <div class="image">
+                    <img src={{asset('/images/shoe.png')}} />
+                </div>
+                <div class="content-top">
+                    <span class="font-title-small d-block">4h</span>
+                    <span class="font-breadcrumb">Italiaaa #boots #italy #germany #2016 #camping #festival #sexylegs</span>
+                    <hr>
+                </div>
+                <div class="content-bottom">
+                    <img src={{asset('/icons/detail_like.svg')}} />
+                    <span class="font-title-small d-block">47</span>
+                </div>
             </div>
         </div>
 
+        <div class="news__box">
+            <div class="mb-5 action__boxtransparent action-full-width">MEHR ANZEIGEN</div>
+        </div>
 
-    </div>
+
+
 
     <script>
         // Filter für Mobile einblenden
