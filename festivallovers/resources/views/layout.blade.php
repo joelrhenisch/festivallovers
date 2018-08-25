@@ -146,7 +146,11 @@
             <img src={{asset('/icons/detail_video_play_black.svg')}} />
         </div>
 
-        <div id="mehr-samples-lg" class="mb-5 mt-5 action__boxtransparent">MEHR SAMPLES</div>
+        <div id="mehr-samples-lg" class="d-flex justify-content-center">
+            <button class="mb-5 mt-5 action__boxtransparent">MEHR SAMPLES</button>
+        </div>
+
+        <div class="mt-5"></div> <!-- nur für den Abstand -->
 
         <!-- News -->
         <div class="news__box">
@@ -154,85 +158,164 @@
                 <h1 class="p-3">News</h1>
             </div>
 
-            <!-- Newsbox mit Bild -->
-            <div class="news__container">
-                <div class="image">
-                    <img src={{asset('/images/SocialMedia.png')}} />
+            <div class="news__masonry">
+                <!-- Newsbox mit Bild -->
+                <div class="news__container">
+                    <div class="image__container">
+                        <img class="image" src={{asset('/images/SocialMedia.png')}} />
+                    </div>
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like_filled.svg')}} />
+                        <span class="font-title-small d-block">13</span>
+                    </div>
                 </div>
-                <div class="content-top">
-                    <span class="font-title-small d-block">3. Jun 2016</span>
-                    <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
-                    <hr>
-                </div>
-                <div class="content-bottom">
-                    <img src={{asset('/icons/detail_like_filled.svg')}} />
-                    <span class="font-title-small d-block">13</span>
-                </div>
-            </div>
 
-            <!-- Newsbox ohne Bild -->
-            <div class="news__container">
-                <div class="content-top">
-                    <span class="font-title-small d-block">3. Jun 2016</span>
-                    <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
-                    <hr>
+                <!-- Newsbox ohne Bild -->
+                <div class="news__container">
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like.svg')}} />
+                        <span class="font-title-small d-block">54</span>
+                    </div>
                 </div>
-                <div class="content-bottom">
-                    <img src={{asset('/icons/detail_like.svg')}} />
-                    <span class="font-title-small d-block">54</span>
-                </div>
-            </div>
 
-            <!-- Newsbox mit Bild -->
-            <div class="news__container">
-                <div class="image">
-                    <img src={{asset('/images/i_love_jazz.png')}} />
+                <!-- Newsbox ohne Bild -->
+                <div class="news__container">
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like.svg')}} />
+                        <span class="font-title-small d-block">26</span>
+                    </div>
                 </div>
-                <div class="content-top">
-                    <span class="font-title-small d-block">1m</span>
-                    <span class="font-breadcrumb">#jazzfest #festival #homeland #weekend</span>
-                    <hr>
-                </div>
-                <div class="content-bottom">
-                    <img src={{asset('/icons/detail_like_filled.svg')}} />
-                    <span class="font-title-small d-block">5</span>
-                </div>
-            </div>
 
-            <!-- Newsbox ohne Bild -->
-            <div class="news__container">
-                <div class="content-top">
-                    <span class="font-title-small d-block">3. Jun 2016</span>
-                    <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
-                    <hr>
+                <!-- Newsbox mit Bild -->
+                <div class="news__container">
+                    <div class="image__container">
+                        <img class="image" src={{asset('/images/i_love_jazz.png')}} />
+                    </div>
+                    <div class="content-top">
+                        <span class="font-title-small d-block">1m</span>
+                        <span class="font-breadcrumb">#jazzfest #festival #homeland #weekend</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like_filled.svg')}} />
+                        <span class="font-title-small d-block">5</span>
+                    </div>
                 </div>
-                <div class="content-bottom">
-                    <img src={{asset('/icons/detail_like.svg')}} />
-                    <span class="font-title-small d-block">26</span>
-                </div>
-            </div>
 
-            <!-- Newsbox mit Bild -->
-            <div class="news__container">
-                <div class="image">
-                    <img src={{asset('/images/shoe.png')}} />
+                <!-- Newsbox mit Bild -->
+                <div class="news__container">
+                    <div class="image__container">
+                        <img class="image" src={{asset('/images/shoe.png')}} />
+                    </div>
+                    <div class="content-top">
+                        <span class="font-title-small d-block">4h</span>
+                        <span class="font-breadcrumb">Italiaaa #boots #italy #germany #2016 #camping #festival #sexylegs</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like.svg')}} />
+                        <span class="font-title-small d-block">47</span>
+                    </div>
                 </div>
-                <div class="content-top">
-                    <span class="font-title-small d-block">4h</span>
-                    <span class="font-breadcrumb">Italiaaa #boots #italy #germany #2016 #camping #festival #sexylegs</span>
-                    <hr>
+
+
+                <!-- Newsbox ohne Bild -->
+                <div class="news__container">
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival<br>#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like.svg')}} />
+                        <span class="font-title-small d-block">26</span>
+                    </div>
                 </div>
-                <div class="content-bottom">
-                    <img src={{asset('/icons/detail_like.svg')}} />
-                    <span class="font-title-small d-block">47</span>
+
+
+                <!-- Newsbox ohne Bild -->
+                <div class="news__container">
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like.svg')}} />
+                        <span class="font-title-small d-block">26</span>
+                    </div>
                 </div>
+
+            <div id="news-show-more">
+                <!-- Newsbox mit Bild -->
+                <div class="news__container">
+                    <div class="image__container">
+                        <img class="image" src={{asset('/images/SocialMedia.png')}} />
+                    </div>
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like_filled.svg')}} />
+                        <span class="font-title-small d-block">13</span>
+                    </div>
+                </div>
+
+                <!-- Newsbox mit Bild -->
+                <div class="news__container">
+                    <div class="image__container">
+                        <img class="image" src={{asset('/images/i_love_jazz.png')}} />
+                    </div>
+                    <div class="content-top">
+                        <span class="font-title-small d-block">1m</span>
+                        <span class="font-breadcrumb">#jazzfest #festival #homeland #weekend</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like_filled.svg')}} />
+                        <span class="font-title-small d-block">5</span>
+                    </div>
+                </div>
+
+                <!-- Newsbox ohne Bild -->
+                <div class="news__container">
+                    <div class="content-top">
+                        <span class="font-title-small d-block">3. Jun 2016</span>
+                        <span class="font-breadcrumb">#festivallovers are you ready for a #competition #follow @envirofoneshop and we'll announce next week #festival</span>
+                        <hr class="news__hor-line">
+                    </div>
+                    <div class="content-bottom">
+                        <img src={{asset('/icons/detail_like.svg')}} />
+                        <span class="font-title-small d-block">54</span>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
 
-        <div class="news__box">
-            <div class="mb-5 action__boxtransparent action-full-width">MEHR ANZEIGEN</div>
+        <div id="hide-himself">
+            <div id="news__btn-show-more" class="news__box d-flex justify-content-center">
+                <div class="cursor-pointer mb-5 action__boxtransparent action-full-width">MEHR ANZEIGEN</div>
+            </div>
         </div>
-
 
 
 
@@ -279,11 +362,20 @@
             $("#article-6").toggle();
         });
 
-        // weiter Artikel aufklappen via Button, unterhalb von letztem Artikel
+        // weitere Artikel aufklappen via Button, unterhalb von letztem Artikel
         $("#article__btn-show-more").click(function () {
             $("#article__container").show();
             $("#article__btn-show-more").hide();
         });
+
+        // weitere News einblenden via Button, unterhalb von letzter News
+        $("#news__btn-show-more").click(function () {
+            $("#news-show-more").show();
+            $("#hide-himself").hide();
+        });
+
+
+
     </script>
 
 @endsection

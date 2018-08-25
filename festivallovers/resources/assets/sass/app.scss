@@ -18,6 +18,7 @@
 .w-85 {width: 85% !important;}
 .w-90 {width: 90% !important;}
 .w-95 {width: 95% !important;}
+.w-100 {width: 100% !important;}
 
 // Scrollbar in Chrome ausblenden
 ::-webkit-scrollbar {
@@ -705,42 +706,76 @@ button {
     background-image: url('/icons/music_electronic-cut.svg');
   }
 
-  
+
   // News
+  #news-show-more {
+    display: contents;
+  }
+
   .news__box {
     background-color: $greylighter;
-    padding: 10px 0 1px 0;
+    padding: 10px 100px 1px 100px;
+    .heading__titel {
+      margin-top: 100px;
+      margin-bottom: 55px;
+    }
+  }
+
+  .news__masonry {
+    column-count: 5;
+    column-gap: 0;
+    height: 820px;
   }
 
   .news__container {
-    padding: 0 16px;
-    margin: 18px 0;
-    img {
-      width: 100%;
+    margin-bottom: 23px;
+    padding: 0 12px;
+    break-inside: avoid;
+  //  margin: 18px 0;
+  //  width: 20%;
+  //  height: fit-content;
+    .image__container {
+      overflow: hidden;
+      width: 224px;
+      height: 170px;
+      .image {
+        min-height: 170px;
+        min-width: 224px;
+        max-height: 170px;
+      }
     }
   }
 
   .content-top {
     padding: 8px 15px 1px 15px;
     background-color: white;
+    .font-title-small {
+      font-size: small;
+      margin: 8px 0;
+    }
   }
 
   .news__hor-line {
-    width: auto;
-    border-top: 1px solid $greydark;
-    margin: 0 14px;
+    margin-top: 1rem;
+    margin-bottom: 0 !important;
+    border: 0;
+    border-top: 1px solid $greylight;
   }
 
   .content-bottom {
     display: flex;
     align-items: center;
-    padding: 0 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
     background-color: white;
+    cursor: pointer;
     img {
       height: 16px;
       width: 20px;
       margin-right: 6px;
     }
+  }
+  .content-bottom:hover {
+    background-color: $greyhover;
   }
 
 
@@ -2405,6 +2440,11 @@ button {
   }
 
   // News
+    // erscheint nur bei Desktop
+  #news-show-more {
+    display: none;
+  }
+
   .news__box {
     background-color: $greylighter;
     padding: 10px 0 1px 0;
@@ -2421,12 +2461,6 @@ button {
   .content-top {
     padding: 8px 15px 1px 15px;
     background-color: white;
-  }
-
-  .news__hor-line {
-    width: auto;
-    border-top: 1px solid $greydark;
-    margin: 0 14px;
   }
 
   .content-bottom {
