@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="fix-pos-left">
-    @include ('layouts.pfadleiste')
-</div>
+    <div class="fix-pos-left">
+        @include ('layouts.pfadleiste')
+    </div>
 
     <section class="heading__titel">
         <h1>Alles für deinen Musikgeschmack</h1>
@@ -70,7 +70,8 @@
 
             {{--MEHR ANZEIGEN-BUTTON--}}
             <div class="filter filter__eventslistfixmargin">
-                <button class="action__boxtransparent">MEHR ANZEIGEN
+                <button class="action__boxtransparent">
+                    MEHR ANZEIGEN
                     <span class="filter__number">9</span>
                 </button>
             </div>
@@ -80,7 +81,7 @@
 
     <!-- Mobile -->
     <div id="events-sm">
-        <div id="events-filter-show" class="action__box--black mb-5"> <a href="/filtering-sm"></a> FILTER ANZEIGEN</div>
+        <div id="events-filter-show" class="action__box--black mb-5"><a href="/filtering-sm"></a> FILTER ANZEIGEN</div>
 
         <div class="events__container">
             {{--START CONTROLBAR--}}
@@ -134,8 +135,6 @@
 
 
     <script>
-
-
         // Filter zurücksetzen
         $("#events-result-reset").click(function () {
             $("#jazz").removeClass("--yellow");
@@ -163,8 +162,8 @@
                 $("#text-kacheln").removeClass('bold');
             });
 
-        // MOBILE
-        // events: Zwischen Kacheln und Liste switchen - Icon der passiven Ansicht auf Opacity 0.5 setzen
+            // MOBILE
+            // events: Zwischen Kacheln und Liste switchen - Icon der passiven Ansicht auf Opacity 0.5 setzen
             $("#btn__events-kacheln-sm").click(function () {
                 $("#eventslist_kacheln-sm").show();
                 $("#eventslist_liste-sm").hide();
@@ -181,18 +180,27 @@
                 $("#icon-liste").addClass('opacity-100');
                 $("#icon-kacheln").addClass('opacity-50');
                 $("#icon-kacheln").removeClass('opacity-100');
-
             });
 
             // Zurück zu den Filtern
-            $("#events-filter-show").click(function(){
+            $("#events-filter-show").click(function () {
+                window.location = $(this).find("a:first").attr("href");
+                return false;
+            });
+
+            // Zum jeweiligen Event weiterverlinkt werden (Kacheln-Ansicht)
+            $(".eventslist__EventKacheln").click(function () {
+                window.location = $(this).find("a:first").attr("href");
+                return false;
+            });
+
+            // Zum jeweiligen Event weiterverlinkt werden (Listen-Ansicht)
+            $(".eventslist__row").click(function () {
                 window.location = $(this).find("a:first").attr("href");
                 return false;
             });
 
         });
-
     </script>
-
 
 @endsection

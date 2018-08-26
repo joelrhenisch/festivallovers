@@ -5,13 +5,15 @@
 @include ('layouts.filter')
 
 
-
     <script>
+
+        // Events zeigen
         $("#result-show").click(function(){
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
+        // Zurück gehen
         $("#nav__btn-back").click(function(){
             window.location = $(this).find("a:first").attr("href");
             return false;
@@ -22,7 +24,6 @@
             $('#footer-lg').addClass('hidden');
             $('#footer-sm').addClass('hidden');
             $('#filter__btn-result-container').removeClass('d-none');
-
         });
 
         $( document ).ready(function() {
@@ -31,7 +32,7 @@
             $("#menu").hide();
             $("#nav__btn-back").removeClass('d-none');
 
-            // dieses Element wird nur in Desktop verwendet
+            // dieses Element wird nur in Desktop verwendet, also in Mobile ausblenden
             $("#mehr-genres").hide();
         });
 

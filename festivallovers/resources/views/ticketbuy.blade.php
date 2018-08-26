@@ -49,7 +49,6 @@
                 <div class="ticketbuy__tickets">
                     <div class="ticketbuy__festivalTicketContainer">
 
-
                         {{-- TICKET --}}
                         {{-- grüner Teil --}}
                         <div class="ticketContainer">
@@ -58,7 +57,6 @@
                                 <p class="title">1 Tag Pass</p>
                                 <p class="price">CHF 75.–</p>
                             </div>
-
 
                             {{-- weisser Teil --}}
                             <div class="ticketsArea">
@@ -105,7 +103,6 @@
                             </div>
                         </div>
 
-
                         {{-- TICKET --}}
                         {{-- grüner Teil --}}
                         <div class="ticketContainer">
@@ -114,7 +111,6 @@
                                 <p class="title">1 Tag Pass</p>
                                 <p class="price">CHF 75.–</p>
                             </div>
-
 
                             {{-- weisser Teil --}}
                             <div class="ticketsArea">
@@ -161,11 +157,8 @@
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
-
 
                 <div class="ticketBuy__submitContainer">
                     <button class="box-sm-full-width action__box--black w-100">
@@ -174,10 +167,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-
-
 
     <div id="example">
         <p>This will disappear if JavaScript is working properly.</p>
@@ -210,8 +200,6 @@
             });
 
         });
-
-
     </script>
 
 @endsection

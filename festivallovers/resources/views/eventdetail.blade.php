@@ -2,7 +2,7 @@
 
 @section('content')
 
-    {{--HEADING SINGLE FESTIVAL--}}
+    {{-- Heading mit Bild und Titel --}}
     <div class="singleevent__headingicon">
         <img src={{asset('icons/music_indie.svg')}} height="120px">
     </div>
@@ -13,10 +13,10 @@
 
     <div class="singleevent__headingcontainer">
         <img id="surlelac-festivalsite-scaled-sm" class="singleevent__imagefullscreen" src={{asset('images/BigFestival.png')}} />
-        <div class="singleevent__areagreen">
-        </div>
+        <div class="singleevent__areagreen"></div>
     </div>
 
+    {{-- 4 Teaserinfos --}}
     <div class="singleevent__eventnewscontainer">
         <div class="col-sm-12 col-lg-3 container-pd-sm">
             <section class="singleevent__eventnewslead">COUNTDOWN</section>
@@ -36,10 +36,10 @@
         </div>
     </div>
 
-
     <div class="singleevent__descriptioncontainer">
         @include ('layouts.pfadleiste')
 
+        {{-- Festivalbeschreibung --}}
         <div class="singleevent__description">
 
             <div class="col-lg-7 col-sm-12">
@@ -109,11 +109,8 @@
                     @include ('layouts.carousel')
                 </div>
             </div>
-
         </div>
     </div>
-
-
 
     <!-- Line Up DESKTOP -->
     <div id="lineup-lg" class="singleevent__descriptioncontainer pt-5 bg-greylighter">
@@ -135,7 +132,6 @@
             </div>
         </div>
     </div>
-
 
     <!-- Line Up MOBILE -->
     <div id="lineup-sm" class="singleevent__descriptioncontainer bg-greylighter">
@@ -163,11 +159,9 @@
         </div>
     </div>
 
-
-
+    <!-- Video -->
     <div class="singleevent__video">
-        <div class="singleevent_videoimage">
-        </div>
+        <div class="singleevent_videoimage"></div>
     </div>
 
     <div class="singleevent__descriptioncontainer">
@@ -176,6 +170,8 @@
                 <h1>Wissenswertes</h1>
                 <p class="font-lead">Damit euer Festivalerlebnis glatt verläuft und ihr es in vollen Zügen geniessen könnt,
                     gibt es hier nochmals eine Übersicht mit allem was ihr wissen und beachten müsst.</p>
+
+                {{-- Akkordeon --}}
                 <button id="anreise" class="singleevent__akkordeon">
                     <span class="like-h2">Anreise & Rückreise</span> <span class="status">Mehr</span>
                 </button>
@@ -190,24 +186,14 @@
                             inbegriffen. Besucher, welche mit Privatautos anreisen, stehen in begrenzter Anzahl Parkplätze
                             unweit des Festgeländes zur Verfügung.</p>
 
+                        {{-- Google Maps --}}
                         <div class="map" id="map"></div>
                         <!-- Der Map-Inhalt wird via js, der unten aufgeführt ist, erstellt -->
-
                         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBr12pJzLGPiz37H6bBrECHnQi65ez3Dwg&callback=initMap"
                                 async defer></script>
                     </div>
                 </div>
             </div>
-
-            <script>
-                // Line Up von Freitag ein- und ausblenden
-                $(document).ready(function () {
-                    $("#anreise").click(function () {
-                        $("#container__anreiserueckreise").toggle();
-
-                    });
-                });
-            </script>
         </div>
     </div>
 
@@ -246,9 +232,16 @@
     </div>
 
 
-    <script src={{ asset("js/app.js") }} type="text/javascript"></script>
+    <script>
 
-    <script type="text/javascript">
+        // Anreise & Rückreise (Akkordeon) ein- und ausblenden
+        $(document).ready(function () {
+            $("#anreise").click(function () {
+                $("#container__anreiserueckreise").toggle();
+
+            });
+        });
+
         // Line Up von Freitag ein- und ausblenden
         // DESKTOP
         function picture() {
@@ -460,7 +453,6 @@
                 map: map
             });
         }
-
 
     </script>
 

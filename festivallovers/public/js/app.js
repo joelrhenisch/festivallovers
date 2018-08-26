@@ -13913,7 +13913,6 @@ __webpack_require__(16);
 __webpack_require__(38);
 
 window.Vue = __webpack_require__(39);
-console.log("compiled app.js loaded");
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

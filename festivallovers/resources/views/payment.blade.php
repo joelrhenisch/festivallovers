@@ -3,6 +3,7 @@
 @section('bodyClass', 'background-mint')
 
 @section('content')
+
     <!-- Schritt 1  -->
     <div id="payment-step-1" class="bg__green">
         <h1 class="text-center text-white">Zahlung</h1>
@@ -16,8 +17,7 @@
                     </select>
                 </div>
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control text-greydark bg-greylighter" placeholder="1111-1111-1111-1111" aria-label="Cardnumber"
-                           aria-describedby="basic-addon2">
+                    <input type="text" class="form-control text-greydark bg-greylighter" placeholder="1111-1111-1111-1111" aria-label="Cardnumber" aria-describedby="basic-addon2">
                 </div>
 
                 <div class="input-group mb-3">
@@ -26,8 +26,7 @@
                 </div>
 
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control text-greydark bg-greylighter" placeholder="Karteninhaber"
-                           aria-describedby="basic-addon2">
+                    <input type="text" class="form-control text-greydark bg-greylighter" placeholder="Karteninhaber" aria-describedby="basic-addon2">
                 </div>
                 <div id="bezahlen" class="action__box--black mx-auto d-flex justify-content-center align-items-center">
                     <img class="mr-2" src={{asset('icons/tickets_securtiy_white.svg')}} height="18px" alt="secure">
@@ -86,7 +85,6 @@
         </div>
     </div>
 
-
     <div id="payment-step-3" class="bg__green">
         @include ('layouts.payment_complete')
     </div>
@@ -107,11 +105,13 @@
             $('#payment-step-3').addClass('hidden');
         });
 
+        // Schritte beim Bezahlen werden in- ausgeblendet
         $("#bezahlen").click(function () {
             $("#payment-step-1").hide();
             $("#payment-step-2").show();
         });
 
+        // Schritte beim Bezahlen werden in- ausgeblendet
         $("#bezahlt").click(function () {
             $("#payment-step-2").hide();
             $("#payment-step-3").show();

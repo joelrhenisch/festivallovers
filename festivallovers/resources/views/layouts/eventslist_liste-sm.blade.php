@@ -2,6 +2,7 @@
 {{--START FESTIVAL 1--}}
 <div class="events__rowscontainerKacheln">
     <div class="eventslist__EventKacheln">
+        <a href="/eventdetail"></a>
         <div class="logo__overImage">
             <img src={{asset('icons/music_indie.svg')}} height="20px" alt="logo indie">
         </div>

@@ -13189,7 +13189,7 @@ button {
     text-align: center;
   }
 
-  #include-filter {
+  #include-filter-lg {
     display: none;
   }
 
@@ -14215,6 +14215,10 @@ button {
 
   .carousel-indicators .active {
     background-color: #000000;
+  }
+
+  .singleevent__descriptionBottom {
+    margin-top: 100px;
   }
 
   .singleevent__descriptionBottom > p {

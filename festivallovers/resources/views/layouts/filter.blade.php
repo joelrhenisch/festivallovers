@@ -1,9 +1,9 @@
 <div id="filter__btn-result-container" class="d-none">
-    <button id="result-show" class="action__box--black mt-3 mb-0 mx-0 width-fill-sm"> <a href="/"></a>  ERGEBNIS ANZEIGEN</button>
+    <button id="result-show" class="action__box--black mt-3 mb-0 mx-0 width-fill-sm"><a href="/events"></a> ERGEBNIS ANZEIGEN</button>
     <button id="result-reset" class="action__box--white mt-3 mb-0 mx-0 width-fill-sm">FILTER ZURÜCKSETZEN</button>
 </div>
-<div id="filter" class="filter">
 
+<div id="filter" class="filter">
     <button id="jazz" class="filter__box">
         <img id="filter" class="filter__svgmusic" src={{asset('icons/music_jazz.svg')}} />
         <span class="filter__genres">JAZZ</span> <span class="filter__number">20</span>
@@ -32,33 +32,31 @@
     <button>
         <span id="mehr-genres" class="filter__mehrgenres">Mehr Genres</span>
     </button>
-
-
-
 </div>
+
 
 <script>
 
     // Aktiver Zustand der Filterbuttons
-    $(function() {
-        $("#jazz").click(function() {
+    $(function () {
+        $("#jazz").click(function () {
             $(this).toggleClass("--yellow");
         });
-        $("#hiphop").click(function() {
+        $("#hiphop").click(function () {
             $(this).toggleClass("--pink");
         });
-        $("#indie").click(function() {
+        $("#indie").click(function () {
             $(this).toggleClass("--mint");
         });
-        $("#poprock").click(function() {
+        $("#poprock").click(function () {
             $(this).toggleClass("--blue");
         });
-        $("#electronic").click(function() {
+        $("#electronic").click(function () {
             $(this).toggleClass("--violet");
         });
 
         // Filter zurücksetzen
-        $("#result-reset").click(function() {
+        $("#result-reset").click(function () {
             $("#jazz").removeClass("--yellow");
             $("#hiphop").removeClass("--pink");
             $("#indie").removeClass("--mint");
@@ -66,4 +64,5 @@
             $("#electronic").removeClass("--violet");
         });
     });
+
 </script>

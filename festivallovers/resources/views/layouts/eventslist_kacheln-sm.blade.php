@@ -2,6 +2,7 @@
 {{--START FESTIVAL 1--}}
 <div class="events__rowscontainer">
     <div class="eventslist__row">
+        <a href="/eventdetail"></a>
         <div class="eventslist__img">
             <img id="surlelac-scaled-sm" src={{asset('images/Teaser_Liste.png')}} height="104px" alt="sur le lac">
             <div class="d-flex justify-content-center">
@@ -25,7 +26,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 {{--END FESTIVAL 1--}}
@@ -56,8 +56,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 {{--END FESTIVAL 2--}}
-

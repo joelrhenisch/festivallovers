@@ -34,10 +34,10 @@
             </button>
         </div>
 
-            <button id="go-to-top-lg" class="footer__item-right">
-                BACK TO TOP
-                <img class="ml-2" src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
-            </button>
+        <button id="go-to-top-lg" class="footer__item-right">
+            BACK TO TOP
+            <img class="ml-2" src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
+        </button>
     </div>
 </footer>
 
@@ -86,54 +86,53 @@
 
     $(document).ready(function () {
 
-    // Desktop
+        // Desktop
         // Zu Events
-        $("#go-to-events-lg").click(function(){
+        $("#go-to-events-lg").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
         // Zu Magazin
-        $("#go-to-magazin-lg").click(function(){
+        $("#go-to-magazin-lg").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
         // Zu News
-        $("#go-to-news-lg").click(function(){
+        $("#go-to-news-lg").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
         // Zum Anfang der Seite wechseln
-        $("#go-to-top-lg").click(function(){
+        $("#go-to-top-lg").click(function () {
             $(window).scrollTop(0);
         });
 
-    // Mobile
+        // Mobile
         // Zu Events
-        $("#go-to-events-sm").click(function(){
+        $("#go-to-events-sm").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
         // Zu Magazin
-        $("#go-to-magazin-sm").click(function(){
+        $("#go-to-magazin-sm").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
         // Zu News
-        $("#go-to-news-sm").click(function(){
+        $("#go-to-news-sm").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });
 
         // Zum Anfang der Seite wechseln
-        $("#go-to-top-sm").click(function(){
+        $("#go-to-top-sm").click(function () {
             $(window).scrollTop(0);
         });
-
 
     });
 
