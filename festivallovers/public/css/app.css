@@ -11193,11 +11193,8 @@ button {
     width: 100%;
   }
 
-  #magazin {
-    padding-top: 80px;
-  }
-
   .magazin-title {
+    padding-top: 80px;
     margin-bottom: 80px;
   }
 
@@ -11927,11 +11924,7 @@ button {
 
   /*  carousel custom styles */
 
-  #carousel-sm {
-    display: none;
-  }
-
-  #carousel-lg {
+  .carousel-lg {
     margin-top: 50px;
     margin-bottom: 70px;
   }
@@ -14187,10 +14180,22 @@ button {
     box-ordinal-group: 3;
   }
 
+  .eventslist_noticedescription {
+    font-weight: bold;
+  }
+
   /*  carousel custom styles */
 
-  #carousel-lg {
-    display: none;
+  .carousel {
+    margin-top: 75px;
+  }
+
+  .carousel-control-prev {
+    display: none !important;
+  }
+
+  .carousel-control-next {
+    display: none !important;
   }
 
   .carouselExampleIndicators {

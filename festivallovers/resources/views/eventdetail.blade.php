@@ -75,12 +75,6 @@
                         im Spannungsfeld zwischen verschiedensten musikalischen Strömungen und Einflüssen bewegen. An einem
                         Festival herrrscht ein ständig hoher Lärmpegel. Schützt euer Gehör mit den überall auf dem
                         Festgelände gratis erhältlichen Oropax.</p>
-
-
-                    <div id="carousel-lg">
-                        @include ('layouts.carousel')
-                    </div>
-
                 </div>
 
                 <div class="col-1"></div> <!-- Zwischenraum zwischen den Spalten -->
@@ -104,15 +98,18 @@
                     </button>
 
                     <div class="singleevent__descriptionAdd mb-3">
-                        <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%"  alt="Unterstützt_von_Ceros" >
+                        <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%" alt="Unterstützt_von_Ceros">
                     </div>
                 </div>
 
-                <div id="carousel-sm">
+            </div>
+
+            <div class="singleevent__descriptionMid col-lg-7 col-sm-12">
+                <div id="carousel" class="carousel">
                     @include ('layouts.carousel')
                 </div>
-
             </div>
+
         </div>
     </div>
 
@@ -204,8 +201,8 @@
 
             <script>
                 // Line Up von Freitag ein- und ausblenden
-                $(document).ready(function(){
-                    $("#anreise").click(function(){
+                $(document).ready(function () {
+                    $("#anreise").click(function () {
                         $("#container__anreiserueckreise").toggle();
 
                     });
@@ -232,13 +229,13 @@
                     <span class="text">Musikfestwochen</span>
                 </button>
                 <div class="promote__button-img img-women">
-                    <img src="{{asset('images/NexFestival.png')}}" >
+                    <img src="{{asset('images/NexFestival.png')}}">
                 </div>
             </div>
 
             <div class="d-flex justify-content-between">
                 <div class="promote__button-img img-men">
-                    <img src="{{asset('images/kruselkopf.png')}}" >
+                    <img src="{{asset('images/kruselkopf.png')}}">
                 </div>
                 <button class="promote__buttonright">
                     <span class="text">Openair Zürich</span>
@@ -253,7 +250,7 @@
 
     <script type="text/javascript">
         // Line Up von Freitag ein- und ausblenden
-            // DESKTOP
+        // DESKTOP
         function picture() {
             if ($('#zielbox').is(':empty')) {
                 let pic = document.createElement('img');
@@ -270,7 +267,7 @@
             }
         }
 
-            // MOBILE
+        // MOBILE
         function picturesm() {
             if ($('#zielbox-sm').is(':empty')) {
                 let pic = document.createElement('img');
@@ -459,8 +456,8 @@
             });
             // Füge Marker der Map hinzu
             let marker = new google.maps.Marker({
-                position:{lat:47.444242,lng:9.469508},
-                map:map
+                position: {lat: 47.444242, lng: 9.469508},
+                map: map
             });
         }
 

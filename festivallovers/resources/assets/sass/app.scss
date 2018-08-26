@@ -589,10 +589,10 @@ button {
   }
 
   #magazin {
-    padding-top: 80px;
   }
 
   .magazin-title {
+    padding-top: 80px;
     margin-bottom: 80px;
   }
 
@@ -660,7 +660,7 @@ button {
     transform: translateY(100px);
 
   }
-  
+
   .ad-iphone__buttons {
     display: flex;
     display: -webkit-inline-box;
@@ -1178,11 +1178,7 @@ button {
   }
 
   /*  carousel custom styles */
-  #carousel-sm {
-    display: none;
-  }
-
-    #carousel-lg {
+    .carousel-lg {
       margin-top: 50px;
       margin-bottom: 70px;
     }
@@ -3090,10 +3086,22 @@ button {
     box-ordinal-group: 3;
   }
 
-  /*  carousel custom styles */
 
-  #carousel-lg {
-    display: none;
+  .eventslist_noticedescription {
+    font-weight: bold;
+  }
+
+  /*  carousel custom styles */
+  .carousel {
+    margin-top: 75px;
+  }
+
+   // Pfeile auf den Seiten werden bei Mobile ausgeblendet
+  .carousel-control-prev {
+    display: none !important;
+  }
+  .carousel-control-next {
+    display: none !important;
   }
 
   .carouselExampleIndicators {
@@ -3114,6 +3122,9 @@ button {
   .carousel-indicators .active {
     background-color: $black;
   }
+
+
+
 
   .singleevent__descriptionBottom {
     > p {

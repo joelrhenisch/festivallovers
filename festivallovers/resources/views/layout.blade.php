@@ -28,11 +28,10 @@
         </div>
 
 
-        <div class="bigteaser">
+        <div id="magazin" class="bigteaser">
             <img class="bigteaser__img" src={{asset('images/BigTeaser.png')}} />
         </div>
 
-        <div id="magazin">
             <div class="text-center magazin-title">
                 <h1>Magazin</h1>
             </div>
@@ -101,7 +100,6 @@
                 </button>
             </div>
 
-        </div>
 
         <!-- Ad iPhone -->
         <div class="ad-iphone__box">
@@ -153,7 +151,7 @@
         <div class="mt-5"></div> <!-- nur für den Abstand -->
 
         <!-- News -->
-        <div class="news__box">
+        <div id="news" class="news__box">
             <div class="heading__titel">
                 <h1 class="p-3">News</h1>
             </div>
