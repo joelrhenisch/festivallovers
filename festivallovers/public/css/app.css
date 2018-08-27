@@ -12452,7 +12452,7 @@ button {
 
   #ticket-white {
     height: 64px;
-    width: 70px;
+    width: 145px;
     position: absolute;
     -webkit-transform: translateX(-25px);
             transform: translateX(-25px);
@@ -13573,8 +13573,6 @@ button {
     height: 64px;
     width: 60px;
     position: absolute;
-    -webkit-transform: translateX(-25px);
-            transform: translateX(-25px);
   }
 
   .login__box {
