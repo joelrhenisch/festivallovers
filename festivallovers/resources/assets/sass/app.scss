@@ -731,17 +731,14 @@ button {
     margin-bottom: 23px;
     padding: 0 12px;
     break-inside: avoid;
-  //  margin: 18px 0;
-  //  width: 20%;
-  //  height: fit-content;
     .image__container {
       overflow: hidden;
-      width: 224px;
-      height: 170px;
+      width: 221px;
+      height: 144px;
       .image {
-        min-height: 170px;
-        min-width: 224px;
-        max-height: 170px;
+        min-height: 144px;
+        width: 221px;
+        height: 144px;
       }
     }
   }
@@ -971,12 +968,6 @@ button {
     font-family: "ProximaNova Bold";
     font-size: 15px;
     color: $black;
-    indie {
-      border-right: 4px solid $mint;
-    }
-    hiphop {
-      border-right: 4px solid $pink;
-    }
     &img {
       margin-right: 5px;
     }
@@ -984,6 +975,10 @@ button {
 
   .border-right-4px-mint {
     border-right: 4px solid $mint;
+  }
+
+  .border-right-4px-pink {
+    border-right: 4px solid $pink;
   }
 
   // EVENTS KACHELN
@@ -995,12 +990,13 @@ button {
   }
 
   .eventslist__EventKacheln {
+    width: 384px;
     height: auto;
     .img__container {
-      height: 210px;
+      height: 232px;
       overflow: hidden;
       .logo__overImage {
-        transform: translateY(-139px);
+        transform: translateY(-116px);
         height: 45px;
         width: 45px;
         background-color: $mint;
@@ -1026,7 +1022,7 @@ button {
 
   .eventslist__ContentKacheln {
     background-color: $white;
-    width: 340px;
+    width: 384px;
     padding: 20px 20px 90px 20px;
     .locationDate {
       font-family: "ProximaNova Regular";
@@ -1080,12 +1076,10 @@ button {
   }
 
   .singleevent__headingcontainer {
-    width: 100%;
-  }
-
-  .singleevent__imagefullscreen {
-    width: 100%;
-    height: 50%;
+    .image-container {
+      height: 1289px;
+      width: 1440px;
+    }
   }
 
   .singleevent__headingicon {
@@ -1097,7 +1091,7 @@ button {
 
   .singleevent__headingtext {
     position: absolute;
-    margin-top: 1190px;
+    margin-top: 1189px;
     margin-left: 130px;
     font-family: "Adelle Bold";
     color: $white;
@@ -1178,9 +1172,11 @@ button {
   }
 
   /*  carousel custom styles */
-    .carousel-lg {
+    .carousel {
       margin-top: 50px;
       margin-bottom: 70px;
+      width: 593px;
+      height: 392px;
     }
 
   .carousel-control-prev-icon {
@@ -1367,25 +1363,27 @@ button {
 
   // promotion Ticket -> Section Bottom
   .promote__bottom {
+    height: 128px;
     .content {
+      height: 100%;
       background-color: $mintlight;
       display: flex;
       justify-content: center;
       img {
-        height: 129px;
+        height: 128px;
       }
     }
     .promote__button {
-      width: 313px;
-      height: 129px;
+      width: 312px;
+      height: 128px;
       display: flex;
       align-items: center;
       img {
-        height: 129px;
+        height: 128px;
       }
       &right {
-        width: 313px;
-        height: 129px;
+        width: 312px;
+        height: 128px;
         display: flex;
         align-items: center;
         display: flex;
@@ -2329,7 +2327,7 @@ button {
   }
 
   .bigteaser__img {
-    width: 137%;
+    width: 150%;
     overflow: hidden;
   }
 
@@ -2449,9 +2447,17 @@ button {
   .news__container {
     padding: 0 16px;
     margin: 18px 0;
-  img {
-    width: 100%;
-  }
+    break-inside: avoid;
+    .image__container {
+      overflow: hidden;
+      width: 343px;
+      height: 242px;
+      .image {
+        min-height: 242px;
+        width: 343px;
+        height: 242px;
+      }
+    }
   }
 
   .content-top {
@@ -2751,7 +2757,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     &Title {
       text-align: center;
     }
@@ -2763,12 +2769,23 @@ button {
 
   .eventslist__row {
     height: 330px;
-    width: 100%;
-    padding: 0 15px !important;
+    width: 343px;
   }
 
   .eventslist__img {
-    height: 210px;
+    width: 343px;
+    height: 232px;
+    overflow: hidden;
+    .logo__overImage {
+      height: 45px;
+      width: 45px;
+      background-color: $mint;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      background-color: $mint;
+      transform: translateY(-45px);
+    }
   }
 
   // Bild ausblenden, braucht es bei Mobile nicht
@@ -2780,7 +2797,7 @@ button {
     display: flex;
     height: 45px;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
   }
@@ -2811,12 +2828,12 @@ button {
   }
 
   .eventslist__location {
-    height: 68px;
+    align-items: flex-end;
+    height: 40px;
     width: 100%;
     border-right: 1px solid $greylighter;
     background-color: $white;
     display: flex;
-    align-items: center;
     padding-left: 20px;
     font-family: "ProximaNova Regular";
     font-size: 15px;
@@ -2852,7 +2869,7 @@ button {
       border-right: 4px solid $pink;
     }
     &img {
-      margin-right: 5px;
+      margin-right: 15px;
     }
   }
 
@@ -2867,28 +2884,75 @@ button {
 
   .eventslist__EventKacheln {
     height: auto;
+    img {
+      width: 343px;
+    }
     .logo__overImage {
+      transform: translateY(-116px);
       height: 45px;
-      width: 355px;
+      width: 45px;
       background-color: $mint;
       display: flex;
       align-items: center;
       margin: 0 auto;
-      background-color: $mint;
     }
+  }
+
+
+  // EVENTS LISTE
+  .events__rowscontainerListe {
+    background-color: $greylighter;
+    display: flex;
+    width: 375px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .eventslist__EventListe {
+    height: auto;
+    width: 100%;
     img {
-      width: 340px;
+      width: 343px;
+    }
+    .logo__overImage {
+      height: 45px;
+      width: 100%;
+      background-color: $mint;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
     }
   }
 
   #surlelac-scaled-sm {
-    transform: scale(2.09);
     position: relative;
-    left: 92px;
-    bottom: -49px;
+    left: -34px;
+    height: 232px;
   }
 
   .eventslist__ContentKacheln {
+    background-color: $white;
+    padding: 20px;
+    border-bottom: 5px solid $mint;
+    margin-bottom: 18px;
+    .locationDate {
+      font-family: "ProximaNova Regular";
+      font-size: 17px;
+      line-height: 22px;
+    }
+    .title {
+      font-family: "Adelle Bold";
+      font-size: 24px;
+      line-height: 24px;
+    }
+    .description {
+      font-family: "ProximaNova Regular";
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+
+  .eventslist__ContentListe {
     background-color: $white;
     padding: 20px;
     border-bottom: 5px solid $mint;
@@ -2934,18 +2998,20 @@ button {
 
   .singleevent__areagreen {
     width: 100%;
-    height: 270px;
+    height: 250px;
     background-color: $mint;
     margin: 0 auto;
   }
 
   .singleevent__headingcontainer {
-    width: 100%;
-  }
-
-  .singleevent__imagefullscreen {
-    width: 100%;
-    height: 50%;
+    .image-container {
+      height: 337px;
+      width: 375px;
+      overflow: hidden;
+      img {
+        height: 337px;
+      }
+    }
   }
 
   .singleevent__headingicon {
@@ -3094,6 +3160,19 @@ button {
   /*  carousel custom styles */
   .carousel {
     margin-top: 75px;
+    width: 343px;
+    height: 232px;
+  }
+
+  .carousel-inner {
+    height: 232px !important;
+  }
+
+  .carousel-item {
+    height: 232px !important;
+    img {
+      height: 232px !important;
+    }
   }
 
    // Pfeile auf den Seiten werden bei Mobile ausgeblendet
@@ -3270,33 +3349,33 @@ button {
     }
 
     .promote__button-img {
-      height: 129px;
-      width: 129px;
+      height: 128px;
+      width: 128px;
       overflow: hidden;
       position: relative;
     }
 
     .img-men img {
       position: absolute;
-      height: 129px;
+      height: 128px;
       right: -83px;
     }
 
     .img-women img {
       position: absolute;
-      height: 129px;
+      height: 128px;
       right: -87px;
     }
 
     .promote__button {
       width: 220px;
-      height: 129px;
+      height: 128px;
       display: flex;
       align-items: center;
 
       &right {
         width: 220px;
-        height: 129px;
+        height: 128px;
         display: flex;
         align-items: center;
         display: flex;
@@ -3674,7 +3753,7 @@ button {
   }
 
   .eventslist__text-container {
-    height: 124px;
+    height: 117px;
     border-bottom: 4px solid $mint;
     background-color: $white;
   }

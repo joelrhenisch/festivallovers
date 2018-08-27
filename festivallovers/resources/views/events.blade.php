@@ -135,7 +135,9 @@
 
 
     <script>
-        // Filter zurücksetzen
+        $(document).ready(function () {
+
+            // Filter zurücksetzen
         $("#events-result-reset").click(function () {
             $("#jazz").removeClass("--yellow");
             $("#hiphop").removeClass("--pink");
@@ -144,9 +146,12 @@
             $("#electronic").removeClass("--violet");
         });
 
+        // MOBILE
+            // zum Start Icon von Liste auf Opacity 0.5 setzen
+        $("#icon-liste").addClass('opacity-50');
+
         // DESKTOP
-        // events: Zwischen Kacheln und Liste switchen - Text der jeweiligen Ansicht bold setzen
-        $(document).ready(function () {
+            // events: Zwischen Kacheln und Liste switchen - Text der jeweiligen Ansicht bold setzen
 
             $("#btn__events-kacheln").click(function () {
                 $("#eventslist_kacheln").show();
@@ -162,7 +167,7 @@
                 $("#text-kacheln").removeClass('bold');
             });
 
-            // MOBILE
+        // MOBILE
             // events: Zwischen Kacheln und Liste switchen - Icon der passiven Ansicht auf Opacity 0.5 setzen
             $("#btn__events-kacheln-sm").click(function () {
                 $("#eventslist_kacheln-sm").show();

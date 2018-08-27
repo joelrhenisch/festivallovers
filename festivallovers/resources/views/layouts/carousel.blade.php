@@ -7,14 +7,14 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="images/carousel_image-1.jpg" alt="First slide">
+            <img class="d-block" src="images/carousel_image-1.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="images/carousel_image-2.jpg"
+            <img class="d-block" src="images/carousel_image-2.jpg"
                  alt="Women Fan">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="images/carousel_image-3.jpg" alt="Crows Surfing">
+            <img class="d-block" src="images/carousel_image-3.jpg" alt="Crows Surfing">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

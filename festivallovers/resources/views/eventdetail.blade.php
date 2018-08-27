@@ -12,7 +12,9 @@
     </div>
 
     <div class="singleevent__headingcontainer">
-        <img id="surlelac-festivalsite-scaled-sm" class="singleevent__imagefullscreen" src={{asset('images/BigFestival.png')}} />
+        <div class="image-container">
+            <img id="surlelac-festivalsite-scaled-sm" class="singleevent__imagefullscreen" src={{asset('images/BigFestival.jpg')}} />
+        </div>
         <div class="singleevent__areagreen"></div>
     </div>
 
