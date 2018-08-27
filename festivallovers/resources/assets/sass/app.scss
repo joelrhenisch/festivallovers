@@ -321,7 +321,7 @@ button {
 
   // Schwarzes Menu zur Übersicht
   #navigation__menu-neg {
-    position: absolute;
+    position: fixed;
     z-index: 9999;
   }
   .navigation__menu-container {
@@ -336,7 +336,7 @@ button {
     font-size: 48px;
     line-height: 108px;
     font-family: "Adelle Bold";
-    margin-top: 131px;
+    margin-top: 223px;
   }
 
   .nav__list-element {
@@ -364,7 +364,6 @@ button {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid $greylight;
-    margin-bottom: 200px;
   }
 
   #nav__btn-menu-black {
@@ -2162,7 +2161,7 @@ button {
 
   // Schwarzes Menu zur Übersicht
   #navigation__menu-neg {
-    position: absolute;
+    position: fixed;
     z-index: 9999;
   }
   .navigation__menu-container {
@@ -2172,11 +2171,12 @@ button {
   }
 
   .nav__list-container {
-    height: 50%;
+    height: 35%;
     text-align: center;
     font-size: 32px;
     line-height: 80px;
     font-family: "Adelle Bold";
+    margin-top: 140px;
   }
 
   .nav__background-black {
@@ -2197,7 +2197,6 @@ button {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid $greylight;
-    margin-bottom: 200px;
   }
 
   #nav__btn-menu-black {
