@@ -91,8 +91,9 @@
                         </button>
                     </div>
 
-                    <button class="action__box--black mb-3 mt-0 mx-0 w-100">
+                    <button id="go-to-ticketbuy" class="action__box--black mb-3 mt-0 mx-0 w-100">
                         TICKET KAUFEN
+                        <a href="/ticketavaible"></a>
                     </button>
 
                     <button class="action__box--white mb-3 mt-0 mx-0 w-100">
@@ -235,6 +236,12 @@
 
 
     <script>
+
+        // Zu Tickets-Kaufen
+        $("#go-to-ticketbuy").click(function () {
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
 
         // Anreise & Rückreise (Akkordeon) ein- und ausblenden
         $(document).ready(function () {

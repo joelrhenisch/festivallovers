@@ -31,8 +31,14 @@ $mintlight: rgb(29,233,182);
 $bluelight: rgb(63,81,181);
 $violetlight: rgb(103,58,183);
 
-.--pink {background-color: $pink !important;}
-.--yellow {background-color: $yellow !important;}
-.--mint {background-color: $mint !important;}
-.--blue {background-color: $blue !important;}
-.--violet {background-color: $violet !important;}
+.--pink {background-color: $pink !important; transition-duration: 0.3s;}
+.--yellow {background-color: $yellow !important; transition-duration: 0.3s;}
+.--mint {background-color: $mint !important; transition-duration: 0.3s;}
+.--blue {background-color: $blue !important; transition-duration: 0.3s;}
+.--violet {background-color: $violet !important; transition-duration: 0.3s;}
+
+.--darken-pink {background-color: darken($pink, 10%) !important;}
+.--darken-yellow {background-color: darken($yellow, 10%) !important;}
+.--darken-mint {background-color: darken($mint, 10%) !important;}
+.--darken-blue {background-color: darken($blue, 10%) !important;}
+.--darken-violet {background-color: darken($violet, 10%) !important;}

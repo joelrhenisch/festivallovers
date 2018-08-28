@@ -10447,22 +10447,52 @@ a.text-dark:focus {
 
 .\--pink {
   background-color: #d81b60 !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .\--yellow {
   background-color: #fdd835 !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .\--mint {
   background-color: #00d79f !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .\--blue {
   background-color: #3949ab !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .\--violet {
   background-color: #5e35b1 !important;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.\--darken-pink {
+  background-color: #ab154c !important;
+}
+
+.\--darken-yellow {
+  background-color: #fdce03 !important;
+}
+
+.\--darken-mint {
+  background-color: #00a479 !important;
+}
+
+.\--darken-blue {
+  background-color: #2c3985 !important;
+}
+
+.\--darken-violet {
+  background-color: #49298a !important;
 }
 
 @font-face {
@@ -10736,41 +10766,67 @@ button {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 64px;
+  }
+
+  .nav__btn-ticket-kaufen .nav__btn-login-ticket-texttitle,
+  .nav__btn-login .nav__btn-login-ticket-texttitle {
+    margin-left: 45px;
   }
 
   .nav__btn-ticket-kaufen:hover > p,
   .nav__btn-login:hover > p {
     color: #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen #navigation-login-black,
   .nav__btn-login #navigation-login-black {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen:hover #navigation-login-gray,
   .nav__btn-login:hover #navigation-login-gray {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen:hover #navigation-login-black,
   .nav__btn-login:hover #navigation-login-black {
-    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen #navigation-ticket-black,
   .nav__btn-login #navigation-ticket-black {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen:hover #navigation-ticket-gray,
   .nav__btn-login:hover #navigation-ticket-gray {
-    display: none;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen:hover #navigation-ticket-black,
   .nav__btn-login:hover #navigation-ticket-black {
-    display: inline-block;
+    opacity: 1;
+    position: absolute;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-ticket-kaufen img,
@@ -10780,6 +10836,8 @@ button {
 
   .nav__btn-ticket-kaufen:hover,
   .nav__btn-login:hover {
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
     background-color: #e5e5e5;
     color: #000000;
   }
@@ -10825,32 +10883,53 @@ button {
             align-items: center;
   }
 
+  .nav__btn-menu .nav__btn-menu-text {
+    margin-left: 27px;
+  }
+
   .nav__btn-menu .nav__btn-menu-container {
     font-family: "ProximaNova Bold";
     font-size: 17px;
     color: #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-menu .nav__btn-menu-container img {
     margin-right: 5px;
+    position: absolute;
+    height: 19px;
+    left: 20px;
+    top: 23px;
   }
 
   .nav__btn-menu .nav__btn-menu-container #navigation-menu-gray {
-    display: none;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-menu .nav__btn-menu-container:hover {
     color: #767676;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-gray {
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    opacity: 1;
     display: inline-block;
+    position: absolute;
     height: 19px;
-    width: 24px;
+    left: 20px;
+    top: 23px;
   }
 
   .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
-    display: none;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    opacity: 0;
   }
 
   .pfadleiste {
@@ -11096,22 +11175,32 @@ button {
 
   #jazz:hover {
     background-color: #fdd835;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   #hiphop:hover {
     background-color: #d81b60;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   #indie:hover {
     background-color: #00d79f;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   #poprock:hover {
     background-color: #3949ab;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   #electronic:hover {
     background-color: #5e35b1;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .filter__number {
@@ -11143,6 +11232,13 @@ button {
     text-align: center;
   }
 
+  .action__box--black:hover {
+    background-color: #767676;
+    border: 2px solid #767676;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+
   .action__box-margin--black {
     font-weight: bold;
     border: 2px solid black;
@@ -11165,6 +11261,14 @@ button {
     text-align: center;
   }
 
+  .action__box--white:hover {
+    background-color: #000000;
+    border: 2px solid #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    color: #FFFFFF;
+  }
+
   .action__box--mint {
     font-weight: bold;
     padding: 8px 25px;
@@ -11182,6 +11286,14 @@ button {
     background-color: transparent;
     color: #000000;
     text-align: center;
+  }
+
+  .action__boxtransparent:hover {
+    background-color: #000000;
+    border: 2px solid #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    color: #FFFFFF;
   }
 
   .bigteaser {
@@ -11472,6 +11584,12 @@ button {
     color: #767676;
   }
 
+  .footer__item-left:hover {
+    color: #c2c2c2;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+
   .footer__box-center {
     text-align: center;
     display: -webkit-box;
@@ -11481,6 +11599,10 @@ button {
 
   .footer__icons {
     margin: 0 7px;
+  }
+
+  .footer__icons:hover {
+    opacity: 0.6;
   }
 
   .footer__boxright {
@@ -11496,6 +11618,12 @@ button {
     font-family: "ProximaNova Regular";
     font-size: 17px;
     color: #767676;
+  }
+
+  .footer__item-right:hover {
+    color: #c2c2c2;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .events__container {
@@ -11560,6 +11688,7 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 30px;
+    height: 104px;
   }
 
   .events__rowscontainerTitle {
@@ -11579,7 +11708,7 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 100px;
+    height: 104px;
     width: 1194px;
   }
 
@@ -11592,7 +11721,7 @@ button {
     display: -ms-flexbox;
     display: flex;
     height: 104px;
-    width: 100px;
+    width: 104px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -11666,7 +11795,7 @@ button {
 
   .eventslist__notice {
     background-color: white;
-    width: 150px;
+    width: 153px;
     height: 104px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12190,7 +12319,7 @@ button {
   }
 
   .events__rowscontainerTitle {
-    margin-left: 56px;
+    margin-left: 120px;
   }
 
   .ticketsArea .tickets {
@@ -12243,8 +12372,8 @@ button {
 
   .ticketsArea .ticketsCounter .box {
     border: 3px solid #000000;
-    width: 55px;
-    height: 55px;
+    width: 48px;
+    height: 48px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13048,7 +13177,7 @@ button {
 
   .nav__btn-menu {
     height: 63px;
-    padding: 0 0 0 14px;
+    padding: 0 0 0 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -13057,33 +13186,53 @@ button {
             align-items: center;
   }
 
+  .nav__btn-menu .nav__btn-menu-text {
+    margin-left: 27px;
+  }
+
   .nav__btn-menu .nav__btn-menu-container {
     font-family: "ProximaNova Bold";
     font-size: 17px;
     color: #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-menu .nav__btn-menu-container img {
     margin-right: 5px;
+    position: absolute;
+    height: 19px;
+    left: 20px;
+    top: 23px;
   }
 
   .nav__btn-menu .nav__btn-menu-container #navigation-menu-gray {
-    display: none;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-menu .nav__btn-menu-container:hover {
     color: #767676;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-gray {
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    opacity: 1;
     display: inline-block;
+    position: absolute;
     height: 19px;
-    width: 24px;
+    left: 20px;
+    top: 23px;
   }
 
   .nav__btn-menu .nav__btn-menu-container:hover #navigation-menu-black {
-    display: none;
-    height: 25px;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    opacity: 0;
   }
 
   #navigation__menu-neg {
@@ -14163,7 +14312,7 @@ button {
   }
 
   .singleevent__eventnewscontainer .container-pd-sm {
-    padding: 20px 0;
+    padding: 24px 0;
     border-bottom: 1px solid #00d79f;
   }
 
@@ -14241,8 +14390,7 @@ button {
   }
 
   .singleevent__descriptionAdd {
-    width: 60%;
-    height: 60%;
+    width: 63.50%;
     margin: 55px auto;
   }
 
@@ -14578,7 +14726,7 @@ button {
   }
 
   .ticketsArea .ticketsSmaller {
-    height: 85px;
+    height: 88px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -14609,8 +14757,8 @@ button {
 
   .ticketsArea .ticketsCounter .box {
     border: 3px solid #000000;
-    width: 55px;
-    height: 55px;
+    width: 48px;
+    height: 48px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -14753,7 +14901,7 @@ button {
     background-color: #00d79f;
     padding-top: 42px;
     width: 100%;
-    height: 240px;
+    height: 224px;
     text-align: center;
   }
 

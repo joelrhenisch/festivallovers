@@ -4,7 +4,7 @@
             <button id="menu" class="nav__btn-menu-container">
                 <img id="navigation-menu-black" src={{asset('icons/navigation_menu.svg')}} alt="Menu">
                 <img id="navigation-menu-gray" src={{asset('icons/navigation_menu_gray.svg')}} alt="Menu">
-                MENU
+                <span class="nav__btn-menu-text"> MENU </span>
             </button>
             <!-- Zurück-Button ist nur für Mobile, bei Filterauswahl -->
             <button class="nav__btn-back d-none" id="nav__btn-back">
@@ -23,9 +23,9 @@
         <div class="nav__login-ticket col-4">
             <button class="nav__btn-login">
                 <div id="ticket-white"></div>
-                <img id="navigation-login-gray" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
+                <img id="navigation-login-gray" class="position-absolute" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
                 <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
-                <p id="text-login">LOGIN</p>
+                <p id="text-login" class="nav__btn-login-ticket-texttitle">LOGIN</p>
 
                 <!-- Start Login Box -->
                 <div id="login-white" class="login__box">
@@ -57,9 +57,9 @@
             <!-- Ticketkaufen-Button -->
             <button id="go-to-ticket" class="nav__btn-ticket-kaufen">
                 <a href="/ticketavaible"></a>
-                <img id="navigation-ticket-gray" src={{asset('icons/navigation_ticketkauf_gray.svg')}} height="25px" alt="Ticket">
+                <img id="navigation-ticket-gray" class="position-absolute" src={{asset('icons/navigation_ticketkauf_gray.svg')}} height="25px" alt="Ticket">
                 <img id="navigation-ticket-black" src={{asset('icons/navigation_ticketkauf.svg')}} height="25px" alt="Ticket">
-                <p id="text-ticketkaufen">TICKETS KAUFEN</p>
+                <p id="text-ticketkaufen" class="nav__btn-login-ticket-texttitle">TICKETS KAUFEN</p>
             </button>
         </div>
     </div>

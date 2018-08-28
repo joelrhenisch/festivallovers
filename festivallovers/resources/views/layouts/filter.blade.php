@@ -40,28 +40,28 @@
     // Aktiver Zustand der Filterbuttons
     $(function () {
         $("#jazz").click(function () {
-            $(this).toggleClass("--yellow");
+            $(this).toggleClass("--darken-yellow");
         });
         $("#hiphop").click(function () {
-            $(this).toggleClass("--pink");
+            $(this).toggleClass("--darken-pink");
         });
         $("#indie").click(function () {
-            $(this).toggleClass("--mint");
+            $(this).toggleClass("--darken-mint");
         });
         $("#poprock").click(function () {
-            $(this).toggleClass("--blue");
+            $(this).toggleClass("--darken-blue");
         });
         $("#electronic").click(function () {
-            $(this).toggleClass("--violet");
+            $(this).toggleClass("--darken-violet");
         });
 
         // Filter zurücksetzen
         $("#result-reset").click(function () {
-            $("#jazz").removeClass("--yellow");
-            $("#hiphop").removeClass("--pink");
-            $("#indie").removeClass("--mint");
-            $("#poprock").removeClass("--blue");
-            $("#electronic").removeClass("--violet");
+            $("#jazz").removeClass("--darken-yellow");
+            $("#hiphop").removeClass("--darken-pink");
+            $("#indie").removeClass("--darken-mint");
+            $("#poprock").removeClass("--darken-blue");
+            $("#electronic").removeClass("--darken-violet");
         });
     });
 

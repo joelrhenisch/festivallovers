@@ -46,9 +46,10 @@
             </div>
 
 
-            <div class="eventslist__buy greenBorderRight5px greenBorderBottom4px">
-                <button class="my-auto action__box--black width-fill-sm">
+            <div  class="eventslist__buy greenBorderRight5px greenBorderBottom4px">
+                <button id="go-to-ticketbuy" class="my-auto action__box--black width-fill-sm">
                     KAUFEN
+                    <a href="/ticketbuy"></a>
                 </button>
             </div>
         </div>
@@ -65,3 +66,14 @@
 
 
 </div>
+
+
+<script>
+
+    // Zu Tickets-Kaufen
+    $("#go-to-ticketbuy").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+</script>

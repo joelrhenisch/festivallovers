@@ -161,19 +161,20 @@
                 </div>
 
                 <div class="ticketBuy__submitContainer">
-                    <button class="box-sm-full-width action__box--black w-100">
+                    <button id="go-to-payment" class="box-sm-full-width action__box--black w-100">
                         4 TICKETS KAUFEN
+                        <a href="/payment"></a>
                     </button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="example">
-        <p>This will disappear if JavaScript is working properly.</p>
+    <p>Return to documentation of <
+        <div id="example">
+    <p>This will disappear if JavaScript is working properly.</p>
     </div>
-
-    <p>Return to documentation of <a href="../counters-example.html">Counters example</a>.</p>
+    a href="../counters-example.html">Counters example</a>.</p>
 
 
     <script>
@@ -199,6 +200,11 @@
                 $("#counter").text(counter);
             });
 
+            // Zu Zahlvorgang
+            $("#go-to-payment").click(function () {
+                window.location = $(this).find("a:first").attr("href");
+                return false;
+            });
         });
     </script>
 

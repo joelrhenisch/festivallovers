@@ -204,36 +204,54 @@ button {
     border-left: 1px solid $greylight;
     display: flex;
     align-items: center;
+    height: 64px;
+
+    .nav__btn-login-ticket-texttitle {
+      margin-left: 45px;
+    }
 
     &:hover {
       > p {
         color: $black;
+        transition-duration: 0.3s;
       }
     }
 
     // Wechsle Iconfarbe bei Hover
     // --> bei login-logo
     & #navigation-login-black {
-      display: none;
+      opacity: 0;
+      position: absolute;
+      transition-duration: 0.3s;
     }
     &:hover {
       & #navigation-login-gray {
-        display: none;
+        opacity: 0;
+        position: absolute;
+        transition-duration: 0.3s;
       }
       & #navigation-login-black {
-        display: inline-block;
+        opacity: 1;
+        position: absolute;
+        transition-duration: 0.3s;
       }
     }
     // --> bei ticketkaufen-logo
     & #navigation-ticket-black {
-      display: none;
+      opacity: 0;
+      position: absolute;
+      transition-duration: 0.3s;
     }
     &:hover {
       & #navigation-ticket-gray {
-        display: none;
+        opacity: 0;
+        position: absolute;
+        transition-duration: 0.3s;
       }
       & #navigation-ticket-black {
-        display: inline-block;
+        opacity: 1;
+        position: absolute;
+        transition-duration: 0.3s;
       }
     }
 
@@ -241,6 +259,7 @@ button {
       margin-right: 11px;
     }
     &:hover {
+      transition-duration: 0.3s;
       background-color: $greylight;
       color: $black;
     }
@@ -275,26 +294,41 @@ button {
     padding: 0 0 0 25px;
     display: flex;
     align-items: center;
+    .nav__btn-menu-text {
+      margin-left: 27px;
+    }
     .nav__btn-menu-container {
       font-family: "ProximaNova Bold";
       font-size: 17px;
       color: $black;
+      transition-duration: 0.3s;
       & img {
         margin-right: 5px;
+        position: absolute;
+        height: 19px;
+        left: 20px;
+        top: 23px;
       }
       & #navigation-menu-gray {
-        display: none;
+        opacity: 0;
+        transition-duration: 0.3s;
       }
       &:hover {
         & #navigation-menu-gray {
+          transition-duration: 0.3s;
+          opacity: 1;
           display: inline-block;
+          position: absolute;
           height: 19px;
-          width: 24px;
+          left: 20px;
+          top: 23px;
         }
         & #navigation-menu-black {
-          display: none;
+          transition-duration: 0.3s;
+          opacity: 0;
         }
         color: $greydarker;
+        transition-duration: 0.3s;
       }
     }
 
@@ -503,11 +537,11 @@ button {
   }
 
   /* Hoverzustand der Filterbuttons */
-  #jazz:hover {background-color: $yellow}
-  #hiphop:hover {background-color: $pink}
-  #indie:hover {background-color: $mint}
-  #poprock:hover {background-color: $blue}
-  #electronic:hover {background-color: $violet}
+  #jazz:hover {background-color: $yellow; transition-duration: 0.3s;}
+  #hiphop:hover {background-color: $pink; transition-duration: 0.3s;}
+  #indie:hover {background-color: $mint; transition-duration: 0.3s;}
+  #poprock:hover {background-color: $blue; transition-duration: 0.3s;}
+  #electronic:hover {background-color: $violet; transition-duration: 0.3s;}
 
   .filter__number {
     vertical-align: super;
@@ -536,6 +570,11 @@ button {
     background-color: $black;
     color: $white;
     text-align: center;
+    &:hover {
+      background-color: $greydarker;
+      border: 2px solid $greydarker;
+      transition-duration: 0.3s;
+    }
   }
 
   .action__box-margin--black {
@@ -558,6 +597,12 @@ button {
     background-color: $white;
     color: $black;
     text-align: center;
+    &:hover {
+      background-color: $black;
+      border: 2px solid $black;
+      transition-duration: 0.3s;
+      color: $white;
+    }
   }
 
   .action__box--mint {
@@ -577,6 +622,12 @@ button {
     background-color: transparent;
     color: $black;
     text-align: center;
+    &:hover {
+      background-color: $black;
+      border: 2px solid $black;
+      transition-duration: 0.3s;
+      color: $white;
+    }
   }
 
   .bigteaser {
@@ -814,6 +865,10 @@ button {
     font-family: "ProximaNova Regular";
     font-size: 17px;
     color: $greydarker;
+    &:hover {
+      color: $greydark;
+      transition-duration: 0.3s;
+    }
   }
 
   .footer__box-center {
@@ -823,6 +878,9 @@ button {
 
   .footer__icons {
     margin: 0 7px;
+    &:hover {
+      opacity: 0.6;
+    }
   }
 
   .footer__boxright {
@@ -836,6 +894,10 @@ button {
     font-family: "ProximaNova Regular";
     font-size: 17px;
     color: $greydarker;
+    &:hover {
+      color: $greydark;
+      transition-duration: 0.3s;
+    }
   }
 
   .events__container {
@@ -878,6 +940,7 @@ button {
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    height: 104px;
     &Title {
       justify-content: flex-start;
       margin-left: 203px;
@@ -891,7 +954,7 @@ button {
 
   .eventslist__row {
     display: flex;
-    height: 100px;
+    height: 104px;
     width: 1194px;
   }
 
@@ -902,7 +965,7 @@ button {
   .eventslist__icon {
     display: flex;
     height: 104px;
-    width: 100px;
+    width: 104px;
     align-items: center;
     justify-content: center;
     img {
@@ -959,7 +1022,7 @@ button {
 
   .eventslist__notice {
     background-color: white;
-    width: 150px;
+    width: 153px;
     height: 104px;
     display: flex;
     justify-content: center;
@@ -1409,7 +1472,7 @@ button {
   }
 
   .events__rowscontainerTitle {
-    margin-left: 56px;
+    margin-left: 120px;
   }
 
   .ticketsArea {
@@ -1444,8 +1507,8 @@ button {
       }
       .box {
         border: 3px solid $black;
-        width: 55px;
-        height: 55px;
+        width: 48px;
+        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2129,35 +2192,49 @@ button {
     }
   }
 
+
   .nav__btn-menu {
     height: 63px;
-    padding: 0 0 0 14px;
+    padding: 0 0 0 25px;
     display: flex;
     align-items: center;
+    .nav__btn-menu-text {
+      margin-left: 27px;
+    }
     .nav__btn-menu-container {
       font-family: "ProximaNova Bold";
       font-size: 17px;
       color: $black;
+      transition-duration: 0.3s;
       & img {
         margin-right: 5px;
+        position: absolute;
+        height: 19px;
+        left: 20px;
+        top: 23px;
       }
       & #navigation-menu-gray {
-        display: none;
+        opacity: 0;
+        transition-duration: 0.3s;
       }
       &:hover {
         & #navigation-menu-gray {
+          transition-duration: 0.3s;
+          opacity: 1;
           display: inline-block;
+          position: absolute;
           height: 19px;
-          width: 24px;
+          left: 20px;
+          top: 23px;
         }
         & #navigation-menu-black {
-          display: none;
-          height: 25px;
+          transition-duration: 0.3s;
+          opacity: 0;
         }
         color: $greydarker;
+        transition-duration: 0.3s;
       }
     }
-
   }
 
   // Schwarzes Menu zur Übersicht
@@ -2530,7 +2607,6 @@ button {
   }
 
   .footer__icons {
-
   }
 
   .footer__boxright {
@@ -3052,7 +3128,7 @@ button {
     background-color: $mintlight;
     color: $white;
     .container-pd-sm {
-      padding: 20px 0;
+      padding: 24px 0;
       border-bottom: 1px solid $mint;
     }
   }
@@ -3127,8 +3203,7 @@ button {
   }
 
   .singleevent__descriptionAdd {
-    width: 60%;
-    height: 60%;
+    width: 63.50%;
     margin: 55px auto;
   }
 
@@ -3424,7 +3499,7 @@ button {
       border-right: 1px solid $greylighter;
     }
     .ticketsSmaller {
-      height: 85px;
+      height: 88px;
       display: flex;
       align-items: center;
       justify-content: flex-start;
@@ -3443,8 +3518,8 @@ button {
       }
       .box {
         border: 3px solid $black;
-        width: 55px;
-        height: 55px;
+        width: 48px;
+        height: 48px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3550,7 +3625,7 @@ button {
       background-color: $mint;
       padding-top: 42px;
       width: 100%;
-      height: 240px;
+      height: 224px;
       text-align: center;
     }
     .title {

@@ -108,7 +108,7 @@
             <div class="ad-iphone__content-lg">
                 <span class="text like-h1 text-white">Mit der App unabhägig am Festival feiern.</span>
                 <div class="ad-iphone__buttons">
-                    <div class="margin action__box-margin--black">APP DOWNLOADEN</div>
+                    <button class="margin action__box-margin--black">APP DOWNLOADEN</button>
                     <div class="ad__logos">
                         <img src={{asset('/icons/apple_store.svg')}} />
                         <img src={{asset('/icons/google_play.svg')}} />
