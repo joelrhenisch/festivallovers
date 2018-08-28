@@ -45,136 +45,21 @@
         {{--Tickets: grüner Teil--}}
         <div class="ticketbuy__festivalTicket">
             <div class="ticketbuy__main-container">
-                <h2 class="text-center-sm">Festivaleintritt</h2>
-                <div class="ticketbuy__tickets">
-                    <div class="ticketbuy__festivalTicketContainer">
-
-                        {{-- TICKET --}}
-                        {{-- grüner Teil --}}
-                        <div class="ticketContainer">
-                            <div class="ticketGreen">
-                                <img src={{asset('icons/tickets_standard_white.svg')}}  height="60px" alt="ticket">
-                                <p class="title">1 Tag Pass</p>
-                                <p class="price">CHF 75.–</p>
-                            </div>
-
-                            {{-- weisser Teil --}}
-                            <div class="ticketsArea">
-                                <div class="area-container nomargin">
-                                    <div class="ticketsSmaller">
-                                        <div class="container">
-                                            <div class="text">
-                                                <span class="textRegGreen">Verfügbare Tickets</span>
-                                                <div class="d-flex">
-                                                    <span class="textBoldGreen">960</span>
-                                                    <span class="textRegGrey"> / 1200</span>
-                                                </div>
-                                            </div>
-                                            <div class="ticketsSymbol">
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratQ"></div>
-                                                <div class="QuadratQ"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {{--Ticketanzahl + und ---}}
-                                    <div class="ticketContainer nomargin">
-                                        <div class="ticketsCounter">
-                                            <div class="container">
-                                                <button class="box">
-                                                    <img src={{asset('icons/steuerung_minus.svg')}}  width="20px" alt="ticket minus">
-                                                </button>
-                                                <p class="fontticket">0 Tickets</p>
-                                                <button class="box">
-                                                    <img src={{asset('icons/steuerung_plus.svg')}}  width="20px" alt="ticket plus">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {{-- TICKET --}}
-                        {{-- grüner Teil --}}
-                        <div class="ticketContainer">
-                            <div class="ticketGreen">
-                                <img src={{asset('icons/tickets_standard_white.svg')}}  height="60px" alt="ticket">
-                                <p class="title">1 Tag Pass</p>
-                                <p class="price">CHF 75.–</p>
-                            </div>
-
-                            {{-- weisser Teil --}}
-                            <div class="ticketsArea">
-                                <div class="area-container nomargin">
-                                    <div class="ticketsSmaller">
-                                        <div class="container">
-                                            <div class="text">
-                                                <span class="textRegGreen">Verfügbare Tickets</span>
-                                                <div class="d-flex">
-                                                    <span class="textBoldGreen">960</span>
-                                                    <span class="textRegGrey"> / 1200</span>
-                                                </div>
-                                            </div>
-                                            <div class="ticketsSymbol">
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratF"></div>
-                                                <div class="QuadratQ"></div>
-                                                <div class="QuadratQ"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    {{--Ticketanzahl + und ---}}
-                                    <div class="ticketContainer nomargin">
-                                        <div class="ticketsCounter">
-                                            <div class="container">
-                                                <button id="counter-minus" class="box">
-                                                    <img src={{asset('icons/steuerung_minus.svg')}}  width="20px" alt="ticket minus">
-                                                </button>
-                                                <span id="counter" class="fontticket"></span>
-                                                <span>Tickets</span>
-                                                <button id="counter-plus" class="box">
-                                                    <img src={{asset('icons/steuerung_plus.svg')}}  width="20px" alt="ticket plus">
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div style="display: contents" id="app">
+                    <h2 class="text-center-sm">Festivaleintritt</h2>
+                    <div class="ticketbuy__tickets">
+                        <div class="ticketbuy__festivalTicketContainer">
+                            <ticket-container name="1 Tag Pass"></ticket-container>
+                            <ticket-container name="3 Tag Pass"></ticket-container>
                         </div>
                     </div>
-                </div>
-
-                <div class="ticketBuy__submitContainer">
-                    <button id="go-to-payment" class="box-sm-full-width action__box--black w-100">
-                        4 TICKETS KAUFEN
-                        <a href="/payment"></a>
-                    </button>
+                    <div class="ticketBuy__submitContainer">
+                        <ticket-button></ticket-button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <p>Return to documentation of <
-        <div id="example">
-    <p>This will disappear if JavaScript is working properly.</p>
-    </div>
-    a href="../counters-example.html">Counters example</a>.</p>
 
 
     <script>

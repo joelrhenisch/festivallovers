@@ -534,14 +534,15 @@ button {
     border-radius: 10px;
     margin: 0 13px;
     color: white;
+    transition-duration: 0.3s !important;
   }
 
   /* Hoverzustand der Filterbuttons */
-  #jazz:hover {background-color: $yellow; transition-duration: 0.3s;}
-  #hiphop:hover {background-color: $pink; transition-duration: 0.3s;}
-  #indie:hover {background-color: $mint; transition-duration: 0.3s;}
-  #poprock:hover {background-color: $blue; transition-duration: 0.3s;}
-  #electronic:hover {background-color: $violet; transition-duration: 0.3s;}
+  #jazz:hover {background-color: $yellow}
+  #hiphop:hover {background-color: $pink}
+  #indie:hover {background-color: $mint}
+  #poprock:hover {background-color: $blue}
+  #electronic:hover {background-color: $violet}
 
   .filter__number {
     vertical-align: super;
@@ -1067,11 +1068,11 @@ button {
         margin: 0 auto;
       }
     }
+    .img__container:hover {
+        cursor: pointer;
+    }
     img {
       width: 340px;
-    }
-    :hover {
-      cursor: pointer;
     }
   }
 
@@ -1086,6 +1087,7 @@ button {
     background-color: $white;
     width: 384px;
     padding: 20px 20px 90px 20px;
+    cursor: default;
     .locationDate {
       font-family: "ProximaNova Regular";
       font-size: 12px;
@@ -1269,7 +1271,7 @@ button {
   }
 
   .carousel-indicators {
-    bottom: -52px;
+    bottom: -78px;
   }
 
   .carousel-indicators .active {
@@ -1292,7 +1294,6 @@ button {
     font-family: "ProximaNova Bold";
     font-size: 20px;
     padding: 7px 32px;
-    //clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 90%);
     background-color: $white;
     border: 2px solid $black;
     color: $black;
@@ -1305,21 +1306,12 @@ button {
   }
 
   .tabs__btn:hover, .tabs__btn--active {
-    //filter:
-    //        drop-shadow( 0px  2px 0 black)
-    //        drop-shadow( 0px  2px 0 black)
-    //        drop-shadow( 2px  0px 0 black)
-    //        drop-shadow( 2px  0px 0 black);
-    //-webkit-filter:
-    //        drop-shadow( 0px  2px 0 black)
-    //        drop-shadow( 0px  2px 0 black)
-    //        drop-shadow( 2px  0px 0 black)
-    //        drop-shadow( 2px  0px 0 black);
     clip-path: polygon(0 0, 100% 0, 100% 90%, 45% 90%, 50% 100%, 55% 90%, 0% 90%);
     background-color: $black;
     color: $white;
     height: 53px;
     padding: 0 32px 5px 32px;
+    transition-duration: 0.3s;
   }
 
   .tabs__container{
@@ -1421,6 +1413,10 @@ button {
       margin: auto;
       color: $white;
       margin-top: 30px;
+      &:hover {
+        background-color: $mint;
+        transition-duration: 0.3s;
+      }
     }
   }
 
@@ -1436,6 +1432,16 @@ button {
         height: 128px;
       }
     }
+
+    .promote__bottom-row {
+      display: flex;
+      width: 720px;
+      &:hover {
+        background-color: $mint;
+        transition-duration: 0.3s;
+      }
+    }
+
     .promote__button {
       width: 312px;
       height: 128px;
@@ -2340,6 +2346,11 @@ button {
     background-color: $black;
     color: $white;
     text-align: center;
+    &:hover {
+      background-color: $greydarker;
+      border: 2px solid $greydarker;
+      transition-duration: 0.3s;
+    }
   }
 
   .action__box-margin--black {
@@ -2362,6 +2373,12 @@ button {
     background-color: $white;
     color: $black;
     text-align: center;
+    &:hover {
+      background-color: $black;
+      border: 2px solid $black;
+      transition-duration: 0.3s;
+      color: $white;
+    }
   }
 
   .action__box--mint {
@@ -2382,6 +2399,12 @@ button {
     background-color: transparent;
     color: $black;
     text-align: center;
+    &:hover {
+      background-color: $black;
+      border: 2px solid $black;
+      transition-duration: 0.3s;
+      color: $white;
+    }
   }
 
   .box-sm-full-width {
@@ -2761,6 +2784,7 @@ button {
     margin: 13px auto;
     color: white;
     width: fit-content;
+    transition-duration: 0.3s !important;
   }
 
   /* Hoverzustand der Filterbuttons */
@@ -3313,6 +3337,7 @@ button {
 
   .tabs__btn:hover, .tabs__btn--active {
     background-color: $greydark;
+    transition-duration: 0.3s;
   }
 
   .tabs__imagebox {
@@ -3415,6 +3440,10 @@ button {
       margin: auto;
       color: $white;
       margin-top: 30px;
+      &:hover {
+        background-color: $mint;
+        transition-duration: 0.3s;
+      }
     }
   }
 
@@ -3427,6 +3456,15 @@ button {
       }
     }
 
+    .promote__bottom-row {
+      display: flex;
+      justify-content: center;
+      &:hover {
+        background-color: $mint;
+        transition-duration: 0.3s;
+      }
+    }
+
     .promote__button-img {
       height: 128px;
       width: 128px;
@@ -3434,16 +3472,22 @@ button {
       position: relative;
     }
 
-    .img-men img {
-      position: absolute;
-      height: 128px;
-      right: -83px;
+    .img-men {
+      left: -14px;
+      img {
+        position: absolute;
+        height: 128px;
+        right: -83px;
+      }
     }
 
-    .img-women img {
+    .img-women {
+      right: -13px;
+     img {
       position: absolute;
       height: 128px;
       right: -87px;
+      }
     }
 
     .promote__button {

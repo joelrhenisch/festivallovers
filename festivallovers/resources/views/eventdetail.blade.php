@@ -212,7 +212,7 @@
     </div>
     <div class="promote__bottom">
         <div class="content">
-            <div class="d-flex justify-content-between border-bottom-white">
+            <div class="promote__bottom-row justify-content-end border-bottom-white">
                 <button class="promote__button">
                     <span class="arrowleft"><img src="{{asset('icons/navigation_zurueck_white.svg')}}" width="25px"></span>
                     <span class="text">Musikfestwochen</span>
@@ -222,7 +222,7 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-between">
+            <div class="promote__bottom-row justify-content-start">
                 <div class="promote__button-img img-men">
                     <img src="{{asset('images/kruselkopf.png')}}">
                 </div>

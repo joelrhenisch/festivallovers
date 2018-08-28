@@ -11169,38 +11169,30 @@ button {
     border-radius: 10px;
     margin: 0 13px;
     color: white;
+    -webkit-transition-duration: 0.3s !important;
+            transition-duration: 0.3s !important;
   }
 
   /* Hoverzustand der Filterbuttons */
 
   #jazz:hover {
     background-color: #fdd835;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
 
   #hiphop:hover {
     background-color: #d81b60;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
 
   #indie:hover {
     background-color: #00d79f;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
 
   #poprock:hover {
     background-color: #3949ab;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
 
   #electronic:hover {
     background-color: #5e35b1;
-    -webkit-transition-duration: 0.3s;
-            transition-duration: 0.3s;
   }
 
   .filter__number {
@@ -11857,12 +11849,12 @@ button {
     margin: 0 auto;
   }
 
-  .eventslist__EventKacheln img {
-    width: 340px;
+  .eventslist__EventKacheln .img__container:hover {
+    cursor: pointer;
   }
 
-  .eventslist__EventKacheln :hover {
-    cursor: pointer;
+  .eventslist__EventKacheln img {
+    width: 340px;
   }
 
   #surlelac-scaled {
@@ -11877,6 +11869,7 @@ button {
     background-color: #FFFFFF;
     width: 384px;
     padding: 20px 20px 90px 20px;
+    cursor: default;
   }
 
   .eventslist__ContentKacheln .locationDate {
@@ -12080,7 +12073,7 @@ button {
   }
 
   .carousel-indicators {
-    bottom: -52px;
+    bottom: -78px;
   }
 
   .carousel-indicators .active {
@@ -12125,6 +12118,8 @@ button {
     color: #FFFFFF;
     height: 53px;
     padding: 0 32px 5px 32px;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .tabs__container {
@@ -12250,6 +12245,12 @@ button {
     margin-top: 30px;
   }
 
+  .promote__container .promote__buttonBuy:hover {
+    background-color: #00d79f;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+
   .promote__bottom {
     height: 128px;
   }
@@ -12267,6 +12268,19 @@ button {
 
   .promote__bottom .content img {
     height: 128px;
+  }
+
+  .promote__bottom .promote__bottom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 720px;
+  }
+
+  .promote__bottom .promote__bottom-row:hover {
+    background-color: #00d79f;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .promote__bottom .promote__button {
@@ -13354,6 +13368,13 @@ button {
     text-align: center;
   }
 
+  .action__box--black:hover {
+    background-color: #767676;
+    border: 2px solid #767676;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+
   .action__box-margin--black {
     font-weight: bold;
     border: 2px solid black;
@@ -13376,6 +13397,14 @@ button {
     text-align: center;
   }
 
+  .action__box--white:hover {
+    background-color: #000000;
+    border: 2px solid #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    color: #FFFFFF;
+  }
+
   .action__box--mint {
     font-weight: bold;
     padding: 8px 25px;
@@ -13394,6 +13423,14 @@ button {
     background-color: transparent;
     color: #000000;
     text-align: center;
+  }
+
+  .action__boxtransparent:hover {
+    background-color: #000000;
+    border: 2px solid #000000;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+    color: #FFFFFF;
   }
 
   .box-sm-full-width {
@@ -13845,6 +13882,8 @@ button {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    -webkit-transition-duration: 0.3s !important;
+            transition-duration: 0.3s !important;
   }
 
   /* Hoverzustand der Filterbuttons */
@@ -14502,6 +14541,8 @@ button {
   .tabs__btn:hover,
   .tabs__btn--active {
     background-color: #c2c2c2;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .tabs__imagebox {
@@ -14625,12 +14666,33 @@ button {
     margin-top: 30px;
   }
 
+  .promote__container .promote__buttonBuy:hover {
+    background-color: #00d79f;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+
   .promote__bottom .content {
     background-color: #1de9b6;
   }
 
   .promote__bottom .content .border-bottom-white {
     border-bottom: 1px solid #FFFFFF;
+  }
+
+  .promote__bottom .promote__bottom-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .promote__bottom .promote__bottom-row:hover {
+    background-color: #00d79f;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
   }
 
   .promote__bottom .promote__button-img {
@@ -14640,10 +14702,18 @@ button {
     position: relative;
   }
 
+  .promote__bottom .img-men {
+    left: -14px;
+  }
+
   .promote__bottom .img-men img {
     position: absolute;
     height: 128px;
     right: -83px;
+  }
+
+  .promote__bottom .img-women {
+    right: -13px;
   }
 
   .promote__bottom .img-women img {

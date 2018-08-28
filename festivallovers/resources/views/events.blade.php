@@ -139,11 +139,11 @@
 
             // Filter zurücksetzen
         $("#events-result-reset").click(function () {
-            $("#jazz").removeClass("--yellow");
-            $("#hiphop").removeClass("--pink");
-            $("#indie").removeClass("--mint");
-            $("#poprock").removeClass("--blue");
-            $("#electronic").removeClass("--violet");
+            $("#jazz").removeClass("--darken-yellow");
+            $("#hiphop").removeClass("--darken-pink");
+            $("#indie").removeClass("--darken-mint");
+            $("#poprock").removeClass("--darken-blue");
+            $("#electronic").removeClass("--darken-violet");
         });
 
         // MOBILE
@@ -152,6 +152,22 @@
 
         // DESKTOP
             // events: Zwischen Kacheln und Liste switchen - Text der jeweiligen Ansicht bold setzen
+
+            $("#btn__events-kacheln").click(function () {
+                $("#eventslist_kacheln").show();
+                $("#eventslist_liste").hide();
+                $("#text-kacheln").addClass('bold');
+                $("#text-liste").removeClass('bold');
+            });
+
+            $("#btn__events-liste").click(function () {
+                $("#eventslist_liste").show();
+                $("#eventslist_kacheln").hide();
+                $("#text-liste").addClass('bold');
+                $("#text-kacheln").removeClass('bold');
+            });
+
+            // events: Hover auf Kacheln-/Listensymbol
 
             $("#btn__events-kacheln").click(function () {
                 $("#eventslist_kacheln").show();
@@ -194,7 +210,7 @@
             });
 
             // Zum jeweiligen Event weiterverlinkt werden (Kacheln-Ansicht)
-            $(".eventslist__EventKacheln").click(function () {
+            $(".img__container").click(function () {
                 window.location = $(this).find("a:first").attr("href");
                 return false;
             });

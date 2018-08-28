@@ -45,7 +45,7 @@ mix.sass('resources/assets/sass/app.scss', 'public/css')
 // mix.then(function () {}) <-- Will be triggered each time Webpack finishes building.
 // mix.extend(name, handler) <-- Extend Mix's API with your own components.
 // mix.options({
-//   extractVueStyles: false, // Extract .vue component styling to file, rather than inline.
+//   extractVueStyles: false, // Extract TicketButton.vue component styling to file, rather than inline.
 //   globalVueStyles: file, // Variables file to be imported in every component.
 //   processCssUrls: true, // Process/optimize relative stylesheet url()'s. Set to false, if you don't want them touched.
 //   purifyCss: false, // Remove unused CSS selectors.
