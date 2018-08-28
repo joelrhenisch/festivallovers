@@ -1509,7 +1509,6 @@ button {
       justify-content: center;
       padding: 5px;
       .container {
-
       }
       .box {
         border: 3px solid $black;
@@ -1518,6 +1517,10 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+          background-color: $greylight;
+          transition-duration: 0.2s;
+        }
       }
       .fontticket {
         font-family: "ProximaNova Regular";
@@ -1752,7 +1755,7 @@ button {
   .bg__green {
     background-color: $mint;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding-top: 90px;
     padding-bottom: 50px;
 
@@ -1792,6 +1795,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-top: 50px;
   }
 
   .provider__select {
@@ -1888,7 +1892,7 @@ button {
   }
 
   #payment-step-3 {
-    height: 770px;
+    height: 100vh;
   }
 
 } // hier endet der Desktop Media Queries
@@ -3590,7 +3594,6 @@ button {
       justify-content: center;
       padding: 0 15px;
       .container {
-
       }
       .box {
         border: 3px solid $black;
@@ -3599,6 +3602,10 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
+          background-color: $greylight;
+          transition-duration: 0.2s;
+        }
       }
       .fontticket {
         font-family: "ProximaNova Regular";
@@ -3777,7 +3784,7 @@ button {
   .bg__green {
     background-color: $mint;
     width: 100%;
-    height: 500px;
+    height: 100vh;
     padding-top: 20px;
 
     .boldUnderline {

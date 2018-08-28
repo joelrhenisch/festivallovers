@@ -91,7 +91,7 @@
                         </button>
                     </div>
 
-                    <button id="go-to-ticketbuy" class="action__box--black mb-3 mt-0 mx-0 w-100">
+                    <button class="action__box--black mb-3 mt-0 mx-0 w-100 go-to-ticketbuy">
                         TICKET KAUFEN
                         <a href="/ticketavaible"></a>
                     </button>
@@ -205,8 +205,9 @@
             <p class="title">Sei ein Teil von Sur Le Lac</p>
             <div class="promote_img">
             </div>
-            <button class="promote__buttonBuy">
+            <button class="promote__buttonBuy go-to-ticketbuy">
                 TICKETS KAUFEN
+                <a href="/ticketavaible"></a>
             </button>
         </div>
     </div>
@@ -238,7 +239,7 @@
     <script>
 
         // Zu Tickets-Kaufen
-        $("#go-to-ticketbuy").click(function () {
+        $(".go-to-ticketbuy").click(function () {
             window.location = $(this).find("a:first").attr("href");
             return false;
         });

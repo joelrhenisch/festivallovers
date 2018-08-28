@@ -34,6 +34,11 @@
                 </div>
             </div>
         </div>
+
+        {{--grünes Logo unten--}}
+        <div class="logo__StreifenBottom">
+            <img src={{asset('icons/music_indie.svg')}} height="40px"/>
+        </div>
     </div>
 
     <!-- Schritt 2  -->
@@ -83,16 +88,18 @@
                 </div>
             </div>
         </div>
+
+        {{--grünes Logo unten--}}
+        <div class="logo__StreifenBottom">
+            <img src={{asset('icons/music_indie.svg')}} height="40px"/>
+        </div>
     </div>
+
 
     <div id="payment-step-3" class="bg__green">
         @include ('layouts.payment_complete')
     </div>
 
-    {{--grünes Logo unten--}}
-    <div class="logo__StreifenBottom">
-        <img src={{asset('icons/music_indie.svg')}} height="40px"/>
-    </div>
 
 
     <script>

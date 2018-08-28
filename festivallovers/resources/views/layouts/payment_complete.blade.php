@@ -4,3 +4,8 @@
     <div class="box__whiteblack order-1">ZUM DASHBOARD</div>
     <div class="box__greenwhite">APP DOWNLOADEN</div>
 </div>
+
+{{--grünes Logo unten--}}
+<div class="logo__StreifenBottom">
+    <img src={{asset('icons/music_indie.svg')}} height="40px"/>
+</div>

@@ -12399,6 +12399,12 @@ button {
             align-items: center;
   }
 
+  .ticketsArea .ticketsCounter .box:hover {
+    background-color: #e5e5e5;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+  }
+
   .ticketsArea .ticketsCounter .fontticket {
     font-family: "ProximaNova Regular";
     font-size: 16px;
@@ -12682,7 +12688,7 @@ button {
   .bg__green {
     background-color: #00d79f;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     padding-top: 90px;
     padding-bottom: 50px;
   }
@@ -12729,6 +12735,7 @@ button {
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+    margin-top: 50px;
   }
 
   .provider__select {
@@ -12851,7 +12858,7 @@ button {
   }
 
   #payment-step-3 {
-    height: 770px;
+    height: 100vh;
   }
 }
 
@@ -14886,6 +14893,12 @@ button {
             align-items: center;
   }
 
+  .ticketsArea .ticketsCounter .box:hover {
+    background-color: #e5e5e5;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+  }
+
   .ticketsArea .ticketsCounter .fontticket {
     font-family: "ProximaNova Regular";
     font-size: 16px;
@@ -15102,7 +15115,7 @@ button {
   .bg__green {
     background-color: #00d79f;
     width: 100%;
-    height: 500px;
+    height: 100vh;
     padding-top: 20px;
   }
 
