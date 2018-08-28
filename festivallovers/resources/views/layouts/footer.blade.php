@@ -45,19 +45,19 @@
 <footer id="footer-sm" class="footer-sm">
     <div class="footer__container">
         <div class="footer__box-top">
-            <button id="go-to-events-sm" class="p-0">
+            <button id="go-to-events-sm" class="p-0 footer__list-item">
                 <a href="/events"></a>
                 FESTIVALS
             </button>
-            <button id="go-to-magazin-sm" class="p-0">
+            <button id="go-to-magazin-sm" class="p-0 footer__list-item">
                 MAGAZIN
                 <a href="#magazin"></a>
             </button>
-            <button id="go-to-news-sm" class="p-0">
+            <button id="go-to-news-sm" class="p-0 footer__list-item">
                 NEWS
                 <a href="#news"></a>
             </button>
-            <button id="go-to-top-sm" class="p-0">
+            <button id="go-to-top-sm" class="p-0 footer__list-item">
                 <img src={{asset('icons/navigation_backtotop.svg')}} height="15px" alt="back to top">
             </button>
         </div>
