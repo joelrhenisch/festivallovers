@@ -1809,6 +1809,10 @@ button {
     background-color: $mint;
     color: $white;
     margin: 5px;
+    &:hover {
+      background-color: $mintlight;
+      transition-duration: 0.2s;
+    }
   }
 
   .box__whiteblack {
@@ -1818,6 +1822,10 @@ button {
     background-color: $white;
     color: $black;
     margin: 5px;
+    &:hover {
+      background-color: $greylighter;
+      transition-duration: 0.2s;
+    }
   }
 
   .payment__box-container {
@@ -3838,6 +3846,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+      background-color: $mintlight;
+      transition-duration: 0.2s;
+    }
   }
 
   .box__whiteblack {
@@ -3851,6 +3863,10 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+      background-color: $greylighter;
+      transition-duration: 0.2s;
+    }
   }
 
   .payment__container {
@@ -3869,6 +3885,11 @@ button {
     transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+
+  .payment__box-container {
+    display: flex;
+    flex-direction: column;
   }
 
   .border-left-1px-greydarker {
