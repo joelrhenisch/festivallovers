@@ -10933,6 +10933,7 @@ button {
   }
 
   .pfadleiste {
+    list-style-type: none;
     padding-top: 25px;
     margin-left: -180px !important;
   }
@@ -10949,8 +10950,21 @@ button {
     margin-right: 25px !important;
   }
 
-  .fix-pos-left {
+  .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .pfadleiste__fix-pos-left-ticketavaible {
     margin-left: 285px !important;
+  }
+
+  .pfadleiste__fix-pos-left-events {
+    margin-left: 116px !important;
   }
 
   #navigation__menu-neg {
@@ -13144,6 +13158,7 @@ button {
   }
 
   .pfadleiste {
+    list-style-type: none;
     padding-top: 15px;
     padding-left: 10px;
   }
@@ -13286,6 +13301,19 @@ button {
     -webkit-transition-duration: 0.3s;
             transition-duration: 0.3s;
     opacity: 0;
+  }
+
+  .dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .pfadleiste__fix-pos-left-events {
+    margin-left: 13px !important;
   }
 
   #navigation__menu-neg {

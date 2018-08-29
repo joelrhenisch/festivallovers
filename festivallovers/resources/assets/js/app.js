@@ -16,6 +16,8 @@ window.Event = new Vue();
 Vue.component('example-component', require('./components/ExampleComponent.vue'));
 Vue.component('ticket-container', require('./components/TicketContainer.vue'));
 Vue.component('ticket-button', require('./components/TicketButton.vue'));
+Vue.component('pfadleiste-dropdown', require('./components/Dropdown.vue'));
+
 
 const app = new Vue({
     el: '#app'

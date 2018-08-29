@@ -14595,6 +14595,7 @@ window.Event = new Vue();
 Vue.component('example-component', __webpack_require__(41));
 Vue.component('ticket-container', __webpack_require__(44));
 Vue.component('ticket-button', __webpack_require__(47));
+Vue.component('pfadleiste-dropdown', __webpack_require__(57));
 
 var app = new Vue({
   el: '#app'
@@ -47744,8 +47745,8 @@ var render = function() {
       attrs: { id: "go-to-payment" }
     },
     [
-      _vm._v("\n    " + _vm._s(_vm.ticketCount) + " TICKETS KAUFEN\n    "),
-      _c("a", { attrs: { href: "/payment" } })
+      _c("a", { attrs: { href: "/payment" } }),
+      _vm._v("\n    " + _vm._s(_vm.ticketCount) + " TICKETS KAUFEN\n")
     ]
   )
 }
@@ -47764,6 +47765,157 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(3)
+/* script */
+var __vue_script__ = __webpack_require__(58)
+/* template */
+var __vue_template__ = __webpack_require__(59)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\Dropdown.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-62bcfa08", Component.options)
+  } else {
+    hotAPI.reload("data-v-62bcfa08", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 58 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            people: [{ name: 'Sur le Lac1' }, { name: 'Rock am See2' }, { name: 'Greenfield3' }],
+            selectedPerson: 'Wähle dein Event'
+        };
+    }
+});
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "d-flex" }, [
+    _c("li", { attrs: { id: "asd" } }, [
+      _vm._v("\n        " + _vm._s(_vm.selectedPerson) + "\n        "),
+      _c("img", {
+        attrs: {
+          src: "icons/steuerung_dropdown_kreise_grey.svg",
+          height: "18px",
+          alt: "arrow down"
+        }
+      })
+    ]),
+    _vm._v(" "),
+    _c("div", [
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.selectedPerson,
+              expression: "selectedPerson"
+            }
+          ],
+          staticClass: "pfadleiste__dropdown-custom dropdown-toggle",
+          on: {
+            change: function($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function(o) {
+                  return o.selected
+                })
+                .map(function(o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.selectedPerson = $event.target.multiple
+                ? $$selectedVal
+                : $$selectedVal[0]
+            }
+          }
+        },
+        _vm._l(_vm.people, function(person) {
+          return _c("option", { domProps: { value: person.name } }, [
+            _vm._v(_vm._s(person.name))
+          ])
+        })
+      )
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-62bcfa08", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

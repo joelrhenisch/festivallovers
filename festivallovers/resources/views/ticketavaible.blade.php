@@ -2,7 +2,7 @@
 
 @section('content')
 
-    <div class="fix-pos-left">
+    <div class="pfadleiste__fix-pos-left-events">
         @include ('layouts.pfadleiste')
     </div>
 

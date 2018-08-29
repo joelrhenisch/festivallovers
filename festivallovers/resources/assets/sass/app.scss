@@ -335,6 +335,7 @@ button {
   }
 
   .pfadleiste {
+    list-style-type: none;
     padding-top: 25px;
     margin-left: -180px !important;
     img {
@@ -348,9 +349,20 @@ button {
     }
   }
 
+  // Dropdown
+  .dropdown {
+    display: flex;
+    align-items: center;
+  }
+
   // nur für Position bei ticketavaible (Desktop) nötig
-  .fix-pos-left {
+  .pfadleiste__fix-pos-left-ticketavaible {
     margin-left: 285px !important;
+  }
+
+  // nur für Position bei events (Desktop) nötig
+  .pfadleiste__fix-pos-left-events {
+    margin-left: 116px !important;
   }
 
   // Schwarzes Menu zur Übersicht
@@ -2148,6 +2160,7 @@ button {
   }
 
   .pfadleiste {
+    list-style-type: none;
     padding-top: 15px;
     padding-left: 10px;
     img {
@@ -2266,6 +2279,17 @@ button {
         transition-duration: 0.3s;
       }
     }
+  }
+
+  // Dropdown
+  .dropdown {
+    display: flex;
+    align-items: center;
+  }
+  
+  // nur für Position bei events (Desktop) nötig
+  .pfadleiste__fix-pos-left-events {
+    margin-left: 13px !important;
   }
 
   // Schwarzes Menu zur Übersicht

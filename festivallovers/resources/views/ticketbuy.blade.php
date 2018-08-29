@@ -7,7 +7,7 @@
         <img src={{asset('icons/music_indie.svg')}} height="40px"/>
     </div>
 
-    <div class=" fix-pos-left">
+    <div class="pfadleiste__fix-pos-left-events">
         @include ('layouts.pfadleiste')
     </div>
     {{--Titel--}}
@@ -63,27 +63,8 @@
 
 
     <script>
-        // Tickets addieren und subtrahieren
+        // // Tickets addieren und subtrahieren
         $(document).ready(function () {
-            // Zähler auf 0 setzen
-            let counter = 0;
-
-            // Dem DOM-Element die Zahl zuweisen
-            $("#counter").text(counter);
-
-            // Addieren
-            $("#counter-plus").click(function () {
-                //Add 10 to counter
-                counter = counter + 1;
-                // Display total
-                $("#counter").text(counter);
-            });
-
-            // Subrahieren
-            $("#counter-minus").click(function () {
-                counter = counter - 1;
-                $("#counter").text(counter);
-            });
 
             // Zu Zahlvorgang
             $("#go-to-payment").click(function () {

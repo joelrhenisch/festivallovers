@@ -39,10 +39,12 @@
     </div>
 
     <div class="singleevent__descriptioncontainer">
-        @include ('layouts.pfadleiste')
+        <div class="col-12">
+            @include ('layouts.pfadleiste')
+        </div>
 
         {{-- Festivalbeschreibung --}}
-        <div class="singleevent__description">
+        <div class="p-0 singleevent__description">
 
             <div class="col-lg-7 col-sm-12">
                 <h1>Spannende, innovative und progressive Musik</h1>
@@ -248,7 +250,6 @@
         $(document).ready(function () {
             $("#anreise").click(function () {
                 $("#container__anreiserueckreise").toggle();
-
             });
         });
 
