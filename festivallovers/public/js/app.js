@@ -48308,12 +48308,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     data: function data() {
         return {
 
-            tickets: [{ price: '50.–', title: '1 Tag Pass', zahl: '0' }, { price: '100.–', title: '3 Tag Pass', zahl: '0' }, { price: '200.–', title: 'VIP 1 Tag', zahl: '0' }]
+            tickets: [{ price: '75.–', title: '1 Tag Pass', zahl: '0', color: 'ticketGreen', green: true }, { price: '375.–', title: '3 Tag Pass', zahl: '0', color: 'ticketGreen', grey: true }, { price: '225.–', title: 'VIP 1 Tag', zahl: '0', color: 'ticketGrey', green: true }, { price: '420.–', title: 'VIP 3 Tage', zahl: '0', color: 'ticketGrey', green: true }]
         };
     },
 
@@ -48342,22 +48343,26 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "d-flex" },
+    { staticClass: "ticket__vuejs-container" },
     _vm._l(_vm.tickets, function(ticket) {
       return _c("div", { staticClass: "ticketContainer" }, [
-        _c("div", { staticClass: "ticketGreen" }, [
-          _c("img", {
-            attrs: {
-              src: "icons/tickets_standard_white.svg",
-              height: "60px",
-              alt: "ticket"
-            }
-          }),
-          _vm._v(" "),
-          _c("p", { staticClass: "title" }, [_vm._v(_vm._s(ticket.title))]),
-          _vm._v(" "),
-          _c("p", { staticClass: "price" }, [_vm._v(_vm._s(ticket.price))])
-        ]),
+        _c(
+          "div",
+          { class: { ticketGreen: ticket.green, ticketGrey: ticket.grey } },
+          [
+            _c("img", {
+              attrs: {
+                src: "icons/tickets_standard_white.svg",
+                height: "60px",
+                alt: "ticket"
+              }
+            }),
+            _vm._v(" "),
+            _c("p", { staticClass: "title" }, [_vm._v(_vm._s(ticket.title))]),
+            _vm._v(" "),
+            _c("p", { staticClass: "price" }, [_vm._v(_vm._s(ticket.price))])
+          ]
+        ),
         _vm._v(" "),
         _c("div", { staticClass: "ticketsArea" }, [
           _c("div", { staticClass: "area-container nomargin" }, [

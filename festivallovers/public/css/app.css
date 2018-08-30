@@ -12354,6 +12354,12 @@ button {
     margin-left: 120px;
   }
 
+  .ticket__vuejs-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
   .ticketsArea .tickets {
     width: 315px;
     height: 104px;
@@ -13513,7 +13519,7 @@ button {
   }
 
   .box-sm-full-width {
-    padding: 8px 95px;
+    padding: 8px 94px;
   }
 
   #filter-lg {
@@ -15084,6 +15090,14 @@ button {
 
   .ticketbuy__festivalTicketContainer .ticketGreen {
     background-color: #00d79f;
+    padding-top: 42px;
+    width: 100%;
+    height: 224px;
+    text-align: center;
+  }
+
+  .ticketbuy__festivalTicketContainer .ticketGrey {
+    background-color: #c2c2c2;
     padding-top: 42px;
     width: 100%;
     height: 224px;
