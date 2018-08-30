@@ -49,9 +49,9 @@
                     <h2 class="text-center-sm">Festivaleintritt</h2>
                     <div class="ticketbuy__tickets">
                         <div class="ticketbuy__festivalTicketContainer">
-                            <ticket-container name="1 Tag Pass"></ticket-container>
-                            <ticket-container name="3 Tag Pass"></ticket-container>
+                            <ticket-container></ticket-container>
                         </div>
+
                     </div>
                     <div class="ticketBuy__submitContainer">
                         <ticket-button></ticket-button>
