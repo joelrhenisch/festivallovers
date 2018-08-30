@@ -76,6 +76,7 @@
             },
 
             removeTicket(ticket) {
+
                 if (ticket.zahl > 0) {
                     ticket.zahl--;
                     Event.$emit('ticketMinus');

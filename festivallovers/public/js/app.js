@@ -24955,7 +24955,7 @@ module.exports = __webpack_require__(51);
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-// require('./jquery-3.3.1.min');
+
 __webpack_require__(15);
 __webpack_require__(40);
 __webpack_require__(41);
@@ -47262,12 +47262,6 @@ module.exports = function spread(callback) {
 /* 40 */
 /***/ (function(module, exports) {
 
-
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports) {
-
 // ==================================================
 // fancyBox v3.4.0
 //
@@ -48083,6 +48077,12 @@ module.exports = function spread(callback) {
 }(document, window.jQuery || jQuery);
 
 /***/ }),
+/* 41 */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -48325,6 +48325,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             Event.$emit('ticketPlus');
         },
         removeTicket: function removeTicket(ticket) {
+
             if (ticket.zahl > 0) {
                 ticket.zahl--;
                 Event.$emit('ticketMinus');

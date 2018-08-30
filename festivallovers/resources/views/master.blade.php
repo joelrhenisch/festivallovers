@@ -8,10 +8,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="/css/app.css" rel="stylesheet">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
     <title>Festival Lovers</title>
 </head>
-
+<body>
     <!-- Farbe dem Body zuweisen. Wird pro Seite definiert -->
     <div class="@yield('bodyClass')"></div>
 
@@ -27,8 +26,8 @@
     <!-- Footer -->
     @include ('layouts.footer')
 
-    <script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+
 
 </body>
 </html>
-

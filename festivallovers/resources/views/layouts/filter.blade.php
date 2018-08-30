@@ -34,9 +34,7 @@
     </button>
 </div>
 
-
 <script>
-
     // Aktiver Zustand der Filterbuttons
     $(function () {
         $("#jazz").click(function () {
@@ -54,7 +52,6 @@
         $("#electronic").click(function () {
             $(this).toggleClass("--darken-violet");
         });
-
         // Filter zurücksetzen
         $("#result-reset").click(function () {
             $("#jazz").removeClass("--darken-yellow");
@@ -64,5 +61,4 @@
             $("#electronic").removeClass("--darken-violet");
         });
     });
-
 </script>
