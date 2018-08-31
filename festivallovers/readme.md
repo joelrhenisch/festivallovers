@@ -1,5 +1,5 @@
 # Festivalovers
-Meine Diplomarbeit 'festivallovers' vom Lehrgang Developer 18/19 Lehrgang. Das Frontend einer Website wurde gemäss Styleguide umgesetzt.
+Dies ist meine Diplomarbeit 'festivallovers' vom Lehrgang Developer 18/19. Das Frontend einer Website wurde gemäss Styleguide umgesetzt.
 
 ## Nutzung 
 Das Frontend kann verwendet werden und das Backend dazu geschrieben werden.
@@ -9,7 +9,7 @@ Das Frontend kann verwendet werden und das Backend dazu geschrieben werden.
 Die inhaltlichen Rechte liegen bei Stephanie Batliner.
 
 #### Software
-Wurde mit Open-Source-Software verwendet, ausser 'fancybox'. Hier müsste bei einer kommerziellen Veröffentlichung eine Lizenz gekauft werden.
+Wurde mit Open-Source-Software verwendet, ausser 'fancybox'. Hier müsste bei einer kommerziellen Veröffentlichung eine Lizenz gekauft werden. (Quelle siehe unten)
 
 #### Fonts
 Die Schriften wurden von Stephanie Batliner mitgeliefert. Bitte bei ihr abklären, ob eine kommerzielle Lizenz gekauft wurde für dieses Projekt.
@@ -17,7 +17,7 @@ Die Schriften wurden von Stephanie Batliner mitgeliefert. Bitte bei ihr abkläre
 
 ## Start
 ### Installation Tools
-Installiere folgende Tools: php composer, yarn, homestead. Die offizielle Dokumentation findest du am Schluss.
+Installiere folgende Tools: npm/node, php composer, yarn, homestead. Die offizielle Dokumentation findest du unten.
 
 ### Installation Projekt
 ##### Download Repository
@@ -27,12 +27,12 @@ git clone git@github.com:WebProfessionals/dipl1718_joel.git
 ```  
 
 ##### Install dependencies
-wechsle ins Verzeichnis 'festivallovers' und lade alle composer-dependencies
+Wechsle ins Verzeichnis 'festivallovers' und lade alle composer-dependencies
 ```bash
 composer install
 ```
 
-lade alle yarn-dependencies
+Lade alle yarn-dependencies
 ```bash
 yarn
 ```
@@ -40,26 +40,26 @@ yarn
 ##### Dateien anpassen
 Datei 'env.example' kopieren und Kopie in '.env' unbenennen
 
-Schlüssel in .env schreiben
+Mit folgendem Befehl Schlüssel in .env schreiben
 ```bash
 php artisan key:generate
 ```
 
-Pfad in homestead.yaml ändern (Zeile 10)
+lokaler Pfad in homestead.yaml ändern (Zeile 10)
 Homestead.yaml
 
 ### Start Vagrant Box
 Die Vagrant Box gemäss Dokumentation starten.
 
 ### 'Assets bundle' mit Webpack
-Die Dateien im Verzeichnis 'festivallovers/resources/assets' müssen zusammengefügt werden und ins Verzeichnis 'public' abgelegt werden.
-Bei Änderungen werden die Dateien automatisch ersetzt. 
+Die Dateien im Verzeichnis 'festivallovers/resources/assets' müssen zusammengefügt werden und ins Verzeichnis 'public' abgelegt werden. 
+Bei Änderungen werden die Dateien automatisch ersetzt.Dafür folgender Befehl:
 ```bash
 npm run watch
 ```
 
 ### verwendete Tools & offizielle Dokumentationen
-npm & node
+npm & node  
 https://www.npmjs.com/get-npm
 
 php composer  
