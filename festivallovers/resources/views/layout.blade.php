@@ -34,7 +34,7 @@
 
     <!-- Magazin -->
     <div class="text-center magazin-title">
-        <h1>Magazin</h1>
+        <p class="like-h1">Magazin</p>
     </div>
 
     <div class="magazin__container">
@@ -120,7 +120,7 @@
 
     <!-- Musikstreifen -->
     <div class="heading__titel">
-        <h1 class="p-3">Entdeckungen</h1>
+        <p class="p-3 like-h1">Entdeckungen</p>
     </div>
 
     <div class="heading__lead">
@@ -154,7 +154,7 @@
     <!-- News -->
     <div id="news" class="news__box">
         <div class="heading__titel">
-            <h1 class="p-3">News</h1>
+            <p class="p-3 like-h1">News</p>
         </div>
 
         <div class="news__masonry">

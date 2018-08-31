@@ -43,7 +43,7 @@
 
     <!-- Schritt 2  -->
     <div id="payment-step-2" class="bg__green">
-        <h1 class="text-center text-white">Zahlung</h1>
+        <p class="text-center text-white like-h1">Zahlung</p>
         <div class="loginSite__box">
             <div class="loginSite__boxTop">
                 <div class="payment__container-row-multiple mb-3">

@@ -4,7 +4,7 @@
     {{--START FESTIVAL 1--}}
 
     <div class="events__rowscontainerTitle">
-        <h2>Gemerkte Festivals</h2>
+        <p class="like-h2">Gemerkte Festivals</p>
     </div>
     <div class="events__rowscontainer">
         <div class="eventslist__row">
