@@ -1,5 +1,6 @@
 # Festivalovers
-Dies ist meine Diplomarbeit 'festivallovers' vom Lehrgang Developer 18/19. Das Frontend einer Website wurde gemäss Styleguide umgesetzt.
+Meine Vertiefungsarbeit 'festivallovers' vom Lehrgang Developer 18/19 wurde in Form einer Website erarbeitet. Dabei wurde das komplette Frontend gemäss Styleguide umgesetzt.
+Die Eventagentur FestivalLovers bietet eine Webseite mit Informationen rund um Festivals vom Line up bis hin zum Ticketkauf. Es sind dort Festivals aus der ganzen Schweiz zu finden.
 
 ## Nutzung 
 Das Frontend kann verwendet werden und das Backend dazu geschrieben werden.
@@ -58,6 +59,9 @@ Bei Änderungen werden die Dateien automatisch ersetzt.Dafür folgender Befehl:
 npm run watch
 ```
 
+## Zeitplan / Meilensteine
+
+
 ### verwendete Tools & offizielle Dokumentationen
 npm & node  
 https://www.npmjs.com/get-npm
@@ -79,3 +83,5 @@ https://vuejs.org/v2/guide/installation.html
 
 fancybox  
 https://fancyapps.com/fancybox/3/
+
+## technische Entscheide
