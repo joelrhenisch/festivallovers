@@ -1,8 +1,5 @@
 @extends('master')
 
-
-
-
 @section('content')
 
     <script>
@@ -53,8 +50,6 @@
                 document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
             }
         }
-
-
 
         // Google Maps API wird ausgeführt und eine Map erstellt
         function initMap() {

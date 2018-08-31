@@ -11886,11 +11886,7 @@ button {
   }
 
   #surlelac-scaled {
-    -webkit-transform: scale(1.6);
-            transform: scale(1.6);
-    position: relative;
-    left: 100px;
-    bottom: 40px;
+    width: 384px;
   }
 
   .eventslist__ContentKacheln {

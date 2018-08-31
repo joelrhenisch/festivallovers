@@ -29,7 +29,7 @@
     </div>
 
     <div id="magazin" class="bigteaser">
-        <img class="bigteaser__img" src={{asset('images/BigTeaser.png')}} />
+        <img class="bigteaser__img" src={{asset('images/BigTeaser.jpg')}} />
     </div>
 
     <!-- Magazin -->
@@ -161,7 +161,7 @@
             <!-- Newsbox mit Bild -->
             <div class="news__container">
                 <div class="image__container">
-                    <img class="image" src={{asset('/images/SocialMedia.png')}} />
+                    <img class="image" src={{asset('/images/SocialMedia.jpg')}} />
                 </div>
                 <div class="content-top">
                     <span class="font-title-small d-block">3. Jun 2016</span>
@@ -203,7 +203,7 @@
             <!-- Newsbox mit Bild -->
             <div class="news__container">
                 <div class="image__container">
-                    <img class="image" src={{asset('/images/i_love_jazz.png')}} />
+                    <img class="image" src={{asset('/images/i_love_jazz.jpg')}} />
                 </div>
                 <div class="content-top">
                     <span class="font-title-small d-block">1m</span>
@@ -219,7 +219,7 @@
             <!-- Newsbox mit Bild -->
             <div class="news__container">
                 <div class="image__container">
-                    <img class="image" src={{asset('/images/shoe.png')}} />
+                    <img class="image" src={{asset('/images/shoe.jpg')}} />
                 </div>
                 <div class="content-top">
                     <span class="font-title-small d-block">4h</span>
@@ -263,7 +263,7 @@
                 <!-- Newsbox mit Bild -->
                 <div class="news__container">
                     <div class="image__container">
-                        <img class="image" src={{asset('/images/SocialMedia.png')}} />
+                        <img class="image" src={{asset('/images/SocialMedia.jpg')}} />
                     </div>
                     <div class="content-top">
                         <span class="font-title-small d-block">3. Jun 2016</span>
@@ -279,7 +279,7 @@
                 <!-- Newsbox mit Bild -->
                 <div class="news__container">
                     <div class="image__container">
-                        <img class="image" src={{asset('/images/i_love_jazz.png')}} />
+                        <img class="image" src={{asset('/images/i_love_jazz.jpg')}} />
                     </div>
                     <div class="content-top">
                         <span class="font-title-small d-block">1m</span>

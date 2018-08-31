@@ -4,7 +4,7 @@
         <div class="eventslist__EventKacheln">
             <div class="eventslist__EventKacheln img__container">
                 <a href="/eventdetail"></a>
-                <img id="surlelac-scaled" src={{asset('images/BigFestival.jpg')}} alt="surlelac">
+                <img id="surlelac-scaled" src={{asset('images/BigFestival_events.jpg')}} alt="surlelac">
                 <div class="logo__overImage">
                     <img src={{asset('icons/music_indie.svg')}} height="20px" alt="logo indie">
                 </div>
