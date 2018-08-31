@@ -12,7 +12,22 @@ let mix = require('laravel-mix');
  */
 
 mix.sass('resources/assets/sass/app.scss', 'public/css')
-    .js('resources/assets/js/app.js', 'public/js');
+    .js('resources/assets/js/app.js', 'public/js')
+    .js('resources/assets/js/custom/carousel.js', 'public/js')
+    .js('resources/assets/js/custom/eventslist_buy.js', 'public/js')
+    .js('resources/assets/js/custom/filter.js', 'public/js')
+    .js('resources/assets/js/custom/filtering-sm.js', 'public/js')
+    .js('resources/assets/js/custom/layout.js', 'public/js')
+    .js('resources/assets/js/custom/footer.js', 'public/js')
+    .js('resources/assets/js/custom/nav.js', 'public/js')
+    .js('resources/assets/js/custom/nav-negative-sm.js', 'public/js')
+    .js('resources/assets/js/custom/pfadleiste.js', 'public/js')
+    .js('resources/assets/js/custom/eventdetail.js', 'public/js')
+    .js('resources/assets/js/custom/events.js', 'public/js')
+    .js('resources/assets/js/custom/login.js', 'public/js')
+    .js('resources/assets/js/custom/payment.js', 'public/js')
+    .js('resources/assets/js/custom/ticketbuy.js', 'public/js');
+
 
 
 // Full API

@@ -60,20 +60,20 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 54);
+/******/ 	return __webpack_require__(__webpack_require__.s = 70);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 54:
+/***/ 70:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(55);
+module.exports = __webpack_require__(71);
 
 
 /***/ }),
 
-/***/ 55:
+/***/ 71:
 /***/ (function(module, exports) {
 
 // Zu Tickets-Kaufen
@@ -81,14 +81,12 @@ $(".go-to-ticketbuy").click(function () {
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
-
 // Anreise & Rückreise (Akkordeon) ein- und ausblenden
 $(document).ready(function () {
     $("#anreise").click(function () {
         $("#container__anreiserueckreise").toggle();
     });
 });
-
 // Line Up von Freitag ein- und ausblenden
 // DESKTOP
 function picture() {
@@ -105,7 +103,6 @@ function picture() {
         document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
     }
 }
-
 // MOBILE
 function picturesm() {
     if ($('#zielbox-sm').is(':empty')) {
@@ -121,7 +118,6 @@ function picturesm() {
         document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
     }
 }
-
 // Google Maps API wird ausgeführt und eine Map erstellt
 function initMap() {
     // styling Google Maps

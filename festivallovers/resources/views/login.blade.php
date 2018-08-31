@@ -32,13 +32,6 @@
         <img src={{asset('icons/music_indie.svg')}} height="40px"/>
     </div>
 
-
-    <script>
-        // Footer Mobile & Desktop ausblenden
-        $(function () {
-            $('#footer-lg').addClass('hidden');
-            $('#footer-sm').addClass('hidden');
-        });
-    </script>
+    <script type="text/javascript" src="js/login.js"></script>
 
 @endsection

@@ -66,10 +66,5 @@
 
 </div>
 
-<script>
-    // Zu Tickets-Kaufen
-    $("#go-to-ticketbuy").click(function () {
-        window.location = $(this).find("a:first").attr("href");
-        return false;
-    });
-</script>
+
+<script type="text/javascript" src="/js/eventslist_buy.js"></script>

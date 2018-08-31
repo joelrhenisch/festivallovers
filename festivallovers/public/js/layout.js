@@ -60,20 +60,20 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 66);
+/******/ 	return __webpack_require__(__webpack_require__.s = 60);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 66:
+/***/ 60:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(67);
+module.exports = __webpack_require__(61);
 
 
 /***/ }),
 
-/***/ 67:
+/***/ 61:
 /***/ (function(module, exports) {
 
 // Filter für Mobile einblenden
@@ -81,22 +81,19 @@ $("#filter-sm").click(function () {
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
-
 // Button zu Events verlinken. (Sucht erstes a-Element und verwendet das href-Attribut davon)
 $("#result-show-lg").click(function () {
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
-
 // Filter zurücksetzen
 $("#result-reset-lg").click(function () {
-    $("#jazz").removeClass("--yellow");
-    $("#hiphop").removeClass("--pink");
-    $("#indie").removeClass("--mint");
-    $("#poprock").removeClass("--blue");
-    $("#electronic").removeClass("--violet");
+    $("#jazz").removeClass("--darken-yellow");
+    $("#hiphop").removeClass("--darken-pink");
+    $("#indie").removeClass("--darken-mint");
+    $("#poprock").removeClass("--darken-blue");
+    $("#electronic").removeClass("--darken-violet");
 });
-
 // einzelne Artikel aufklappen
 $("#article-1-show").click(function () {
     $("#article-1").toggle();
@@ -116,13 +113,11 @@ $("#article-5-show").click(function () {
 $("#article-6-show").click(function () {
     $("#article-6").toggle();
 });
-
 // weitere Artikel aufklappen via Button, unterhalb von letztem Artikel
 $("#article__btn-show-more").click(function () {
     $("#article__container").show();
     $("#article__btn-show-more").hide();
 });
-
 // weitere News einblenden via Button, unterhalb von letzter News
 $("#news__btn-show-more").click(function () {
     $("#news-show-more").show();

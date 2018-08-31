@@ -60,20 +60,20 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 72);
+/******/ 	return __webpack_require__(__webpack_require__.s = 76);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 72:
+/***/ 76:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(73);
+module.exports = __webpack_require__(77);
 
 
 /***/ }),
 
-/***/ 73:
+/***/ 77:
 /***/ (function(module, exports) {
 
 $(function () {
@@ -84,13 +84,11 @@ $(function () {
     $('#payment-step-2').addClass('hidden');
     $('#payment-step-3').addClass('hidden');
 });
-
 // Schritte beim Bezahlen werden in- ausgeblendet
 $("#bezahlen").click(function () {
     $("#payment-step-1").hide();
     $("#payment-step-2").show();
 });
-
 // Schritte beim Bezahlen werden in- ausgeblendet
 $("#bezahlt").click(function () {
     $("#payment-step-2").hide();

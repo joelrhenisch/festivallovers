@@ -62,15 +62,7 @@
     </div>
 
 
-<script>
-    // // Tickets addieren und subtrahieren
-    $(document).ready(function () {
-        // Zu Zahlvorgang
-        $("#go-to-payment").click(function () {
-            window.location = $(this).find("a:first").attr("href");
-            return false;
-        });
-    });
-</script>
+    <script type="text/javascript" src="js/ticketbuy.js"></script>
+
 
 @endsection

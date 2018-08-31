@@ -62,9 +62,15 @@
         </div>
 
         <div class="nav__list-container">
-            <div class="nav__list-element">Festivals</div>
-            <div class="nav__list-element">Magazin</div>
-            <div class="nav__list-element">News</div>
+            <div class="nav__list-element">Festivals
+                <a href="/events"></a>
+            </div>
+            <div class="nav__list-element">
+                <a href="/#magazin"></a>Magazin
+            </div>
+            <div class="nav__list-element">
+                <a href="/#news"></a>News
+            </div>
         </div>
 
         <div id="search-icon-container">
@@ -89,30 +95,4 @@
 </div>
 <!-- Ende schwarzes Menu -->
 
-<script>
-    // Login-Panel ein- und ausblenden
-    $("#ticket-black").click(function () {
-        $("#login-black").toggle();
-    });
-    // Auf Startseite gehen
-    $("#home-black").click(function(){
-        window.location = $(this).find("a:first").attr("href");
-        return false;
-    });
-    // Auf Ticketseite gehen
-    $("#go-to-ticket-black").click(function(){
-        window.location = $(this).find("a:first").attr("href");
-        return false;
-    });
-    $("#close").click(function () {
-        // Scrolling aktivieren
-        let html = document.documentElement;
-        html.classList.remove('disable-scrolling');
-        // normale Navi wieder ausblenden
-        $("#nav-normal").removeClass('d-none');
-        $("#nav-normal").addClass('d-show');
-        // Schwarzes Menufenster ausblenden
-        $("#navigation__menu-neg").removeClass('d-show');
-        $("#navigation__menu-neg").addClass('d-none');
-    });
-</script>
+<script type="text/javascript" src="js/nav-negative-sm.js"></script>

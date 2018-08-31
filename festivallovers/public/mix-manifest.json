@@ -1,4 +1,18 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/js/ticketbuy.js": "/js/ticketbuy.js",
+    "/js/pfadleiste.js": "/js/pfadleiste.js",
+    "/js/payment.js": "/js/payment.js",
+    "/js/nav.js": "/js/nav.js",
+    "/js/nav-negative-sm.js": "/js/nav-negative-sm.js",
+    "/js/login.js": "/js/login.js",
+    "/js/layout.js": "/js/layout.js",
+    "/js/footer.js": "/js/footer.js",
+    "/js/filtering-sm.js": "/js/filtering-sm.js",
+    "/js/filter.js": "/js/filter.js",
+    "/js/eventslist_buy.js": "/js/eventslist_buy.js",
+    "/js/events.js": "/js/events.js",
+    "/js/eventdetail.js": "/js/eventdetail.js",
+    "/js/carousel.js": "/js/carousel.js"
 }
