@@ -10771,7 +10771,7 @@ button {
 
   .nav__btn-ticket-kaufen .nav__btn-login-ticket-texttitle,
   .nav__btn-login .nav__btn-login-ticket-texttitle {
-    margin-left: 45px;
+    margin-left: 40px;
   }
 
   .nav__btn-ticket-kaufen:hover,
@@ -11863,8 +11863,8 @@ button {
   }
 
   .eventslist__EventKacheln .img__container .logo__overImage {
-    -webkit-transform: translateY(-116px);
-            transform: translateY(-116px);
+    -webkit-transform: translateY(-53px);
+            transform: translateY(-53px);
     height: 45px;
     width: 45px;
     background-color: #00d79f;
@@ -12641,14 +12641,6 @@ button {
     padding-bottom: 50px;
   }
 
-  #ticket-white {
-    height: 64px;
-    width: 145px;
-    position: absolute;
-    -webkit-transform: translateX(-25px);
-            transform: translateX(-25px);
-  }
-
   .login__box {
     -webkit-clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
             clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
@@ -13105,7 +13097,6 @@ button {
     color: #c2c2c2;
     padding: 0;
     width: 64px;
-    height: 64px;
     border-left: 1px solid #e5e5e5;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -13116,7 +13107,11 @@ button {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    position: relative;
+    height: 64px;
+    width: 145px;
+    position: absolute;
+    -webkit-transform: translateX(-25px);
+            transform: translateX(-25px);
   }
 
   .nav__btn-ticket-kaufen:hover > p,

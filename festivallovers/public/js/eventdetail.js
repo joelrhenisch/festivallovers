@@ -60,54 +60,68 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 66);
+/******/ 	return __webpack_require__(__webpack_require__.s = 70);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 66:
+/***/ 70:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(67);
+module.exports = __webpack_require__(71);
 
 
 /***/ }),
 
-/***/ 67:
+/***/ 71:
 /***/ (function(module, exports) {
 
-// Login-Panel ein- und ausblenden
-$("#ticket-black").click(function () {
-    $("#login-black").toggle();
-});
-// Auf Startseite gehen
-$("#home-black").click(function () {
-    window.location = $(this).find("a:first").attr("href");
-    return false;
-});
-// Auf Ticketseite gehen
-$("#go-to-ticket-black").click(function () {
-    window.location = $(this).find("a:first").attr("href");
-    return false;
+$(document).ready(function () {
+    // Zu Tickets-Kaufen
+    $(".go-to-ticketbuy").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+    // Anreise & Rückreise (Akkordeon) ein- und ausblenden
+    $("#anreise").click(function () {
+        $("#container__anreiserueckreise").toggle();
+    });
 });
 
-$("#nav__btn-menu-black").click(function () {
-    // Scrolling aktivieren
-    var html = document.documentElement;
-    html.classList.remove('disable-scrolling');
-    // normale Navi wieder ausblenden
-    $("#nav-normal").removeClass('d-none');
-    $("#nav-normal").addClass('d-show');
-    // Schwarzes Menufenster ausblenden
-    $("#navigation__menu-neg").removeClass('d-show');
-    $("#navigation__menu-neg").addClass('d-none');
-});
+// Line Up von Freitag ein- und ausblenden
+// DESKTOP
+$("#tabs__btnfreitag-lg").on("click", picture);
 
-// Menupunkte bei schwarzem Overlay verlinken
-$(".nav__list-element").click(function () {
-    window.location = $(this).find("a:first").attr("href");
-    return false;
-});
+function picture() {
+    if ($('#zielbox').is(':empty')) {
+        var pic = document.createElement('img');
+        pic.setAttribute("src", "images/lineup_detailsite.png");
+        pic.classList.add('img-183prozent');
+        document.getElementById("zielbox").appendChild(pic);
+        document.getElementById('tabs__btnfreitag').classList.add('tabs__btn--active', '.tabs__imagebox');
+    } else {
+        var list = document.getElementById("zielbox");
+        list.removeChild(list.childNodes[0]);
+        document.getElementById('tabs__btnfreitag').classList.add('tabs__btn');
+        document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
+    }
+}
+// MOBILE
+$("#tabs__btnfreitag-sm").on("click", picturesm);
+function picturesm() {
+    if ($('#zielbox-sm').is(':empty')) {
+        var pic = document.createElement('img');
+        pic.setAttribute("src", "images/lineup_detailsite.png");
+        pic.classList.add('img-183prozent');
+        document.getElementById("zielbox-sm").appendChild(pic);
+        document.getElementById('tabs__btnfreitag').classList.add('tabs__btn--active', '.tabs__imagebox');
+    } else {
+        var list = document.getElementById("zielbox-sm");
+        list.removeChild(list.childNodes[0]);
+        document.getElementById('tabs__btnfreitag').classList.add('tabs__btn');
+        document.getElementById('tabs__btnfreitag').classList.remove('tabs__btn--active');
+    }
+}
 
 /***/ })
 

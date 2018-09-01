@@ -208,7 +208,7 @@ button {
     height: 64px;
 
     .nav__btn-login-ticket-texttitle {
-      margin-left: 45px;
+      margin-left: 40px;
     }
 
     &:hover {
@@ -1080,7 +1080,7 @@ button {
       height: 232px;
       overflow: hidden;
       .logo__overImage {
-        transform: translateY(-116px);
+        transform: translateY(-53px);
         height: 45px;
         width: 45px;
         background-color: $mint;
@@ -1704,14 +1704,6 @@ button {
   }
 
   // LOGIN-PANEL
-  // Klickfläche zum Ein-/Ausblenden
-  #ticket-white {
-    height: 64px;
-    width: 145px;
-    position: absolute;
-    transform: translateX(-25px);
-  }
-
   .login__box {
     clip-path: polygon(0 2%, 47% 2%, 50% 0, 53% 2%, 100% 2%, 100% 100%, 0 100%);
     width: 310px;
@@ -2118,12 +2110,14 @@ button {
     color: $greydark;
     padding: 0;
     width: 64px;
-    height: 64px;
     border-left: 1px solid $greylight;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    height: 64px;
+    width: 145px;
+    position: absolute;
+    transform: translateX(-25px);
 
     &:hover {
       > p {

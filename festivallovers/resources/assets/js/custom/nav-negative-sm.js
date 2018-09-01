@@ -12,7 +12,8 @@ $("#go-to-ticket-black").click(function(){
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
-$("#close").click(function () {
+
+$("#nav__btn-menu-black").click(function () {
     // Scrolling aktivieren
     let html = document.documentElement;
     html.classList.remove('disable-scrolling');
@@ -29,3 +30,4 @@ $(".nav__list-element").click(function(){
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
+

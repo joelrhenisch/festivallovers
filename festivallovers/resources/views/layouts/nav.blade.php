@@ -21,8 +21,7 @@
         </button>
 
         <div class="nav__login-ticket col-4">
-            <button class="nav__btn-login">
-                <div id="ticket-white"></div>
+            <button class="nav__btn-login" id="ticket-white">
                 <img id="navigation-login-gray" class="position-absolute" src={{asset('icons/navigation_login_gray.svg')}} height="33px" alt="Login">
                 <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
                 <p id="text-login" class="nav__btn-login-ticket-texttitle">LOGIN</p>
