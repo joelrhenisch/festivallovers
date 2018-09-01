@@ -1,7 +1,13 @@
 // Login-Panel ein- und ausblenden
 $("#ticket-black").click(function () {
+    // Wenn auf Panel geklickt wird, soll dieses eingeblendet bleiben.
+    // (#login-black ist ein untergeordnetes Element von #ticket-black, darum folgende 3 Zeilen
+    $("#login-black").click(function () {
+        return false;
+    });
     $("#login-black").toggle();
 });
+
 // Auf Startseite gehen
 $("#home-black").click(function(){
     window.location = $(this).find("a:first").attr("href");

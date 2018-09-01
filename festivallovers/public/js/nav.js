@@ -78,8 +78,14 @@ module.exports = __webpack_require__(65);
 
 // Login-Panel ein- und ausblenden
 $("#ticket-white").click(function () {
+    // Wenn auf Panel geklickt wird, soll dieses eingeblendet bleiben.
+    // (#login-white ist ein untergeordnetes Element von #ticket-white, darum folgende 3 Zeilen
+    $("#login-white").click(function () {
+        return false;
+    });
     $("#login-white").toggle();
 });
+
 // Auf Startseite gehen
 $("#home").click(function () {
     window.location = $(this).find("a:first").attr("href");

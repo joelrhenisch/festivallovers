@@ -10769,11 +10769,6 @@ button {
     height: 64px;
   }
 
-  .nav__btn-ticket-kaufen .nav__btn-login-ticket-texttitle,
-  .nav__btn-login .nav__btn-login-ticket-texttitle {
-    margin-left: 40px;
-  }
-
   .nav__btn-ticket-kaufen:hover,
   .nav__btn-login:hover {
     font-family: "ProximaNova Bold";
@@ -10795,6 +10790,11 @@ button {
     color: #000000;
     -webkit-transition-duration: 0.3s;
             transition-duration: 0.3s;
+  }
+
+  .nav__btn-ticket-kaufen .nav__btn-login-ticket-texttitle,
+  .nav__btn-login .nav__btn-login-ticket-texttitle {
+    margin-left: 40px;
   }
 
   .nav__btn-ticket-kaufen #navigation-login-black,
@@ -13108,10 +13108,8 @@ button {
         -ms-flex-pack: center;
             justify-content: center;
     height: 64px;
-    width: 145px;
+    width: 64px;
     position: absolute;
-    -webkit-transform: translateX(-25px);
-            transform: translateX(-25px);
   }
 
   .nav__btn-ticket-kaufen:hover > p,
@@ -13178,6 +13176,11 @@ button {
             transition-duration: 0.3s;
     background-color: #e5e5e5;
     color: #000000;
+  }
+
+  .nav__btn-login {
+    -webkit-transform: translateX(-64px);
+            transform: translateX(-64px);
   }
 
   .pfadleiste {
@@ -13875,7 +13878,7 @@ button {
 
   #ticket-white {
     height: 64px;
-    width: 60px;
+    width: 64px;
     position: absolute;
   }
 
