@@ -15,6 +15,7 @@ $(function () {
     $("#electronic").click(function () {
         $(this).toggleClass("--darken-violet");
     });
+
     // Filter zurücksetzen
     $("#result-reset").click(function () {
         $("#jazz").removeClass("--darken-yellow");

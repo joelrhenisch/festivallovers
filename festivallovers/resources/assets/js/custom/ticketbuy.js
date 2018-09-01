@@ -1,4 +1,3 @@
-// // Tickets addieren und subtrahieren
 $(document).ready(function () {
     // Zu Zahlvorgang
     $("#go-to-payment").click(function () {

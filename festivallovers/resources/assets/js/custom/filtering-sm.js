@@ -3,6 +3,7 @@ $("#result-show").click(function(){
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
+
 // Zurück gehen
 $("#nav__btn-back").click(function(){
     window.location = $(this).find("a:first").attr("href");
@@ -14,6 +15,7 @@ $(function () {
     $('#footer-sm').addClass('hidden');
     $('#filter__btn-result-container').removeClass('d-none');
 });
+
 $( document ).ready(function() {
     // In der Navi links den "zurück"-Button einblenden
     $("#nav__btn-menu").show();

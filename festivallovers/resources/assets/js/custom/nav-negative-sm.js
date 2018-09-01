@@ -13,12 +13,14 @@ $("#home-black").click(function(){
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
+
 // Auf Ticketseite gehen
 $("#go-to-ticket-black").click(function(){
     window.location = $(this).find("a:first").attr("href");
     return false;
 });
 
+// wenn links oben auf menu geklickt wird
 $("#nav__btn-menu-black").click(function () {
     // Scrolling aktivieren
     let html = document.documentElement;

@@ -37,7 +37,7 @@
                             <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort"
                                    aria-describedby="basic-addon2">
                         </div>
-                        <div class="action__box--white w-50 mx-auto mt-4 mb-3">
+                        <div class="action__box--white-v2 w-50 mx-auto mt-4 mb-3">
                             ANMELDEN
                         </div>
                         <p><span class="bold-underline">Passwort</span> <span>vergessen?</span></p>

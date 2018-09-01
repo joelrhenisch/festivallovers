@@ -2,9 +2,7 @@
 
 @section('content')
 
-    <script type="text/javascript" src="js/map.js"></script>
-
-
+<script type="text/javascript" src="js/map.js"></script>
 
     {{-- Heading mit Bild und Titel --}}
     <div class="singleevent__headingicon">
@@ -240,9 +238,8 @@
             </div>
         </div>
     </div>
+
     <script type="text/javascript" src="js/eventdetail.js"></script>
-
-
 
 @endsection
 

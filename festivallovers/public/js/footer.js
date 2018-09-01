@@ -1,1 +1,131 @@
-!function(t){var n={};function o(i){if(n[i])return n[i].exports;var r=n[i]={i:i,l:!1,exports:{}};return t[i].call(r.exports,r,r.exports,o),r.l=!0,r.exports}o.m=t,o.c=n,o.d=function(t,n,i){o.o(t,n)||Object.defineProperty(t,n,{configurable:!1,enumerable:!0,get:i})},o.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return o.d(n,"a",n),n},o.o=function(t,n){return Object.prototype.hasOwnProperty.call(t,n)},o.p="/",o(o.s=62)}({62:function(t,n,o){t.exports=o(63)},63:function(t,n){$(document).ready(function(){$("#go-to-events-lg").click(function(){return window.location=$(this).find("a:first").attr("href"),!1}),$("#go-to-magazin-lg").click(function(){return window.location=$(this).find("a:first").attr("href"),!1}),$("#go-to-news-lg").click(function(){return window.location=$(this).find("a:first").attr("href"),!1}),$("#go-to-top-lg").click(function(){$(window).scrollTop(0)}),$("#go-to-events-sm").click(function(){return window.location=$(this).find("a:first").attr("href"),!1}),$("#go-to-magazin-sm").click(function(){return window.location=$(this).find("a:first").attr("href"),!1}),$("#go-to-news-sm").click(function(){return window.location=$(this).find("a:first").attr("href"),!1}),$("#go-to-top-sm").click(function(){$(window).scrollTop(0)})})}});
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "/";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 62);
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ 62:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(63);
+
+
+/***/ }),
+
+/***/ 63:
+/***/ (function(module, exports) {
+
+$(document).ready(function () {
+    // Desktop
+    // Zu Events
+    $("#go-to-events-lg").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Zu Magazin
+    $("#go-to-magazin-lg").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Zu News
+    $("#go-to-news-lg").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Zum Anfang der Seite wechseln
+    $("#go-to-top-lg").click(function () {
+        $(window).scrollTop(0);
+    });
+
+    // Mobile
+    // Zu Events
+    $("#go-to-events-sm").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Zu Magazin
+    $("#go-to-magazin-sm").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Zu News
+    $("#go-to-news-sm").click(function () {
+        window.location = $(this).find("a:first").attr("href");
+        return false;
+    });
+
+    // Zum Anfang der Seite wechseln
+    $("#go-to-top-sm").click(function () {
+        $(window).scrollTop(0);
+    });
+});
+
+/***/ })
+
+/******/ });

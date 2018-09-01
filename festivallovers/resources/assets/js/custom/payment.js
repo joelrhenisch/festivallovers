@@ -6,11 +6,13 @@ $(function () {
     $('#payment-step-2').addClass('hidden');
     $('#payment-step-3').addClass('hidden');
 });
+
 // Schritte beim Bezahlen werden in- ausgeblendet
 $("#bezahlen").click(function () {
     $("#payment-step-1").hide();
     $("#payment-step-2").show();
 });
+
 // Schritte beim Bezahlen werden in- ausgeblendet
 $("#bezahlt").click(function () {
     $("#payment-step-2").hide();

@@ -78,16 +78,12 @@ button {
     font-family: "Adelle Bold";
   }
 
-  // mobile: 32/40px
-
   h2 {
     font-size: 32px;
     line-height: 40px;
     color: $black;
     font-family: "Adelle Bold";
   }
-
-  // mobile: 24/32px
 
   h3 {
     font-size: 20px !important;
@@ -117,16 +113,12 @@ button {
     font-family: "Adelle Regular" !important;
   }
 
-  // mobile: 20/32px
-
   .font-festival {
     font-size: 144px;
     line-height: 144px;
     color: $black;
     font-family: "Adelle Bold";
   }
-
-  // mobile: 48/40px
 
   .font-lead {
     font-size: 20px;
@@ -170,7 +162,6 @@ button {
     font-family: "Adelle Bold";
   }
 
-  // Elemente definieren
   html {
     font-family: "Adelle";
     cursor: default !important;
@@ -505,7 +496,6 @@ button {
     overflow: hidden !important;
   }
 
-
   .heading__titel {
     margin-top: 50px;
     margin-bottom: 30px;
@@ -626,6 +616,23 @@ button {
     }
   }
 
+  // dieser Button ist nur fürs Login-Panel
+  .action__box--white-v2 {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 10px;
+    background-color: $white;
+    color: $black;
+    text-align: center;
+    &:hover {
+      background-color: $greydark;
+      border: 2px solid $black;
+      transition-duration: 0.3s;
+      color: $black;
+    }
+  }
+
   .action__box--mint {
     font-weight: bold;
     padding: 8px 25px;
@@ -657,9 +664,6 @@ button {
 
   .bigteaser__img {
     width: 100%
-  }
-
-  #magazin {
   }
 
   .magazin-title {
@@ -697,7 +701,6 @@ button {
     display: none;
   }
 
-
   // Ad mit iPhone
   .ad-iphone__box {
     height: 376px;
@@ -729,7 +732,6 @@ button {
     margin-left: 90px;
     margin-top: 20px;
     transform: translateY(100px);
-
   }
 
   .ad-iphone__buttons {
@@ -746,7 +748,6 @@ button {
       transform: unset;
     }
   }
-
 
   .music__container {
     background-repeat: repeat-x;
@@ -776,7 +777,6 @@ button {
   .electronic {
     background-image: url('/icons/music_electronic-cut.svg');
   }
-
 
   // News
   #news-show-more {
@@ -842,11 +842,10 @@ button {
       margin-right: 6px;
     }
   }
+
   .content-bottom:hover {
     background-color: $greyhover;
   }
-
-
 
   .footer {
     height: 64px;
@@ -868,7 +867,6 @@ button {
   .hidden {
     display: none;
   }
-
 
   .footer__container {
     display: flex;
@@ -1558,6 +1556,7 @@ button {
         align-items: center;
       }
     }
+
     .container {
       color: $mint;
       display: block;
@@ -1678,7 +1677,6 @@ button {
       color: $white;
       line-height: 20px;
       margin-top: 30px;
-
     }
     .price {
       font-family: "Adelle Regular";
@@ -1724,13 +1722,11 @@ button {
       font-weight: bold;
       border-bottom: 0.5px solid $white;
     }
-
     &-top {
       width: 100%;
       height: 297px;
       padding: 40px 20px 20px 20px;
     }
-
     &-bottom {
       width: 100%;
       height: 128px;
@@ -1781,18 +1777,15 @@ button {
     height: 100vh;
     padding-top: 90px;
     padding-bottom: 50px;
-
     .boldUnderline {
       font-weight: bold;
       border-bottom: 0.5px solid $black;
     }
-
     .loginSite__boxTop {
       width: 100%;
       padding: 40px 20px 55px 20px;
       margin-top: 45px;
     }
-
     .login__boxBottom {
       width: 100%;
       border-top: 1px solid $greylighter;
@@ -1892,6 +1885,7 @@ button {
       color: black;
     }
   }
+
   .payment__container-row-single {
        width: 100%;
        height: 50px;
@@ -1930,6 +1924,8 @@ button {
 
 
 
+
+
 // Media Queries Mobile
 @media only screen and (max-width: 376px) {
 
@@ -1937,6 +1933,7 @@ button {
   .opacity-50 {
     opacity: 0.5;
   }
+
   .opacity-100 {
     opacity: 1.0;
   }
@@ -1945,7 +1942,6 @@ button {
   .action-full-width {
     width: 345px;
   }
-
 
   // Breite füllen, für Mobile
   .width-fill-sm {
@@ -2130,6 +2126,7 @@ button {
       position: absolute;
       transition-duration: 0.3s;
     }
+
     &:hover {
       & #navigation-login-gray {
         opacity: 0;
@@ -2142,12 +2139,14 @@ button {
         transition-duration: 0.3s;
       }
     }
+
     // --> bei ticketkaufen-logo
     & #navigation-ticket-black {
       opacity: 0;
       position: absolute;
       transition-duration: 0.3s;
     }
+
     &:hover {
       & #navigation-ticket-gray {
         opacity: 0;
@@ -2186,7 +2185,6 @@ button {
       cursor: pointer;
     }
 }
-
 
   // für schwarze Menuübersicht
   .nav__btn-ticket-kaufen-black {
@@ -2248,10 +2246,8 @@ button {
       color: #c2c2c2;
       line-height: 17px;
       margin: 0;
-
     }
   }
-
 
   .nav__btn-menu {
     height: 63px;
@@ -2398,7 +2394,6 @@ button {
     text-align: center;
   }
 
-
   #include-filter-lg {
     display: none;
   }
@@ -2443,6 +2438,23 @@ button {
       border: 2px solid $black;
       transition-duration: 0.3s;
       color: $white;
+    }
+  }
+
+  // dieser Button ist nur fürs Login-Panel
+  .action__box--white-v2 {
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 8px 25px;
+    margin: 30px 15px;
+    background-color: $white;
+    color: $black;
+    text-align: center;
+    &:hover {
+      background-color: $greydark;
+      border: 2px solid $black;
+      transition-duration: 0.3s;
+      color: $black;
     }
   }
 
@@ -2541,8 +2553,8 @@ button {
   }
 
     .ad-iphone__container {
-      transform: translateY(-50px);
-      text-align: center;
+    transform: translateY(-50px);
+    text-align: center;
     margin-top: 90px;
     margin-bottom: 30px;
     .text {
@@ -2975,6 +2987,14 @@ button {
     }
   }
 
+  #btn__events-kacheln-sm {
+    cursor: pointer;
+  }
+
+  #btn__events-liste-sm {
+    cursor: pointer;
+  }
+
   // Bild ausblenden, braucht es bei Mobile nicht
   #eventslist-img {
     display: none;
@@ -3084,7 +3104,6 @@ button {
       margin: 0 auto;
     }
   }
-
 
   // EVENTS LISTE
   .events__rowscontainerListe {
@@ -3320,7 +3339,6 @@ button {
     display: -webkit-box;
     display: -moz-box;
     display: -webkit-box;
-
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
     box-orient: vertical;
@@ -3337,7 +3355,6 @@ button {
     -moz-box-ordinal-group: 3;
     box-ordinal-group: 3;
   }
-
 
   .eventslist_noticedescription {
     font-weight: bold;
@@ -3391,9 +3408,6 @@ button {
   .carousel-indicators .active {
     background-color: $black;
   }
-
-
-
 
   .singleevent__descriptionBottom {
     margin-top: 100px;
@@ -3593,6 +3607,7 @@ button {
         justify-content: flex-end;
       }
     }
+
     .arrowleft {
       margin-right: 35px;
       margin-left: 15px;
@@ -3975,7 +3990,6 @@ button {
     }
   }
 
-
   .payment__provider {
     height: 50px;
     width: 30%;
@@ -3991,5 +4005,4 @@ button {
     border-bottom: 4px solid $mint;
     background-color: $white;
   }
-
 }

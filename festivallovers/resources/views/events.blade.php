@@ -133,7 +133,6 @@
         </div>
     </div>
 
-
     <script type="text/javascript" src="js/events.js"></script>
 
 @endsection

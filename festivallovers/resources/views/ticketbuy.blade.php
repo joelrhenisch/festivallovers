@@ -61,8 +61,6 @@
         </div>
     </div>
 
-
     <script type="text/javascript" src="js/ticketbuy.js"></script>
-
 
 @endsection
