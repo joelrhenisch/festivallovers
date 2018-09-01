@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 36.5 36.5" style="enable-background:new 0 0 36.5 36.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<title>steuerung_checkmark</title>
+<desc>Created with Sketch.</desc>
+<g id="Icons">
+	<g id="steuerung_checkmark" transform="translate(-13.000000, -14.000000)">
+		<g id="Shape" transform="translate(13.000000, 14.000000)">
+			<path class="st0" d="M28.9,11.3L26,8.7c-0.1-0.1-0.2-0.1-0.3-0.1c-0.1,0-0.2,0.1-0.3,0.2L14.6,20.9l-3.8-5
+				c-0.1-0.1-0.2-0.2-0.3-0.2c-0.1,0-0.2,0-0.3,0.1l-3.1,2.4c-0.2,0.2-0.2,0.4-0.1,0.6l7,9.3c0.1,0.1,0.2,0.2,0.3,0.2h0
+				c0.1,0,0.3-0.1,0.3-0.2l14.2-16.2C29.1,11.7,29.1,11.4,28.9,11.3L28.9,11.3z"/>
+		</g>
+	</g>
+</g>
+<path class="st0" d="M18.3,36.5C8.2,36.5,0,28.3,0,18.3S8.2,0,18.3,0c10.1,0,18.3,8.2,18.3,18.3S28.3,36.5,18.3,36.5z M18.3,3.5
+	c-8.1,0-14.8,6.6-14.8,14.8S10.1,33,18.3,33C26.4,33,33,26.4,33,18.3S26.4,3.5,18.3,3.5z"/>
+</svg>

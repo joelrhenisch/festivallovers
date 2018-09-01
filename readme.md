@@ -53,14 +53,13 @@ Homestead.yaml
 Die Vagrant Box gemäss Dokumentation starten.
 
 ### 'Assets bundle' mit Webpack
-Dateien vom Verzeichnis 'assets' in 'public' bundeln.
-Bei Änderungen werden die Dateien automatisch ersetzt.
+Dateien vom Verzeichnis 'assets' in 'public' minified bundeln. 
 ```bash
-npm run watch
+npm run production
 ```
 
 ## Zeitplan / Meilensteine
-Diese sind aus dem Dokument 'milestones.pdf' (oberstes Verzeichnis) zu entnehmen.
+Diese sind aus dem Dokument 'milestones.pdf' (gleiches Verzeichnis) zu entnehmen.
 
 ## technische Entscheide
 ### Frontend: 

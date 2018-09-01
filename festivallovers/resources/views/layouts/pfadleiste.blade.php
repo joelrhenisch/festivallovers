@@ -27,7 +27,7 @@
         </button>
 
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="">Sur le Lac</a>
+            <a class="dropdown-item" href="/eventdetail">Sur le Lac</a>
             <a class="dropdown-item" href="">Openair Zürich</a>
             <a class="dropdown-item" href="">Musikfestwochen</a>
         </div>
