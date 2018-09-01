@@ -1,3 +1,7 @@
+![alt text][logo]
+
+[logo]: https://github.com/WebProfessionals/dipl1718_joel/blob/master/festivallovers/public/images/img_homesite.png "Titelseite"
+
 # Festivalovers
 Meine Vertiefungsarbeit 'festivallovers' vom Lehrgang Developer 18/19 wurde in Form einer Website erarbeitet. Dabei wurde das komplette Frontend gemäss Styleguide umgesetzt.
 Die Eventagentur festivallovers bietet eine Webseite mit Informationen rund um Festivals vom Line up bis hin zum Ticketkauf. Es sind dort Festivals aus der ganzen Schweiz zu finden.
