@@ -15,7 +15,7 @@
 - Funktionalität Video-/Audioplayer wurde nicht umgesetzt, da keine Vorgabe vorhanden war, ob die Datei eingebettet wird, über eine URL , oder per Hoster (z.B. Youtube) geladen wird.
 - kleinere Bilder an Mobile werden nicht ausgeliefert - aus Zeitgründen
 - Die Bilder wurden auf die maximale verwendete Grösse reduziert und für das Web optimiert abgespeichert. Photoshop: JPG, sehr hohe Qualität
-
+- "mehr anzeigen"-Buttons wurden gemäss Screendesign umgesetzt, auch wenn keine Funktion dafür definiert wurde. Dies, weil nicht definiert ist, welche eingeblendet werden müssen.
 
 
 

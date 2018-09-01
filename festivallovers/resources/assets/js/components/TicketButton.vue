@@ -1,5 +1,5 @@
 <template>
-    <button id="go-to-payment" class="box-sm-full-width action__box--black w-100">
+    <button id="go-to-payment" class="box-sm-full-width action__box--black">
         <a href="/payment"></a>
         {{ ticketCount }} TICKETS KAUFEN
     </button>

@@ -57,9 +57,6 @@
     export default {
         data() {
                return {
-
-
-
                    tickets: [
                        {price: '75.–', title: '1 Tag Pass', zahl:'0', color:'ticketGreen', green: true},
                        {price: '375.–', title: '3 Tag Pass', zahl:'0', color:'ticketGreen', grey: true},

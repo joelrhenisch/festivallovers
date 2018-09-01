@@ -9,7 +9,7 @@
     <div class="events__rowscontainer">
         <div class="eventslist__row">
             <div id="eventslist-img" class="eventslist__img">
-                <img src={{asset('images/Teaser_Liste.png')}} height="104px" alt="sur le lac">
+                <img src={{asset('images/Teaser_Liste.jpg')}} height="104px" alt="sur le lac">
             </div>
             <div class="eventslist__icon bgmint">
                 <img src={{asset('icons/music_indie.svg')}}  alt="icon-indie">

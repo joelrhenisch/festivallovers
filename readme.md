@@ -14,10 +14,10 @@ Das Frontend kann verwendet werden und das Backend dazu geschrieben werden.
 Die inhaltlichen Rechte liegen bei Stephanie Batliner.
 
 #### Software
-Wurde mit Open-Source-Software verwendet, ausser 'fancybox'. Hier müsste bei einer kommerziellen Veröffentlichung eine Lizenz gekauft werden. (Quelle siehe unten)
+Wurde Open-Source-Software verwendet, ausser 'fancybox'. Hier müsste bei einer kommerziellen Veröffentlichung eine Lizenz gekauft werden. (Quelle siehe unten)
 
 #### Fonts
-Die Schriften wurden von Stephanie Batliner mitgeliefert. Bitte bei ihr abklären, ob eine kommerzielle Lizenz gekauft wurde für dieses Projekt.
+Die Schriften wurden von Stephanie Batliner mitgeliefert. Bitte abklären, ob eine kommerzielle Lizenz gekauft wurde für dieses Projekt.
 
 
 ## Start
@@ -70,7 +70,7 @@ Diese sind aus dem Dokument 'milestones.pdf' (gleiches Verzeichnis) zu entnehmen
 Laravel & Bootstrap (HTML & CSS)
 - Anfangs war auch die Umsetzung vom Backend geplant. Dies ein Hauptgrund für die Wahl von Laravel.
 - Das Strukturieren von Dateien fällt mit Laravel sehr leicht. Die Templating-Engine 'blade' konnte ich sehr gut gebrauchen beim Platzieren von externen Inhalten.
-- Laravel Mix (webpack) erleichtert das Handeln von js/scss/css Dateien enorm. Präprozessoren sind auch vorhanden.
+- Laravel Mix (webpack) erleichtert das Handeln von js/scss/css Dateien enorm. Präprozessor & minify.
 - Die Routes geben dem Projekt eine klare Struktur und sind einfach anzusteuern.
 - Dependencies sind übersichtlich aufgelistet und einfach zu installieren
 - Mit Bootstrap können schnell und einfach Basiselemente wie Container erstellt werden. Die Media-Queries z.B. col-lg-10 können beim Responsive-Design helfen.
@@ -94,7 +94,7 @@ fancybox (JS & HTML)
 ### Backend:
 laravel: Aus zeitlichen Gründen konnte dies nicht umgesetzt werden.
 
-### verwendete Tools & offizielle Dokumentationen
+### verwendete Tools & Dokumentationen
 npm & node  
 https://www.npmjs.com/get-npm
 

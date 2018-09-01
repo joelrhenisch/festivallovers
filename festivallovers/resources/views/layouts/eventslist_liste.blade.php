@@ -4,7 +4,7 @@
         <div class="eventslist__row">
             <a href="/eventdetail"></a>
             <div class="eventslist__img">
-                <img src={{asset('images/Teaser_Liste.png')}} height="104px" alt="sur le lac">
+                <img src={{asset('images/Teaser_Liste.jpg')}} height="104px" alt="sur le lac">
             </div>
             <div class="eventslist__icon bgmint">
                 <img src={{asset('icons/music_indie.svg')}} height="60px" width="60px" alt="icon indie">

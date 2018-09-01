@@ -107,7 +107,7 @@
                     </button>
 
                     <div class="singleevent__descriptionAdd mb-3">
-                        <img src={{asset('images/unterstuetzt_von_ceros.png')}} width="100%" alt="Unterstützt_von_Ceros">
+                        <img src={{asset('images/unterstuetzt_von_ceros.jpg')}} width="100%" alt="Unterstützt_von_Ceros">
                     </div>
                 </div>
 
@@ -225,13 +225,13 @@
                     <span class="text">Musikfestwochen</span>
                 </button>
                 <div class="promote__button-img img-women">
-                    <img src="{{asset('images/NexFestival.png')}}">
+                    <img src="{{asset('images/NexFestival.jpg')}}">
                 </div>
             </div>
 
             <div class="promote__bottom-row justify-content-start">
                 <div class="promote__button-img img-men">
-                    <img src="{{asset('images/kruselkopf.png')}}">
+                    <img src="{{asset('images/kruselkopf.jpg')}}">
                 </div>
                 <button class="promote__buttonright">
                     <span class="text">Openair Zürich</span>
