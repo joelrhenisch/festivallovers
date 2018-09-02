@@ -118,7 +118,7 @@ https://fancyapps.com/fancybox/3/
 
 
 ## Zusammenfassung / Ausblick
-Das Frontend wurde umgesetzt und das Backend wird vielleicht nachträglich noch ausgearbeitet
+Das Frontend wurde umgesetzt und das Backend wird vielleicht nachträglich noch ausgearbeitet.
 Nicht optimale Ansätze beim Umsetzen des Projekts habe ich notiert und kann beim Abschlussgespräch gerne genauer darauf eingehen.
 
 ## persönliche Anmerkungen zur Umsetzung
