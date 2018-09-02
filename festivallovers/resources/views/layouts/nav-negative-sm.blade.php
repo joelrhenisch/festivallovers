@@ -23,7 +23,7 @@
                     <img id="navigation-login-gray" src={{asset('icons/navigation_login_white.svg')}} height="33px" alt="Login">
                     <img id="navigation-login-black" src={{asset('icons/navigation_login.svg')}} height="33px" alt="Login">
                     <p id="text-login">LOGIN</p>
-
+                </button>
 
                 <!-- Start Login Box -->
                 <div id="login-black" class="login__box">
@@ -36,9 +36,9 @@
                             <input type="text" class="form-control" placeholder="Passwort" aria-label="Passwort"
                                    aria-describedby="basic-addon2">
                         </div>
-                        <div class="action__box--white-v2 w-50 mx-auto mt-4 mb-3">
+                        <button class="action__box--white-v2 w-50 mx-auto mt-4 mb-3">
                             ANMELDEN
-                        </div>
+                        </button>
                         <p><span class="bold-underline">Passwort</span> <span>vergessen?</span></p>
                     </div>
                     <div class="login__box-bottom">
@@ -50,7 +50,6 @@
                     </div>
                 </div>
                 <!-- Ende Login Box -->
-            </button>
 
                 <button id="go-to-ticket-black" class="nav__btn-ticket-kaufen">
                     <a href="/ticketavaible"></a>

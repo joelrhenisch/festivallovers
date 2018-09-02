@@ -11297,6 +11297,8 @@ button {
     background-color: #FFFFFF;
     color: #000000;
     text-align: center;
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
   }
 
   .action__box--white-v2:hover {
@@ -12667,8 +12669,8 @@ button {
     background-color: #000000;
     position: absolute;
     z-index: 2;
-    -webkit-transform: translate(-107px, 257px);
-            transform: translate(-107px, 257px);
+    -webkit-transform: translate(-143px, 77px);
+            transform: translate(-143px, 77px);
     display: none;
   }
 
@@ -12686,6 +12688,13 @@ button {
   }
 
   .login__box-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     height: 297px;
     padding: 40px 20px 20px 20px;
@@ -12704,7 +12713,7 @@ button {
     padding: 10px 15px;
     font-size: 16px;
     line-height: 1.5;
-    color: #e5e5e5;
+    color: #767676;
     border-radius: 0;
     background-color: #FFFFFF;
     background-clip: padding-box;
@@ -13524,6 +13533,8 @@ button {
     background-color: #FFFFFF;
     color: #000000;
     text-align: center;
+    font-family: "ProximaNova Bold";
+    font-size: 16px;
   }
 
   .action__box--white-v2:hover {
@@ -13925,8 +13936,8 @@ button {
     height: 425px;
     background-color: #000000;
     position: absolute;
-    -webkit-transform: translate(-84px, 254px);
-            transform: translate(-84px, 254px);
+    -webkit-transform: translate(-24px, 256px);
+            transform: translate(-24px, 256px);
     display: none;
   }
 
@@ -13944,6 +13955,13 @@ button {
   }
 
   .login__box-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     height: 297px;
     padding: 40px 20px 20px 20px;
@@ -13962,7 +13980,7 @@ button {
     padding: 10px 15px;
     font-size: 16px;
     line-height: 1.5;
-    color: #e5e5e5;
+    color: #767676;
     border-radius: 0;
     background-color: #FFFFFF;
     background-clip: padding-box;
@@ -14551,7 +14569,7 @@ button {
   }
 
   .singleevent__lineup {
-    padding-top: 100px;
+    padding-top: 30px;
   }
 
   .singleevent__descriptionLocation {
@@ -15197,7 +15215,7 @@ button {
     padding: 10px 15px;
     font-size: 16px;
     line-height: 1.5;
-    color: #e5e5e5;
+    color: #767676;
     border-radius: 0;
     background-color: #FFFFFF;
     background-clip: padding-box;
