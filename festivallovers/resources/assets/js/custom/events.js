@@ -67,14 +67,29 @@ $(document).ready(function () {
     });
 
     // Zum jeweiligen Event weiterverlinkt werden (Kacheln-Ansicht)
-    $(".img__container").click(function () {
-        window.location = $(this).find("a:first").attr("href");
-        return false;
-    });
+        // Desktop
+        $(".eventslist__EventKacheln").click(function () {
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
+        // Mobile
+        $(".eventslist__row").click(function () {
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
 
     // Zum jeweiligen Event weiterverlinkt werden (Listen-Ansicht)
-    $(".eventslist__row").click(function () {
-        window.location = $(this).find("a:first").attr("href");
-        return false;
-    });
+        // Desktop
+        $(".eventslist__row").click(function () {
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+        // Mobile
+        $(".eventslist__EventListe").click(function () {
+            window.location = $(this).find("a:first").attr("href");
+            return false;
+        });
+
 });

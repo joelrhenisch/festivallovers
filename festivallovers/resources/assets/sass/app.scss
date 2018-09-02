@@ -981,6 +981,7 @@ button {
 
   .eventslist__img {
     height: 104px;
+    cursor: pointer;
   }
 
   .eventslist__icon {
@@ -2983,6 +2984,7 @@ button {
     width: 343px;
     height: 232px;
     overflow: hidden;
+    cursor: pointer;
     .logo__overImage {
       height: 45px;
       width: 45px;
@@ -3125,6 +3127,7 @@ button {
   .eventslist__EventListe {
     height: auto;
     width: 100%;
+    cursor: pointer;
     img {
       width: 343px;
     }
